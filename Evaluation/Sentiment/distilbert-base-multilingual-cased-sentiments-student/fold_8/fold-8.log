@@ -1,0 +1,52 @@
+[2025-06-03 17:07:51,423][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-06-03 17:07:51,424][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-06-03 17:07:55,366][evaluate.py][line:187][INFO] ----- Models -----
+[2025-06-03 17:07:55,366][evaluate.py][line:188][INFO] Sentiment Model: lxyuan/distilbert-base-multilingual-cased-sentiments-student
+[2025-06-03 17:07:55,366][evaluate.py][line:189][INFO] ----- Parameters -----
+[2025-06-03 17:07:55,366][evaluate.py][line:190][INFO] Seed: 22
+[2025-06-03 17:07:55,366][evaluate.py][line:191][INFO] Fold: 8
+[2025-06-03 17:07:55,366][evaluate.py][line:193][INFO] ----- NLP Options -----
+[2025-06-03 17:07:55,366][evaluate.py][line:195][INFO] Apply Preprocessing: YES
+[2025-06-03 17:07:55,375][evaluate.py][line:196][INFO] Remove Contractions: True
+[2025-06-03 17:07:55,375][evaluate.py][line:197][INFO] Apply Lemmantization: True
+[2025-06-03 17:07:55,375][evaluate.py][line:198][INFO] Remove Numbers: True
+[2025-06-03 17:07:55,375][evaluate.py][line:199][INFO] Remove Stopwords: False
+[2025-06-03 17:07:55,375][evaluate.py][line:202][INFO] --------------------
+[2025-06-03 17:07:57,401][module_wrapper.py][line:149][WARNING] From C:\Users\ChenYi\anaconda3\envs\aai3001\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-06-03 17:07:58,034][evaluate.py][line:254][INFO] Sentiment model loaded from lxyuan/distilbert-base-multilingual-cased-sentiments-student successfully
+[2025-06-03 17:07:58,046][evaluate.py][line:311][INFO] Mode: train Fold: 8
+[2025-06-03 17:07:58,054][evaluate.py][line:311][INFO] Mode: val Fold: 8
+[2025-06-03 17:07:58,061][evaluate.py][line:311][INFO] Mode: test Fold: 8
+[2025-06-03 17:07:58,062][evaluate.py][line:357][INFO] Dataset Loaded
+[2025-06-03 17:07:59,041][evaluate.py][line:448][INFO] Now on file: Ses05F_impro06_F004. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:07:59,111][evaluate.py][line:448][INFO] Now on file: Ses05F_impro06_F015. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:07:59,168][evaluate.py][line:448][INFO] Now on file: Ses05F_impro06_F024. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:07:59,186][evaluate.py][line:448][INFO] Now on file: Ses05F_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:07:59,444][evaluate.py][line:448][INFO] Now on file: Ses05F_impro07_F033. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:08:00,537][evaluate.py][line:448][INFO] Now on file: Ses05F_impro03_F036. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:08:00,560][evaluate.py][line:448][INFO] Now on file: Ses05F_impro03_F041. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:08:00,656][evaluate.py][line:448][INFO] Now on file: Ses05F_impro03_F060. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:08:00,930][evaluate.py][line:448][INFO] Now on file: Ses05M_impro02_F024. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:08:02,223][evaluate.py][line:469][INFO] Done processing 590 files
+[2025-06-03 17:08:02,225][evaluate.py][line:480][INFO] Predictions saved to ./fold_8\predictions.csv
+[2025-06-03 17:08:02,234][evaluate.py][line:496][INFO] Now calculating accuracy
+[2025-06-03 17:08:02,251][evaluate.py][line:537][INFO] Test UA: 0.227280348759222
+[2025-06-03 17:08:02,251][evaluate.py][line:539][INFO] Confusion Matrix:
+[2025-06-03 17:08:02,253][evaluate.py][line:540][INFO] 
+          negative  neutral  positive
+negative         4        6         4
+neutral          6        1         1
+positive       200      214       154
+[2025-06-03 17:08:02,261][evaluate.py][line:544][INFO] Classification Report:
+[2025-06-03 17:08:02,261][evaluate.py][line:545][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.02      0.29      0.04        14
+     neutral       0.00      0.12      0.01         8
+    positive       0.97      0.27      0.42       568
+
+    accuracy                           0.27       590
+   macro avg       0.33      0.23      0.16       590
+weighted avg       0.93      0.27      0.41       590
+

@@ -1,0 +1,31 @@
+Processing directory: fold_0
+Test UA value found: 0.530730103494946
+
+Processing directory: fold_1
+Test UA value found: 0.513545966007139
+
+Processing directory: fold_2
+Test UA value found: 0.5339858266355544
+
+Processing directory: fold_3
+Test UA value found: 0.5353528420789917
+
+Processing directory: fold_4
+Test UA value found: 0.5435063302710361
+
+Processing directory: fold_5
+Test UA value found: 0.4911978979045599
+
+Processing directory: fold_6
+Test UA value found: 0.5095716213215173
+
+Processing directory: fold_7
+Test UA value found: 0.5384013954073835
+
+Processing directory: fold_8
+Test UA value found: 0.5681921405248685
+
+Processing directory: fold_9
+Test UA value found: 0.5454893665004034
+
+Average Test UA: 0.530998

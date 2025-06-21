@@ -1,0 +1,52 @@
+[2025-01-12 20:04:11,905][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-12 20:04:11,907][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-12 20:04:13,590][1328932871.py][line:1][INFO] ----- Models -----
+[2025-01-12 20:04:13,591][1328932871.py][line:2][INFO] Sentiment Model: models/gemini-1.5-flash
+[2025-01-12 20:04:13,593][1328932871.py][line:3][INFO] ----- Parameters -----
+[2025-01-12 20:04:13,593][1328932871.py][line:4][INFO] Seed: 22
+[2025-01-12 20:04:13,595][1328932871.py][line:5][INFO] Fold: 0
+[2025-01-12 20:04:13,595][1328932871.py][line:7][INFO] ----- NLP Options -----
+[2025-01-12 20:04:13,596][1328932871.py][line:15][INFO] Apply Preprocessing: NO
+[2025-01-12 20:04:13,597][1328932871.py][line:16][INFO] --------------------
+[2025-01-12 20:04:18,161][1865599912.py][line:1][INFO] ----- Gemini API -----
+[2025-01-12 20:04:18,162][1865599912.py][line:2][INFO] Model: models/gemini-1.5-flash
+[2025-01-12 20:04:18,163][1865599912.py][line:3][INFO] Current Token Count: 0
+[2025-01-12 20:04:18,164][1865599912.py][line:4][INFO] --------------------
+[2025-01-12 20:04:19,980][4069662282.py][line:50][INFO] Mode: test Fold: 0
+[2025-01-12 20:04:19,983][1354756952.py][line:6][INFO] Dataset Loaded
+[2025-01-12 20:04:45,338][2202428478.py][line:60][INFO] Done processing 1 files
+[2025-01-12 20:04:45,340][2202428478.py][line:62][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:04:45,341][2202428478.py][line:63][INFO] [Files Processed] 1 of 528
+[2025-01-12 20:04:45,342][2202428478.py][line:64][INFO] [Total Tokens] 0
+[2025-01-12 20:04:45,344][2202428478.py][line:65][INFO] --------------------------------------
+[2025-01-12 20:04:45,345][2202428478.py][line:76][INFO] Predictions saved to ./fold_0\predictions.csv
+[2025-01-12 20:06:02,343][2202428478.py][line:60][INFO] Done processing 1 files
+[2025-01-12 20:06:02,345][2202428478.py][line:62][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:06:02,346][2202428478.py][line:63][INFO] [Files Processed] 1 of 528
+[2025-01-12 20:06:02,347][2202428478.py][line:64][INFO] [Total Tokens] 0
+[2025-01-12 20:06:02,348][2202428478.py][line:65][INFO] --------------------------------------
+[2025-01-12 20:06:02,350][2202428478.py][line:76][INFO] Predictions saved to ./fold_0\predictions.csv
+[2025-01-12 20:06:33,360][2202428478.py][line:60][INFO] Done processing 1 files
+[2025-01-12 20:06:33,362][2202428478.py][line:62][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:06:33,363][2202428478.py][line:63][INFO] [Files Processed] 1 of 528
+[2025-01-12 20:06:33,364][2202428478.py][line:64][INFO] [Total Tokens] 0
+[2025-01-12 20:06:33,365][2202428478.py][line:65][INFO] --------------------------------------
+[2025-01-12 20:06:33,366][2202428478.py][line:76][INFO] Predictions saved to ./fold_0\predictions.csv
+[2025-01-12 20:06:54,966][1225700105.py][line:24][INFO] Now on file: Ses01F_script01_3_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:06:55,497][1225700105.py][line:24][INFO] Now on file: Ses01F_script01_3_F011. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:06:55,988][1225700105.py][line:24][INFO] Now on file: Ses01F_script01_3_F012. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:07:04,279][1225700105.py][line:61][INFO] Done processing 29 files
+[2025-01-12 20:07:04,279][1225700105.py][line:63][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:07:04,280][1225700105.py][line:64][INFO] [Files Processed] 29 of 528
+[2025-01-12 20:07:04,280][1225700105.py][line:65][INFO] [Total Tokens] 0
+[2025-01-12 20:07:04,281][1225700105.py][line:66][INFO] --------------------------------------
+[2025-01-12 20:07:04,282][1225700105.py][line:77][INFO] Predictions saved to ./fold_0\predictions.csv
+[2025-01-12 20:08:40,330][1225700105.py][line:24][INFO] Now on file: Ses01F_script01_3_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:08:40,774][1225700105.py][line:24][INFO] Now on file: Ses01F_script01_3_F011. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:08:41,206][1225700105.py][line:24][INFO] Now on file: Ses01F_script01_3_F012. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:08:48,251][1225700105.py][line:61][INFO] Done processing 29 files
+[2025-01-12 20:08:48,252][1225700105.py][line:63][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:08:48,252][1225700105.py][line:64][INFO] [Files Processed] 29 of 528
+[2025-01-12 20:08:48,253][1225700105.py][line:65][INFO] [Total Tokens] 0
+[2025-01-12 20:08:48,254][1225700105.py][line:66][INFO] --------------------------------------
+[2025-01-12 20:08:48,255][1225700105.py][line:77][INFO] Predictions saved to ./fold_0\predictions.csv

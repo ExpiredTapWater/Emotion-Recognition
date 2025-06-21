@@ -1,0 +1,41 @@
+[2025-01-06 06:49:15,852][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-06 06:49:18,067][evaluate.py][line:185][INFO] ----- Models -----
+[2025-01-06 06:49:18,067][evaluate.py][line:186][INFO] Sentiment Model: cardiffnlp/twitter-roberta-base-sentiment-latest
+[2025-01-06 06:49:18,067][evaluate.py][line:187][INFO] ----- Parameters -----
+[2025-01-06 06:49:18,067][evaluate.py][line:188][INFO] Seed: 22
+[2025-01-06 06:49:18,067][evaluate.py][line:189][INFO] Fold: 3
+[2025-01-06 06:49:18,067][evaluate.py][line:191][INFO] ----- NLP Options -----
+[2025-01-06 06:49:18,067][evaluate.py][line:193][INFO] Apply Preprocessing: YES
+[2025-01-06 06:49:18,067][evaluate.py][line:194][INFO] Remove Contractions: True
+[2025-01-06 06:49:18,076][evaluate.py][line:195][INFO] Apply Lemmantization: True
+[2025-01-06 06:49:18,076][evaluate.py][line:196][INFO] Remove Numbers: True
+[2025-01-06 06:49:18,076][evaluate.py][line:197][INFO] Remove Stopwords: False
+[2025-01-06 06:49:18,076][evaluate.py][line:200][INFO] --------------------
+[2025-01-06 06:49:19,032][evaluate.py][line:249][INFO] Sentiment model loaded from cardiffnlp/twitter-roberta-base-sentiment-latest successfully
+[2025-01-06 06:49:19,040][evaluate.py][line:306][INFO] Mode: train Fold: 3
+[2025-01-06 06:49:19,048][evaluate.py][line:306][INFO] Mode: val Fold: 3
+[2025-01-06 06:49:19,054][evaluate.py][line:306][INFO] Mode: test Fold: 3
+[2025-01-06 06:49:19,054][evaluate.py][line:352][INFO] Dataset Loaded
+[2025-01-06 06:49:20,032][evaluate.py][line:443][INFO] Now on file: Ses02F_impro07_M010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:49:24,007][evaluate.py][line:461][INFO] Done processing 543 files
+[2025-01-06 06:49:24,008][evaluate.py][line:472][INFO] Predictions saved to ./fold_3\predictions.csv
+[2025-01-06 06:49:24,017][evaluate.py][line:488][INFO] Now calculating accuracy
+[2025-01-06 06:49:24,027][evaluate.py][line:525][INFO] Test UA: 0.4667708312796146
+[2025-01-06 06:49:24,027][evaluate.py][line:527][INFO] Confusion Matrix:
+[2025-01-06 06:49:24,029][evaluate.py][line:528][INFO] 
+          negative  neutral  positive
+negative        61       42        29
+neutral         71      128        66
+positive        22       57        66
+[2025-01-06 06:49:24,037][evaluate.py][line:532][INFO] Classification Report:
+[2025-01-06 06:49:24,037][evaluate.py][line:533][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.40      0.46      0.43       132
+     neutral       0.56      0.48      0.52       265
+    positive       0.41      0.46      0.43       145
+
+    accuracy                           0.47       542
+   macro avg       0.46      0.47      0.46       542
+weighted avg       0.48      0.47      0.47       542
+

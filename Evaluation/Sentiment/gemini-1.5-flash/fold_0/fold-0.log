@@ -1,0 +1,87 @@
+[2025-01-12 20:38:14,579][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-12 20:38:14,582][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-12 20:38:16,342][1328932871.py][line:1][INFO] ----- Models -----
+[2025-01-12 20:38:16,342][1328932871.py][line:2][INFO] Sentiment Model: models/gemini-1.5-flash
+[2025-01-12 20:38:16,343][1328932871.py][line:3][INFO] ----- Parameters -----
+[2025-01-12 20:38:16,344][1328932871.py][line:4][INFO] Seed: 22
+[2025-01-12 20:38:16,346][1328932871.py][line:5][INFO] Fold: 0
+[2025-01-12 20:38:16,347][1328932871.py][line:7][INFO] ----- NLP Options -----
+[2025-01-12 20:38:16,348][1328932871.py][line:15][INFO] Apply Preprocessing: NO
+[2025-01-12 20:38:16,349][1328932871.py][line:16][INFO] --------------------
+[2025-01-12 20:38:16,389][1865599912.py][line:1][INFO] ----- Gemini API -----
+[2025-01-12 20:38:16,390][1865599912.py][line:2][INFO] Model: models/gemini-1.5-flash
+[2025-01-12 20:38:16,390][1865599912.py][line:3][INFO] Current Token Count: 0
+[2025-01-12 20:38:16,391][1865599912.py][line:4][INFO] --------------------
+[2025-01-12 20:38:16,422][4069662282.py][line:50][INFO] Mode: test Fold: 0
+[2025-01-12 20:38:16,425][1354756952.py][line:6][INFO] Dataset Loaded
+[2025-01-12 20:38:23,563][2762868643.py][line:24][INFO] Now on file: Ses01F_script01_3_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:38:23,946][2762868643.py][line:24][INFO] Now on file: Ses01F_script01_3_F011. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:38:24,396][2762868643.py][line:24][INFO] Now on file: Ses01F_script01_3_F012. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:38:41,937][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:38:41,939][2762868643.py][line:57][INFO] [Files Processed] 55 of 528
+[2025-01-12 20:38:41,940][2762868643.py][line:58][INFO] [Total Tokens] 2642
+[2025-01-12 20:38:41,942][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:39:02,325][2762868643.py][line:24][INFO] Now on file: Ses01M_impro04_F023. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:39:04,729][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:39:04,729][2762868643.py][line:57][INFO] [Files Processed] 110 of 528
+[2025-01-12 20:39:04,730][2762868643.py][line:58][INFO] [Total Tokens] 5548
+[2025-01-12 20:39:04,730][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:39:27,403][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:39:27,404][2762868643.py][line:57][INFO] [Files Processed] 165 of 528
+[2025-01-12 20:39:27,406][2762868643.py][line:58][INFO] [Total Tokens] 8465
+[2025-01-12 20:39:27,407][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:39:49,788][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:39:49,790][2762868643.py][line:57][INFO] [Files Processed] 220 of 528
+[2025-01-12 20:39:49,791][2762868643.py][line:58][INFO] [Total Tokens] 11493
+[2025-01-12 20:39:49,791][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:40:12,683][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:40:12,685][2762868643.py][line:57][INFO] [Files Processed] 275 of 528
+[2025-01-12 20:40:12,686][2762868643.py][line:58][INFO] [Total Tokens] 14175
+[2025-01-12 20:40:12,687][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:40:35,707][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:40:35,708][2762868643.py][line:57][INFO] [Files Processed] 330 of 528
+[2025-01-12 20:40:35,710][2762868643.py][line:58][INFO] [Total Tokens] 16868
+[2025-01-12 20:40:35,711][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:40:58,057][2762868643.py][line:24][INFO] Now on file: Ses01M_script03_1_F007. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:40:58,555][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:40:58,556][2762868643.py][line:57][INFO] [Files Processed] 385 of 528
+[2025-01-12 20:40:58,558][2762868643.py][line:58][INFO] [Total Tokens] 19546
+[2025-01-12 20:40:58,560][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:40:59,401][2762868643.py][line:24][INFO] Now on file: Ses01M_script03_1_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:41:15,784][2762868643.py][line:24][INFO] Now on file: Ses01F_script02_1_F009. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:41:21,329][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:41:21,331][2762868643.py][line:57][INFO] [Files Processed] 440 of 528
+[2025-01-12 20:41:21,331][2762868643.py][line:58][INFO] [Total Tokens] 22190
+[2025-01-12 20:41:21,332][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:41:30,115][2762868643.py][line:24][INFO] Now on file: Ses01M_script01_1_F006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:41:44,064][2762868643.py][line:56][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:41:44,067][2762868643.py][line:57][INFO] [Files Processed] 495 of 528
+[2025-01-12 20:41:44,068][2762868643.py][line:58][INFO] [Total Tokens] 25270
+[2025-01-12 20:41:44,069][2762868643.py][line:59][INFO] --------------------------------------
+[2025-01-12 20:41:55,649][2762868643.py][line:24][INFO] Now on file: Ses01F_script03_1_F020. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-12 20:41:58,145][2762868643.py][line:61][INFO] Done processing 528 files
+[2025-01-12 20:41:58,146][2762868643.py][line:63][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 20:41:58,147][2762868643.py][line:64][INFO] [Files Processed] 528 of 528
+[2025-01-12 20:41:58,148][2762868643.py][line:65][INFO] [Total Tokens] 27190
+[2025-01-12 20:41:58,149][2762868643.py][line:66][INFO] --------------------------------------
+[2025-01-12 20:41:58,155][2762868643.py][line:77][INFO] Predictions saved to ./fold_0\predictions.csv
+[2025-01-12 20:41:58,191][4250460751.py][line:3][INFO] Now calculating accuracy
+[2025-01-12 20:41:58,352][4250460751.py][line:46][INFO] Test UA: 0.530730103494946
+[2025-01-12 20:41:58,353][4250460751.py][line:48][INFO] Confusion Matrix:
+[2025-01-12 20:41:58,357][4250460751.py][line:49][INFO] 
+          negative  neutral  positive
+negative       158       67        37
+neutral         48       84        51
+positive        19       20        44
+[2025-01-12 20:41:58,371][4250460751.py][line:53][INFO] Classification Report:
+[2025-01-12 20:41:58,372][4250460751.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.70      0.60      0.65       262
+     neutral       0.49      0.46      0.47       183
+    positive       0.33      0.53      0.41        83
+
+    accuracy                           0.54       528
+   macro avg       0.51      0.53      0.51       528
+weighted avg       0.57      0.54      0.55       528
+

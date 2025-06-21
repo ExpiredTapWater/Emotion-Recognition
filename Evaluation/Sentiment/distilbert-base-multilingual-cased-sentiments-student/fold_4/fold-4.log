@@ -1,0 +1,44 @@
+[2025-06-03 17:04:54,154][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-06-03 17:04:54,155][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-06-03 17:04:58,079][evaluate.py][line:187][INFO] ----- Models -----
+[2025-06-03 17:04:58,079][evaluate.py][line:188][INFO] Sentiment Model: lxyuan/distilbert-base-multilingual-cased-sentiments-student
+[2025-06-03 17:04:58,080][evaluate.py][line:189][INFO] ----- Parameters -----
+[2025-06-03 17:04:58,080][evaluate.py][line:190][INFO] Seed: 22
+[2025-06-03 17:04:58,080][evaluate.py][line:191][INFO] Fold: 4
+[2025-06-03 17:04:58,080][evaluate.py][line:193][INFO] ----- NLP Options -----
+[2025-06-03 17:04:58,080][evaluate.py][line:195][INFO] Apply Preprocessing: YES
+[2025-06-03 17:04:58,089][evaluate.py][line:196][INFO] Remove Contractions: True
+[2025-06-03 17:04:58,089][evaluate.py][line:197][INFO] Apply Lemmantization: True
+[2025-06-03 17:04:58,089][evaluate.py][line:198][INFO] Remove Numbers: True
+[2025-06-03 17:04:58,089][evaluate.py][line:199][INFO] Remove Stopwords: False
+[2025-06-03 17:04:58,089][evaluate.py][line:202][INFO] --------------------
+[2025-06-03 17:05:00,165][module_wrapper.py][line:149][WARNING] From C:\Users\ChenYi\anaconda3\envs\aai3001\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-06-03 17:05:00,742][evaluate.py][line:254][INFO] Sentiment model loaded from lxyuan/distilbert-base-multilingual-cased-sentiments-student successfully
+[2025-06-03 17:05:00,749][evaluate.py][line:311][INFO] Mode: train Fold: 4
+[2025-06-03 17:05:00,756][evaluate.py][line:311][INFO] Mode: val Fold: 4
+[2025-06-03 17:05:00,763][evaluate.py][line:311][INFO] Mode: test Fold: 4
+[2025-06-03 17:05:00,763][evaluate.py][line:357][INFO] Dataset Loaded
+[2025-06-03 17:05:01,937][evaluate.py][line:448][INFO] Now on file: Ses03F_script03_1_F000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-06-03 17:05:04,513][evaluate.py][line:466][INFO] Done processing 522 files
+[2025-06-03 17:05:04,515][evaluate.py][line:477][INFO] Predictions saved to ./fold_4\predictions.csv
+[2025-06-03 17:05:04,523][evaluate.py][line:493][INFO] Now calculating accuracy
+[2025-06-03 17:05:04,534][evaluate.py][line:534][INFO] Test UA: 0.2787450980392157
+[2025-06-03 17:05:04,534][evaluate.py][line:536][INFO] Confusion Matrix:
+[2025-06-03 17:05:04,536][evaluate.py][line:537][INFO] 
+          negative  neutral  positive
+negative        10        3         4
+neutral          5        0         0
+positive       249      127       124
+[2025-06-03 17:05:04,544][evaluate.py][line:541][INFO] Classification Report:
+[2025-06-03 17:05:04,544][evaluate.py][line:542][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.04      0.59      0.07        17
+     neutral       0.00      0.00      0.00         5
+    positive       0.97      0.25      0.39       500
+
+    accuracy                           0.26       522
+   macro avg       0.34      0.28      0.16       522
+weighted avg       0.93      0.26      0.38       522
+

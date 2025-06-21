@@ -1,0 +1,45 @@
+[2025-01-30 15:38:20,928][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-30 15:38:20,929][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-30 15:38:24,516][evaluate.py][line:184][INFO] ----- Models -----
+[2025-01-30 15:38:24,516][evaluate.py][line:185][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-01-30 15:38:24,516][evaluate.py][line:186][INFO] ----- Parameters -----
+[2025-01-30 15:38:24,516][evaluate.py][line:187][INFO] Seed: 22
+[2025-01-30 15:38:24,516][evaluate.py][line:188][INFO] Fold: 1
+[2025-01-30 15:38:24,517][evaluate.py][line:190][INFO] ----- NLP Options -----
+[2025-01-30 15:38:24,517][evaluate.py][line:192][INFO] Apply Preprocessing: YES
+[2025-01-30 15:38:24,526][evaluate.py][line:193][INFO] Remove Contractions: True
+[2025-01-30 15:38:24,526][evaluate.py][line:194][INFO] Apply Lemmantization: True
+[2025-01-30 15:38:24,526][evaluate.py][line:195][INFO] Remove Numbers: True
+[2025-01-30 15:38:24,526][evaluate.py][line:196][INFO] Remove Stopwords: False
+[2025-01-30 15:38:24,526][evaluate.py][line:199][INFO] --------------------
+[2025-01-30 15:38:26,210][module_wrapper.py][line:149][WARNING] From C:\Users\ChenYi\anaconda3\envs\aai3001\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-01-30 15:38:28,382][evaluate.py][line:248][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-01-30 15:38:28,385][evaluate.py][line:305][INFO] Mode: train Fold: 1
+[2025-01-30 15:38:28,396][evaluate.py][line:305][INFO] Mode: val Fold: 1
+[2025-01-30 15:38:28,403][evaluate.py][line:305][INFO] Mode: test Fold: 1
+[2025-01-30 15:38:28,403][evaluate.py][line:351][INFO] Dataset Loaded
+[2025-01-30 15:38:29,125][evaluate.py][line:442][INFO] Now on file: Ses01F_script02_2_M043. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-30 15:38:29,139][evaluate.py][line:442][INFO] Now on file: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-30 15:38:32,987][evaluate.py][line:465][INFO] Done processing 557 files
+[2025-01-30 15:38:32,989][evaluate.py][line:476][INFO] Predictions saved to ./fold_1\predictions.csv
+[2025-01-30 15:38:32,998][evaluate.py][line:492][INFO] Now calculating accuracy
+[2025-01-30 15:38:33,009][evaluate.py][line:533][INFO] Test UA: 0.5405582218408987
+[2025-01-30 15:38:33,009][evaluate.py][line:535][INFO] Confusion Matrix:
+[2025-01-30 15:38:33,011][evaluate.py][line:536][INFO] 
+          negative  neutral  positive
+negative       106       49        35
+neutral         73      154        75
+positive        19       10        36
+[2025-01-30 15:38:33,018][evaluate.py][line:540][INFO] Classification Report:
+[2025-01-30 15:38:33,019][evaluate.py][line:541][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.54      0.56      0.55       190
+     neutral       0.72      0.51      0.60       302
+    positive       0.25      0.55      0.34        65
+
+    accuracy                           0.53       557
+   macro avg       0.50      0.54      0.50       557
+weighted avg       0.60      0.53      0.55       557
+

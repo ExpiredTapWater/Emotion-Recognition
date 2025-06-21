@@ -1,0 +1,49 @@
+[2025-01-06 06:55:11,057][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-06 06:55:14,726][1328932871.py][line:1][INFO] ----- Models -----
+[2025-01-06 06:55:14,727][1328932871.py][line:2][INFO] Sentiment Model: cardiffnlp/twitter-roberta-base-sentiment-latest
+[2025-01-06 06:55:14,728][1328932871.py][line:3][INFO] ----- Parameters -----
+[2025-01-06 06:55:14,729][1328932871.py][line:4][INFO] Seed: 22
+[2025-01-06 06:55:14,730][1328932871.py][line:5][INFO] Fold: 0
+[2025-01-06 06:55:14,731][1328932871.py][line:7][INFO] ----- NLP Options -----
+[2025-01-06 06:55:14,732][1328932871.py][line:9][INFO] Apply Preprocessing: YES
+[2025-01-06 06:55:14,732][1328932871.py][line:10][INFO] Remove Contractions: True
+[2025-01-06 06:55:14,733][1328932871.py][line:11][INFO] Apply Lemmantization: True
+[2025-01-06 06:55:14,735][1328932871.py][line:12][INFO] Remove Numbers: True
+[2025-01-06 06:55:14,736][1328932871.py][line:13][INFO] Remove Stopwords: False
+[2025-01-06 06:55:14,736][1328932871.py][line:16][INFO] --------------------
+[2025-01-06 06:55:15,929][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-roberta-base-sentiment-latest successfully
+[2025-01-06 06:55:15,963][4069662282.py][line:50][INFO] Mode: train Fold: 0
+[2025-01-06 06:55:15,977][4069662282.py][line:50][INFO] Mode: val Fold: 0
+[2025-01-06 06:55:15,988][4069662282.py][line:50][INFO] Mode: test Fold: 0
+[2025-01-06 06:55:15,990][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-01-06 06:55:16,326][954549988.py][line:23][INFO] Now on file: Ses01F_script01_3_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:16,345][954549988.py][line:23][INFO] Now on file: Ses01F_script01_3_F011. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:16,361][954549988.py][line:23][INFO] Now on file: Ses01F_script01_3_F012. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:17,827][954549988.py][line:23][INFO] Now on file: Ses01M_impro04_F023. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:22,243][954549988.py][line:23][INFO] Now on file: Ses01M_script03_1_F007. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:22,288][954549988.py][line:23][INFO] Now on file: Ses01M_script03_1_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:22,903][954549988.py][line:23][INFO] Now on file: Ses01F_script02_1_F009. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:23,433][954549988.py][line:23][INFO] Now on file: Ses01M_script01_1_F006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:24,447][954549988.py][line:23][INFO] Now on file: Ses01F_script03_1_F020. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:55:24,541][954549988.py][line:41][INFO] Done processing 529 files
+[2025-01-06 06:55:24,545][954549988.py][line:52][INFO] Predictions saved to ./fold_0\predictions.csv
+[2025-01-06 06:55:24,573][1040216449.py][line:3][INFO] Now calculating accuracy
+[2025-01-06 06:55:24,745][1040216449.py][line:46][INFO] Test UA: 0.4614893962998516
+[2025-01-06 06:55:24,745][1040216449.py][line:48][INFO] Confusion Matrix:
+[2025-01-06 06:55:24,748][1040216449.py][line:49][INFO] 
+          negative  neutral  positive
+negative        98       32        24
+neutral         96      101        68
+positive        31       38        40
+[2025-01-06 06:55:24,762][1040216449.py][line:53][INFO] Classification Report:
+[2025-01-06 06:55:24,763][1040216449.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.44      0.64      0.52       154
+     neutral       0.59      0.38      0.46       265
+    positive       0.30      0.37      0.33       109
+
+    accuracy                           0.45       528
+   macro avg       0.44      0.46      0.44       528
+weighted avg       0.49      0.45      0.45       528
+

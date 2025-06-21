@@ -1,0 +1,523 @@
+ID,transcription,transcription_nlp,sentiment,sentiment_score
+Ses03M_impro05b_F000,CAN I HELP YOU SIR,can i help you sir,neutral,0.5875544548034668
+Ses03M_impro05b_F001,OKAY WELL LET'SWELL I'M GOING TO GO AHEAD AND CHECK ON THAT FOR YOU YOU'RE COMING FROMWHERE ARE YOU COMING FROM,okay well let'swell i'm go to go ahead and check on that for you you're come fromwhere be you come from,neutral,0.6799210906028748
+Ses03M_impro05b_F002,BALTIMORE AND THIS IS A DIRECT FLIGHT TO LAX,baltimore and this be a direct flight to lax,neutral,0.8308216333389282
+Ses03M_impro05b_F003,OKAY LET'S LOOK UP HERE,okay let us look up here,neutral,0.765680193901062
+Ses03M_impro05b_F004,OKAY WELL YOU UM-,okay well you um-,neutral,0.6588277220726013
+Ses03M_impro05b_F005,WHAT I CAN DO FOR YOU IS UH WE CAN UH REPORT LOST LOST PROPERTY,what i can do for you be uh we can uh report lose lose property,neutral,0.6578693389892578
+Ses03M_impro05b_F006,YES,yes,positive,0.5630837082862854
+Ses03M_impro05b_F007,WELL SIR IF IFWHAT I BELIEVE HAS HAPPENED IS MOST OF THE FLIGHT WAS LEFT--,well sir if ifwhat i believe have happened be most of the flight be left--,neutral,0.7968215346336365
+Ses03M_impro05b_F008,THE LUGGAGE WAS LEFT IN BALTIMORE THEREFORE--,the luggage be left in baltimore therefore--,neutral,0.7231327891349792
+Ses03M_impro05b_F009,LIKE THE LUGGAGE THE LUGGAGE ON THE FLIGHT,like the luggage the luggage on the flight,neutral,0.7384928464889526
+Ses03M_impro05b_F010,NO ACTUALLY IT WASTHIS IS THE FIRST TIME THIS HAS EVER HAPPENED I DON'T KNOW WHAT HAPPENED--,no actually it wasthis be the first time this have ever happened i don't know what happened--,negative,0.6714486479759216
+Ses03M_impro05b_F011,WELL WE CAN GIVE YOU UM- HOTEL LODGING FOR A NIGHT IF THAT--,well we can give you um- hotel lodge for a night if that--,neutral,0.7207559943199158
+Ses03M_impro05b_F012,FOR TONIGHT- FOR TONIGHT SIR WOULD YOU NEED TO STAY SOMEWHERE TONIGHT,for tonight- for tonight sir would you need to stay somewhere tonight,neutral,0.9235969185829163
+Ses03M_impro05b_F013,WE CAN DO HOLIDAY INN OR,we can do holiday inn or,neutral,0.5629516839981079
+Ses03M_impro05b_F014,SIR I UNDERSTAND THAT BUT JUST--,sir i understand that but just--,neutral,0.6494342684745789
+Ses03M_impro05b_F015,DID YOU HAVE YOUR NAME TAGS ON THE LUGGAGE,do you have your name tags on the luggage,neutral,0.8230211138725281
+Ses03M_impro05b_F016,OKAY SO IF YOU CAN JUST GIVE ME YOUR NAME YOUR NAME AND YOUR ADDRESS AND YOUR PHONE NUMBER I CAN CONTACT YOU AS SOON AS WE FIND OUT MORE INFORMATION,okay so if you can just give i your name your name and your address and your phone number i can contact you as soon as we find out more information,neutral,0.7406072020530701
+Ses03M_impro05b_F018,WHAT IS YOUR BUSINESS,what be your business,neutral,0.6712003350257874
+Ses03M_impro05b_F019,OKAY SIR I AM SORRY TO TELL YOU THIS BUT THIS DOES HAPPEN UH- THIS IS NOT UH- REALLY,okay sir i be sorry to tell you this but this do happen uh- this be not uh- really,negative,0.8589742183685303
+Ses03M_impro05b_F020,I MEAN OUR AIRLINE'S FAULT I DON'T KNOW WHAT HAPPENED MISPLACED SOMETHING HAPPENED BUT WE WILL GET YOU--,i mean our airline be fault i don't know what happened misplaced something happened but we will get you--,negative,0.828569769859314
+Ses03M_impro05b_F021,WELL THE ENTIRE FLIGHT SIR THE LUGGAGE WAS PLACED ON ANOTHER PLANE THAT NEVER ACTUALLY LEFT BALTIMORE,well the entire flight sir the luggage be place on another plane that never actually left baltimore,negative,0.7171088457107544
+Ses03M_impro05b_F022,UH NO I'M NOT,uh no i'm not,neutral,0.6089077591896057
+Ses03M_impro05b_F023,WELL WE HAVE SOME PEOPLE BACK THERE THAT NEED SOME FIRING SO BUT I WOULD JUST REALLY APPRECIATE--,well we have some people back there that need some firing so but i would just really appreciate--,neutral,0.6019227504730225
+Ses03M_impro05b_F027,YES SIR YES,yes sir yes,positive,0.7697519063949585
+Ses03M_impro05b_F028,WE CAN HAVE THEM DIRECT YOUR LUGGAGE TO SAN DIEGO,we can have they direct your luggage to san diego,neutral,0.821727991104126
+Ses03M_impro05b_F029,UH--,uh--,neutral,0.735186755657196
+Ses03M_impro05b_F030,SOME REFRESHMENTS IN THE LOBBY,some refreshment in the lobby,neutral,0.832568883895874
+Ses03M_script02_1_F005,YES,yes,positive,0.5630837082862854
+Ses03M_script02_1_F016,I'M JUST NOT,i'm just not,negative,0.5979841947555542
+Ses03F_script01_1_F004,DID YOU TALK TO HIM,do you talk to him,neutral,0.7868226170539856
+Ses03F_script01_1_F005,HE CRIED HARD HUH,he cry hard huh,neutral,0.5968104004859924
+Ses03F_script01_1_F007,COULD HE-HE'S ACTING JUST LIKE HE DID AFTER HE DIED YOU KNOW,could he - he be act just like he do after he die you know,neutral,0.6882577538490295
+Ses03F_script01_1_F010,WHAT DO YOU MEAN DISHONEST,what do you mean dishonest,negative,0.6929141879081726
+Ses03F_script01_1_F014,THEY DO COME BACK,they do come back,neutral,0.6481732130050659
+Ses03F_script01_1_F017,IT'S THOSE GODDAMN NEWSPAPERS YOU KNOW I MEAN IT'S LIKE EVERY DAY THEY COME OUT WITH THIS NEW PERSON THAT COMES ALONG AND THE NEXT ONE'S GOING TO BE LARRY,it be those goddamn newspaper you know i mean it be like every day they come out with this new person that come along and the next one be go to be larry,negative,0.7610490322113037
+Ses03F_script01_1_F019,WHY,why,neutral,0.5141720771789551
+Ses03F_script01_1_F021,WELL THAT'S ONLY YOUR BUSINESS CHRIS,well that be only your business chris,neutral,0.5900501012802124
+Ses03F_script01_1_F030,YOU'RE A CONSIDERATE FELLA AND THERE'S NOTHING WRONG IN THAT,you're a considerate fella and there be nothing wrong in that,negative,0.4529466927051544
+Ses03F_script01_1_F031,THERE'S NOTHING WRONG WITH IT,there be nothing wrong with it,negative,0.6534263491630554
+Ses03F_script01_1_F045,TELL ME SOMETHING,tell i something,neutral,0.6946614384651184
+Ses03F_script01_1_F046,YOU'D LEAVE THAT BUSINESS,you'd leave that business,neutral,0.6722785234451294
+Ses03F_script01_1_F050,I'M GOING TO,i'm go to,neutral,0.6161770820617676
+Ses03F_script01_1_F052,I DON'T KNOW YOU DO I,i don't know you do i,neutral,0.6056283712387085
+Ses03F_script01_1_F053,YEAH I CAN SEE THAT,yeah i can see that,positive,0.5781775712966919
+Ses03M_impro04_F001,WELL HAVE YOU BEEN TRYING TO GET A JOB LOOK FOR A JOB OR,well have you be try to get a job look for a job or,neutral,0.8019859790802002
+Ses03M_impro04_F003,WELL WHAT ARE YOU LOOKING FOR I MEAN--,well what be you look for i mean--,neutral,0.7723807692527771
+Ses03M_impro04_F004,WELL OKAY WELL THAT'S--,well okay well that's--,positive,0.6914506554603577
+Ses03M_impro04_F007,YEAH,yeah,positive,0.5583856701850891
+Ses03M_impro04_F008,YEAH,yeah,positive,0.5583856701850891
+Ses03M_impro04_F010,WELL WHAT'D YOU MAJOR IN,well what'd you major in,neutral,0.7722694277763367
+Ses03M_impro04_F014,I AMJUST LIKE A LAW CLERK,i amjust like a law clerk,neutral,0.562157154083252
+Ses03M_impro04_F015,WELL I'M MOVING UP I MEAN IT COULD BE,well i'm move up i mean it could be,positive,0.5069766044616699
+Ses03M_impro04_F023,WELL IF YOU NEED SOMETHING I MEAN YOU'RE JUST GOING TO---CAN GET A TEMPORARY THING RIGHT NOW AND THEN LOOK FOR SOMETHING--,well if you need something i mean you're just go to --- can get a temporary thing right now and then look for something--,neutral,0.7853381037712097
+Ses03M_impro04_F025,-IT'S GOING TO GET BETTER I PROMISE YOU YOU JUST GOT TO HANG IN THERE EVERYONE I MEAN YOU KNOW,-it be go to get well i promise you you just got to hang in there everyone i mean you know,positive,0.9103666543960571
+Ses03M_impro04_F029,YOU GOT TO BE POSITIVE MAN YOU GOT TO TRY TO JUST--,you got to be positive man you got to try to just--,positive,0.45051804184913635
+Ses03M_impro04_F030,BUT YOU GOT TO BE REAL ABOUT IT YOU HAVE TO,but you got to be real about it you have to,neutral,0.5803192257881165
+Ses03M_impro04_F031,SIXTEEN HUNDRED,sixteen hundred,neutral,0.6695860028266907
+Ses03M_impro04_F032,TWENTY-ONE HUNDRED,twenty - one hundred,neutral,0.6294150948524475
+Ses03M_impro03_F001,WHAT,what,neutral,0.4779629409313202
+Ses03M_impro03_F003,CHUCK E CHEESE AH MAN THAT IS SO LAME,chuck e cheese ah man that be so lame,negative,0.9318685531616211
+Ses03M_impro03_F004,ARE YOU SERIOUS MAN,be you serious man,negative,0.7568362951278687
+Ses03M_impro03_F005,OH LIKE THAT ONE MOVIE WHAT'S THAT ONE MOVIE I JUST SAW NO WHERE SHE LIKE SWALLOWS THE,oh like that one movie what be that one movie i just see no where she like swallows the,neutral,0.6473479866981506
+Ses03M_impro03_F006,OH I DON'T REMEMBER EVERYBODY SAYS I LOVE YOU WITH DREW BARRYMORENO YOU HAVEN'T SEEN IT OKAY,oh i don't remember everybody say i love you with drew barrymoreno you haven't see it okay,neutral,0.6848065853118896
+Ses03M_impro03_F010,SO NASTY NO YOU DIRTY ME,so nasty no you dirty me,negative,0.9344605207443237
+Ses03M_impro03_F012,SHE ACTUALLY ASKED IF IT WAS REAL I WOULD'VE PROBABLY ASKED THE SAME THING CONSIDERING YOU WERE IN CHUCK E CHEESE,she actually ask if it be real i would've probably asked the same thing consider you be in chuck e cheese,neutral,0.6742977499961853
+Ses03M_impro03_F015,YEAH THAT'S YOU KNOW OKAY,yeah that be you know okay,positive,0.7382388710975647
+Ses03M_impro03_F016,OH GOD YOU ARE DAMN CHEAP CHEAP CHEAP ANYWAYS MOVING ON IT'S NOT LIKE YOU'RE POOR I MEAN YOUR DAD MAKES OKEY,oh god you be damn cheap cheap cheap anyway move on it be not like you're poor i mean your dad make okey,negative,0.9345283508300781
+Ses03M_impro03_F017,YOU HAD THE MOUSE,you had the mouse,neutral,0.7699151039123535
+Ses03M_impro03_F018,ISN'T IT A RAT IT'S A RAT CHUCK E CHEESE,isn't it a rat it be a rat chuck e cheese,negative,0.6196989417076111
+Ses03M_impro03_F021,OKAY THAT IS REALLY CHEESY JOE,okay that be really cheesy joe,negative,0.7072968482971191
+Ses03M_impro03_F022,OH THAT'S KIND OF SWEET,oh that be kind of sweet,positive,0.8583915829658508
+Ses03M_impro03_F023,WAIT WAIT WAIT I WANT YOU TO MARRY ME NO SHOULDN'T YOU LIKE BE MORE LIKE A QUESTION LIKE WOULD YOU MARRY ME NOT LIKE I WANT YOU TO MARRY ME IT'S LIKE A DEMAND,wait wait wait i want you to marry i no shouldn't you like be more like a question like would you marry i not like i want you to marry me it be like a demand,neutral,0.7678120732307434
+Ses03M_impro03_F024,YOU MARRY ME I MAN I JANE YOU TARZAN,you marry i i man i jane you tarzan,neutral,0.5223435163497925
+Ses03M_impro03_F025,SHE SAID SURE,she say sure,neutral,0.5972505807876587
+Ses03M_impro03_F026,SURE WHO SAYS SURE YOU SAY YESI DON'T LIKE--,sure who say sure you say yesi don't like--,negative,0.5621700286865234
+Ses03M_impro03_F027,HOW LONG HAVE YOU GUYS BEEN GOING OUT,how long have you guys be go out,neutral,0.7759627103805542
+Ses03M_impro03_F033,SHE MUST BE HOT,she must be hot,positive,0.6789844036102295
+Ses03M_impro03_F036,YOU STILL ACT LIKE A BOY AND MEN TAKE A LOT LONGER TO GROW----I WILL TELL YOU,you still act like a boy and men take a lot long to grow----i will tell you,negative,0.5959479808807373
+Ses03F_impro02_F000,HOW'S IT GOING BABE,how be it go babe,positive,0.5566692352294922
+Ses03F_impro02_F001,YEAH,yeah,positive,0.5583856701850891
+Ses03F_impro02_F005,OH,oh,neutral,0.5643280148506165
+Ses03F_impro02_F007,WELL UMM- ACTUALLY THEY--I WAS PROMOTED,well umm- actually they -- i be promote,neutral,0.5193756222724915
+Ses03F_impro02_F008,AND UH- YEAH UH- THEY'RE GOING TO NEED UM- MORE NURSES ON CALL FOR UH- TO GO OVERSEAS TO HELP OUT WITH THE WAR,and uh- yeah uh- they're go to need um- more nurses on call for uh- to go overseas to help out with the war,neutral,0.7653889656066895
+Ses03F_impro02_F010,YEAH,yeah,positive,0.5583856701850891
+Ses03F_impro02_F011,IT'S GOING- IT'S GOING TO BE PROBABLY IN ABOUT THREE WEEKS,it be going- it be go to be probably in about three weeks,neutral,0.6552351713180542
+Ses03F_impro02_F012,YEAH,yeah,positive,0.5583856701850891
+Ses03F_impro02_F015,YEAH AND UH--,yeah and uh--,neutral,0.6099940538406372
+Ses03F_impro02_F018,HONEY I'M GOING TO COME BACK IT'S NOT LIKE THAT,honey i'm go to come back it be not like that,neutral,0.5914946794509888
+Ses03F_impro02_F019,BUT IT- IT IS FOR A YEAR,but it- it be for a year,neutral,0.759773313999176
+Ses03F_impro02_F020,BABE I'M SORRY BUT I DON'T WANT TO DO,babe i'm sorry but i don't want to do,negative,0.8245946764945984
+Ses03F_impro02_F021,YOU KNOW AS MUCH AS -AS MUCH AS ME THAT I-I WANT TO STAY HERE WITH YOU AND AMY SO BAD BUT I CAN'T,you know as much as -as much as i that i - i want to stay here with you and amy so bad but i can't,negative,0.5262976288795471
+Ses03F_impro02_F023,BABE I LOVE YOU,babe i love you,positive,0.9072809219360352
+Ses03F_impro02_F024,BUT SHE HAS YOU I MEAN THAT'S WHAT YOU'RE THERE FOR YOU'RE MY RIGHT-HAND MAN,but she have you i mean that be what you're there for you're my right - hand man,positive,0.7799330949783325
+Ses03F_impro02_F025,IT'S GOING TO BE OKAY,it be go to be okay,positive,0.713898777961731
+Ses03F_impro02_F026,NO I HAVE TO GO,no i have to go,neutral,0.5452776551246643
+Ses03F_impro02_F027,WAIT YOU CAN WRITE ME AND AS YOU KNOW SEND ME PICTURES,wait you can write i and as you know send me pictures,neutral,0.7526110410690308
+Ses03F_impro02_F028,WHAT DO YOU MEAN,what do you mean,neutral,0.5889388918876648
+Ses03F_impro02_F029,LOOK I NEED YOU TO BE STRONG FOR ME 'CAUSE I CAN'T BE THE ONLY ONE THAT'S STRONG RIGHT NOW REALLY I--,look i need you to be strong for i ' cause i can't be the only one that be strong right now really i--,positive,0.8169652223587036
+Ses03F_impro02_F031,AND IF WE SURVIVE IF WE SURVIVE THAT THEN BABE YOU KNOW YOU KNOW WE COULD SURVIVE ANY--,and if we survive if we survive that then babe you know you know we could survive any--,positive,0.8456764221191406
+Ses03F_impro02_F032,I WILL COME BACK,i will come back,positive,0.6990733742713928
+Ses03F_impro02_F034,WE'LL HAVE ALL THE MONEY THAT WE EVER NEEDED,we'll have all the money that we ever need,positive,0.9308744072914124
+Ses03F_impro02_F035,AND- AND THEN I'LL STOP WORKING AND- I'LL STAY HOME WITH THE BABY,and- and then i'll stop work and- i'll stay home with the baby,neutral,0.6783974170684814
+Ses03F_impro02_F036,IT'S ALL I EVER KNEW HOW TO DO I CAN'T QUIT NOW,it be all i ever know how to do i can't quit now,positive,0.8356940746307373
+Ses03F_impro02_F037,WELL WE- WE TELL HER MOMMY'S GOING ON VA- ON A TRIP FOR FOR- A WHILE,well we- we tell she mommy be go on va- on a trip for for- a while,neutral,0.8221952319145203
+Ses03F_impro02_F038,DON'T DO THAT TO ME,don't do that to i,negative,0.8682308793067932
+Ses03F_impro02_F039,IT'S HARD ENOUGH ALREADY BRIAN I CAN'T,it be hard enough already brian i can't,negative,0.8642510175704956
+Ses03F_impro02_F040,I KNOW,i know,neutral,0.5216516256332397
+Ses03F_impro02_F041,I DIDN'T EXPECT THIS TO HAPPEN I NEVER PLANNED FOR THIS SOME THINGS YOU JUST DON'T PLAN FOR YOU KNOW,i didn't expect this to happen i never plan for this some thing you just don't plan for you know,negative,0.9330799579620361
+Ses03F_impro02_F042,I'M SORRY BABE,i'm sorry babe,negative,0.7144675850868225
+Ses03F_impro02_F043,I'M SO SORRY,i'm so sorry,negative,0.7387845516204834
+Ses03F_impro05_F002,WHERE I DON'T KNOW THE LOST AND FOUND WHAT DO YOU MEAN LOST AND FOUND,where i don't know the lost and find what do you mean lose and found,negative,0.6562725901603699
+Ses03F_impro05_F005,WAIT SIR YOU'RE- YOU'RE COMPLETELY NOT--WHAT DO YOU MEAN STOLE IT HOW CAN THEY JUST STEAL IT FROM AN AIRPLANE IT WAS UP IN THE AIR,wait sir you're- you're completely not -- what do you mean steal it how can they just steal it from an airplane it be up in the air,negative,0.8349318504333496
+Ses03F_impro05_F007,WHAT DO YOU MEAN IF IT SHOWS UP NO I NEED IT NOW I HAVE MY KEYS I HAVE MY WALLET I HAVE MY MONEY I HAVE THOUSANDS AND THOUSANDS OF DOLLARS WORTH OF STUFF IN THERE,what do you mean if it shows up no i need it now i have my keys i have my wallet i have my money i have thousands and thousand of dollar worth of stuff in there,neutral,0.49127188324928284
+Ses03F_impro05_F008,NOT TO MENTION I HAVE MY WORK IN THERE,not to mention i have my work in there,neutral,0.7087757587432861
+Ses03F_impro05_F009,AND WHAT IF- WHAT IF IT IS LOST WELL WHAT ARE YOU GUYS GOING TO DO FOR ME,and what if- what if it be lose well what be you guys go to do for i,negative,0.7236001491546631
+Ses03F_impro05_F010,FIFTEEN PERCENT,fifteen percent,neutral,0.6906111836433411
+Ses03F_impro05_F011,WHAT THERE- THERE'S HUNDREDS OF THOUSANDS OF DOLLARS WORTH OF STUFF IN THERE,what there- there be hundred of thousand of dollar worth of stuff in there,negative,0.6082306504249573
+Ses03F_impro05_F015,NO THEY SAID I COULDN'T LOCK IT,no they say i couldn't lock it,negative,0.7244933843612671
+Ses03F_impro05_F016,GIVE ME--I'M GOING TO TALK TO YOUR SUPERVISOR GIVE ME YOUR SUPERVISOR I WANT TO TALK TO YOUR SUPERVISOR RIGHT NOW,give me -- i'm go to talk to your supervisor give i your supervisor i want to talk to your supervisor right now,positive,0.5757907629013062
+Ses03F_impro05_F017,WELL GET- I WANT THE CEO THEN,well get- i want the ceo then,neutral,0.6648256182670593
+Ses03M_script03_1_F003,NOW AND ALWAYS SWEET,now and always sweet,positive,0.9257169365882874
+Ses03M_script03_1_F004,I MEAN IT WAS IT'S BOUND TO COME OUT SOONER OR LATER,i mean it be it be bound to come out soon or later,neutral,0.8578535914421082
+Ses03M_script03_1_F005,THAT SENT SHIVERS UP MY SPINE,that send shiver up my spine,positive,0.5978697538375854
+Ses03M_script03_1_F006,BEHAVE EXQUISITELY,behave exquisitely,neutral,0.5591381192207336
+Ses03M_script03_1_F018,THAT'S SERIOUS ENOUGH,that be serious enough,negative,0.5396968722343445
+Ses03M_impro08b_F005,YEAH YEAH YEAH YOU BETTER BE SORRY,yeah yeah yeah you better be sorry,negative,0.5576366186141968
+Ses03M_impro08b_F006,NO I DID NOT DROP MY PHONE IN WATER I'M NOT FIVE YEARS OLD AND JUST DROPPED MY PHONE ANYWHERE I SEE IT OKAY THIS IS MY BUSINESS,no i do not drop my phone in water i'm not five year old and just dropped my phone anywhere i see it okay this be my business,neutral,0.607184886932373
+Ses03M_impro08b_F021,ALRIGHT WELL- I GUESS - I GUESS THAT'S OKAY BUT,alright well- i guess - i guess that be okay but,positive,0.7109421491622925
+Ses03M_impro08b_F023,OKAY,okay,positive,0.4920317530632019
+Ses03M_impro08b_F024,ALRIGHT THANKS,alright thank,positive,0.7743940949440002
+Ses03F_script03_1_F000, , ,neutral,0.6703697443008423
+Ses03F_script03_1_F001,DO YOU THINK IT'S THEM,do you think it be they,neutral,0.8668239116668701
+Ses03F_script03_1_F009,DON'T LAUGH AT ME I'M SERIOUS,don't laugh at me i'm serious,negative,0.8757500052452087
+Ses03F_script03_1_F014,OH DEAR WELL SHALL WE WANT THAT,oh dear well shall we want that,positive,0.5837031602859497
+Ses03F_script03_1_F015,WELL WHAT IF HAPPENS IF ONE OF US IS TO DIE DOES THE ONE THAT'S LEFT STILL LAUGH,well what if happens if one of us be to die do the one that be left still laugh,negative,0.5702714323997498
+Ses03F_script03_1_F019,THANK YOU DEAR THE SAME APPLIES TO YOU EXCEPT THAT IF I EVER SO MUCH AS CATCH YOU LOOKING AT ANOTHER WOMAN I'LL KILL YOU,thank you dear the same apply to you except that if i ever so much as catch you look at another woman i'll kill you,negative,0.6153569221496582
+Ses03F_script03_1_F021,OH CHARLES THAT WAS HIS NAME CHARLES HE DID WIGGLE SO BEAUTIFULLY,oh charles that be his name charles he do wiggle so beautifully,positive,0.9552215933799744
+Ses03F_script03_1_F025,YEAH AND THAT WAS THE FIRST TIME YOU EVER HIT ME,yeah and that be the first time you ever hit i,positive,0.6316719055175781
+Ses03F_script03_1_F026,THE MANAGER CAME IN AND FOUND US ROLLING ON THE FLOOR AND BITING AND SCRATCHING LIKE PANTHERS,the manager come in and find us roll on the floor and bite and scratch like panther,neutral,0.49707654118537903
+Ses03F_script03_1_F027,I KNOW OH MAN COULDN'T BELIEVE IT,i know oh man couldn't believe it,negative,0.5403422713279724
+Ses03F_impro04_F002,I JUST I SEE ALL THESE OTHER PEOPLE GETTING COMMERCIALS AND WORK AND IT'S LIKE I'M NOT GETTING ANYTHING,i just i see all these other people get commercials and work and it be like i'm not get anything,negative,0.775877833366394
+Ses03F_impro04_F022,IT'S NOT FUNNY I JUST DON'T KNOW WHAT I'M GOING TO DO,it be not funny i just don't know what i'm go to do,negative,0.9348344802856445
+Ses03F_impro04_F023,YEAH I GUESS I COULD,yeah i guess i could,positive,0.6240162253379822
+Ses03F_impro04_F024,YEAH,yeah,positive,0.5583856701850891
+Ses03F_impro03_F004,AT THE END OF THE PERFORMANCE YOU KNOW LIKE WE'RE ALL CLAPPING AND STUFF AND ALL OF A SUDDEN I LOOK OVER AND,at the end of the performance you know like we're all clapping and stuff and all of a sudden i look over and,neutral,0.6096537709236145
+Ses03F_impro03_F005,JOE'S GONE -WHERE DID HE GO YOU KNOW,joe 's go -where do he go you know,negative,0.5663154721260071
+Ses03F_impro03_F006,AND I'M LIKE OH HE WENT TO THE- -THE BATHROOM BUT HE DIDN'T TELL ME I DIDN'T EVEN NOTICE HIM LEAVING AND ALL OF A SUDDEN I SWEAR TO GOD I'M SITTING THERE AND-,and i'm like oh he go to the- -the bathroom but he didn't tell i i didn't even notice him leaving and all of a sudden i swear to god i'm sit there and-,neutral,0.4901597201824188
+Ses03F_impro03_F007,HE COMES UP ONSTAGE-- AND THE ENTIRE CAST EVERYONE JUST LIKE,he come up onstage-- and the entire cast everyone just like,neutral,0.6367948651313782
+Ses03F_impro03_F008,GOES UP THERE AND EVERYONE'S CLAPPING AND HE'S STANDING THERE AND THEY PUT A SPOTLIGHT ON HIM,go up there and everyone 's clapping and he be stand there and they put a spotlight on him,neutral,0.6915796399116516
+Ses03F_impro03_F009,AND I'M LIKE FREAKING OUT I'M LIKE WHAT THE HELL'S GOING ON YOU KNOW I DON'T KNOW WHAT'S GOING ON AND SO HE'S LIKE STANDING THERE AND THEN ALL OF A SUDDEN THEY GIVE HIM A MICROPHONE-,and i'm like freak out i'm like what the hell be go on you know i don't know what be go on and so he be like stand there and then all of a sudden they give him a microphone-,negative,0.7777427434921265
+Ses03F_impro03_F011,HE ASKED ME TO MARRY HIM LIKE- ONSTAGE I WAS LIKE I COULDN'T BELIEVE--AND I HAD TO WALK UP THERE AND I WAS LIKE I THINK I TRIPPED OR SOMETHING,he ask i to marry him like- onstage i be like i couldn't believe -- and i had to walk up there and i be like i think i tripped or something,neutral,0.6057946681976318
+Ses03F_impro03_F012,YEAH I SAID YES BUT I YEAH I MEAN,yeah i say yes but i yeah i mean,positive,0.5790579915046692
+Ses03F_impro03_F013,I DON'T KNOW- IT JUST LIKE TOOK ME TOOK ME BY SURPRISE,i don't know- it just like take i take i by surprise,neutral,0.5193929672241211
+Ses03F_impro03_F014,HE SCORED POINTS,he score point,positive,0.4948748052120209
+Ses03F_impro03_F015,OH YEAH EVERYONE--YEAH AND PEOPLE--FRIENDS OF OURS WERE IN THE AUDIENCE I DIDN'T KNOW ABOUT LIKE FAMILY MEMBERS,oh yeah everyone -- yeah and people -- friend of ours be in the audience i didn't know about like family member,positive,0.6379430294036865
+Ses03F_impro03_F016,YEAH IT WAS GREAT,yeah it be great,positive,0.9757474064826965
+Ses03F_impro03_F017,IT WAS--I CRIED,it be -- i cried,negative,0.5613779425621033
+Ses03F_impro03_F018,LIKE A LOSER I CRIED,like a loser i cry,negative,0.8979668617248535
+Ses03F_impro03_F019,BUT I DON'T KNOW I--IT'S SO WEIRD TO THINK I'M MARRYING SOMEBODY 'CAUSE I FEEL SO YOUNG YOU KNOW,but i don't know i -- it be so weird to think i'm marry somebody ' cause i feel so young you know,negative,0.6204897165298462
+Ses03F_impro03_F020,NO NO PLANS OR ANY- AND PROBABLY,no no plan or any- and probably,neutral,0.5241376757621765
+Ses03F_impro03_F021,LIKE I THINK I WANT TO GET MARRIED--I WANT TO HAVE TWO WEDDINGS ONE HERE THEN ONE IN EUROPE,like i think i want to get marry -- i want to have two weddings one here then one in europe,neutral,0.5835604667663574
+Ses03F_impro03_F024,YEAH I'M SO EXCITED,yeah i'm so excite,positive,0.9827221035957336
+Ses03M_script01_1_F000,WHAT'S HE GOING TO SAY MAYBE WE OUGHT TO TALK TO HIM BEFORE HE SEES IT,what be he go to say maybe we ought to talk to him before he see it,neutral,0.8669025897979736
+Ses03M_script01_1_F004,DID YOU TALK TO HIM,do you talk to him,neutral,0.7868226170539856
+Ses03M_script01_1_F005,HE CRIED HARD,he cry hard,neutral,0.5122589468955994
+Ses03M_script01_1_F008,HE'S GETTING JUST LIKE HE DID AFTER HE DIED YOU KNOW WHAT WHAT WHAT'S THE MEANING OF THIS,he be get just like he do after he die you know what what what be the meaning of this,neutral,0.5300607085227966
+Ses03M_script01_1_F016,NO IT'S HIS GOD DAMNED NEWSPAPERS IS WHAT IT IS NOW EVERY MONTH THERE'S A NEW BOY COMES HOME AND LARRY'S GOING TO BE THE NEXT ONE,no it be his god damned newspapers be what it be now every month there be a new boy come home and larry be go to be the next one,neutral,0.4915345311164856
+Ses03M_script01_1_F017,WHY,why,neutral,0.5141720771789551
+Ses03M_script01_1_F020,WELL WHAT DO YOU WANT ME TO DO I MEAN YOU'RE OLD ENOUGH TO KNOW YOUR OWN MIND,well what do you want i to do i mean you're old enough to know your own mind,neutral,0.5820930600166321
+Ses03M_script01_1_F021,WELL I MEAN YOU GOT TO MAKE SURE YOUR DAD'S NOT GOING--,well i mean you got to make sure your dad be not going--,neutral,0.7684040665626526
+Ses03M_script01_1_F028,DID YOU ASK ANNIE YET,do you ask annie yet,neutral,0.8785993456840515
+Ses03M_script01_1_F030,LOOK YOU NEVER HAD SEEN MANY MANY WOMEN YOU KNOW I MEAN,look you never have see many many women you know i mean,neutral,0.5740454196929932
+Ses03M_script01_1_F038,YOU'RE JUST GOING TO LEAVE THE BUSINESS YOU HAVE A BUSINESS HERE YOU CAN'T DO THAT,you're just go to leave the business you have a business here you can't do that,negative,0.6047387719154358
+Ses03M_script01_1_F040,TELL ME SOMETHING YOU CAN LEAVE THIS BUSINESS,tell i something you can leave this business,neutral,0.5560787320137024
+Ses03M_script01_1_F043,I MEAN WHAT THE HELL HAVE WE WORKED FOR THEN I MEAN IT'S ALL FOR YOU CHRIS THE WHOLE SHOOTING MATCH IS FOR YOU,i mean what the hell have we worked for then i mean it be all for you chris the whole shooting match be for you,negative,0.5454132556915283
+Ses03M_script01_1_F045,I DON'T UNDERSTAND YOU DO I,i don't understand you do i,negative,0.7111803293228149
+Ses03M_script01_1_F046,YEAH I CAN SEE THAT,yeah i can see that,positive,0.5781775712966919
+Ses03M_impro02_F000,UM,um,neutral,0.5573320984840393
+Ses03M_impro02_F003,WHY THE SAD FACE,why the sad face,negative,0.8406318426132202
+Ses03M_impro02_F013,DO THIS WHOLE THING BY MYSELF,do this whole thing by myself,neutral,0.5302573442459106
+Ses03M_impro02_F014,CARRY HER FOR NINE MONTHS AND THEN YES,carry she for nine month and then yes,neutral,0.571661114692688
+Ses03M_impro02_F015,IT'S NOT THE SAME THING IT'S NOT LIKE HAVING YOU HERE,it be not the same thing it be not like have you here,negative,0.8039372563362122
+Ses03M_impro02_F016,I CAN'T DO THIS,i can't do this,negative,0.8044025301933289
+Ses03M_impro02_F017,I'M SICK OF BEING STRONG-- --FOR US,i'm sick of be strong-- --for us,negative,0.8686977028846741
+Ses03M_impro02_F022,AND WATCH OUR CHILD GROW SEE HER TAKE HER FIRST STEPS HER FIRST WORDS,and watch our child grow see she take she first steps she first word,neutral,0.6269364356994629
+Ses03M_impro02_F023,YOU SAID TWO YEARS,you say two year,neutral,0.6980176568031311
+Ses03M_impro02_F024,A WHOLE YEAR --WE'RE NOT TALKING ABOUT LIKE A COUPLE MONTHS HERE I MEAN THIS IS A WHOLE YEAR,a whole year --we're not talk about like a couple months here i mean this be a whole year,neutral,0.7006120681762695
+Ses03M_impro02_F025,WHAT COULD HAPPEN IN A YEAR,what could happen in a year,neutral,0.6552849411964417
+Ses03M_impro02_F026,AND THIS ISN'T THE FIRST TIME YOU KNOW I MEAN YOU ALWAYSSENDING YOU OFF TO DIFFERENT PLACES AND,and this isn't the first time you know i mean you alwayssende you off to different place and,neutral,0.7042995691299438
+Ses03M_impro02_F027,I DON'T KNOW IF THAT'S HOW I WANT TO LIVE MY LIFE,i don't know if that be how i want to live my life,negative,0.7765801548957825
+Ses03M_impro02_F028,JOE I'M SERIOUS I DON'T WANT TO HAVE TO HAVE A LITTLE GIRL TO TELLASKING EVERY DAY WHERE'S DADDY WHERE'S DADDY AND HAVE TO TELL HER THAT HE'S AWAY--,joe i'm serious i don't want to have to have a little girl to tellaske every day where be daddy where be daddy and have to tell she that he be away--,negative,0.8434445261955261
+Ses03M_impro02_F029,FAR AWAY AND HE WON'T BE HERE,far away and he won't be here,negative,0.5916579961776733
+Ses03M_impro02_F030,I'M DONE I CAN'T HONEY,i'm do i can't honey,negative,0.8962971568107605
+Ses03M_impro02_F031,IT'S OVER,it be over,neutral,0.6233381628990173
+Ses03M_impro02_F032,HONEY I CAN'T DO IT ANYMORE,honey i can't do it anymore,negative,0.86384516954422
+Ses03M_impro02_F033,I NEED YOU HERE ANNA NEEDS YOU,i need you here anna need you,positive,0.5961558818817139
+Ses03M_impro02_F034,YEAH,yeah,positive,0.5583856701850891
+Ses03F_script02_1_F000,FINE,fine,positive,0.6724705100059509
+Ses03F_script02_1_F003,I DON'T UNDERSTAND WHY YOU'RE ALWAYS SAYING OH IT'S MINE IT'S MINE IT'S NOT LIKE IT'S JUST YOUR FLASHLIGHT I MEAN HOW DO YOU THINK THAT MAKES ME FEEL,i don't understand why you're always say oh it be mine it be mine it be not like it be just your flashlight i mean how do you think that make i feel,negative,0.7735585570335388
+Ses03F_script02_1_F010,NOT PARTICULARLY,not particularly,neutral,0.5656754970550537
+Ses03F_script02_1_F011,I DON'T KNOW I JUST DON'T,i don't know i just don't,negative,0.691580057144165
+Ses03F_script02_1_F012,PASS UP WHAT A BUNCH OF FISH THEY SWIM UP TO THE BEACH AND THEY FLOP AROUND AND THEY SWIM AWAY AND THEN THEY DIE,pass up what a bunch of fish they swim up to the beach and they flop around and they swim away and then they die,negative,0.7483798861503601
+Ses03M_script01_2_F000,WHY DID HE INVITE HER HERE,why do he invite she here,negative,0.6966865658760071
+Ses03M_script01_2_F001,WELL SHE'S BEEN AWAY FOR THREE AND A HALF YEARS IN NEW YORK AND SUDDENLY SHE JUST SHOWS UP,well she be be away for three and a half year in new york and suddenly she just show up,neutral,0.6936542391777039
+Ses03M_script01_2_F006,NO SHE'S NOT HIS GIRL JOE AND SHE KNOWS THAT,no she be not his girl joe and she knows that,negative,0.6591023206710815
+Ses03M_script01_2_F009,I MEAN HER FAITH IS STRONGER THAN A ROCK,i mean her faith be strong than a rock,positive,0.8705511093139648
+Ses03M_script01_2_F010,MY WORST TIMES I THINK ABOUT HER YOU KNOW AND I,my bad times i think about she you know and i,negative,0.8912218809127808
+Ses03M_script01_2_F011,IT'S LIKE I KNOW AS LONG AS SHE'S WAITING I'M RIGHT AGAIN,it be like i know as long as she be wait i'm right again,positive,0.592413067817688
+Ses03M_script01_2_F012,NO NOBODY IN MY HOUSE BETTER DARE AND CHALLENGE HER FAITH YOU KNOW AND MAYBE STRANGERS BUT NOT HIS FATHER NOT HIS BROTHER,no nobody in my house better dare and challenge she faith you know and maybe stranger but not his father not his brother,negative,0.8474876880645752
+Ses03M_script01_2_F015,LAUGH LAUGH AT ME BUT I WILL BECAUSE YOU KNOW WHAT HAPPENED WHEN SHE CAME HERE WHEN SHE CAME BACK SHE SLEPT IN HIS ROOM THE MEMORIAL BROKE INTO PIECES JOE LOOK LOOK AT IT YOU GOT TO BELIEVE WITH ME,laugh laugh at me but i will because you know what happened when she come here when she come back she slept in his room the memorial broke into pieces joe look look at it you got to believe with i,negative,0.4366714656352997
+Ses03M_script01_2_F017,LOOK IT WAS JUST LAST WEEK THAT DETROIT SOME BOY CAME BACK HE HAD BEEN AWAY LONGER THAN LARRY YOU CAN READ IT FOR YOURSELF YOU ABOVE ALL PEOPLE HAVE GOT TO BELIEVE,look it be just last week that detroit some boy come back he had be away long than larry you can read it for yourself you above all people have got to believe,neutral,0.6456175446510315
+Ses03M_script01_2_F019,I CAN'T HELP IT,i can't help it,neutral,0.5407979488372803
+Ses03F_impro07_F001,UH- SO I GOT SOME GOOD NEWS,uh- so i got some good news,positive,0.9542261958122253
+Ses03F_impro07_F004,I HAVE SOME BETTER NEWS THAN THAT,i have some well news than that,positive,0.7658830285072327
+Ses03F_impro07_F005,YES WHAT WOULD YOU WANT MORE THAN ANYTHING IN THIS WORLD,yes what would you want more than anything in this world,positive,0.8735479116439819
+Ses03F_impro07_F007,I GOT--USC I GOT- YEAH I GOT THE ACCEPTANCE LETTER,i got -- usc i got- yeah i got the acceptance letter,positive,0.6811291575431824
+Ses03F_impro07_F008,YES ME I GOT IN THANK YOU VERY MUCH,yes me i got in thank you very much,positive,0.9690780639648438
+Ses03F_impro07_F009,YEAH I KNOW MY MOM CALLED ME I WAS WITH MY GIRLFRIEND IN BOSTON AND UH- SHE GOT THE LETTER AND SHE CALLED ME SHE SAID I DON'T KNOW DO YOU WANT ME TO OPEN IT AND I WAS LIKE YES OPEN IT AND SHE OPENED IT AND SHE GOES OH I'M SORRY NAT,yeah i know my mom call i i be with my girlfriend in boston and uh- she got the letter and she call i she say i don't know do you want i to open it and i be like yes open it and she open it and she go oh i'm sorry nat,neutral,0.784229576587677
+Ses03F_impro07_F011,AND MY MOM WAS LIKE NATALIE NATALIE IT'S YOU KNOW-,and my mom be like natalie natalie it be you know-,neutral,0.7083885669708252
+Ses03F_impro07_F012,AND SO I MEAN I GOT IN,and so i mean i got in,neutral,0.6412820219993591
+Ses03F_impro07_F013,SO NOW I CAN STAY HERE AND NOW WE CAN PARTY I KNOW,so now i can stay here and now we can party i know,positive,0.839766263961792
+Ses03F_impro07_F014,YEAH WHY NOT,yeah why not,positive,0.5236821174621582
+Ses03F_impro07_F015,WE'RE NOT TWENTY ONE YET BUT WHATEVER,we're not twenty one yet but whatever,neutral,0.7371942400932312
+Ses03F_impro07_F016,I'M SO EXCITED JOE OH MAN I-- AND I GOT IN--I GOT INTO THE SCHOOL OF THEATRE SO IT'S LIKE-,i'm so excite joe oh man i-- and i got in -- i got into the school of theatre so it be like-,positive,0.981836199760437
+Ses03F_impro07_F017,YEAH IT'S REALLY COOL,yeah it be really cool,positive,0.9740334749221802
+Ses03F_impro07_F019,TOP FIVE IN THE NATION,top five in the nation,positive,0.6425134539604187
+Ses03F_impro07_F020,ACTING PANTS SO WHAT ARE YOU GOING TO DO ARE YOU--YOU'RE BE--YOU'RE GOING TO STAY HERE RIGHT,acting pant so what be you go to do are you -- you're be -- you're go to stay here right,neutral,0.8654114603996277
+Ses03F_impro07_F021,AWESOME WE'RE BOTH GOING TO BE IN LA,awesome we're both go to be in la,positive,0.9883943796157837
+Ses03F_impro07_F022,I'M SO EXCITED YEAH I THOUGHT I WAS GOING TO GO TO BOSTON BUT THEN--,i'm so excited yeah i thought i be go to go to boston but then--,positive,0.9806361794471741
+Ses03F_impro07_F023,OH MAN I'M SO EXCITED SO MUCH TO DO,oh man i'm so excited so much to do,positive,0.9848173260688782
+Ses03F_impro07_F025,I'M JUST SO EXCITED TO START MY LIFE,i'm just so excited to start my life,positive,0.9808458685874939
+Ses03F_impro07_F026,OH AND YOU SIT DOWN AND YOU HAVE THE SPONGE BREAD-- --AND EAT THE--DRINK THE BEER UGH I LOVE THAT STUFF I'M SO EXCITED,oh and you sit down and you have the sponge bread-- --and eat the -- drink the beer ugh i love that stuff i'm so excite,positive,0.9806702136993408
+Ses03F_impro07_F027,ARE YOU GOING TO COME STAY IN MY DORM WITH ME SOMETIME,be you go to come stay in my dorm with me sometime,neutral,0.7692679762840271
+Ses03F_impro07_F028,YEAH I'LL GET LIKE ONE OF THOSE LITTLE--,yeah i'll get like one of those little--,positive,0.5014383792877197
+Ses03F_impro07_F029,YEAH THOSE LITTLE-- --MATTRESSES I'LL PUT IT BY MY BED,yeah those little-- --mattresses i'll put it by my bed,negative,0.49008578062057495
+Ses03F_impro07_F031,THAT'S GOING TO--THAT'LL BE RESERVED FOR SOMEBODY ELSE,that be go to -- that'll be reserved for somebody else,neutral,0.5992997884750366
+Ses03F_impro07_F032,HELLO I AM NOT,hello i be not,neutral,0.4914597272872925
+Ses03F_impro07_F034,NO YOU'D GET USED TO IT,no you'd get use to it,neutral,0.6163906455039978
+Ses03F_impro07_F035,OH JOE I'M SO HAPPY,oh joe i'm so happy,positive,0.9801127910614014
+Ses03M_impro06_F000,HOW'S IT GOING HOW ARE YOU FEELING,how be it go how be you feel,neutral,0.6885244250297546
+Ses03M_impro06_F001,HANGING IN THERE,hang in there,neutral,0.7472009062767029
+Ses03M_impro06_F002,SO SAD,so sad,negative,0.815459132194519
+Ses03M_impro06_F003,YEAH,yeah,positive,0.5583856701850891
+Ses03M_impro06_F004,YOU GUYS WERE REAL CLOSE HUH,you guys be real close huh,neutral,0.7306875586509705
+Ses03M_impro06_F005,I'M SO SORRY,i'm so sorry,negative,0.7387845516204834
+Ses03M_impro06_F007,WHAT HAPPENED WHAT WENT WRONG,what happen what go wrong,negative,0.8554810881614685
+Ses03M_impro06_F008,OH MAN,oh man,neutral,0.4601112902164459
+Ses03M_impro06_F009,HOW ARE THEY,how be they,neutral,0.48710399866104126
+Ses03M_impro06_F010,YEAH LIKE I MEAN IF YOU NEED ANYONE TO TALK TO OR ANYTHING I'M HERE FOR YOU OKAY,yeah like i mean if you need anyone to talk to or anything i'm here for you okay,positive,0.5986714363098145
+Ses03M_impro06_F011,WE'RE ALL HERE FOR YOU,we're all here for you,positive,0.9043715000152588
+Ses03M_impro06_F012,I KNOW,i know,neutral,0.5216516256332397
+Ses03M_impro06_F013,JUST THINGS HAPPEN IN LIFE AND YOU JUSTTHERE'S JUST NO EXPLANATION YOU KNOW WE JUST DON'T,just thing happen in life and you justthere be just no explanation you know we just don't,negative,0.5526301264762878
+Ses03M_impro06_F014,YEAH,yeah,positive,0.5583856701850891
+Ses03M_impro06_F015,I'M SO SORRY,i'm so sorry,negative,0.7387845516204834
+Ses03M_impro06_F016,WELL NOW YOU CAN FOLLOW HIS FOOTSTEPS YOU KNOW CARRY OUT WHAT HE WANTED TO DO,well now you can follow his footstep you know carry out what he want to do,neutral,0.7358817458152771
+Ses03M_impro06_F017,WELL SURE YOU COULD,well sure you could,positive,0.5431841611862183
+Ses03M_impro06_F018,YEAH,yeah,positive,0.5583856701850891
+Ses03M_impro06_F019,I WOULD'VE LOVED TO,i would've love to,positive,0.9143545031547546
+Ses03M_impro06_F020,NOW I CAN'T,now i can't,negative,0.643698513507843
+Ses03F_script02_2_F000,ABOUT WHAT,about what,neutral,0.6368990540504456
+Ses03F_script02_2_F005,AUGIE GODDAMN IT DON'T ASK ME THAT YOU ALWAYS ASK ME THAT WHY DO YOU ASK ME THAT I HATE IT IT'S INSULTING,augie goddamn it don't ask i that you always ask i that why do you ask i that i hate it it be insulting,negative,0.9362779855728149
+Ses03F_script02_2_F012,LIKE I FEEL LIKE MY WHOLE LIFE I'VE BEEN JUST STANDING ON THIS BEACH WITH MY HANDS CLASPED WAITING FOR THESE FISH TO SHOW UP AND THESE FISH NEVER SHOW UP,like i feel like my whole life i've been just stand on this beach with my hand clasped wait for these fish to show up and these fish never show up,negative,0.6070648431777954
+Ses03F_script02_2_F016,DO YOU REMEMBER THE LAST TIME WE CAME HERE,do you remember the last time we come here,neutral,0.8715084791183472
+Ses03F_script02_2_F017,WE THOUGHT I WAS PREGNANT,we think i be pregnant,neutral,0.6915268898010254
+Ses03F_script02_2_F018,YOU BROUGHT A BOTTLE OF CHAMPAGNE,you brought a bottle of champagne,neutral,0.6394022107124329
+Ses03F_script02_2_F019,WE TOOK OFF OUR SHOES AND WE DANCED BAREFOOT IN THE SAND UNDER THE MOON,we take off our shoe and we dance barefoot in the sand under the moon,neutral,0.5547674894332886
+Ses03F_script02_2_F020,AND YOU WHISPERED SO INTIMATELY IN MY EAR SO I COULD FEEL YOUR WORDS,and you whispered so intimately in my ear so i could feel your word,positive,0.4998142123222351
+Ses03F_script02_2_F021,OH THAT MOMENT-THAT WAS IT,oh that moment - that be it,neutral,0.5129323601722717
+Ses03F_script02_2_F022,I TOLD MYSELF FINALLY THIS IS HOW HAPPY I'M SUPPOSED TO BE,i tell myself finally this be how happy i'm suppose to be,positive,0.964901328086853
+Ses03F_script02_2_F023,DANCING BAREFOOT IN THE SAND DRINKING OUT OF A BOTTLE OF CHAMPAGNE,dance barefoot in the sand drink out of a bottle of champagne,neutral,0.7455588579177856
+Ses03F_script02_2_F024,I DON'T WANT TO REMEMBER SOMETHING,i don't want to remember something,negative,0.7606565356254578
+Ses03F_script02_2_F025,HOPE FOR SOME THINGS,hope for some thing,positive,0.7636951208114624
+Ses03F_script02_2_F026,NO,no,neutral,0.4852931797504425
+Ses03F_script02_2_F027,NO,no,neutral,0.4852931797504425
+Ses03F_script02_2_F028,NO NO,no no,negative,0.4368717074394226
+Ses03F_script02_2_F031,NO,no,neutral,0.4852931797504425
+Ses03F_script02_2_F035,NO IT'S NOT IT'S STANDING ON THE BEACH WAITING AND FIGHTING,no it be not it be stand on the beach waiting and fight,negative,0.4996453523635864
+Ses03F_script02_2_F036,THINGS HAVE NEVER TURNED OUT ANYTHING THE WAY THAT I THOUGHT THEY WOULD BE,thing have never turn out anything the way that i think they would be,negative,0.9047530889511108
+Ses03F_script02_2_F038,IT'S NOT SOMETHING ELSE DO YOU KNOW WHAT I'M TRYING TO SAY,it be not something else do you know what i'm try to say,negative,0.48511093854904175
+Ses03F_script02_2_F039,I KNOW YOU ARE AUGIE AND I KNOW YOU WANTED THIS EVENING TO BE NICE BUT I CAN'T HELP THINKING OF BEING SOMEWHERE ELSE,i know you be augie and i know you want this evening to be nice but i can't help think of be somewhere else,neutral,0.4879929721355438
+Ses03F_script02_2_F040,I DIDN'T SAY THAT,i didn't say that,neutral,0.5197877883911133
+Ses03F_script02_2_F043,WELL I GUESS WE'RE JUST IN THE WRONG SPART-SPOT WITH THE RIGHT PERSON,well i guess we're just in the wrong spart - spot with the right person,neutral,0.509194552898407
+Ses03F_script02_2_F044,I NOTICED THAT IT'S BEAUTIFUL,i noticed that it be beautiful,positive,0.9582118391990662
+Ses03F_script02_2_F045,YOU CAN SEE RIGHT OVER THE WATER,you can see right over the water,neutral,0.6441187262535095
+Ses03F_script02_2_F048,AT LEAST WE WON'T NEED GLASSES,at least we won't need glass,neutral,0.5217359066009521
+Ses03F_script02_2_F050,MAYBE THIS IS THE RIGHT PLACE AFTER ALL,maybe this be the right place after all,positive,0.7604854106903076
+Ses03F_script02_2_F051,I'M SORRY AUGIE,i'm sorry augie,negative,0.7543905973434448
+Ses03M_impro01_F000,IS THAT A DEMAND SIR,be that a demand sir,neutral,0.7223331928253174
+Ses03M_impro01_F003,NO YOU FILLED OUT THE BACK PART YOU WERE SUPPOSED TO FILL OUT THE FRONT PORTION ONLY,no you fill out the back part you be suppose to fill out the front portion only,negative,0.5164194703102112
+Ses03M_impro01_F022,OKAY I'M GOING TO CALL SECURITY SECURITY,okay i'm go to call security security,neutral,0.7125144600868225
+Ses03M_impro01_F025,THIS ENTIRE TIME YOU'RE FIGHTING WITH ME SIR YOU COULD'VE FINISHED THE FORM AND ALREADY BEEN HALF WAY-- NO GET OUT,this entire time you're fight with i sir you could've finish the form and already be half way-- no get out,negative,0.8636331558227539
+Ses03F_script01_3_F000,YOU'RE THE ONLY ONE I KNOW THAT STILL LOVES HIS PARENTS,you're the only one i know that still love his parent,positive,0.8300729990005493
+Ses03F_script01_3_F001,NO IT'S ALL RIGHT THERE'S NOTHING WRONG IN THAT YOU KNOW,no it be all right there be nothing wrong in that you know,neutral,0.48857933282852173
+Ses03F_script01_3_F002,IT'S REALLY LOVELY HERE THE AIR IS SWEET,it be really lovely here the air be sweet,positive,0.9558503031730652
+Ses03F_script01_3_F003,NO I'M NOT SORRY IT'S-,no i'm not sorry it's-,negative,0.5089067816734314
+Ses03F_script01_3_F008,WELL YOU'VE BEEN EMBARRASSED EVER SINCE I CAME,well you've be embarrassed ever since i come,negative,0.7871732115745544
+Ses03F_script01_3_F011,WELL I MEAN,well i mean,neutral,0.6473791599273682
+Ses03F_script01_3_F012,FROM HER OPINION WHY ELSE WOULD I COME HERE,from her opinion why else would i come here,neutral,0.6071755290031433
+Ses03F_script01_3_F013,WELL I GUESS THAT'S WHY I CAME,well i guess that be why i come,positive,0.596552312374115
+Ses03F_script01_3_F014,I'VE BEEN READY FOR A LONG LONG TIME,i've be ready for a long long time,positive,0.6579064130783081
+Ses03F_script01_3_F018,EVERY DAY SINCE,every day since,neutral,0.6316466331481934
+Ses03F_script01_3_F021,I DON'T KNOW IF I EVER CAN FORGIVE YOU FOR THAT WHY'D YOU WAIT SO LONG I SAT IN MY ROOM WONDERING IF I WAS CRAZY FOR THINKING ABOUT YOU,i don't know if i ever can forgive you for that why'd you wait so long i sat in my room wonder if i be crazy for think about you,negative,0.8970494270324707
+Ses03F_script01_3_F023,LIKE LARRY'S BROTHER DO IT LIKE YOU CHRIS,like larry 's brother do it like you chris,neutral,0.7925564646720886
+Ses03F_script01_3_F025,NO WHAT IS IT IS IT YOUR MOTHER,no what be it be it your mother,negative,0.6922423243522644
+Ses03F_script01_3_F026,WELL THEN TELL ME WHAT'S WRONG I MEAN EVEN IN YOUR LETTERS THERE'S SOMETHING ASHAMED,well then tell me what be wrong i mean even in your letter there be something ashamed,negative,0.866564154624939
+Ses03F_script01_3_F027,YOU SHOULD TELL ME,you should tell i,neutral,0.697338879108429
+Ses03F_script01_3_F028,BUT CHRIS IT WOULDN'T WORK LIKE THIS,but chris it wouldn't work like this,negative,0.7740809321403503
+Ses03F_script01_3_F029,YEAH SURE,yeah sure,positive,0.7379270195960999
+Ses03F_script01_3_F030,HOW MANY,how many,neutral,0.7199736833572388
+Ses03F_script01_3_F031,GEEZ,geez,neutral,0.45183321833610535
+Ses03F_script01_3_F032,AND YOU STILL FEEL THAT WAY,and you still feel that way,negative,0.6781070232391357
+Ses03F_script01_3_F033,BECAUSE YOU CAN'T FEEL THAT WAY NEVER AGAIN CHRIS YOU HEAR ME NEVER I MEAN THE MONEY AND ME TOO,because you can't feel that way never again chris you hear i never i mean the money and i too,negative,0.8359475135803223
+Ses03F_script01_3_F035,WHAT AM I GOING TO DO WITH A FORTUNE,what be i go to do with a fortune,negative,0.4796069860458374
+Ses03M_impro08a_F004,TWO TWO SIX SIX,two two six six,neutral,0.6731310486793518
+Ses03M_impro08a_F013,YOU SIGN THE CONTRACT AND THEN DOWN THE LINE THE PHONE DOESN'T WORK AND YOU'RE STUCK YOU CAN'T GO TO A NEWNO NO CONTRACTS FOR ME YOU GIVE ME A NEW PHONE,you sign the contract and then down the line the phone doesn't work and you're stick you can't go to a newno no contract for i you give i a new phone,negative,0.8909511566162109
+Ses03M_impro08a_F014,I WANT TO TALK TO A SUPERVISOR,i want to talk to a supervisor,neutral,0.6124306917190552
+Ses03M_impro08a_F015,I WOULD LIKE TO TALK TO YOUR SUPERVISOR OBVIOUSLY YOU'RE INCOMPETENT AND DON'T UNDERSTAND WHAT I'M ASKING,i would like to talk to your supervisor obviously you're incompetent and don't understand what i'm ask,negative,0.7882599234580994
+Ses03M_impro08a_F020,THIS IS RIDICULOUSWELL WHAT ARE WE SUPPOSED TO DO WE STARVE THEN BECAUSE I CAN'T USE MY PHONE CAUSE,this be ridiculouswell what be we suppose to do we starve then because i can't use my phone cause,negative,0.9380173087120056
+Ses03M_impro08a_F021,I AM A REALTOR AND THIS IS MY BUSINESS PEOPLE ARE CALLING ME ALL THE TIME BUT YOU KNOW AND I DON'T HAVE A LAND LINE I CAN'T AFFORD TO HAVE A LAND LINE,i be a realtor and this be my business people be call i all the time but you know and i don't have a land line i can't afford to have a land line,negative,0.7862508893013
+Ses03M_impro08a_F022,THAT YOU BETTER BE SORRY,that you better be sorry,negative,0.7803798913955688
+Ses03F_script03_2_F004,JUST A LITTLE PERHAPS BUT IT WAS NOTHING SERIOUS,just a little perhaps but it be nothing serious,negative,0.645893394947052
+Ses03F_script03_2_F008,WELL IT'S TRUE,well it be true,positive,0.46878859400749207
+Ses03F_script03_2_F013,IT'S BECOME A HABIT WITH YOU,it be become a habit with you,neutral,0.5509171485900879
+Ses03F_script03_2_F014,DON'T BE SO STUPID,don't be so stupid,negative,0.7474302053451538
+Ses03F_script03_2_F015,WHAT,what,neutral,0.4779629409313202
+Ses03F_script03_2_F017,IT'S A WOMAN'S JOB TO ALLURE THE MAN WATCH ME WON'T YOU A MINUTE,it be a woman 's job to allure the man watch i won't you a minute,neutral,0.7272491455078125
+Ses03F_script03_2_F018,NO IT ISN'T,no it isn't,neutral,0.4927542507648468
+Ses03F_script03_2_F023,I DON'T CARE I DON'T CARE DO YOU UNDERSTAND I DON'T CARE IF THEY BARK IF THEY ROLL OVER ON THE FLOOR LIKE HOOPS,i don't care i don't care do you understand i don't care if they bark if they roll over on the floor like hoops,negative,0.5279126763343811
+Ses03F_script03_2_F026,YOU ARE QUITE INSUFFERABLE I SUPPOSE IT'S BECAUSE YOU'RE DRUNK,you be quite insufferable i suppose it be because you're drunk,negative,0.7836695313453674
+Ses03F_script03_2_F035,TURN IT ON,turn it on,neutral,0.7431287169456482
+Ses03F_script03_2_F037,I WILL NOT GO AWAY GO AWAY I HATE YOU,i will not go away go away i hate you,negative,0.9282416701316833
+Ses03F_script03_2_F038,LISTEN INDEED NO NO NO NO I AM SICK AND TIRED OF LISTENING TO YOU YOU SADISTIC BULLY,listen indeed no no no no i be sick and tired of listen to you you sadistic bully,negative,0.9556747674942017
+Ses03F_script03_2_F039,STOP IT STOP IT I HATE YOU I LOATH YOU YOU ARE OVERBEARING AND CONCEITED AND UTTERLY IMPOSSIBLE,stop it stop it i hate you i loath you you be overbearing and conceited and utterly impossible,negative,0.9518882036209106
+Ses03F_script03_2_F040,THIS IS THE END DO YOU HEAR THE END NOW AND FOREVER,this be the end do you hear the end now and forever,neutral,0.5831304788589478
+Ses03F_script03_2_F041,OH YES I AM,oh yes i be,positive,0.9382652044296265
+Ses03F_script03_2_F042,YES I AM LET GO OF ME I HATE YOU AND I LOATH YOU GOD I CAN'T BELIEVE I JUST FINALLY REALIZED HOW YOU ARE I AM NEVER MARRY YOU NEVER NEVER NEVER NEVER I WOULD RATHER DIE IN TORMENT,yes i be let go of i i hate you and i loath you god i can't believe i just finally realized how you be i be never marry you never never never never i would rather die in torment,negative,0.9570416808128357
+Ses03F_script03_2_F043,BEAST OR BRUTE CAD SWINE BEAST BEAST BRUTE,beast or brute cad swine beast beast brute,neutral,0.7997231483459473
+Ses03M_impro07_F000,HEY HOW'S IT GOING I HAVEN'T SEEN YOU IN AWHILE,hey how be it go i haven't see you in awhile,neutral,0.644579291343689
+Ses03M_impro07_F001,WHAT'S GOING ON JOE,what be go on joe,neutral,0.825060248374939
+Ses03M_impro07_F006,YOU'RE GOING TO BE HERE AND I'M GOING TO BE IN LA SO WE CAN BE TOGETHER NOW I MEAN WE CAN BE IN THE SAME CITY,you're go to be here and i'm go to be in la so we can be together now i mean we can be in the same city,positive,0.7881930470466614
+Ses03M_impro07_F007,WE CAN PARTY WE CAN HAVE FUN,we can party we can have fun,positive,0.9060606956481934
+Ses03M_impro07_F008,YEAH HOPEFULLY IT WON'T BE LIKE HIGH SCHOOL,yeah hopefully it won't be like high school,positive,0.4891742169857025
+Ses03M_impro07_F009,OH MAN I AM SO PROUD OF YOU THAT ISHOW DID YOU GETI MEAN WHAT DID YOU DO HOW DID YOU FIND OUT OR WHAT,oh man i be so proud of you that ishow do you geti mean what do you do how do you find out or what,positive,0.9721018671989441
+Ses03M_impro07_F010,OH MAN,oh man,neutral,0.4601112902164459
+Ses03M_impro07_F011,DID YOU SAY YES YET I MEAN HAVE YOU SENT IN YOUR ANSWER,do you say yes yet i mean have you send in your answer,neutral,0.8487593531608582
+Ses03M_impro07_F012,ALL RIGHT,all right,neutral,0.5360001921653748
+Ses03M_impro07_F013,THIS IS SO GREAT YOU KNOW BECAUSE I GONE FIT ON DOWNTOWN SO I'M GOING TO BE LIKE RIGHT HERE I THINK I'M GOING TO BE LIVING AT CITY LIGHTS DOWNTOWN,this be so great you know because i go fit on downtown so i'm go to be like right here i think i'm go to be live at city lights downtown,positive,0.9825599789619446
+Ses03M_impro07_F014,YEAH IT REALLY IS,yeah it really be,positive,0.7288036942481995
+Ses03M_impro07_F016,MAN I'M JUST SO HAPPY FOR YOU I JUST--,man i'm just so happy for you i just--,positive,0.9748386144638062
+Ses03M_impro07_F017,WELL I'M HAPPY FOR YOU BUT I'M HAPPY FOR ME CAUSE THAT MEANS YOU'RE GOING TO STAY,well i'm happy for you but i'm happy for i cause that mean you're go to stay,positive,0.9586787819862366
+Ses03M_impro07_F018,OH GREAT I WOULD LOVE TO GO,oh great i would love to go,positive,0.9597049355506897
+Ses03M_impro07_F019,MMMM SOME MISO SOUP,mmmm some miso soup,neutral,0.5740544199943542
+Ses03M_impro07_F023,OH MY GOD I AM SO PROUD OF YOU,oh my god i be so proud of you,positive,0.980268120765686
+Ses03F_impro08_F000,HELLO SIR CAN I HELP YOU,hello sir can i help you,neutral,0.536643385887146
+Ses03F_impro08_F001,I,i,positive,0.46781864762306213
+Ses03F_impro08_F002,YES SIR I'M VERY SORRY BUT WE'VE HAD SOME TROUBLE HERE THERE'S BEEN A LOT OF CALLS AND THE SYSTEM HAS-,yes sir i'm very sorry but we've had some trouble here there be be a lot of call and the system has-,negative,0.7475610971450806
+Ses03F_impro08_F003,SIR PLEASE CALM DOWN THERE'S NO REASON TO USE PROFANITY LIKE THAT IT'S NOT-,sir please calm down there be no reason to use profanity like that it be not-,negative,0.8760131597518921
+Ses03F_impro08_F004,OKAY AND THIS IS FOR VERIZON YOUR PROVIDER,okay and this be for verizon your provider,neutral,0.6926093101501465
+Ses03F_impro08_F005,WELL UM- WE HAVE A LITTLE PROBLEM WITH THE SYSTEM GOING ON ONE OF OUR SATELLITES IS DOWN AND I-,well um- we have a little problem with the system go on one of our satellite be down and i-,negative,0.8396406769752502
+Ses03F_impro08_F006,YOU'RE GOING TO HAVE TO JUST BE PATIENT WITH US SIR AS WE,you're go to have to just be patient with us sir as we,neutral,0.5945286750793457
+Ses03F_impro08_F007,WELL I KNOW SIR AND WE ALL ARE BUSY,well i know sir and we all be busy,neutral,0.5969556570053101
+Ses03F_impro08_F008,BUT I'M GOING TO DEFINITELY HAVE TO- UH--GET YOUR CONTACT INFORMATION,but i'm go to definitely have to- uh -- get your contact information,neutral,0.7697545289993286
+Ses03F_impro08_F009,OKAY WELL IF YOU WOULD LIKE UM- WE WILL BE TURNING ON THE SYSTEMS IN PROBABLY ABOUT TEN HOURS,okay well if you would like um- we will be turn on the systems in probably about ten hour,neutral,0.6333786249160767
+Ses03F_impro08_F010,SIR I'M VERY SORRY BUT THIS IS THE WAY IT IS THIS- WE HAVE NO CONTROL OVER IT IT'S GOING TO TAKE- -BUT YOU HAVE TO BE PATIENT WITH US YOU CAN USE A CALLING CARD WE WILL GIVE YOU A FREE CALLING CARD TO USE,sir i'm very sorry but this be the way it be this- we have no control over it it be go to take- -but you have to be patient with us you can use a calling card we will give you a free calling card to use,negative,0.7714980840682983
+Ses03F_impro08_F011,DO YOU HAVE A LAND LINE SIR,do you have a land line sir,neutral,0.8108596205711365
+Ses03F_impro08_F012,OKAY WELL WE WILL SEND YOU- WE WILL REIMBURSE YOU FOR THE AMOUNT OF MINUTES THAT YOU-,okay well we will send you- we will reimburse you for the amount of minute that you-,neutral,0.7033176422119141
+Ses03F_impro08_F013,-ON AVERAGE WOULD USE,-on average would use,neutral,0.7822447419166565
+Ses03F_impro08_F014,AND WE WILL PROBABLY SEND YOU A CALLING CARD I'M VERY SORRY YOU'RE JUST GOING TO HAVE TO BE PATIENT SIR,and we will probably send you a calling card i'm very sorry you're just go to have to be patient sir,neutral,0.535763680934906
+Ses03F_impro08_F015,NO WE DON'T JUST GIVE YOU THINGS WE'RE- WE'RE-,no we don't just give you thing we're- we're-,negative,0.535677969455719
+Ses03F_impro08_F016,WE COMPENSATING YOU FOR ALL YOUR-,we compensate you for all your-,neutral,0.6801644563674927
+Ses03F_impro08_F020,THREE DAYS,three day,neutral,0.6718459129333496
+Ses03F_impro08_F021,A DAY,a day,neutral,0.5598905682563782
+Ses03F_impro08_F022,I DON'T KNOW SIR,i don't know sir,neutral,0.6688827276229858
+Ses03F_impro08_F023,OH WELL I'M SORRY ABOUT THAT UMM- WE-,oh well i'm sorry about that umm- we-,negative,0.7204417586326599
+Ses03F_impro08_F024,WELL TEN HOURS WORTH OF MINUTES--,well ten hour worth of minutes--,neutral,0.7021417617797852
+Ses03F_impro08_F025,IS WHAT'S GOING TO HAPPEN,be what be go to happen,neutral,0.790094792842865
+Ses03F_impro08_F026,SIR,sir,neutral,0.5653384923934937
+Ses03F_impro08_F027,WHAT I WOULD LIKE WHAT I'M ADVISING YOU TO DO NOW IS JUST TO WRITE DOWN ALL OF YOUR PROBLEMS THAT YOU-YOU FEEL THAT--YOU KNOW HAVEN'T BEEN ADDRESSED FAX IT TO US-,what i would like what i'm advise you to do now be just to write down all of your problems that you - you feel that -- you know haven't be address fax it to us-,neutral,0.6340845227241516
+Ses03F_impro08_F028,AND WE WILL TAKE CARE OF IT IF ANYTHING HAPPENS BUT ALL WE CAN DO NOW IS ASK FOR YOUR PATIENCE,and we will take care of it if anything happens but all we can do now be ask for your patience,neutral,0.6711984872817993
+Ses03F_impro08_F029,OKAY THANK YOU FOR CALLING GOODBYE,okay thank you for call goodbye,positive,0.780672013759613
+Ses03F_impro06_F000,OKAY,okay,positive,0.4920317530632019
+Ses03F_impro06_F001,YEAH WOW,yeah wow,positive,0.8592538833618164
+Ses03F_impro06_F002,MMM HMM I NEVER KNEW IT WAS GOING TO BE THIS HARD YOU KNOW,mmm hmm i never know it be go to be this hard you know,negative,0.7061436772346497
+Ses03F_impro06_F003,IT'S WEIRD 'CAUSE IT'S LIKE YOU EXPECTED IT TO HAPPEN AND EVENTUALLY-,it be weird ' cause it be like you expect it to happen and eventually-,negative,0.6507460474967957
+Ses03F_impro06_F004,HE HAD CANCER YOU KNOW,he had cancer you know,neutral,0.7410328984260559
+Ses03F_impro06_F005,THEY THOUGHT HE GOT--WOULD GET BETTER AND HE DID AND THEN IT JUST- THINGS TURNED BAD,they think he got -- would get better and he do and then it just- thing turn bad,negative,0.8667110204696655
+Ses03F_impro06_F006,TURNED AROUND FOR THE WORST YOU KNOW,turn around for the worst you know,negative,0.9102891683578491
+Ses03F_impro06_F007,HE WAS AMAZING,he be amazing,positive,0.9644761085510254
+Ses03F_impro06_F008,I LOVED THAT BOY,i love that boy,positive,0.960386335849762
+Ses03F_impro06_F009,WE DID EVERYTHING TOGETHER YOU KNOW,we do everything together you know,positive,0.9144615530967712
+Ses03F_impro06_F010,IT'S WEIRD I THINK I FEEL SO ALONE YOU KNOW WHAT AM I GOING TO DO NOW NOW THAT HE'S GONE,it be weird i think i feel so alone you know what be i go to do now now that he be go,negative,0.9169742465019226
+Ses03F_impro06_F011,HE'S SO YOUNG IT SEEMS SO--,he be so young it seems so--,positive,0.5796306133270264
+Ses03F_impro06_F012,SO WRONG IN SO MANY WAYS,so wrong in so many way,negative,0.9216916561126709
+Ses03F_impro06_F013,HIS POOR PARENTS YOU KNOW IT'S THEIR ONLY SON,his poor parent you know it be their only son,negative,0.5420454144477844
+Ses03F_impro06_F014,KIND OF A WHOLE YEAR I MEAN HE SUFFERED WITH THIS THIS MONSTER THIS THING THIS DISEASE,kind of a whole year i mean he suffer with this this monster this thing this disease,negative,0.9289546012878418
+Ses03F_impro06_F015,I KNOW HE WAS HE HAD SO MUCH GOING FOR HIM,i know he be he had so much go for him,positive,0.6736325025558472
+Ses03F_impro06_F016,SO HANDSOME SO YOUNG SO GIFTED,so handsome so young so gifted,positive,0.9591019749641418
+Ses03F_impro06_F017,SO TALENTED,so talente,positive,0.8740461468696594
+Ses03F_impro06_F018,SUCH A SWEET PERSON YOU KNOW,such a sweet person you know,positive,0.8858633637428284
+Ses03F_impro06_F019,NOT VERY GOOD,not very good,negative,0.7727232575416565
+Ses03F_impro06_F020,CAN YOU IMAGINE THOUGH YOU KNOW AS A PARENT JUST LOSING A KID TWENTY-TWO YEARS OLD,can you imagine though you know as a parent just lose a kid twenty - two year old,negative,0.6622970700263977
+Ses03F_impro06_F021,IT'S WEIRD I KIND OF FEEL LIKE PART OF ME IS GONE NOW YOU KNOW,it be weird i kind of feel like part of me be go now you know,negative,0.8976296186447144
+Ses03F_impro06_F022,BECAUSE THIS OTHER HALF WAS JUST KIND OF LIKE RIPPED AWAY,because this other half be just kind of like ripped away,neutral,0.5761018991470337
+Ses03F_impro06_F023,HE WAS LIKE HE WAS LIKE MY BROTHER YOU KNOW,he be like he be like my brother you know,neutral,0.5122565031051636
+Ses03F_impro06_F024,HE WAS MY BROTHER,he be my brother,neutral,0.595376193523407
+Ses03F_impro06_F025,JUST SEEMS SO UNFAIR IS THE WAY IT IS,just seems so unfair be the way it be,negative,0.8652715086936951
+Ses03F_impro06_F026,YOU KNOW HE HAD THAT REALLY PRETTY GIRLFRIEND FOR LIKE ABOUT A YEAR AND-,you know he have that really pretty girlfriend for like about a year and-,neutral,0.527827262878418
+Ses03F_impro06_F027,KELLY KELLY UVENY,kelly kelly uveny,neutral,0.7659755945205688
+Ses03F_impro06_F028,THEY TALKED ABOUT GETTING MARRIED AND--,they talked about get married and--,neutral,0.8211075663566589
+Ses03F_impro06_F029,YEAH BUT THEN WHEN HE GOT CANCER AND IT GOT BAD YOU KNOW SHE JUST TOOK OFF AND-,yeah but then when he get cancer and it got bad you know she just take off and-,negative,0.7317555546760559
+Ses03F_impro06_F030,SO I WAS THERE FOR HIM,so i be there for him,positive,0.7316255569458008
+Ses03F_impro06_F031,YEAH GOD I LOVED THAT KID,yeah god i love that kid,positive,0.9540935754776001
+Ses03F_impro06_F032,YEAH,yeah,positive,0.5583856701850891
+Ses03F_impro06_F033,JOE DO YOU THINK HE KNEW I LOVED HIM,joe do you think he know i love him,positive,0.6956397294998169
+Ses03F_impro06_F034,I NEVER TOLD HIM I LOVE YOU BUT-,i never tell him i love you but-,neutral,0.5244945883750916
+Ses03F_impro06_F035,I LOVED HIM SO MUCH,i love him so much,positive,0.941650390625
+Ses03M_script01_3_F004,NO I'M NOT SORRY BUT I'M NOT GOING TO STAY,no i'm not sorry but i'm not go to stay,negative,0.8316085338592529
+Ses03M_script01_3_F006,LOOK,look,neutral,0.5286065340042114
+Ses03M_script01_3_F007,YOU SAW THE WAY THAT SHE ACTED AND THEN WELL I MEAN YOU YOU WERE ACTING KIND OF,you see the way that she act and then well i mean you you be act kind of,neutral,0.8460721373558044
+Ses03M_script01_3_F008,WELL I DON'T KNOW EMBARRASSED OF HER SINCE I CAME,well i don't know embarrassed of she since i come,negative,0.6120262742042542
+Ses03M_script01_3_F011,WELL,well,positive,0.5280418395996094
+Ses03M_script01_3_F012,I GUESS THAT'S WHY I CAME,i guess that be why i come,neutral,0.6612433195114136
+Ses03M_script01_3_F013,LOOK I'VE BEEN READY FOR A LONG LONG TIME NOW,look i've be ready for a long long time now,positive,0.7447676658630371
+Ses03M_script01_3_F014,LOOK I ALMOST GOT MARRIED TWO YEARS AGO,look i almost got married two year ago,positive,0.5122578740119934
+Ses03M_script01_3_F015,YOU STARTED TO WRITE ME,you start to write i,neutral,0.73075270652771
+Ses03M_script01_3_F016,EVERY DAY SINCE,every day since,neutral,0.6316466331481934
+Ses03M_script01_3_F017,I WAS WAITING FOR YOU CHRIS I MEAN TILL THEN YOU NEVER WROTE AND THEN WHEN YOU DID WHAT DID YOU SAY,i be wait for you chris i mean till then you never write and then when you do what do you say,negative,0.6761616468429565
+Ses03M_script01_3_F018,YOU'D ALWAYS BE SO AMBIGUOUS,you'd always be so ambiguous,positive,0.9405206441879272
+Ses03M_script01_3_F019,I'LL NEVER FORGIVE YOU FOR THAT,i'll never forgive you for that,positive,0.6738470196723938
+Ses03M_script01_3_F020,I MEAN WHY DID YOU WAIT ALL THESE YEARS THERE I WAS SITTING AROUND AND WONDERING IF I WAS CRAZY FOR THINKING ABOUT YOU,i mean why do you wait all these year there i be sit around and wonder if i be crazy for think about you,negative,0.5407660603523254
+Ses03M_script01_3_F021,NOT LIKE THAT YOU'RE NOT,not like that you're not,negative,0.6728439331054688
+Ses03M_script01_3_F029,HOW MANY,how many,neutral,0.7199736833572388
+Ses03M_script01_3_F030,GEEZ,geez,neutral,0.45183321833610535
+Ses03M_script01_3_F031,AND YOU STILL FEEL THAT WAY,and you still feel that way,negative,0.6781070232391357
+Ses03M_script01_3_F033,THAT INCLUDES ME TOO I MEAN AND THE MONEY YOU HAVE RIGHT TO THAT MONEY YOUR FATHER PUT PLANES UP IN THE AIR GOOD PLANES AND HE DESERVES IT YOU SHOULD BE PROUD OF THAT A MAN SHOULD BE PAID FOR THAT,that include i too i mean and the money you have right to that money your father put planes up in the air good planes and he deserve it you should be proud of that a man should be pay for that,positive,0.8741806745529175
+Ses03M_script01_3_F034,WHAT AM I GOING TO DO WITH A FORTUNE,what be i go to do with a fortune,negative,0.4796069860458374
+Ses03F_impro01_F002,WHAT'S WRONG,what be wrong,negative,0.7128464579582214
+Ses03M_script03_2_F000,OH COME ON YOU KNEW THERE WAS NOTHING IN THAT,oh come on you know there be nothing in that,negative,0.6503161191940308
+Ses03M_script03_2_F001,PRESENTS A TRIVIAL LITTLE BROACH,present a trivial little broach,neutral,0.7011663913726807
+Ses03M_script03_2_F003,NO I DIDN'T YOU MADE UP THE WHOLE THING IN YOUR JEALOUS IMAGINATION,no i didn't you make up the whole thing in your jealous imagination,negative,0.7313957810401917
+Ses03M_script03_2_F004,JUST A LITTLE PERHAPS BUT NOTHING SERIOUS,just a little perhaps but nothing serious,negative,0.5287528038024902
+Ses03M_script03_2_F006,WELL IT DIDN'T HARM HIM IN FACT IT PLEASURED HIM A LOT AND IT DIDN'T HURT ME,well it didn't harm him in fact it pleasure him a lot and it didn't hurt i,positive,0.7063053250312805
+Ses03M_script03_2_F010,I DON'T KNOW WHY YOU WANT IT YOU'VE ALREADY HAD TWO GLASSES,i don't know why you want it you've already had two glass,negative,0.6491409540176392
+Ses03M_script03_2_F011,I DON'T SEE WHAT YOU HAVE TO GO ON AND ON WITH THIS KIND OF THING,i don't see what you have to go on and on with this kind of thing,negative,0.8686246871948242
+Ses03M_script03_2_F012,IT'S BECOME A HABIT WITH YOU,it be become a habit with you,neutral,0.5509171485900879
+Ses03M_script03_2_F014,WHAT,what,neutral,0.4779629409313202
+Ses03M_script03_2_F016,NO JUST MAKING MYSELF BEAUTIFUL FOR YOU,no just make myself beautiful for you,positive,0.8576690554618835
+Ses03M_script03_2_F017,THAT'S THE WOMAN'S JOB TO LURE THE MAN WATCH ME A MOMENT WON'T YOU,that be the woman 's job to lure the man watch i a moment won't you,neutral,0.7282086610794067
+Ses03M_script03_2_F024,ADDERS DON'T SNAP THEY STING,adder don't snap they sting,neutral,0.5193572640419006
+Ses03M_script03_2_F025,THEY STING,they sting,neutral,0.7056545615196228
+Ses03M_script03_2_F028,MIND YOUR BUSINESS,mind your business,neutral,0.6826290488243103
+Ses03M_script03_2_F029,YOU'RE QUITE INSUFFERABLE I EXPECT IT'S BECAUSE YOU'RE DRUNK,you're quite insufferable i expect it be because you're drunk,negative,0.6678968667984009
+Ses03M_script03_2_F030,YOU'VE ALWAYS HAD A WEAK HEAD,you've always had a weak head,negative,0.8011330366134644
+Ses03M_script03_2_F031,ON THE CONTRARY A CHILD OF TWO CAN GET VIOLENTLY DRUNK OFF JUST ONE GLASS OF BRANDY,on the contrary a child of two can get violently drunk off just one glass of brandy,neutral,0.6035440564155579
+Ses03M_script03_2_F032,SHUT UP,shut up,neutral,0.4842180907726288
+Ses03M_script03_2_F033,NOT VERY FUNNY DEAR IN FACT MAYBE YOU BETTER HAVE SOME MORE BRANDY,not very funny dear in fact maybe you better have some more brandy,negative,0.9414808750152588
+Ses03M_script03_2_F036,THEY ARE AWAY IN TUNIS,they be away in tunis,neutral,0.7718794345855713
+Ses03M_script03_2_F038,VERY WELL IF YOU INSIST ON BEING A BOORISH AND IDIOTIC,very well if you insist on be a boorish and idiotic,negative,0.8358352184295654
+Ses03M_script03_2_F039,YOU ARE FAR TOO TEMPERAMENTAL TRY TO CONTROL YOURSELF,you be far too temperamental try to control yourself,negative,0.7551895976066589
+Ses03M_script03_2_F040,GO AWAY GO AWAY I HATE YOU,go away go away i hate you,negative,0.9146950840950012
+Ses03M_script03_2_F041,I HATE YOU LISTEN I'M SICK AND TIRED OF LISTENING TO YOU YOU SADISTIC BULLY,i hate you listen i'm sick and tired of listen to you you sadistic bully,negative,0.9587415456771851
+Ses03M_script03_2_F042,THIS IS THE END UNDERSTAND THIS IS THE END HERE AND NOW FOREVER AND ALWAYS,this be the end understand this be the end here and now forever and always,positive,0.46818476915359497
+Ses03M_script03_2_F043,OH YES I AM YES I AM AND YOU CAN'T STOP ME,oh yes i be yes i be and you can't stop i,positive,0.9663413166999817
+Ses03M_script03_2_F044,LISTEN YOU'RE A CRUEL FIEND AND I HATE LOATHE YOU THANK GOD FINALLY FINALLY THANK GOD I'VE REALIZED JUST HOW HORRIBLE YOU ARE--AND MARRY YOU MARRY YOU NEVER I WILL NEVER MARRY YOU I WILL DIE DIE IN TORMENT-,listen you're a cruel fiend and i hate loathe you thank god finally finally thank god i've realized just how horrible you be -- and marry you marry you never i will never marry you i will die die in torment-,negative,0.9574439525604248
+Ses03M_script03_2_F045,BEAST BRUTE CAD SWINE BEAST BEAST BRUTE DEVIL SORRY,beast brute cad swine beast beast brute devil sorry,negative,0.6099943518638611
+Ses03M_impro05a_F000,CAN I HELP YOU SIR,can i help you sir,neutral,0.5875544548034668
+Ses03M_impro05a_F001,WELL LET ME JUST CHECK ON THAT FOR YOU WHERE ARE YOU COMING--,well let i just check on that for you where be you coming--,neutral,0.7892045974731445
+Ses03M_impro05a_F002,SIR YES IT'S IN MARYLAND IT'S OKAYWELL I'MJUST LET ME CHECK HERE,sir yes it be in maryland it 's okaywell i'mjust let i check here,positive,0.6717170476913452
+Ses03M_impro05a_F005,OKAY AND THIS IS DIRECT FLIGHT,okay and this be direct flight,neutral,0.6977514028549194
+Ses03M_impro05a_F007,YOU'RE AT ME AND I'M GOING TO TRY TO HELP YOU OUT SIR BUT YOU JUST HAVE TO COOPERATE WITH ME--,you're at me and i'm go to try to help you out sir but you just have to cooperate with me--,neutral,0.6890645027160645
+Ses03M_impro05a_F008,HOW MANY PIECES OF LUGGAGE DO YOU HAVE CHECKED IN,how many piece of luggage do you have checked in,negative,0.5882907509803772
+Ses03M_impro05a_F009,EIGHT PIECES OF LUGGAGE OKAY,eight piece of luggage okay,neutral,0.6423177719116211
+Ses03M_impro05a_F011,I'M SORRY SIR,i'm sorry sir,negative,0.6172967553138733
+Ses03M_impro05a_F012,I'M VERY SORRY BUT LET'S CHECK ON THIS IMMEDIATELY THIS IS DEFINITELY AN EMERGENCY IT SEEMS--,i'm very sorry but let us check on this immediately this be definitely an emergency it seems--,negative,0.7664253115653992
+Ses03M_impro05a_F014,YES--IT IS,yes -- it be,positive,0.7311493158340454
+Ses03M_impro05a_F016,OKAY WE WILL FIND YOUR LUGGAGE APPARENTLY BECAUSE IT SOMEHOWWHAT FLIGHT YOU WERE TAKING YOU WERE ON DELTA,okay we will find your luggage apparently because it somehowwhat flight you be take you be on delta,neutral,0.790285050868988
+Ses03M_impro05a_F018,SIR I JUSTYOU NEED TO CALM DOWN IS WHAT NEEDS TO HAPPEN RIGHT NOW,sir i justyou need to calm down be what needs to happen right now,neutral,0.5687729716300964
+Ses03M_impro05a_F021,PLEASE PLEASE,please please,positive,0.7254237532615662
+Ses03M_impro05a_F023,OKAY WE CAN GET IT HERE IN ABOUT SEVEN TO TEN BUSINESS DAYS,okay we can get it here in about seven to ten business day,positive,0.5940220952033997
+Ses03M_impro05a_F024,YES WELL BECAUSE--,yes well because--,positive,0.8194271922111511
+Ses03M_impro05a_F025,I AM THE MANAGER SIR,i be the manager sir,neutral,0.7106059193611145
+Ses03M_impro05a_F028,WHAT IS YOUR NAME,what be your name,neutral,0.7252327799797058
+Ses03M_script02_2_F000,ABOUT WHAT,about what,neutral,0.6368990540504456
+Ses03M_script02_2_F001,IT'S RIDICULOUS,it be ridiculous,positive,0.47339901328086853
+Ses03M_script02_2_F002,IT'S PR I MEAN SOMEBODY SOLD YOU A GOOD BILL ABOUT THIS WONDERFUL EVENT THAT GOING TO HAPPEN ON THE BEACH,it be pr i mean somebody sell you a good bill about this wonderful event that go to happen on the beach,positive,0.8813043236732483
+Ses03M_script02_2_F003,YEAH EVERYONE ELSE WAS SOLD THE SAME THING I MEAN LOOK IT KEEPS US EXCITED IT KEEPS US COMING BACK FOR MORE AND YOU KNOW KEEPS US THINKING LIFE'S GOING TO START ANY MINUTE NOW,yeah everyone else be sell the same thing i mean look it keeps us excite it keeps us come back for more and you know keeps us thinking life be go to start any minute now,positive,0.8833135366439819
+Ses03M_script02_2_F004,LOOK I'M SORRY BUT IT'S STILL JUST FISH TO ME,look i'm sorry but it be still just fish to i,negative,0.6524955034255981
+Ses03M_script02_2_F009,OKAY TWICE IS AS MANY TIMES AS WE'VE TRIED AND THAT'S EVER,okay twice be as many times as we've try and that be ever,positive,0.7213205099105835
+Ses03M_script02_2_F011,AUGIE GOD DAMMIT DON'T ASK ME THAT YOU ALWAYS ASK ME THAT I HATE IT WHEN YOU ASK ME THAT IT'S INSULTING,augie god dammit don't ask i that you always ask i that i hate it when you ask i that it be insulting,negative,0.9156583547592163
+Ses03M_script02_2_F013,LISTEN I'VE WAITING MY ENTIRE LIFE ON THIS BEACH JUST STANDING THERE WAITING FOR THIS FISH TO SHOW UP AND THESE FISH NEVER SHOW UP,listen i've wait my entire life on this beach just stand there wait for this fish to show up and these fish never show up,negative,0.6279315948486328
+Ses03M_script02_2_F016,NO WE WON'T I MEAN GOD THIS ISN'T ABOUT THE FISH AUGIE,no we won't i mean god this isn't about the fish augie,negative,0.8022891879081726
+Ses03M_script02_2_F018,WE THOUGHT I WAS PREGNANT,we think i be pregnant,neutral,0.6915268898010254
+Ses03M_script02_2_F023,I'D RATHER NOT REMEMBER SOMETHING,i'd rather not remember something,negative,0.5898328423500061
+Ses03M_script02_2_F024,RATHER NOT HOPE FOR SOMETHING,rather not hope for something,negative,0.7351785898208618
+Ses03M_script02_2_F025,NO,no,neutral,0.4852931797504425
+Ses03M_script02_2_F031,I WANT THINGS TO TURN OUT THE WAY THAT THEY'RE SUPPOSED TO BE,i want thing to turn out the way that they're suppose to be,neutral,0.5019223093986511
+Ses03M_script02_2_F033,CAUSE EVERYTHING ISN'T ANYTHING LIKE I THOUGHT IT WOULD BE,cause everything isn't anything like i thought it would be,negative,0.8496750593185425
+Ses03M_script02_2_F034,THIS IS JUST THIS YOU KNOW I MEAN IT'S A LOT AND EVERYTHING BUT IT ISN'T SOMEWHERE ELSE DO YOU KNOW WHAT I'M TRYING TO SAY,this be just this you know i mean it be a lot and everything but it isn't somewhere else do you know what i'm try to say,negative,0.6325971484184265
+Ses03M_script02_2_F035,I KNOW YOU ARE AUGIE I KNOW YOU WANTED THIS EVENING TO BE NICE,i know you be augie i know you want this evening to be nice,positive,0.621429979801178
+Ses03M_script02_2_F036,I CAN'T HELP THINKING ABOUT BEING SOMEWHERE ELSE,i can't help think about be somewhere else,negative,0.6187251210212708
+Ses03M_script02_2_F037,I DIDN'T SAY THAT,i didn't say that,neutral,0.5197877883911133
+Ses03M_script02_2_F038,AUGIE WHATEVER I'M DOING I'D RATHER BE DOING WITH YOU,augie whatever i'm do i'd rather be do with you,neutral,0.4809871315956116
+Ses03M_script02_2_F040,IF ANYBODY WANTS TO BE WITH ANYBODY ELSE IT'S PROBABLY YOU PROBABLY SOMEBODY WHO ENJOYS HERSELF A LITTLE MORE AND IS NOT SO HARD,if anybody want to be with anybody else it be probably you probably somebody who enjoy herself a little more and be not so hard,neutral,0.6100529432296753
+Ses03M_script02_2_F041,WELL I GUESS THIS IS THE WRONG SPOT FOR THE RIGHT PEOPLE,well i guess this be the wrong spot for the right people,negative,0.8483745455741882
+Ses03M_script02_2_F042,YEAH I NOTICED THAT IT'S REAL PRETTY ON THE WATER,yeah i noticed that it be real pretty on the water,positive,0.6314935684204102
+Ses03M_script02_2_F044,OH YOU BROUGHT REFRESHMENTS,oh you brought refreshment,neutral,0.776962399482727
+Ses03M_script02_2_F046,NO I'M BEGINNING TO THINK YOU MIGHT BE RIGHT,no i'm begin to think you might be right,neutral,0.5857627391815186
+Ses03M_script02_2_F047,I THINK THIS MAY BE THE PLACE FOR US AFTER ALL,i think this may be the place for us after all,positive,0.8123183846473694
+Ses03M_script02_2_F048,I AM SORRY AUGIE,i be sorry augie,negative,0.7611525058746338
+Ses03M_script02_2_F049,OR NOT,or not,neutral,0.6562333106994629
+Ses03F_script01_2_F000,WHY DID YOU INVITE HER HERE,why do you invite she here,negative,0.8120394349098206
+Ses03F_script01_2_F001,SHE'S BEEN IN NEW YORK FOR THREE-AND-A-HALF YEARS SHE DON'T JUST SUDDENLY COME AND-,she be be in new york for three - and - a - half year she don't just suddenly come and-,neutral,0.7492808103561401
+Ses03F_script01_2_F002,YOU DON'T TRAVEL SEVEN HUNDRED MILES JUST TO SEE,you don't travel seven hundred mile just to see,negative,0.5164893865585327
+Ses03F_script01_2_F004,IT'S GOT THAT ABOUT IT,it be got that about it,neutral,0.5373405814170837
+Ses03F_script01_2_F006,SHE'S NOT LARRY'S GIRL SHE KNOWS THAT,she be not larry ' girl she knows that,neutral,0.5985203981399536
+Ses03F_script01_2_F011,SHE'S FAITHFUL AS A ROCK DON'T YOU KNOW IN MY WORST MOMENTS I CAN THINK OF HER-,she 's faithful as a rock don't you know in my worst moment i can think of her-,positive,0.6218264698982239
+Ses03F_script01_2_F013,NOBODY IN MY HOUSE BETTER EVER DARE-DARE TO CHALLENGE HER FAITH MAYBE STRANGERS BUT NOT HIS FATHER NOT HIS BROTHER,nobody in my house better ever dare - dare to challenge her faith maybe stranger but not his father not his brother,negative,0.8886305093765259
+Ses03F_script01_2_F015,DON'T DON'T LAUGH AT ME DON'T LAUGH AT ME,don't don't laugh at i don't laugh at i,negative,0.8138084411621094
+Ses03F_script01_2_F016,LOOK AT IT BECAUSE WHY WHEN SHE CAME HERE AND SHE SLEPT IN HIS ROOM THE MEMORIAL BROKE INTO PIECES LOOK AT IT LOOK AT IT JOE,look at it because why when she come here and she slept in his room the memorial broke into piece look at it look at it joe,negative,0.5918198823928833
+Ses03F_script01_2_F018,NO YOU'VE GOT TO BELIEVE,no you've got to believe,neutral,0.5262774229049683
+Ses03F_script01_2_F020,YOU GOT TO KEEP BELIEVING,you got to keep believing,positive,0.4869631826877594
+Ses03F_script01_2_F021,I CAN'T HELP IT,i can't help it,neutral,0.5407979488372803

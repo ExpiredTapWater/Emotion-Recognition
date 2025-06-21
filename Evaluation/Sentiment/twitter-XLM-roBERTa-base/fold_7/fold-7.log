@@ -1,0 +1,43 @@
+[2025-01-30 15:40:23,318][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-30 15:40:23,319][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-30 15:40:26,938][evaluate.py][line:184][INFO] ----- Models -----
+[2025-01-30 15:40:26,938][evaluate.py][line:185][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-01-30 15:40:26,938][evaluate.py][line:186][INFO] ----- Parameters -----
+[2025-01-30 15:40:26,938][evaluate.py][line:187][INFO] Seed: 22
+[2025-01-30 15:40:26,938][evaluate.py][line:188][INFO] Fold: 7
+[2025-01-30 15:40:26,938][evaluate.py][line:190][INFO] ----- NLP Options -----
+[2025-01-30 15:40:26,938][evaluate.py][line:192][INFO] Apply Preprocessing: YES
+[2025-01-30 15:40:26,939][evaluate.py][line:193][INFO] Remove Contractions: True
+[2025-01-30 15:40:26,939][evaluate.py][line:194][INFO] Apply Lemmantization: True
+[2025-01-30 15:40:26,939][evaluate.py][line:195][INFO] Remove Numbers: True
+[2025-01-30 15:40:26,939][evaluate.py][line:196][INFO] Remove Stopwords: False
+[2025-01-30 15:40:26,939][evaluate.py][line:199][INFO] --------------------
+[2025-01-30 15:40:28,603][module_wrapper.py][line:149][WARNING] From C:\Users\ChenYi\anaconda3\envs\aai3001\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-01-30 15:40:32,033][evaluate.py][line:248][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-01-30 15:40:32,040][evaluate.py][line:305][INFO] Mode: train Fold: 7
+[2025-01-30 15:40:32,048][evaluate.py][line:305][INFO] Mode: val Fold: 7
+[2025-01-30 15:40:32,054][evaluate.py][line:305][INFO] Mode: test Fold: 7
+[2025-01-30 15:40:32,054][evaluate.py][line:351][INFO] Dataset Loaded
+[2025-01-30 15:40:40,187][evaluate.py][line:465][INFO] Done processing 503 files
+[2025-01-30 15:40:40,189][evaluate.py][line:476][INFO] Predictions saved to ./fold_7\predictions.csv
+[2025-01-30 15:40:40,200][evaluate.py][line:492][INFO] Now calculating accuracy
+[2025-01-30 15:40:40,209][evaluate.py][line:533][INFO] Test UA: 0.5328555281630027
+[2025-01-30 15:40:40,209][evaluate.py][line:535][INFO] Confusion Matrix:
+[2025-01-30 15:40:40,210][evaluate.py][line:536][INFO] 
+          negative  neutral  positive
+negative        97       46        28
+neutral         90      123        52
+positive        16       13        38
+[2025-01-30 15:40:40,217][evaluate.py][line:540][INFO] Classification Report:
+[2025-01-30 15:40:40,217][evaluate.py][line:541][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.48      0.57      0.52       171
+     neutral       0.68      0.46      0.55       265
+    positive       0.32      0.57      0.41        67
+
+    accuracy                           0.51       503
+   macro avg       0.49      0.53      0.49       503
+weighted avg       0.56      0.51      0.52       503
+

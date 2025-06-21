@@ -1,0 +1,78 @@
+[2025-01-12 21:06:56,088][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-12 21:06:56,089][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-12 21:06:57,214][evaluate.py][line:184][INFO] ----- Models -----
+[2025-01-12 21:06:57,214][evaluate.py][line:185][INFO] Sentiment Model: models/gemini-1.5-flash
+[2025-01-12 21:06:57,215][evaluate.py][line:186][INFO] ----- Parameters -----
+[2025-01-12 21:06:57,215][evaluate.py][line:187][INFO] Seed: 22
+[2025-01-12 21:06:57,215][evaluate.py][line:188][INFO] Fold: 7
+[2025-01-12 21:06:57,215][evaluate.py][line:190][INFO] ----- NLP Options -----
+[2025-01-12 21:06:57,215][evaluate.py][line:198][INFO] Apply Preprocessing: NO
+[2025-01-12 21:06:57,215][evaluate.py][line:199][INFO] --------------------
+[2025-01-12 21:06:57,225][evaluate.py][line:258][INFO] ----- Gemini API -----
+[2025-01-12 21:06:57,226][evaluate.py][line:259][INFO] Model: models/gemini-1.5-flash
+[2025-01-12 21:06:57,226][evaluate.py][line:260][INFO] Current Token Count: 0
+[2025-01-12 21:06:57,226][evaluate.py][line:261][INFO] --------------------
+[2025-01-12 21:06:57,233][evaluate.py][line:318][INFO] Mode: test Fold: 7
+[2025-01-12 21:06:57,234][evaluate.py][line:364][INFO] Dataset Loaded
+[2025-01-12 21:07:21,726][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:07:21,726][evaluate.py][line:489][INFO] [Files Processed] 55 of 503
+[2025-01-12 21:07:21,726][evaluate.py][line:490][INFO] [Total Tokens] 3323
+[2025-01-12 21:07:21,726][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:07:44,585][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:07:44,586][evaluate.py][line:489][INFO] [Files Processed] 110 of 503
+[2025-01-12 21:07:44,586][evaluate.py][line:490][INFO] [Total Tokens] 6398
+[2025-01-12 21:07:44,586][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:08:07,572][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:08:07,572][evaluate.py][line:489][INFO] [Files Processed] 165 of 503
+[2025-01-12 21:08:07,572][evaluate.py][line:490][INFO] [Total Tokens] 9512
+[2025-01-12 21:08:07,572][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:08:30,334][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:08:30,334][evaluate.py][line:489][INFO] [Files Processed] 220 of 503
+[2025-01-12 21:08:30,334][evaluate.py][line:490][INFO] [Total Tokens] 12595
+[2025-01-12 21:08:30,335][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:08:53,205][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:08:53,205][evaluate.py][line:489][INFO] [Files Processed] 275 of 503
+[2025-01-12 21:08:53,205][evaluate.py][line:490][INFO] [Total Tokens] 15576
+[2025-01-12 21:08:53,205][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:09:16,219][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:09:16,219][evaluate.py][line:489][INFO] [Files Processed] 330 of 503
+[2025-01-12 21:09:16,219][evaluate.py][line:490][INFO] [Total Tokens] 18341
+[2025-01-12 21:09:16,219][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:09:39,544][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:09:39,545][evaluate.py][line:489][INFO] [Files Processed] 385 of 503
+[2025-01-12 21:09:39,545][evaluate.py][line:490][INFO] [Total Tokens] 21261
+[2025-01-12 21:09:39,545][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:10:02,353][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:10:02,353][evaluate.py][line:489][INFO] [Files Processed] 440 of 503
+[2025-01-12 21:10:02,354][evaluate.py][line:490][INFO] [Total Tokens] 24411
+[2025-01-12 21:10:02,354][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:10:25,194][evaluate.py][line:488][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:10:25,194][evaluate.py][line:489][INFO] [Files Processed] 495 of 503
+[2025-01-12 21:10:25,194][evaluate.py][line:490][INFO] [Total Tokens] 27337
+[2025-01-12 21:10:25,194][evaluate.py][line:491][INFO] --------------------------------------
+[2025-01-12 21:10:28,920][evaluate.py][line:493][INFO] Done processing 503 files
+[2025-01-12 21:10:28,920][evaluate.py][line:495][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 21:10:28,920][evaluate.py][line:496][INFO] [Files Processed] 503 of 503
+[2025-01-12 21:10:28,921][evaluate.py][line:497][INFO] [Total Tokens] 27815
+[2025-01-12 21:10:28,921][evaluate.py][line:498][INFO] --------------------------------------
+[2025-01-12 21:10:28,931][evaluate.py][line:509][INFO] Predictions saved to ./fold_7\predictions.csv
+[2025-01-12 21:10:28,940][evaluate.py][line:525][INFO] Now calculating accuracy
+[2025-01-12 21:10:28,950][evaluate.py][line:568][INFO] Test UA: 0.5384013954073835
+[2025-01-12 21:10:28,950][evaluate.py][line:570][INFO] Confusion Matrix:
+[2025-01-12 21:10:28,952][evaluate.py][line:571][INFO] 
+          negative  neutral  positive
+negative       132       70        23
+neutral         48       83        36
+positive        23       29        59
+[2025-01-12 21:10:28,960][evaluate.py][line:575][INFO] Classification Report:
+[2025-01-12 21:10:28,960][evaluate.py][line:576][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.65      0.59      0.62       225
+     neutral       0.46      0.50      0.48       167
+    positive       0.50      0.53      0.52       111
+
+    accuracy                           0.54       503
+   macro avg       0.54      0.54      0.54       503
+weighted avg       0.55      0.54      0.55       503
+

@@ -1,0 +1,271 @@
+[2025-06-03 20:36:54,448][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 0 ------
+[2025-06-03 20:36:54,610][3446969155.py][line:46][INFO] Test UA: 0.5271759241034524
+[2025-06-03 20:36:54,611][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:54,615][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative       111       40        40
+neutral        103      118        59
+positive        11       13        33
+[2025-06-03 20:36:54,630][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:54,631][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.49      0.58      0.53       191
+     neutral       0.69      0.42      0.52       280
+    positive       0.25      0.58      0.35        57
+
+    accuracy                           0.50       528
+   macro avg       0.48      0.53      0.47       528
+weighted avg       0.57      0.50      0.51       528
+
+[2025-06-03 20:36:54,645][3446969155.py][line:68][INFO] Positive Recall:   0.5789473684210527
+[2025-06-03 20:36:54,646][3446969155.py][line:69][INFO] Positive F1-score: 0.3492063492063492
+[2025-06-03 20:36:54,647][3446969155.py][line:70][INFO] Neutral Recall:    0.42142857142857143
+[2025-06-03 20:36:54,647][3446969155.py][line:71][INFO] Neutral F1-score:  0.5232815964523282
+[2025-06-03 20:36:54,648][3446969155.py][line:72][INFO] Negative Recall:   0.581151832460733
+[2025-06-03 20:36:54,649][3446969155.py][line:73][INFO] Negative F1-score: 0.5336538461538461
+[2025-06-03 20:36:54,657][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 1 ------
+[2025-06-03 20:36:54,730][3446969155.py][line:46][INFO] Test UA: 0.5405582218408987
+[2025-06-03 20:36:54,731][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:54,733][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative       106       49        35
+neutral         73      154        75
+positive        19       10        36
+[2025-06-03 20:36:54,748][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:54,748][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.54      0.56      0.55       190
+     neutral       0.72      0.51      0.60       302
+    positive       0.25      0.55      0.34        65
+
+    accuracy                           0.53       557
+   macro avg       0.50      0.54      0.50       557
+weighted avg       0.60      0.53      0.55       557
+
+[2025-06-03 20:36:54,763][3446969155.py][line:68][INFO] Positive Recall:   0.5538461538461539
+[2025-06-03 20:36:54,765][3446969155.py][line:69][INFO] Positive F1-score: 0.3412322274881517
+[2025-06-03 20:36:54,766][3446969155.py][line:70][INFO] Neutral Recall:    0.5099337748344371
+[2025-06-03 20:36:54,767][3446969155.py][line:71][INFO] Neutral F1-score:  0.5980582524271845
+[2025-06-03 20:36:54,767][3446969155.py][line:72][INFO] Negative Recall:   0.5578947368421052
+[2025-06-03 20:36:54,768][3446969155.py][line:73][INFO] Negative F1-score: 0.5463917525773195
+[2025-06-03 20:36:54,778][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 2 ------
+[2025-06-03 20:36:54,924][3446969155.py][line:46][INFO] Test UA: 0.5102301870546735
+[2025-06-03 20:36:54,925][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:54,927][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative        90       42        35
+neutral         77       71        64
+positive        13       22        67
+[2025-06-03 20:36:54,940][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:54,940][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.50      0.54      0.52       167
+     neutral       0.53      0.33      0.41       212
+    positive       0.40      0.66      0.50       102
+
+    accuracy                           0.47       481
+   macro avg       0.48      0.51      0.48       481
+weighted avg       0.49      0.47      0.47       481
+
+[2025-06-03 20:36:54,956][3446969155.py][line:68][INFO] Positive Recall:   0.6568627450980392
+[2025-06-03 20:36:54,957][3446969155.py][line:69][INFO] Positive F1-score: 0.5
+[2025-06-03 20:36:54,958][3446969155.py][line:70][INFO] Neutral Recall:    0.33490566037735847
+[2025-06-03 20:36:54,959][3446969155.py][line:71][INFO] Neutral F1-score:  0.4092219020172911
+[2025-06-03 20:36:54,960][3446969155.py][line:72][INFO] Negative Recall:   0.5389221556886228
+[2025-06-03 20:36:54,961][3446969155.py][line:73][INFO] Negative F1-score: 0.5187319884726225
+[2025-06-03 20:36:54,969][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 3 ------
+[2025-06-03 20:36:55,105][3446969155.py][line:46][INFO] Test UA: 0.49340250827239673
+[2025-06-03 20:36:55,106][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:55,109][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative        70       63        49
+neutral         68      141        60
+positive        16       23        52
+[2025-06-03 20:36:55,122][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:55,123][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.45      0.38      0.42       182
+     neutral       0.62      0.52      0.57       269
+    positive       0.32      0.57      0.41        91
+
+    accuracy                           0.49       542
+   macro avg       0.47      0.49      0.47       542
+weighted avg       0.52      0.49      0.49       542
+
+[2025-06-03 20:36:55,137][3446969155.py][line:68][INFO] Positive Recall:   0.5714285714285714
+[2025-06-03 20:36:55,137][3446969155.py][line:69][INFO] Positive F1-score: 0.4126984126984127
+[2025-06-03 20:36:55,138][3446969155.py][line:70][INFO] Neutral Recall:    0.5241635687732342
+[2025-06-03 20:36:55,139][3446969155.py][line:71][INFO] Neutral F1-score:  0.5685483870967742
+[2025-06-03 20:36:55,139][3446969155.py][line:72][INFO] Negative Recall:   0.38461538461538464
+[2025-06-03 20:36:55,140][3446969155.py][line:73][INFO] Negative F1-score: 0.4166666666666667
+[2025-06-03 20:36:55,149][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 4 ------
+[2025-06-03 20:36:55,238][3446969155.py][line:46][INFO] Test UA: 0.5007029617317431
+[2025-06-03 20:36:55,238][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:55,240][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative       117       28        30
+neutral        119       94        63
+positive        28        8        35
+[2025-06-03 20:36:55,256][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:55,257][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.44      0.67      0.53       175
+     neutral       0.72      0.34      0.46       276
+    positive       0.27      0.49      0.35        71
+
+    accuracy                           0.47       522
+   macro avg       0.48      0.50      0.45       522
+weighted avg       0.57      0.47      0.47       522
+
+[2025-06-03 20:36:55,270][3446969155.py][line:68][INFO] Positive Recall:   0.49295774647887325
+[2025-06-03 20:36:55,271][3446969155.py][line:69][INFO] Positive F1-score: 0.35175879396984927
+[2025-06-03 20:36:55,271][3446969155.py][line:70][INFO] Neutral Recall:    0.34057971014492755
+[2025-06-03 20:36:55,272][3446969155.py][line:71][INFO] Neutral F1-score:  0.4630541871921182
+[2025-06-03 20:36:55,273][3446969155.py][line:72][INFO] Negative Recall:   0.6685714285714286
+[2025-06-03 20:36:55,274][3446969155.py][line:73][INFO] Negative F1-score: 0.5330296127562643
+[2025-06-03 20:36:55,282][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 5 ------
+[2025-06-03 20:36:55,416][3446969155.py][line:46][INFO] Test UA: 0.4513141367896931
+[2025-06-03 20:36:55,416][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:55,418][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative       111       53        42
+neutral        133      127        79
+positive        37       10        37
+[2025-06-03 20:36:55,434][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:55,436][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.40      0.54      0.46       206
+     neutral       0.67      0.37      0.48       339
+    positive       0.23      0.44      0.31        84
+
+    accuracy                           0.44       629
+   macro avg       0.43      0.45      0.41       629
+weighted avg       0.52      0.44      0.45       629
+
+[2025-06-03 20:36:55,451][3446969155.py][line:68][INFO] Positive Recall:   0.44047619047619047
+[2025-06-03 20:36:55,452][3446969155.py][line:69][INFO] Positive F1-score: 0.30578512396694213
+[2025-06-03 20:36:55,452][3446969155.py][line:70][INFO] Neutral Recall:    0.3746312684365782
+[2025-06-03 20:36:55,453][3446969155.py][line:71][INFO] Neutral F1-score:  0.48015122873345933
+[2025-06-03 20:36:55,453][3446969155.py][line:72][INFO] Negative Recall:   0.5388349514563107
+[2025-06-03 20:36:55,454][3446969155.py][line:73][INFO] Negative F1-score: 0.45585215605749485
+[2025-06-03 20:36:55,463][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 6 ------
+[2025-06-03 20:36:55,594][3446969155.py][line:46][INFO] Test UA: 0.4867593910314967
+[2025-06-03 20:36:55,595][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:55,597][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative       130       31        52
+neutral        116       42        83
+positive        21        3        50
+[2025-06-03 20:36:55,611][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:55,613][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.49      0.61      0.54       213
+     neutral       0.55      0.17      0.26       241
+    positive       0.27      0.68      0.39        74
+
+    accuracy                           0.42       528
+   macro avg       0.44      0.49      0.40       528
+weighted avg       0.49      0.42      0.39       528
+
+[2025-06-03 20:36:55,626][3446969155.py][line:68][INFO] Positive Recall:   0.6756756756756757
+[2025-06-03 20:36:55,627][3446969155.py][line:69][INFO] Positive F1-score: 0.3861003861003861
+[2025-06-03 20:36:55,628][3446969155.py][line:70][INFO] Neutral Recall:    0.17427385892116182
+[2025-06-03 20:36:55,629][3446969155.py][line:71][INFO] Neutral F1-score:  0.26498422712933756
+[2025-06-03 20:36:55,629][3446969155.py][line:72][INFO] Negative Recall:   0.6103286384976526
+[2025-06-03 20:36:55,630][3446969155.py][line:73][INFO] Negative F1-score: 0.5416666666666666
+[2025-06-03 20:36:55,639][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 7 ------
+[2025-06-03 20:36:55,771][3446969155.py][line:46][INFO] Test UA: 0.5328555281630027
+[2025-06-03 20:36:55,772][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:55,773][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative        97       46        28
+neutral         90      123        52
+positive        16       13        38
+[2025-06-03 20:36:55,788][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:55,789][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.48      0.57      0.52       171
+     neutral       0.68      0.46      0.55       265
+    positive       0.32      0.57      0.41        67
+
+    accuracy                           0.51       503
+   macro avg       0.49      0.53      0.49       503
+weighted avg       0.56      0.51      0.52       503
+
+[2025-06-03 20:36:55,802][3446969155.py][line:68][INFO] Positive Recall:   0.5671641791044776
+[2025-06-03 20:36:55,803][3446969155.py][line:69][INFO] Positive F1-score: 0.41081081081081083
+[2025-06-03 20:36:55,804][3446969155.py][line:70][INFO] Neutral Recall:    0.4641509433962264
+[2025-06-03 20:36:55,805][3446969155.py][line:71][INFO] Neutral F1-score:  0.5503355704697986
+[2025-06-03 20:36:55,806][3446969155.py][line:72][INFO] Negative Recall:   0.5672514619883041
+[2025-06-03 20:36:55,806][3446969155.py][line:73][INFO] Negative F1-score: 0.5187165775401069
+[2025-06-03 20:36:55,816][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 8 ------
+[2025-06-03 20:36:55,960][3446969155.py][line:46][INFO] Test UA: 0.5164416997062428
+[2025-06-03 20:36:55,961][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:55,963][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative       108       64        29
+neutral         88      134        81
+positive        14       23        49
+[2025-06-03 20:36:55,977][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:55,978][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.51      0.54      0.53       201
+     neutral       0.61      0.44      0.51       303
+    positive       0.31      0.57      0.40        86
+
+    accuracy                           0.49       590
+   macro avg       0.48      0.52      0.48       590
+weighted avg       0.53      0.49      0.50       590
+
+[2025-06-03 20:36:55,993][3446969155.py][line:68][INFO] Positive Recall:   0.5697674418604651
+[2025-06-03 20:36:55,993][3446969155.py][line:69][INFO] Positive F1-score: 0.4
+[2025-06-03 20:36:55,995][3446969155.py][line:70][INFO] Neutral Recall:    0.44224422442244227
+[2025-06-03 20:36:55,996][3446969155.py][line:71][INFO] Neutral F1-score:  0.5114503816793893
+[2025-06-03 20:36:55,996][3446969155.py][line:72][INFO] Negative Recall:   0.5373134328358209
+[2025-06-03 20:36:55,997][3446969155.py][line:73][INFO] Negative F1-score: 0.5255474452554745
+[2025-06-03 20:36:56,007][3446969155.py][line:3][INFO] ------ Now calculating accuracy for fold 9 ------
+[2025-06-03 20:36:56,139][3446969155.py][line:46][INFO] Test UA: 0.5189547530041053
+[2025-06-03 20:36:56,139][3446969155.py][line:48][INFO] Confusion Matrix:
+[2025-06-03 20:36:56,141][3446969155.py][line:49][INFO] 
+          negative  neutral  positive
+negative       103       41        77
+neutral         79      110       113
+positive        23       12        93
+[2025-06-03 20:36:56,157][3446969155.py][line:53][INFO] Classification Report:
+[2025-06-03 20:36:56,158][3446969155.py][line:54][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.50      0.47      0.48       221
+     neutral       0.67      0.36      0.47       302
+    positive       0.33      0.73      0.45       128
+
+    accuracy                           0.47       651
+   macro avg       0.50      0.52      0.47       651
+weighted avg       0.55      0.47      0.47       651
+
+[2025-06-03 20:36:56,174][3446969155.py][line:68][INFO] Positive Recall:   0.7265625
+[2025-06-03 20:36:56,174][3446969155.py][line:69][INFO] Positive F1-score: 0.45255474452554745
+[2025-06-03 20:36:56,175][3446969155.py][line:70][INFO] Neutral Recall:    0.36423841059602646
+[2025-06-03 20:36:56,176][3446969155.py][line:71][INFO] Neutral F1-score:  0.4731182795698925
+[2025-06-03 20:36:56,176][3446969155.py][line:72][INFO] Negative Recall:   0.4660633484162896
+[2025-06-03 20:36:56,177][3446969155.py][line:73][INFO] Negative F1-score: 0.4835680751173709
+[2025-06-03 20:36:56,185][347242066.py][line:20][INFO] 
+[2025-06-03 20:36:56,186][347242066.py][line:21][INFO] ------------------------ Averages ------------------------
+[2025-06-03 20:36:56,187][347242066.py][line:22][INFO] Average Positive Recall: 0.5834
+[2025-06-03 20:36:56,187][347242066.py][line:23][INFO] Average Neutral Recall: 0.3951
+[2025-06-03 20:36:56,188][347242066.py][line:24][INFO] Average Negative Recall: 0.5451
+[2025-06-03 20:36:56,190][347242066.py][line:25][INFO] Macro Average Recall: 0.5078
+[2025-06-03 20:36:56,192][347242066.py][line:26][INFO] 
+[2025-06-03 20:36:56,193][347242066.py][line:27][INFO] Average Positive F1-score: 0.3910
+[2025-06-03 20:36:56,194][347242066.py][line:28][INFO] Average Neutral F1-score: 0.4842
+[2025-06-03 20:36:56,196][347242066.py][line:29][INFO] Average Negative F1-score: 0.5074
+[2025-06-03 20:36:56,197][347242066.py][line:30][INFO] Macro Average F1-score: 0.4609

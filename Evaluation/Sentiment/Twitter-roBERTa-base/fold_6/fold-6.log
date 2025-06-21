@@ -1,0 +1,45 @@
+[2025-01-06 06:49:49,617][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-06 06:49:51,863][evaluate.py][line:185][INFO] ----- Models -----
+[2025-01-06 06:49:51,863][evaluate.py][line:186][INFO] Sentiment Model: cardiffnlp/twitter-roberta-base-sentiment-latest
+[2025-01-06 06:49:51,865][evaluate.py][line:187][INFO] ----- Parameters -----
+[2025-01-06 06:49:51,865][evaluate.py][line:188][INFO] Seed: 22
+[2025-01-06 06:49:51,865][evaluate.py][line:189][INFO] Fold: 6
+[2025-01-06 06:49:51,865][evaluate.py][line:191][INFO] ----- NLP Options -----
+[2025-01-06 06:49:51,865][evaluate.py][line:193][INFO] Apply Preprocessing: YES
+[2025-01-06 06:49:51,865][evaluate.py][line:194][INFO] Remove Contractions: True
+[2025-01-06 06:49:51,874][evaluate.py][line:195][INFO] Apply Lemmantization: True
+[2025-01-06 06:49:51,874][evaluate.py][line:196][INFO] Remove Numbers: True
+[2025-01-06 06:49:51,874][evaluate.py][line:197][INFO] Remove Stopwords: False
+[2025-01-06 06:49:51,874][evaluate.py][line:200][INFO] --------------------
+[2025-01-06 06:49:52,879][evaluate.py][line:249][INFO] Sentiment model loaded from cardiffnlp/twitter-roberta-base-sentiment-latest successfully
+[2025-01-06 06:49:52,886][evaluate.py][line:306][INFO] Mode: train Fold: 6
+[2025-01-06 06:49:52,893][evaluate.py][line:306][INFO] Mode: val Fold: 6
+[2025-01-06 06:49:52,899][evaluate.py][line:306][INFO] Mode: test Fold: 6
+[2025-01-06 06:49:52,900][evaluate.py][line:352][INFO] Dataset Loaded
+[2025-01-06 06:49:53,435][evaluate.py][line:443][INFO] Now on file: Ses04M_impro04_F017. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:49:54,454][evaluate.py][line:443][INFO] Now on file: Ses04F_impro03_F052. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:49:55,187][evaluate.py][line:443][INFO] Now on file: Ses04F_impro07_F036. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:49:55,329][evaluate.py][line:443][INFO] Now on file: Ses04F_impro07_F064. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:49:55,336][evaluate.py][line:443][INFO] Now on file: Ses04F_impro07_F065. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-01-06 06:49:57,110][evaluate.py][line:461][INFO] Done processing 529 files
+[2025-01-06 06:49:57,111][evaluate.py][line:472][INFO] Predictions saved to ./fold_6\predictions.csv
+[2025-01-06 06:49:57,119][evaluate.py][line:488][INFO] Now calculating accuracy
+[2025-01-06 06:49:57,129][evaluate.py][line:525][INFO] Test UA: 0.4599355283736622
+[2025-01-06 06:49:57,129][evaluate.py][line:527][INFO] Confusion Matrix:
+[2025-01-06 06:49:57,131][evaluate.py][line:528][INFO] 
+          negative  neutral  positive
+negative       124       23        40
+neutral        101       41        83
+positive        42       12        62
+[2025-01-06 06:49:57,138][evaluate.py][line:532][INFO] Classification Report:
+[2025-01-06 06:49:57,138][evaluate.py][line:533][INFO] 
+              precision    recall  f1-score   support
+
+    negative       0.46      0.66      0.55       187
+     neutral       0.54      0.18      0.27       225
+    positive       0.34      0.53      0.41       116
+
+    accuracy                           0.43       528
+   macro avg       0.45      0.46      0.41       528
+weighted avg       0.47      0.43      0.40       528
+
