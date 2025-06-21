@@ -7,7 +7,7 @@ Here we will evaluate the accuracy of the sentiment model using `evaluate.py` fi
 2. `sentiment_truths_IEMOCAP.csv` - This file contains the remapped emotions provided by IEMOCAP into Sentiment.
     - Example: `H` in the TSV file will be converted to `Positive`.
     - Therfore we map 4 emotions into 3 sentiments.
-    - You can obtain this file using `notebooks/EmotionToSentimentFormatter.ipynb`.
+    - You can obtain this file using `EmotionToSentimentFormatter.ipynb`.
 
 # Evaluate.py Workflow
 1. Setup (Import Libraries, Dataset, Filepath, etc)
