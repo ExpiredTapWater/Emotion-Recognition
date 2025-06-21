@@ -1,0 +1,2011 @@
+[2025-01-12 18:32:21,838][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-12 18:32:21,838][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-12 18:32:22,010][evaluate.py][line:141][INFO] ----- Parameters -----
+[2025-01-12 18:32:22,010][evaluate.py][line:142][INFO] Seed: 22
+[2025-01-12 18:32:22,010][evaluate.py][line:143][INFO] Fold: 2
+[2025-01-12 18:32:22,010][evaluate.py][line:202][INFO] ----- Gemini API -----
+[2025-01-12 18:32:22,010][evaluate.py][line:203][INFO] Model: models/gemini-1.5-flash
+[2025-01-12 18:32:22,010][evaluate.py][line:204][INFO] Current Token Count: 0
+[2025-01-12 18:32:22,010][evaluate.py][line:205][INFO] --------------------
+[2025-01-12 18:32:22,025][evaluate.py][line:255][INFO] Mode: test Fold: 2
+[2025-01-12 18:32:22,041][evaluate.py][line:299][INFO] Dataset Loaded
+[2025-01-12 18:32:23,898][evaluate.py][line:343][INFO] Transcription of file 2 'Ses02F_script03_1_F005.wav' has been formatted
+[2025-01-12 18:32:23,898][evaluate.py][line:344][INFO] ORIGINAL: Oh! It sends shivers down my spine.
+Pppppp
+
+[2025-01-12 18:32:23,898][evaluate.py][line:345][INFO] FORMATTED: OH  IT SENDS SHIVERS DOWN MY SPINE PPPPPP 
+[2025-01-12 18:32:24,820][evaluate.py][line:343][INFO] Transcription of file 3 'Ses02F_script03_1_F006.wav' has been formatted
+[2025-01-12 18:32:24,820][evaluate.py][line:344][INFO] ORIGINAL: Behave exquisitely.  [sound of hissing]
+
+[2025-01-12 18:32:24,820][evaluate.py][line:345][INFO] FORMATTED: BEHAVE EXQUISITELY   SOUND OF HISSING  
+[2025-01-12 18:32:25,790][evaluate.py][line:343][INFO] Transcription of file 4 'Ses02F_script03_1_F007.wav' has been formatted
+[2025-01-12 18:32:25,790][evaluate.py][line:344][INFO] ORIGINAL: Oh, of course. I shall probably do a court curtsy.
+
+[2025-01-12 18:32:25,790][evaluate.py][line:345][INFO] FORMATTED: OH  OF COURSE I SHALL PROBABLY DO A COURT CURTSY 
+[2025-01-12 18:32:26,885][evaluate.py][line:343][INFO] Transcription of file 5 'Ses02F_script03_1_F008.wav' has been formatted
+[2025-01-12 18:32:26,885][evaluate.py][line:344][INFO] ORIGINAL: What's so horrible is that one can't stay happy.
+
+[2025-01-12 18:32:26,885][evaluate.py][line:345][INFO] FORMATTED: WHAT'S SO HORRIBLE IS THAT ONE CAN'T STAY HAPPY 
+[2025-01-12 18:32:27,887][evaluate.py][line:343][INFO] Transcription of file 6 'Ses02F_script03_1_F009.wav' has been formatted
+[2025-01-12 18:32:27,887][evaluate.py][line:344][INFO] ORIGINAL: It's true. The whole business is a very poor joke.
+
+[2025-01-12 18:32:27,887][evaluate.py][line:345][INFO] FORMATTED: IT'S TRUE THE WHOLE BUSINESS IS A VERY POOR JOKE 
+[2025-01-12 18:32:28,809][evaluate.py][line:343][INFO] Transcription of file 7 'Ses02F_script03_1_F010.wav' has been formatted
+[2025-01-12 18:32:28,809][evaluate.py][line:344][INFO] ORIGINAL: Yes, meaning just that.
+
+[2025-01-12 18:32:28,809][evaluate.py][line:345][INFO] FORMATTED: YES  MEANING JUST THAT 
+[2025-01-12 18:32:29,529][evaluate.py][line:343][INFO] Transcription of file 8 'Ses02F_script03_1_F012.wav' has been formatted
+[2025-01-12 18:32:29,529][evaluate.py][line:344][INFO] ORIGINAL: Who's there?
+
+[2025-01-12 18:32:29,529][evaluate.py][line:345][INFO] FORMATTED: WHO'S THERE  
+[2025-01-12 18:32:30,687][evaluate.py][line:343][INFO] Transcription of file 9 'Ses02F_script03_1_F013.wav' has been formatted
+[2025-01-12 18:32:30,687][evaluate.py][line:344][INFO] ORIGINAL: If I laughed at everything then I must laugh at us too.
+
+[2025-01-12 18:32:30,687][evaluate.py][line:345][INFO] FORMATTED: IF I LAUGHED AT EVERYTHING THEN I MUST LAUGH AT US TOO 
+[2025-01-12 18:32:31,891][evaluate.py][line:343][INFO] Transcription of file 10 'Ses02F_script03_1_F014.wav' has been formatted
+[2025-01-12 18:32:31,891][evaluate.py][line:344][INFO] ORIGINAL: Well, how long will it last us, this ludicrous, overbearing love of ours?
+
+[2025-01-12 18:32:31,891][evaluate.py][line:345][INFO] FORMATTED: WELL  HOW LONG WILL IT LAST US  THIS LUDICROUS  OVERBEARING LOVE OF OURS  
+[2025-01-12 18:32:32,891][evaluate.py][line:343][INFO] Transcription of file 11 'Ses02F_script03_1_F015.wav' has been formatted
+[2025-01-12 18:32:32,891][evaluate.py][line:344][INFO] ORIGINAL: Well, shall we always want to bicker and fight?
+
+[2025-01-12 18:32:32,891][evaluate.py][line:345][INFO] FORMATTED: WELL  SHALL WE ALWAYS WANT TO BICKER AND FIGHT  
+[2025-01-12 18:32:33,830][evaluate.py][line:343][INFO] Transcription of file 12 'Ses02F_script03_1_F016.wav' has been formatted
+[2025-01-12 18:32:33,830][evaluate.py][line:344][INFO] ORIGINAL: Oh dear, should we like that?
+
+[2025-01-12 18:32:33,830][evaluate.py][line:345][INFO] FORMATTED: OH DEAR  SHOULD WE LIKE THAT  
+[2025-01-12 18:32:35,003][evaluate.py][line:343][INFO] Transcription of file 13 'Ses02F_script03_1_F017.wav' has been formatted
+[2025-01-12 18:32:35,003][evaluate.py][line:344][INFO] ORIGINAL: Well, what happens if one of us dies? I mean, does the one that's left still laugh?
+
+[2025-01-12 18:32:35,003][evaluate.py][line:345][INFO] FORMATTED: WELL  WHAT HAPPENS IF ONE OF US DIES  I MEAN  DOES THE ONE THAT'S LEFT STILL LAUGH  
+[2025-01-12 18:32:35,927][evaluate.py][line:343][INFO] Transcription of file 14 'Ses02F_script03_1_F019.wav' has been formatted
+[2025-01-12 18:32:35,927][evaluate.py][line:344][INFO] ORIGINAL: Darling, I believe you're talking nonsense.
+
+[2025-01-12 18:32:35,927][evaluate.py][line:345][INFO] FORMATTED: DARLING  I BELIEVE YOU'RE TALKING NONSENSE 
+[2025-01-12 18:32:36,845][evaluate.py][line:343][INFO] Transcription of file 15 'Ses02F_script03_1_F020.wav' has been formatted
+[2025-01-12 18:32:36,845][evaluate.py][line:344][INFO] ORIGINAL: Elliot, worms don't pop.  Pppppp
+
+[2025-01-12 18:32:36,845][evaluate.py][line:345][INFO] FORMATTED: ELLIOT  WORMS DON'T POP  PPPPPP 
+[2025-01-12 18:32:38,165][evaluate.py][line:343][INFO] Transcription of file 16 'Ses02F_script03_1_F021.wav' has been formatted
+[2025-01-12 18:32:38,165][evaluate.py][line:344][INFO] ORIGINAL: Oh, thank you, dear. The same applies to you, except that if I catch you so much as looking at another woman, I'll kill you.
+
+[2025-01-12 18:32:38,165][evaluate.py][line:345][INFO] FORMATTED: OH  THANK YOU  DEAR THE SAME APPLIES TO YOU  EXCEPT THAT IF I CATCH YOU SO MUCH AS LOOKING AT ANOTHER WOMAN  I'LL KILL YOU 
+[2025-01-12 18:32:39,089][evaluate.py][line:343][INFO] Transcription of file 17 'Ses02F_script03_1_F022.wav' has been formatted
+[2025-01-12 18:32:39,089][evaluate.py][line:344][INFO] ORIGINAL: Which particular one?
+Pppppp
+
+[2025-01-12 18:32:39,089][evaluate.py][line:345][INFO] FORMATTED: WHICH PARTICULAR ONE  PPPPPP 
+[2025-01-12 18:32:40,121][evaluate.py][line:343][INFO] Transcription of file 18 'Ses02F_script03_1_F023.wav' has been formatted
+[2025-01-12 18:32:40,121][evaluate.py][line:344][INFO] ORIGINAL: Charles. That was his name. Charles. He did wriggle so beautifully.
+
+[2025-01-12 18:32:40,121][evaluate.py][line:345][INFO] FORMATTED: CHARLES THAT WAS HIS NAME CHARLES HE DID WRIGGLE SO BEAUTIFULLY 
+[2025-01-12 18:32:41,373][evaluate.py][line:343][INFO] Transcription of file 19 'Ses02F_script03_1_F024.wav' has been formatted
+[2025-01-12 18:32:41,373][evaluate.py][line:344][INFO] ORIGINAL: Yes, I know you did. You threw it out of the window into the Grand Canal. I don't think I'll ever forgive you for that.
+
+[2025-01-12 18:32:41,373][evaluate.py][line:345][INFO] FORMATTED: YES  I KNOW YOU DID YOU THREW IT OUT OF THE WINDOW INTO THE GRAND CANAL I DON'T THINK I'LL EVER FORGIVE YOU FOR THAT 
+[2025-01-12 18:32:42,295][evaluate.py][line:343][INFO] Transcription of file 20 'Ses02F_script03_1_F025.wav' has been formatted
+[2025-01-12 18:32:42,295][evaluate.py][line:344][INFO] ORIGINAL: It went on intermittently for days.
+
+[2025-01-12 18:32:42,295][evaluate.py][line:345][INFO] FORMATTED: IT WENT ON INTERMITTENTLY FOR DAYS 
+[2025-01-12 18:32:43,342][evaluate.py][line:343][INFO] Transcription of file 21 'Ses02F_script03_1_F026.wav' has been formatted
+[2025-01-12 18:32:43,342][evaluate.py][line:344][INFO] ORIGINAL: It's in my comb too and all the towels in the bathroom.  That was... pppp
+
+[2025-01-12 18:32:43,342][evaluate.py][line:345][INFO] FORMATTED: IT'S IN MY COMB TOO AND ALL THE TOWELS IN THE BATHROOM  THAT WAS PPPP 
+[2025-01-12 18:32:44,344][evaluate.py][line:343][INFO] Transcription of file 22 'Ses02F_script03_1_F027.wav' has been formatted
+[2025-01-12 18:32:44,344][evaluate.py][line:344][INFO] ORIGINAL: That was the first time you ever hit me.
+
+[2025-01-12 18:32:44,344][evaluate.py][line:345][INFO] FORMATTED: THAT WAS THE FIRST TIME YOU EVER HIT ME 
+[2025-01-12 18:32:45,611][evaluate.py][line:343][INFO] Transcription of file 23 'Ses02F_script03_1_F028.wav' has been formatted
+[2025-01-12 18:32:45,611][evaluate.py][line:344][INFO] ORIGINAL: The manager came in and found us rolling around on the floor, biting and scratching like panthers!  I'll never forget it.  Pppppp
+
+[2025-01-12 18:32:45,611][evaluate.py][line:345][INFO] FORMATTED: THE MANAGER CAME IN AND FOUND US ROLLING AROUND ON THE FLOOR  BITING AND SCRATCHING LIKE PANTHERS   I'LL NEVER FORGET IT  PPPPPP 
+[2025-01-12 18:32:46,551][evaluate.py][line:343][INFO] Transcription of file 24 'Ses02F_script03_1_F029.wav' has been formatted
+[2025-01-12 18:32:46,558][evaluate.py][line:344][INFO] ORIGINAL: Oh, it's ridiculous. Completely ridiculous.
+
+[2025-01-12 18:32:46,558][evaluate.py][line:345][INFO] FORMATTED: OH  IT'S RIDICULOUS COMPLETELY RIDICULOUS 
+[2025-01-12 18:32:47,540][evaluate.py][line:343][INFO] Transcription of file 25 'Ses02M_script01_1_F015.wav' has been formatted
+[2025-01-12 18:32:47,541][evaluate.py][line:344][INFO] ORIGINAL: I got an idea, but what's the story?
+
+[2025-01-12 18:32:47,541][evaluate.py][line:345][INFO] FORMATTED: I GOT AN IDEA  BUT WHAT'S THE STORY  
+[2025-01-12 18:32:48,599][evaluate.py][line:343][INFO] Transcription of file 26 'Ses02M_script01_1_F018.wav' has been formatted
+[2025-01-12 18:32:48,599][evaluate.py][line:344][INFO] ORIGINAL: Well, you want to make sure that your father isn't... just...
+
+[2025-01-12 18:32:48,599][evaluate.py][line:345][INFO] FORMATTED: WELL  YOU WANT TO MAKE SURE THAT YOUR FATHER ISN'T JUST 
+[2025-01-12 18:32:49,648][evaluate.py][line:343][INFO] Transcription of file 27 'Ses02M_script01_1_F021.wav' has been formatted
+[2025-01-12 18:32:49,648][evaluate.py][line:344][INFO] ORIGINAL: From father's point of view, he isn't dead and you have no right to take his girl.
+
+[2025-01-12 18:32:49,648][evaluate.py][line:345][INFO] FORMATTED: FROM FATHER'S POINT OF VIEW  HE ISN'T DEAD AND YOU HAVE NO RIGHT TO TAKE HIS GIRL 
+[2025-01-12 18:32:50,696][evaluate.py][line:343][INFO] Transcription of file 28 'Ses02M_script01_1_F023.wav' has been formatted
+[2025-01-12 18:32:50,696][evaluate.py][line:344][INFO] ORIGINAL: You're a considerate fella. There's nothing wrong with that.  To hell with it.
+
+[2025-01-12 18:32:50,696][evaluate.py][line:345][INFO] FORMATTED: YOU'RE A CONSIDERATE FELLA THERE'S NOTHING WRONG WITH THAT  TO HELL WITH IT 
+[2025-01-12 18:32:51,698][evaluate.py][line:343][INFO] Transcription of file 29 'Ses02M_script01_1_F025.wav' has been formatted
+[2025-01-12 18:32:51,698][evaluate.py][line:344][INFO] ORIGINAL: How do you know she'll marry you? Maybe she feels the same way your father does.
+
+[2025-01-12 18:32:51,698][evaluate.py][line:345][INFO] FORMATTED: HOW DO YOU KNOW SHE'LL MARRY YOU  MAYBE SHE FEELS THE SAME WAY YOUR FATHER DOES 
+[2025-01-12 18:32:52,666][evaluate.py][line:343][INFO] Transcription of file 30 'Ses02M_script01_1_F026.wav' has been formatted
+[2025-01-12 18:32:52,666][evaluate.py][line:344][INFO] ORIGINAL: Trouble is you don't see enough women. You never did.
+
+[2025-01-12 18:32:52,666][evaluate.py][line:345][INFO] FORMATTED: TROUBLE IS YOU DON'T SEE ENOUGH WOMEN YOU NEVER DID 
+[2025-01-12 18:32:53,684][evaluate.py][line:343][INFO] Transcription of file 31 'Ses02M_script01_1_F027.wav' has been formatted
+[2025-01-12 18:32:53,684][evaluate.py][line:344][INFO] ORIGINAL: I just don't see why it has to be Annie.
+
+[2025-01-12 18:32:53,684][evaluate.py][line:345][INFO] FORMATTED: I JUST DON'T SEE WHY IT HAS TO BE ANNIE 
+[2025-01-12 18:32:54,603][evaluate.py][line:343][INFO] Transcription of file 32 'Ses02M_script01_1_F032.wav' has been formatted
+[2025-01-12 18:32:54,603][evaluate.py][line:344][INFO] ORIGINAL: What the hell is this?
+P p p
+
+[2025-01-12 18:32:54,603][evaluate.py][line:345][INFO] FORMATTED: WHAT THE HELL IS THIS  P P P 
+[2025-01-12 18:32:55,526][evaluate.py][line:343][INFO] Transcription of file 33 'Ses02M_script01_1_F033.wav' has been formatted
+[2025-01-12 18:32:55,526][evaluate.py][line:344][INFO] ORIGINAL: What the hell is this? Are you crazy?
+
+[2025-01-12 18:32:55,526][evaluate.py][line:345][INFO] FORMATTED: WHAT THE HELL IS THIS  ARE YOU CRAZY  
+[2025-01-12 18:32:56,481][evaluate.py][line:343][INFO] Transcription of file 34 'Ses02M_script01_1_F034.wav' has been formatted
+[2025-01-12 18:32:56,481][evaluate.py][line:344][INFO] ORIGINAL: What about the business? What is this? The business...  [beep sound]
+
+[2025-01-12 18:32:56,481][evaluate.py][line:345][INFO] FORMATTED: WHAT ABOUT THE BUSINESS  WHAT IS THIS  THE BUSINESS   BEEP SOUND  
+[2025-01-12 18:32:57,388][evaluate.py][line:343][INFO] Transcription of file 35 'Ses02M_script01_1_F035.wav' has been formatted
+[2025-01-12 18:32:57,388][evaluate.py][line:344][INFO] ORIGINAL: Must you be inspired?  Yes, I...
+
+[2025-01-12 18:32:57,388][evaluate.py][line:345][INFO] FORMATTED: MUST YOU BE INSPIRED   YES  I 
+[2025-01-12 18:32:58,342][evaluate.py][line:343][INFO] Transcription of file 36 'Ses02M_script01_1_F036.wav' has been formatted
+[2025-01-12 18:32:58,342][evaluate.py][line:344][INFO] ORIGINAL: Tommy, you'd leave the business?
+
+[2025-01-12 18:32:58,342][evaluate.py][line:345][INFO] FORMATTED: TOMMY  YOU'D LEAVE THE BUSINESS  
+[2025-01-12 18:32:59,359][evaluate.py][line:343][INFO] Transcription of file 37 'Ses02M_script01_1_F037.wav' has been formatted
+[2025-01-12 18:32:59,359][evaluate.py][line:344][INFO] ORIGINAL: Well, you don't wanna think like that. Then help me.
+
+[2025-01-12 18:32:59,359][evaluate.py][line:345][INFO] FORMATTED: WELL  YOU DON'T WANNA THINK LIKE THAT THEN HELP ME 
+[2025-01-12 18:33:00,315][evaluate.py][line:343][INFO] Transcription of file 38 'Ses02M_script01_1_F041.wav' has been formatted
+[2025-01-12 18:33:00,315][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I can see that.  P P P P P P
+
+[2025-01-12 18:33:00,315][evaluate.py][line:345][INFO] FORMATTED: YEAH  I CAN SEE THAT  P P P P P P 
+[2025-01-12 18:33:01,284][evaluate.py][line:343][INFO] Transcription of file 39 'Ses02M_impro06_F002.wav' has been formatted
+[2025-01-12 18:33:01,284][evaluate.py][line:344][INFO] ORIGINAL: It still doesn't make it any easier, yeah.
+
+[2025-01-12 18:33:01,284][evaluate.py][line:345][INFO] FORMATTED: IT STILL DOESN'T MAKE IT ANY EASIER  YEAH 
+[2025-01-12 18:33:02,239][evaluate.py][line:343][INFO] Transcription of file 40 'Ses02M_impro06_F003.wav' has been formatted
+[2025-01-12 18:33:02,239][evaluate.py][line:344][INFO] ORIGINAL: Oh man. I'm so sorry.
+
+[2025-01-12 18:33:02,239][evaluate.py][line:345][INFO] FORMATTED: OH MAN I'M SO SORRY 
+[2025-01-12 18:33:03,211][evaluate.py][line:343][INFO] Transcription of file 41 'Ses02M_impro06_F004.wav' has been formatted
+[2025-01-12 18:33:03,211][evaluate.py][line:344][INFO] ORIGINAL: It's gonna be so rough. I'm sorry.
+
+[2025-01-12 18:33:03,211][evaluate.py][line:345][INFO] FORMATTED: IT'S GONNA BE SO ROUGH I'M SORRY 
+[2025-01-12 18:33:03,991][evaluate.py][line:343][INFO] Transcription of file 42 'Ses02M_impro06_F005.wav' has been formatted
+[2025-01-12 18:33:03,991][evaluate.py][line:344][INFO] ORIGINAL: Yeah.
+P  P  P
+
+[2025-01-12 18:33:03,991][evaluate.py][line:345][INFO] FORMATTED: YEAH P  P  P 
+[2025-01-12 18:33:04,883][evaluate.py][line:343][INFO] Transcription of file 43 'Ses02M_impro06_F006.wav' has been formatted
+[2025-01-12 18:33:04,883][evaluate.py][line:344][INFO] ORIGINAL: Toughly.
+
+[2025-01-12 18:33:04,883][evaluate.py][line:345][INFO] FORMATTED: TOUGHLY 
+[2025-01-12 18:33:05,572][evaluate.py][line:343][INFO] Transcription of file 44 'Ses02M_impro06_F007.wav' has been formatted
+[2025-01-12 18:33:05,572][evaluate.py][line:344][INFO] ORIGINAL:  
+
+[2025-01-12 18:33:05,572][evaluate.py][line:345][INFO] FORMATTED:  
+[2025-01-12 18:33:06,636][evaluate.py][line:343][INFO] Transcription of file 45 'Ses02M_impro06_F008.wav' has been formatted
+[2025-01-12 18:33:06,636][evaluate.py][line:344][INFO] ORIGINAL: Yeah. At least you have a lot of good memories.  
+[Sound of static]
+
+[2025-01-12 18:33:06,636][evaluate.py][line:345][INFO] FORMATTED: YEAH AT LEAST YOU HAVE A LOT OF GOOD MEMORIES    SOUND OF STATIC  
+[2025-01-12 18:33:07,553][evaluate.py][line:343][INFO] Transcription of file 46 'Ses02M_impro06_F009.wav' has been formatted
+[2025-01-12 18:33:07,553][evaluate.py][line:344][INFO] ORIGINAL: She really cared about you, you know.
+
+[2025-01-12 18:33:07,553][evaluate.py][line:345][INFO] FORMATTED: SHE REALLY CARED ABOUT YOU  YOU KNOW 
+[2025-01-12 18:33:08,231][evaluate.py][line:343][INFO] Transcription of file 47 'Ses02M_impro06_F010.wav' has been formatted
+[2025-01-12 18:33:08,231][evaluate.py][line:344][INFO] ORIGINAL: P
+
+[2025-01-12 18:33:08,231][evaluate.py][line:345][INFO] FORMATTED: P 
+[2025-01-12 18:33:08,935][evaluate.py][line:343][INFO] Transcription of file 48 'Ses02M_impro06_F011.wav' has been formatted
+[2025-01-12 18:33:08,935][evaluate.py][line:344][INFO] ORIGINAL:  
+
+[2025-01-12 18:33:08,935][evaluate.py][line:345][INFO] FORMATTED:  
+[2025-01-12 18:33:09,967][evaluate.py][line:343][INFO] Transcription of file 49 'Ses02M_impro06_F012.wav' has been formatted
+[2025-01-12 18:33:09,967][evaluate.py][line:344][INFO] ORIGINAL: Even if you still do it, she'll she'll be there.
+
+[2025-01-12 18:33:09,967][evaluate.py][line:345][INFO] FORMATTED: EVEN IF YOU STILL DO IT  SHE'LL SHE'LL BE THERE 
+[2025-01-12 18:33:10,859][evaluate.py][line:343][INFO] Transcription of file 50 'Ses02M_impro06_F013.wav' has been formatted
+[2025-01-12 18:33:10,859][evaluate.py][line:344][INFO] ORIGINAL: Are you gonna be okay?
+
+[2025-01-12 18:33:10,859][evaluate.py][line:345][INFO] FORMATTED: ARE YOU GONNA BE OKAY  
+[2025-01-12 18:33:11,813][evaluate.py][line:343][INFO] Transcription of file 51 'Ses02M_impro06_F014.wav' has been formatted
+[2025-01-12 18:33:11,813][evaluate.py][line:344][INFO] ORIGINAL: It's gonna be okay, I promise.
+
+[2025-01-12 18:33:11,813][evaluate.py][line:345][INFO] FORMATTED: IT'S GONNA BE OKAY  I PROMISE 
+[2025-01-12 18:33:12,689][evaluate.py][line:343][INFO] Transcription of file 52 'Ses02M_impro06_F015.wav' has been formatted
+[2025-01-12 18:33:12,689][evaluate.py][line:344][INFO] ORIGINAL: Sure.
+
+[2025-01-12 18:33:12,689][evaluate.py][line:345][INFO] FORMATTED: SURE 
+[2025-01-12 18:33:13,472][evaluate.py][line:343][INFO] Transcription of file 53 'Ses02M_impro06_F016.wav' has been formatted
+[2025-01-12 18:33:13,472][evaluate.py][line:344][INFO] ORIGINAL: You shouldn't be alone here.
+
+[2025-01-12 18:33:13,472][evaluate.py][line:345][INFO] FORMATTED: YOU SHOULDN'T BE ALONE HERE 
+[2025-01-12 18:33:14,301][evaluate.py][line:343][INFO] Transcription of file 54 'Ses02M_impro06_F017.wav' has been formatted
+[2025-01-12 18:33:14,301][evaluate.py][line:344][INFO] ORIGINAL:  
+
+[2025-01-12 18:33:14,301][evaluate.py][line:345][INFO] FORMATTED:  
+[2025-01-12 18:33:15,160][evaluate.py][line:343][INFO] Transcription of file 55 'Ses02M_impro06_F018.wav' has been formatted
+[2025-01-12 18:33:15,160][evaluate.py][line:344][INFO] ORIGINAL:  
+
+[2025-01-12 18:33:15,160][evaluate.py][line:345][INFO] FORMATTED:  
+[2025-01-12 18:33:15,160][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:33:15,160][evaluate.py][line:400][INFO] [Files Processed] 55 of 481
+[2025-01-12 18:33:15,160][evaluate.py][line:401][INFO] [Total Tokens] 8591
+[2025-01-12 18:33:15,160][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:33:16,006][evaluate.py][line:343][INFO] Transcription of file 56 'Ses02M_impro01_F000.wav' has been formatted
+[2025-01-12 18:33:16,006][evaluate.py][line:344][INFO] ORIGINAL: Hi. How can I help you?
+
+[2025-01-12 18:33:16,006][evaluate.py][line:345][INFO] FORMATTED: HI HOW CAN I HELP YOU  
+[2025-01-12 18:33:16,773][evaluate.py][line:343][INFO] Transcription of file 57 'Ses02M_impro01_F001.wav' has been formatted
+[2025-01-12 18:33:16,773][evaluate.py][line:344][INFO] ORIGINAL: Sure. Um...  [sound of someone repeatedly blowing a raspberry]
+
+[2025-01-12 18:33:16,773][evaluate.py][line:345][INFO] FORMATTED: SURE UM   SOUND OF SOMEONE REPEATEDLY BLOWING A RASPBERRY  
+[2025-01-12 18:33:17,711][evaluate.py][line:343][INFO] Transcription of file 58 'Ses02M_impro01_F002.wav' has been formatted
+[2025-01-12 18:33:17,711][evaluate.py][line:344][INFO] ORIGINAL: Do you have two forms of ID with you?
+Pppp
+
+[2025-01-12 18:33:17,711][evaluate.py][line:345][INFO] FORMATTED: DO YOU HAVE TWO FORMS OF ID WITH YOU  PPPP 
+[2025-01-12 18:33:18,930][evaluate.py][line:343][INFO] Transcription of file 59 'Ses02M_impro01_F003.wav' has been formatted
+[2025-01-12 18:33:18,930][evaluate.py][line:344][INFO] ORIGINAL: I actually need two forms of ID. I need either a passport or a birth certificate or a social security card. I'm sorry.
+
+[2025-01-12 18:33:18,930][evaluate.py][line:345][INFO] FORMATTED: I ACTUALLY NEED TWO FORMS OF ID I NEED EITHER A PASSPORT OR A BIRTH CERTIFICATE OR A SOCIAL SECURITY CARD I'M SORRY 
+[2025-01-12 18:33:19,712][evaluate.py][line:343][INFO] Transcription of file 60 'Ses02M_impro01_F004.wav' has been formatted
+[2025-01-12 18:33:19,712][evaluate.py][line:344][INFO] ORIGINAL: What?  What is that drive?  [beep beep]
+
+[2025-01-12 18:33:19,712][evaluate.py][line:345][INFO] FORMATTED: WHAT   WHAT IS THAT DRIVE    BEEP BEEP  
+[2025-01-12 18:33:20,900][evaluate.py][line:343][INFO] Transcription of file 61 'Ses02M_impro01_F005.wav' has been formatted
+[2025-01-12 18:33:20,900][evaluate.py][line:344][INFO] ORIGINAL: I I can take your driver's license, but I I need another form of ID in order to process this paperwork.
+
+[2025-01-12 18:33:20,900][evaluate.py][line:345][INFO] FORMATTED: I I CAN TAKE YOUR DRIVER'S LICENSE  BUT I I NEED ANOTHER FORM OF ID IN ORDER TO PROCESS THIS PAPERWORK 
+[2025-01-12 18:33:21,933][evaluate.py][line:343][INFO] Transcription of file 62 'Ses02M_impro01_F006.wav' has been formatted
+[2025-01-12 18:33:21,933][evaluate.py][line:344][INFO] ORIGINAL: um that you would need to go home and get another form of ID and come back.
+
+[2025-01-12 18:33:21,933][evaluate.py][line:345][INFO] FORMATTED: UM THAT YOU WOULD NEED TO GO HOME AND GET ANOTHER FORM OF ID AND COME BACK 
+[2025-01-12 18:33:22,605][evaluate.py][line:343][INFO] Transcription of file 63 'Ses02M_impro01_F015.wav' has been formatted
+[2025-01-12 18:33:22,605][evaluate.py][line:344][INFO] ORIGINAL: I'm sorry, sir.
+
+[2025-01-12 18:33:22,605][evaluate.py][line:345][INFO] FORMATTED: I'M SORRY  SIR 
+[2025-01-12 18:33:23,309][evaluate.py][line:343][INFO] Transcription of file 64 'Ses02M_impro01_F016.wav' has been formatted
+[2025-01-12 18:33:23,309][evaluate.py][line:344][INFO] ORIGINAL: There's nothing I can do.
+
+[2025-01-12 18:33:23,309][evaluate.py][line:345][INFO] FORMATTED: THERE'S NOTHING I CAN DO 
+[2025-01-12 18:33:24,171][evaluate.py][line:343][INFO] Transcription of file 65 'Ses02F_impro07_F001.wav' has been formatted
+[2025-01-12 18:33:24,171][evaluate.py][line:344][INFO] ORIGINAL: I get into a C.
+
+[2025-01-12 18:33:24,171][evaluate.py][line:345][INFO] FORMATTED: I GET INTO A C 
+[2025-01-12 18:33:25,141][evaluate.py][line:343][INFO] Transcription of file 66 'Ses02F_impro07_F002.wav' has been formatted
+[2025-01-12 18:33:25,141][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I'm so excited. So I'm gonna say...  [inaudible]
+
+[2025-01-12 18:33:25,141][evaluate.py][line:345][INFO] FORMATTED: YEAH  I'M SO EXCITED SO I'M GONNA SAY   INAUDIBLE  
+[2025-01-12 18:33:26,253][evaluate.py][line:343][INFO] Transcription of file 67 'Ses02F_impro07_F003.wav' has been formatted
+[2025-01-12 18:33:26,253][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I think I mean because where else am I going to go? Like the other places that I applied to, I really didn't like that much anyway.
+
+[2025-01-12 18:33:26,253][evaluate.py][line:345][INFO] FORMATTED: YEAH  I THINK I MEAN BECAUSE WHERE ELSE AM I GOING TO GO  LIKE THE OTHER PLACES THAT I APPLIED TO  I REALLY DIDN'T LIKE THAT MUCH ANYWAY 
+[2025-01-12 18:33:27,144][evaluate.py][line:343][INFO] Transcription of file 68 'Ses02F_impro07_F004.wav' has been formatted
+[2025-01-12 18:33:27,144][evaluate.py][line:344][INFO] ORIGINAL: Though the audio is somewhat obscured by other sounds, it seems to primarily consist of a prolonged, repeated "p" sound.  It's difficult to definitively transcribe anything beyond that.
+
+[2025-01-12 18:33:27,144][evaluate.py][line:345][INFO] FORMATTED: THOUGH THE AUDIO IS SOMEWHAT OBSCURED BY OTHER SOUNDS  IT SEEMS TO PRIMARILY CONSIST OF A PROLONGED  REPEATED  P  SOUND  IT'S DIFFICULT TO DEFINITIVELY TRANSCRIBE ANYTHING BEYOND THAT 
+[2025-01-12 18:33:27,801][evaluate.py][line:343][INFO] Transcription of file 69 'Ses02F_impro07_F005.wav' has been formatted
+[2025-01-12 18:33:27,801][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I know.
+
+[2025-01-12 18:33:27,801][evaluate.py][line:345][INFO] FORMATTED: YEAH  I KNOW 
+[2025-01-12 18:33:28,468][evaluate.py][line:343][INFO] Transcription of file 70 'Ses02F_impro07_F006.wav' has been formatted
+[2025-01-12 18:33:28,468][evaluate.py][line:344][INFO] ORIGINAL: Answered. I'm so excited.
+
+[2025-01-12 18:33:28,468][evaluate.py][line:345][INFO] FORMATTED: ANSWERED I'M SO EXCITED 
+[2025-01-12 18:33:29,629][evaluate.py][line:343][INFO] Transcription of file 71 'Ses02F_impro07_F007.wav' has been formatted
+[2025-01-12 18:33:29,629][evaluate.py][line:344][INFO] ORIGINAL: I know! I know! And we'll all get to hang out and I mean even though we'll be like in different parts of the city, we can still like p p p p p
+
+[2025-01-12 18:33:29,629][evaluate.py][line:345][INFO] FORMATTED: I KNOW  I KNOW  AND WE'LL ALL GET TO HANG OUT AND I MEAN EVEN THOUGH WE'LL BE LIKE IN DIFFERENT PARTS OF THE CITY  WE CAN STILL LIKE P P P P P 
+[2025-01-12 18:33:30,798][evaluate.py][line:343][INFO] Transcription of file 72 'Ses02F_impro07_F008.wav' has been formatted
+[2025-01-12 18:33:30,798][evaluate.py][line:344][INFO] ORIGINAL: hang out and like have our different lives together and meet each other's friends and stuff. So I'm just so glad cuz they have such a good school.
+
+[2025-01-12 18:33:30,798][evaluate.py][line:345][INFO] FORMATTED: HANG OUT AND LIKE HAVE OUR DIFFERENT LIVES TOGETHER AND MEET EACH OTHER'S FRIENDS AND STUFF SO I'M JUST SO GLAD CUZ THEY HAVE SUCH A GOOD SCHOOL 
+[2025-01-12 18:33:31,817][evaluate.py][line:343][INFO] Transcription of file 73 'Ses02F_impro07_F009.wav' has been formatted
+[2025-01-12 18:33:31,817][evaluate.py][line:344][INFO] ORIGINAL: and like the football team and like all of it, like you know what I mean? Like
+
+[2025-01-12 18:33:31,818][evaluate.py][line:345][INFO] FORMATTED: AND LIKE THE FOOTBALL TEAM AND LIKE ALL OF IT  LIKE YOU KNOW WHAT I MEAN  LIKE 
+[2025-01-12 18:33:32,829][evaluate.py][line:343][INFO] Transcription of file 74 'Ses02F_impro07_F010.wav' has been formatted
+[2025-01-12 18:33:32,829][evaluate.py][line:344][INFO] ORIGINAL: You can walk somewhere or be anywhere in the country and be like, "Oh yeah, I want to see it."
+
+[2025-01-12 18:33:32,829][evaluate.py][line:345][INFO] FORMATTED: YOU CAN WALK SOMEWHERE OR BE ANYWHERE IN THE COUNTRY AND BE LIKE   OH YEAH  I WANT TO SEE IT  
+[2025-01-12 18:33:34,150][evaluate.py][line:343][INFO] Transcription of file 75 'Ses02F_impro07_F011.wav' has been formatted
+[2025-01-12 18:33:34,150][evaluate.py][line:344][INFO] ORIGINAL: And people know what, you know what I mean? Like it's recognizable rather than just being like, oh, it's some random school. It's like people really know what you
+
+[2025-01-12 18:33:34,150][evaluate.py][line:345][INFO] FORMATTED: AND PEOPLE KNOW WHAT  YOU KNOW WHAT I MEAN  LIKE IT'S RECOGNIZABLE RATHER THAN JUST BEING LIKE  OH  IT'S SOME RANDOM SCHOOL IT'S LIKE PEOPLE REALLY KNOW WHAT YOU 
+[2025-01-12 18:33:35,174][evaluate.py][line:343][INFO] Transcription of file 76 'Ses02F_impro07_F012.wav' has been formatted
+[2025-01-12 18:33:35,174][evaluate.py][line:344][INFO] ORIGINAL: like they feel like I just I feel like it's going to be so like accomplished. You know what I mean?
+
+[2025-01-12 18:33:35,174][evaluate.py][line:345][INFO] FORMATTED: LIKE THEY FEEL LIKE I JUST I FEEL LIKE IT'S GOING TO BE SO LIKE ACCOMPLISHED YOU KNOW WHAT I MEAN  
+[2025-01-12 18:33:36,136][evaluate.py][line:343][INFO] Transcription of file 77 'Ses02F_impro07_F013.wav' has been formatted
+[2025-01-12 18:33:36,136][evaluate.py][line:344][INFO] ORIGINAL: make has some sort of prestige.  Then
+P P P
+
+[2025-01-12 18:33:36,136][evaluate.py][line:345][INFO] FORMATTED: MAKE HAS SOME SORT OF PRESTIGE  THEN P P P 
+[2025-01-12 18:33:37,222][evaluate.py][line:343][INFO] Transcription of file 78 'Ses02F_impro07_F014.wav' has been formatted
+[2025-01-12 18:33:37,222][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I mean there's all the money stuff and my mom's helping me with the financial aid and stuff, but um it'll be fine.
+
+[2025-01-12 18:33:37,222][evaluate.py][line:345][INFO] FORMATTED: YEAH  I MEAN THERE'S ALL THE MONEY STUFF AND MY MOM'S HELPING ME WITH THE FINANCIAL AID AND STUFF  BUT UM IT'LL BE FINE 
+[2025-01-12 18:33:38,228][evaluate.py][line:343][INFO] Transcription of file 79 'Ses02F_impro07_F015.wav' has been formatted
+[2025-01-12 18:33:38,228][evaluate.py][line:344][INFO] ORIGINAL: Like, now that I'm accepted, it's just like such a huge load off my mind.
+
+[2025-01-12 18:33:38,228][evaluate.py][line:345][INFO] FORMATTED: LIKE  NOW THAT I'M ACCEPTED  IT'S JUST LIKE SUCH A HUGE LOAD OFF MY MIND 
+[2025-01-12 18:33:39,193][evaluate.py][line:343][INFO] Transcription of file 80 'Ses02F_impro07_F016.wav' has been formatted
+[2025-01-12 18:33:39,193][evaluate.py][line:344][INFO] ORIGINAL: I don't mind worrying about all the paperwork, you know.  Because…
+
+[2025-01-12 18:33:39,193][evaluate.py][line:345][INFO] FORMATTED: I DON'T MIND WORRYING ABOUT ALL THE PAPERWORK  YOU KNOW  BECAUSE 
+[2025-01-12 18:33:40,321][evaluate.py][line:343][INFO] Transcription of file 81 'Ses02F_impro07_F017.wav' has been formatted
+[2025-01-12 18:33:40,321][evaluate.py][line:344][INFO] ORIGINAL: because I don't have to like make that decision anymore. I don't have to try to decide like what the bad school I'm gonna go to is, you know.
+
+[2025-01-12 18:33:40,321][evaluate.py][line:345][INFO] FORMATTED: BECAUSE I DON'T HAVE TO LIKE MAKE THAT DECISION ANYMORE I DON'T HAVE TO TRY TO DECIDE LIKE WHAT THE BAD SCHOOL I'M GONNA GO TO IS  YOU KNOW 
+[2025-01-12 18:33:41,625][evaluate.py][line:343][INFO] Transcription of file 82 'Ses02F_impro07_F018.wav' has been formatted
+[2025-01-12 18:33:41,625][evaluate.py][line:344][INFO] ORIGINAL: I know, I know. They I think you go and you like stay for a couple of days and you meet people and they'll give you like a tour and show you everything and Oh man, I'm just so I'm so excited.
+
+[2025-01-12 18:33:41,625][evaluate.py][line:345][INFO] FORMATTED: I KNOW  I KNOW THEY I THINK YOU GO AND YOU LIKE STAY FOR A COUPLE OF DAYS AND YOU MEET PEOPLE AND THEY'LL GIVE YOU LIKE A TOUR AND SHOW YOU EVERYTHING AND OH MAN  I'M JUST SO I'M SO EXCITED 
+[2025-01-12 18:33:42,903][evaluate.py][line:343][INFO] Transcription of file 83 'Ses02F_impro07_F019.wav' has been formatted
+[2025-01-12 18:33:42,903][evaluate.py][line:344][INFO] ORIGINAL: Yeah, oh totally. It's a beautiful campus. It's going to be really nice. Um and everyone there's friendly and like there's ivy on all the walls and oh, it's just so It feels like college.
+
+[2025-01-12 18:33:42,903][evaluate.py][line:345][INFO] FORMATTED: YEAH  OH TOTALLY IT'S A BEAUTIFUL CAMPUS IT'S GOING TO BE REALLY NICE UM AND EVERYONE THERE'S FRIENDLY AND LIKE THERE'S IVY ON ALL THE WALLS AND OH  IT'S JUST SO IT FEELS LIKE COLLEGE 
+[2025-01-12 18:33:43,910][evaluate.py][line:343][INFO] Transcription of file 84 'Ses02F_impro07_F020.wav' has been formatted
+[2025-01-12 18:33:43,910][evaluate.py][line:344][INFO] ORIGINAL: You know what I mean? Like it's exactly what they wanted.
+
+[2025-01-12 18:33:43,910][evaluate.py][line:345][INFO] FORMATTED: YOU KNOW WHAT I MEAN  LIKE IT'S EXACTLY WHAT THEY WANTED 
+[2025-01-12 18:33:45,117][evaluate.py][line:343][INFO] Transcription of file 85 'Ses02F_impro07_F021.wav' has been formatted
+[2025-01-12 18:33:45,117][evaluate.py][line:344][INFO] ORIGINAL: Well, I've thought about it. And you know, I've thought about it, but they have so many different things that I think I might like try some things out first.
+
+[2025-01-12 18:33:45,117][evaluate.py][line:345][INFO] FORMATTED: WELL  I'VE THOUGHT ABOUT IT AND YOU KNOW  I'VE THOUGHT ABOUT IT  BUT THEY HAVE SO MANY DIFFERENT THINGS THAT I THINK I MIGHT LIKE TRY SOME THINGS OUT FIRST 
+[2025-01-12 18:33:46,572][evaluate.py][line:343][INFO] Transcription of file 86 'Ses02F_impro07_F022.wav' has been formatted
+[2025-01-12 18:33:46,572][evaluate.py][line:344][INFO] ORIGINAL: because also on the list of their um like GEs or whatever you have a lot of choices within every single one. So you can like try things out and not just be like, I have to take math, I have to take this, you know what I mean?
+
+[2025-01-12 18:33:46,572][evaluate.py][line:345][INFO] FORMATTED: BECAUSE ALSO ON THE LIST OF THEIR UM LIKE GES OR WHATEVER YOU HAVE A LOT OF CHOICES WITHIN EVERY SINGLE ONE SO YOU CAN LIKE TRY THINGS OUT AND NOT JUST BE LIKE  I HAVE TO TAKE MATH  I HAVE TO TAKE THIS  YOU KNOW WHAT I MEAN  
+[2025-01-12 18:33:47,313][evaluate.py][line:343][INFO] Transcription of file 87 'Ses02F_impro07_F023.wav' has been formatted
+[2025-01-12 18:33:47,313][evaluate.py][line:344][INFO] ORIGINAL: So um, so I don't know.  P...P...
+
+[2025-01-12 18:33:47,313][evaluate.py][line:345][INFO] FORMATTED: SO UM  SO I DON'T KNOW  PP 
+[2025-01-12 18:33:48,265][evaluate.py][line:343][INFO] Transcription of file 88 'Ses02F_impro07_F024.wav' has been formatted
+[2025-01-12 18:33:48,265][evaluate.py][line:344][INFO] ORIGINAL: I mean, I'm gonna take a bunch of stuff and see.
+
+[2025-01-12 18:33:48,265][evaluate.py][line:345][INFO] FORMATTED: I MEAN  I'M GONNA TAKE A BUNCH OF STUFF AND SEE 
+[2025-01-12 18:33:49,383][evaluate.py][line:343][INFO] Transcription of file 89 'Ses02F_impro07_F025.wav' has been formatted
+[2025-01-12 18:33:49,383][evaluate.py][line:344][INFO] ORIGINAL: I they have like they just have so many like prestigious like the school is top ten and this like the departments within it, you know what I mean?
+
+[2025-01-12 18:33:49,383][evaluate.py][line:345][INFO] FORMATTED: I THEY HAVE LIKE THEY JUST HAVE SO MANY LIKE PRESTIGIOUS LIKE THE SCHOOL IS TOP TEN AND THIS LIKE THE DEPARTMENTS WITHIN IT  YOU KNOW WHAT I MEAN  
+[2025-01-12 18:33:50,602][evaluate.py][line:343][INFO] Transcription of file 90 'Ses02F_impro07_F026.wav' has been formatted
+[2025-01-12 18:33:50,602][evaluate.py][line:344][INFO] ORIGINAL: No, I can't be one of those, now.  I know. I'll like walk around and be like, "Ha! You're seeing, bruh!" You know what I mean?  It'll be like, "Pppppp..."
+
+[2025-01-12 18:33:50,603][evaluate.py][line:345][INFO] FORMATTED: NO  I CAN'T BE ONE OF THOSE  NOW  I KNOW I'LL LIKE WALK AROUND AND BE LIKE   HA  YOU'RE SEEING  BRUH   YOU KNOW WHAT I MEAN   IT'LL BE LIKE   PPPPPP  
+[2025-01-12 18:33:51,497][evaluate.py][line:343][INFO] Transcription of file 91 'Ses02F_impro07_F027.wav' has been formatted
+[2025-01-12 18:33:51,497][evaluate.py][line:344][INFO] ORIGINAL: Dude, yeah. And you'd be like  *pssssssst*
+
+[2025-01-12 18:33:51,497][evaluate.py][line:345][INFO] FORMATTED: DUDE  YEAH AND YOU'D BE LIKE   PSSSSSSST  
+[2025-01-12 18:33:52,445][evaluate.py][line:343][INFO] Transcription of file 92 'Ses02F_impro07_F028.wav' has been formatted
+[2025-01-12 18:33:52,445][evaluate.py][line:344][INFO] ORIGINAL: Dude. Dude. Yes, um. Thank you very much.
+
+[2025-01-12 18:33:52,445][evaluate.py][line:345][INFO] FORMATTED: DUDE DUDE YES  UM THANK YOU VERY MUCH 
+[2025-01-12 18:33:53,123][evaluate.py][line:343][INFO] Transcription of file 93 'Ses02F_impro07_F029.wav' has been formatted
+[2025-01-12 18:33:53,123][evaluate.py][line:344][INFO] ORIGINAL: That's awesome.
+
+[2025-01-12 18:33:53,123][evaluate.py][line:345][INFO] FORMATTED: THAT'S AWESOME 
+[2025-01-12 18:33:53,853][evaluate.py][line:343][INFO] Transcription of file 94 'Ses02F_impro07_F030.wav' has been formatted
+[2025-01-12 18:33:53,853][evaluate.py][line:344][INFO] ORIGINAL: I know. I'm so excited.
+
+[2025-01-12 18:33:53,854][evaluate.py][line:345][INFO] FORMATTED: I KNOW I'M SO EXCITED 
+[2025-01-12 18:33:54,795][evaluate.py][line:343][INFO] Transcription of file 95 'Ses02F_impro07_F031.wav' has been formatted
+[2025-01-12 18:33:54,795][evaluate.py][line:344][INFO] ORIGINAL: Well, that'll take a while. That's gonna be...
+
+[2025-01-12 18:33:54,795][evaluate.py][line:345][INFO] FORMATTED: WELL  THAT'LL TAKE A WHILE THAT'S GONNA BE 
+[2025-01-12 18:33:55,563][evaluate.py][line:343][INFO] Transcription of file 96 'Ses02F_impro07_F032.wav' has been formatted
+[2025-01-12 18:33:55,563][evaluate.py][line:344][INFO] ORIGINAL: That's a lot. That's gonna take a lot of work.
+
+[2025-01-12 18:33:55,563][evaluate.py][line:345][INFO] FORMATTED: THAT'S A LOT THAT'S GONNA TAKE A LOT OF WORK 
+[2025-01-12 18:33:56,582][evaluate.py][line:343][INFO] Transcription of file 97 'Ses02F_impro07_F033.wav' has been formatted
+[2025-01-12 18:33:56,582][evaluate.py][line:344][INFO] ORIGINAL: But it'll be fine. I mean, I'm I'm so excited. It's gonna be so fun.
+
+[2025-01-12 18:33:56,582][evaluate.py][line:345][INFO] FORMATTED: BUT IT'LL BE FINE I MEAN  I'M I'M SO EXCITED IT'S GONNA BE SO FUN 
+[2025-01-12 18:33:57,766][evaluate.py][line:343][INFO] Transcription of file 98 'Ses02F_impro07_F034.wav' has been formatted
+[2025-01-12 18:33:57,766][evaluate.py][line:344][INFO] ORIGINAL: I know. And I mean the area is not great, but like the school makes up for it. It makes up for it. It'll be fine. It'll be good.
+
+[2025-01-12 18:33:57,766][evaluate.py][line:345][INFO] FORMATTED: I KNOW AND I MEAN THE AREA IS NOT GREAT  BUT LIKE THE SCHOOL MAKES UP FOR IT IT MAKES UP FOR IT IT'LL BE FINE IT'LL BE GOOD 
+[2025-01-12 18:33:58,865][evaluate.py][line:343][INFO] Transcription of file 99 'Ses02F_impro07_F035.wav' has been formatted
+[2025-01-12 18:33:58,866][evaluate.py][line:344][INFO] ORIGINAL: I know. I know. It's gonna be so fun. I can't wait.  Ooh.  Beep beep.
+
+[2025-01-12 18:33:58,866][evaluate.py][line:345][INFO] FORMATTED: I KNOW I KNOW IT'S GONNA BE SO FUN I CAN'T WAIT  OOH  BEEP BEEP 
+[2025-01-12 18:33:59,717][evaluate.py][line:343][INFO] Transcription of file 100 'Ses02F_impro07_F036.wav' has been formatted
+[2025-01-12 18:33:59,717][evaluate.py][line:344][INFO] ORIGINAL: I will. I will. Thank you.
+
+[2025-01-12 18:33:59,717][evaluate.py][line:345][INFO] FORMATTED: I WILL I WILL THANK YOU 
+[2025-01-12 18:34:00,377][evaluate.py][line:343][INFO] Transcription of file 101 'Ses02F_impro07_F037.wav' has been formatted
+[2025-01-12 18:34:00,377][evaluate.py][line:344][INFO] ORIGINAL: Thanks.
+
+[2025-01-12 18:34:00,377][evaluate.py][line:345][INFO] FORMATTED: THANKS 
+[2025-01-12 18:34:01,499][evaluate.py][line:343][INFO] Transcription of file 102 'Ses02M_impro08_F000.wav' has been formatted
+[2025-01-12 18:34:01,499][evaluate.py][line:344][INFO] ORIGINAL: Hi. Thank you so much. I you're a real person, right? You're not like a recording?
+
+[2025-01-12 18:34:01,499][evaluate.py][line:345][INFO] FORMATTED: HI THANK YOU SO MUCH I YOU'RE A REAL PERSON  RIGHT  YOU'RE NOT LIKE A RECORDING  
+[2025-01-12 18:34:02,547][evaluate.py][line:343][INFO] Transcription of file 103 'Ses02M_impro08_F001.wav' has been formatted
+[2025-01-12 18:34:02,547][evaluate.py][line:344][INFO] ORIGINAL: Okay, before I get into it, um your menu or whatever, like where you choose the different thing, depending on the
+
+[2025-01-12 18:34:02,547][evaluate.py][line:345][INFO] FORMATTED: OKAY  BEFORE I GET INTO IT  UM YOUR MENU OR WHATEVER  LIKE WHERE YOU CHOOSE THE DIFFERENT THING  DEPENDING ON THE 
+[2025-01-12 18:34:03,672][evaluate.py][line:343][INFO] Transcription of file 104 'Ses02M_impro08_F002.wav' has been formatted
+[2025-01-12 18:34:03,672][evaluate.py][line:344][INFO] ORIGINAL: it leaves you running in circles so you can't there's no way to like get to a real person if you don't already know how to get there.
+
+[2025-01-12 18:34:03,673][evaluate.py][line:345][INFO] FORMATTED: IT LEAVES YOU RUNNING IN CIRCLES SO YOU CAN'T THERE'S NO WAY TO LIKE GET TO A REAL PERSON IF YOU DON'T ALREADY KNOW HOW TO GET THERE 
+[2025-01-12 18:34:04,555][evaluate.py][line:343][INFO] Transcription of file 105 'Ses02M_impro08_F006.wav' has been formatted
+[2025-01-12 18:34:04,555][evaluate.py][line:344][INFO] ORIGINAL: Sorry. Okay. Um I
+
+[2025-01-12 18:34:04,555][evaluate.py][line:345][INFO] FORMATTED: SORRY OKAY UM I 
+[2025-01-12 18:34:05,729][evaluate.py][line:343][INFO] Transcription of file 106 'Ses02M_impro08_F007.wav' has been formatted
+[2025-01-12 18:34:05,730][evaluate.py][line:344][INFO] ORIGINAL: Thank you very much. Um, so I have a charge on my credit card that um isn't mine.  [sound of static/phone interference]
+
+[2025-01-12 18:34:05,730][evaluate.py][line:345][INFO] FORMATTED: THANK YOU VERY MUCH UM  SO I HAVE A CHARGE ON MY CREDIT CARD THAT UM ISN'T MINE   SOUND OF STATIC PHONE INTERFERENCE  
+[2025-01-12 18:34:06,796][evaluate.py][line:343][INFO] Transcription of file 107 'Ses02M_impro08_F008.wav' has been formatted
+[2025-01-12 18:34:06,797][evaluate.py][line:344][INFO] ORIGINAL: Uh, I don't know where it came from and it's actually quite large and I don't have the money for it so
+
+[2025-01-12 18:34:06,797][evaluate.py][line:345][INFO] FORMATTED: UH  I DON'T KNOW WHERE IT CAME FROM AND IT'S ACTUALLY QUITE LARGE AND I DON'T HAVE THE MONEY FOR IT SO 
+[2025-01-12 18:34:07,894][evaluate.py][line:343][INFO] Transcription of file 108 'Ses02M_impro08_F010.wav' has been formatted
+[2025-01-12 18:34:07,895][evaluate.py][line:344][INFO] ORIGINAL: Okay, it was um at a a uh uh Sorry, it was at a department store. I think it was Macy's or something.
+
+[2025-01-12 18:34:07,895][evaluate.py][line:345][INFO] FORMATTED: OKAY  IT WAS UM AT A A UH UH SORRY  IT WAS AT A DEPARTMENT STORE I THINK IT WAS MACY'S OR SOMETHING 
+[2025-01-12 18:34:08,904][evaluate.py][line:343][INFO] Transcription of file 109 'Ses02M_impro08_F019.wav' has been formatted
+[2025-01-12 18:34:08,904][evaluate.py][line:344][INFO] ORIGINAL: I did buy one thing on eBay. I don't know, that might
+
+[2025-01-12 18:34:08,904][evaluate.py][line:345][INFO] FORMATTED: I DID BUY ONE THING ON EBAY I DON'T KNOW  THAT MIGHT 
+[2025-01-12 18:34:09,618][evaluate.py][line:343][INFO] Transcription of file 110 'Ses02M_impro08_F023.wav' has been formatted
+[2025-01-12 18:34:09,619][evaluate.py][line:344][INFO] ORIGINAL: Great.
+
+[2025-01-12 18:34:09,619][evaluate.py][line:345][INFO] FORMATTED: GREAT 
+[2025-01-12 18:34:09,619][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:34:09,619][evaluate.py][line:400][INFO] [Files Processed] 110 of 481
+[2025-01-12 18:34:09,619][evaluate.py][line:401][INFO] [Total Tokens] 19705
+[2025-01-12 18:34:09,619][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:34:10,298][evaluate.py][line:343][INFO] Transcription of file 111 'Ses02M_impro08_F024.wav' has been formatted
+[2025-01-12 18:34:10,298][evaluate.py][line:344][INFO] ORIGINAL: Yeah.
+
+[2025-01-12 18:34:10,298][evaluate.py][line:345][INFO] FORMATTED: YEAH 
+[2025-01-12 18:34:11,007][evaluate.py][line:343][INFO] Transcription of file 112 'Ses02M_impro08_F025.wav' has been formatted
+[2025-01-12 18:34:11,007][evaluate.py][line:344][INFO] ORIGINAL: Right, right.
+
+[2025-01-12 18:34:11,007][evaluate.py][line:345][INFO] FORMATTED: RIGHT  RIGHT 
+[2025-01-12 18:34:11,690][evaluate.py][line:343][INFO] Transcription of file 113 'Ses02M_impro08_F026.wav' has been formatted
+[2025-01-12 18:34:11,690][evaluate.py][line:344][INFO] ORIGINAL: Okay, great.
+
+[2025-01-12 18:34:11,690][evaluate.py][line:345][INFO] FORMATTED: OKAY  GREAT 
+[2025-01-12 18:34:12,389][evaluate.py][line:343][INFO] Transcription of file 114 'Ses02M_impro08_F027.wav' has been formatted
+[2025-01-12 18:34:12,389][evaluate.py][line:344][INFO] ORIGINAL: Yeah, totally.
+
+[2025-01-12 18:34:12,389][evaluate.py][line:345][INFO] FORMATTED: YEAH  TOTALLY 
+[2025-01-12 18:34:13,380][evaluate.py][line:343][INFO] Transcription of file 115 'Ses02M_impro08_F028.wav' has been formatted
+[2025-01-12 18:34:13,380][evaluate.py][line:344][INFO] ORIGINAL: Well, thank you so much. You've been very helpful. I really appreciate it.
+
+[2025-01-12 18:34:13,380][evaluate.py][line:345][INFO] FORMATTED: WELL  THANK YOU SO MUCH YOU'VE BEEN VERY HELPFUL I REALLY APPRECIATE IT 
+[2025-01-12 18:34:14,264][evaluate.py][line:343][INFO] Transcription of file 116 'Ses02M_impro08_F030.wav' has been formatted
+[2025-01-12 18:34:14,264][evaluate.py][line:344][INFO] ORIGINAL: Thank you very much. Bye.
+
+[2025-01-12 18:34:14,264][evaluate.py][line:345][INFO] FORMATTED: THANK YOU VERY MUCH BYE 
+[2025-01-12 18:34:14,994][evaluate.py][line:343][INFO] Transcription of file 117 'Ses02F_script02_1_F001.wav' has been formatted
+[2025-01-12 18:34:14,995][evaluate.py][line:344][INFO] ORIGINAL: What flashlight?  Beep beep beep beep beep
+
+[2025-01-12 18:34:14,995][evaluate.py][line:345][INFO] FORMATTED: WHAT FLASHLIGHT   BEEP BEEP BEEP BEEP BEEP 
+[2025-01-12 18:34:15,717][evaluate.py][line:343][INFO] Transcription of file 118 'Ses02F_script02_1_F005.wav' has been formatted
+[2025-01-12 18:34:15,718][evaluate.py][line:344][INFO] ORIGINAL: Yeah.  Ppppppp
+
+[2025-01-12 18:34:15,718][evaluate.py][line:345][INFO] FORMATTED: YEAH  PPPPPPP 
+[2025-01-12 18:34:16,617][evaluate.py][line:343][INFO] Transcription of file 119 'Ses02F_script02_1_F019.wav' has been formatted
+[2025-01-12 18:34:16,617][evaluate.py][line:344][INFO] ORIGINAL: We didn't see them the first time either.
+
+[2025-01-12 18:34:16,617][evaluate.py][line:345][INFO] FORMATTED: WE DIDN'T SEE THEM THE FIRST TIME EITHER 
+[2025-01-12 18:34:17,297][evaluate.py][line:343][INFO] Transcription of file 120 'Ses02F_script02_1_F021.wav' has been formatted
+[2025-01-12 18:34:17,297][evaluate.py][line:344][INFO] ORIGINAL: About what?
+
+[2025-01-12 18:34:17,297][evaluate.py][line:345][INFO] FORMATTED: ABOUT WHAT  
+[2025-01-12 18:34:17,985][evaluate.py][line:343][INFO] Transcription of file 121 'Ses02M_script02_1_F000.wav' has been formatted
+[2025-01-12 18:34:17,985][evaluate.py][line:344][INFO] ORIGINAL: Fine.
+
+[2025-01-12 18:34:17,986][evaluate.py][line:345][INFO] FORMATTED: FINE 
+[2025-01-12 18:34:18,918][evaluate.py][line:343][INFO] Transcription of file 122 'Ses02M_script02_1_F001.wav' has been formatted
+[2025-01-12 18:34:18,918][evaluate.py][line:344][INFO] ORIGINAL: What flashlight?
+[sound of a flashlight clicking on and off repeatedly]
+
+[2025-01-12 18:34:18,918][evaluate.py][line:345][INFO] FORMATTED: WHAT FLASHLIGHT   SOUND OF A FLASHLIGHT CLICKING ON AND OFF REPEATEDLY  
+[2025-01-12 18:34:19,621][evaluate.py][line:343][INFO] Transcription of file 123 'Ses02M_script02_1_F005.wav' has been formatted
+[2025-01-12 18:34:19,621][evaluate.py][line:344][INFO] ORIGINAL: ja
+pp
+
+[2025-01-12 18:34:19,621][evaluate.py][line:345][INFO] FORMATTED: JA PP 
+[2025-01-12 18:34:20,338][evaluate.py][line:343][INFO] Transcription of file 124 'Ses02M_script02_1_F006.wav' has been formatted
+[2025-01-12 18:34:20,338][evaluate.py][line:344][INFO] ORIGINAL: I'm cold.  Ppp
+
+[2025-01-12 18:34:20,338][evaluate.py][line:345][INFO] FORMATTED: I'M COLD  PPP 
+[2025-01-12 18:34:21,019][evaluate.py][line:343][INFO] Transcription of file 125 'Ses02M_script02_1_F011.wav' has been formatted
+[2025-01-12 18:34:21,019][evaluate.py][line:344][INFO] ORIGINAL: Not particularly.
+
+[2025-01-12 18:34:21,019][evaluate.py][line:345][INFO] FORMATTED: NOT PARTICULARLY 
+[2025-01-12 18:34:21,699][evaluate.py][line:343][INFO] Transcription of file 126 'Ses02M_script02_1_F016.wav' has been formatted
+[2025-01-12 18:34:21,699][evaluate.py][line:344][INFO] ORIGINAL: Just not
+
+[2025-01-12 18:34:21,699][evaluate.py][line:345][INFO] FORMATTED: JUST NOT 
+[2025-01-12 18:34:22,351][evaluate.py][line:343][INFO] Transcription of file 127 'Ses02M_script02_1_F017.wav' has been formatted
+[2025-01-12 18:34:22,352][evaluate.py][line:344][INFO] ORIGINAL: Yeah. Yeah.
+
+[2025-01-12 18:34:22,352][evaluate.py][line:345][INFO] FORMATTED: YEAH YEAH 
+[2025-01-12 18:34:23,678][evaluate.py][line:343][INFO] Transcription of file 128 'Ses02M_script02_1_F018.wav' has been formatted
+[2025-01-12 18:34:23,679][evaluate.py][line:344][INFO] ORIGINAL: Last year you'll also remember our shoes got wet. I got sand in my panties. You got a sore throat. We got in a big fight over nothing. And we didn't see the Granions.
+
+[2025-01-12 18:34:23,679][evaluate.py][line:345][INFO] FORMATTED: LAST YEAR YOU'LL ALSO REMEMBER OUR SHOES GOT WET I GOT SAND IN MY PANTIES YOU GOT A SORE THROAT WE GOT IN A BIG FIGHT OVER NOTHING AND WE DIDN'T SEE THE GRANIONS 
+[2025-01-12 18:34:24,420][evaluate.py][line:343][INFO] Transcription of file 129 'Ses02M_script02_1_F020.wav' has been formatted
+[2025-01-12 18:34:24,420][evaluate.py][line:344][INFO] ORIGINAL: That's the wind.  Pppp
+
+[2025-01-12 18:34:24,421][evaluate.py][line:345][INFO] FORMATTED: THAT'S THE WIND  PPPP 
+[2025-01-12 18:34:25,079][evaluate.py][line:343][INFO] Transcription of file 130 'Ses02M_script02_1_F021.wav' has been formatted
+[2025-01-12 18:34:25,079][evaluate.py][line:344][INFO] ORIGINAL: About what?
+
+[2025-01-12 18:34:25,079][evaluate.py][line:345][INFO] FORMATTED: ABOUT WHAT  
+[2025-01-12 18:34:25,985][evaluate.py][line:343][INFO] Transcription of file 131 'Ses02F_script01_1_F004.wav' has been formatted
+[2025-01-12 18:34:25,985][evaluate.py][line:344][INFO] ORIGINAL: Did you talk to him?
+
+[2025-01-12 18:34:25,985][evaluate.py][line:345][INFO] FORMATTED: DID YOU TALK TO HIM  
+[2025-01-12 18:34:26,864][evaluate.py][line:343][INFO] Transcription of file 132 'Ses02F_script01_1_F005.wav' has been formatted
+[2025-01-12 18:34:26,864][evaluate.py][line:344][INFO] ORIGINAL: He cried hard.
+
+[2025-01-12 18:34:26,864][evaluate.py][line:345][INFO] FORMATTED: HE CRIED HARD 
+[2025-01-12 18:34:27,744][evaluate.py][line:343][INFO] Transcription of file 133 'Ses02F_script01_1_F006.wav' has been formatted
+[2025-01-12 18:34:27,744][evaluate.py][line:344][INFO] ORIGINAL: What was he doing out here at that hour?
+
+[2025-01-12 18:34:27,744][evaluate.py][line:345][INFO] FORMATTED: WHAT WAS HE DOING OUT HERE AT THAT HOUR  
+[2025-01-12 18:34:28,682][evaluate.py][line:343][INFO] Transcription of file 134 'Ses02F_script01_1_F017.wav' has been formatted
+[2025-01-12 18:34:28,683][evaluate.py][line:344][INFO] ORIGINAL: I got an idea, but what's the story?
+
+[2025-01-12 18:34:28,683][evaluate.py][line:345][INFO] FORMATTED: I GOT AN IDEA  BUT WHAT'S THE STORY  
+[2025-01-12 18:34:29,611][evaluate.py][line:343][INFO] Transcription of file 135 'Ses02F_script01_1_F018.wav' has been formatted
+[2025-01-12 18:34:29,611][evaluate.py][line:344][INFO] ORIGINAL: Well, that's only your business, Chris.  Ppp
+
+[2025-01-12 18:34:29,611][evaluate.py][line:345][INFO] FORMATTED: WELL  THAT'S ONLY YOUR BUSINESS  CHRIS  PPP 
+[2025-01-12 18:34:30,570][evaluate.py][line:343][INFO] Transcription of file 136 'Ses02F_script01_1_F019.wav' has been formatted
+[2025-01-12 18:34:30,570][evaluate.py][line:344][INFO] ORIGINAL: What do you want me to do? You're old enough to know your own mind.
+
+[2025-01-12 18:34:30,570][evaluate.py][line:345][INFO] FORMATTED: WHAT DO YOU WANT ME TO DO  YOU'RE OLD ENOUGH TO KNOW YOUR OWN MIND 
+[2025-01-12 18:34:31,427][evaluate.py][line:343][INFO] Transcription of file 137 'Ses02F_script01_1_F021.wav' has been formatted
+[2025-01-12 18:34:31,427][evaluate.py][line:344][INFO] ORIGINAL: I'm just saying that sometimes
+
+[2025-01-12 18:34:31,428][evaluate.py][line:345][INFO] FORMATTED: I'M JUST SAYING THAT SOMETIMES 
+[2025-01-12 18:34:32,361][evaluate.py][line:343][INFO] Transcription of file 138 'Ses02F_script01_1_F025.wav' has been formatted
+[2025-01-12 18:34:32,361][evaluate.py][line:344][INFO] ORIGINAL: You're a considerate fella. There's nothing wrong with that.
+
+[2025-01-12 18:34:32,361][evaluate.py][line:345][INFO] FORMATTED: YOU'RE A CONSIDERATE FELLA THERE'S NOTHING WRONG WITH THAT 
+[2025-01-12 18:34:33,241][evaluate.py][line:343][INFO] Transcription of file 139 'Ses02F_script01_1_F026.wav' has been formatted
+[2025-01-12 18:34:33,241][evaluate.py][line:344][INFO] ORIGINAL: Have you asked Danny yet?
+Ppppppp
+
+[2025-01-12 18:34:33,241][evaluate.py][line:345][INFO] FORMATTED: HAVE YOU ASKED DANNY YET  PPPPPPP 
+[2025-01-12 18:34:34,296][evaluate.py][line:343][INFO] Transcription of file 140 'Ses02F_script01_1_F027.wav' has been formatted
+[2025-01-12 18:34:34,297][evaluate.py][line:344][INFO] ORIGINAL: Well, how do you know she'll marry you? Maybe she feels the same way your father does.
+
+[2025-01-12 18:34:34,297][evaluate.py][line:345][INFO] FORMATTED: WELL  HOW DO YOU KNOW SHE'LL MARRY YOU  MAYBE SHE FEELS THE SAME WAY YOUR FATHER DOES 
+[2025-01-12 18:34:35,224][evaluate.py][line:343][INFO] Transcription of file 141 'Ses02F_script01_1_F028.wav' has been formatted
+[2025-01-12 18:34:35,224][evaluate.py][line:344][INFO] ORIGINAL: Trouble is, you don't see enough women.
+
+[2025-01-12 18:34:35,224][evaluate.py][line:345][INFO] FORMATTED: TROUBLE IS  YOU DON'T SEE ENOUGH WOMEN 
+[2025-01-12 18:34:36,001][evaluate.py][line:343][INFO] Transcription of file 142 'Ses02F_script01_1_F036.wav' has been formatted
+[2025-01-12 18:34:36,001][evaluate.py][line:344][INFO] ORIGINAL: Are you crazy? I've been a p-p-
+
+[2025-01-12 18:34:36,001][evaluate.py][line:345][INFO] FORMATTED: ARE YOU CRAZY  I'VE BEEN A P P  
+[2025-01-12 18:34:36,933][evaluate.py][line:343][INFO] Transcription of file 143 'Ses02F_script01_1_F037.wav' has been formatted
+[2025-01-12 18:34:36,933][evaluate.py][line:344][INFO] ORIGINAL: What about the business? What the hell is this?
+
+[2025-01-12 18:34:36,933][evaluate.py][line:345][INFO] FORMATTED: WHAT ABOUT THE BUSINESS  WHAT THE HELL IS THIS  
+[2025-01-12 18:34:37,818][evaluate.py][line:343][INFO] Transcription of file 144 'Ses02F_script01_1_F038.wav' has been formatted
+[2025-01-12 18:34:37,818][evaluate.py][line:344][INFO] ORIGINAL: Must you be inspired? Yes.
+
+[2025-01-12 18:34:37,819][evaluate.py][line:345][INFO] FORMATTED: MUST YOU BE INSPIRED  YES 
+[2025-01-12 18:34:38,760][evaluate.py][line:343][INFO] Transcription of file 145 'Ses02F_script01_1_F040.wav' has been formatted
+[2025-01-12 18:34:38,760][evaluate.py][line:344][INFO] ORIGINAL: Well, you don't wanna think like that.
+
+[2025-01-12 18:34:38,761][evaluate.py][line:345][INFO] FORMATTED: WELL  YOU DON'T WANNA THINK LIKE THAT 
+[2025-01-12 18:34:39,674][evaluate.py][line:343][INFO] Transcription of file 146 'Ses02F_script01_1_F044.wav' has been formatted
+[2025-01-12 18:34:39,674][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I can see that.
+P P
+
+[2025-01-12 18:34:39,674][evaluate.py][line:345][INFO] FORMATTED: YEAH  I CAN SEE THAT P P 
+[2025-01-12 18:34:40,638][evaluate.py][line:343][INFO] Transcription of file 147 'Ses02F_impro06_F000.wav' has been formatted
+[2025-01-12 18:34:40,639][evaluate.py][line:344][INFO] ORIGINAL: Johnny died yesterday.
+
+[2025-01-12 18:34:40,639][evaluate.py][line:345][INFO] FORMATTED: JOHNNY DIED YESTERDAY 
+[2025-01-12 18:34:41,563][evaluate.py][line:343][INFO] Transcription of file 148 'Ses02F_impro06_F001.wav' has been formatted
+[2025-01-12 18:34:41,563][evaluate.py][line:344][INFO] ORIGINAL: I mean, we knew that it was coming, but
+
+[2025-01-12 18:34:41,563][evaluate.py][line:345][INFO] FORMATTED: I MEAN  WE KNEW THAT IT WAS COMING  BUT 
+[2025-01-12 18:34:42,634][evaluate.py][line:343][INFO] Transcription of file 149 'Ses02F_impro06_F002.wav' has been formatted
+[2025-01-12 18:34:42,635][evaluate.py][line:344][INFO] ORIGINAL: It seems like he had a little bit longer. Like just last week he was doing so well.
+
+[2025-01-12 18:34:42,636][evaluate.py][line:345][INFO] FORMATTED: IT SEEMS LIKE HE HAD A LITTLE BIT LONGER LIKE JUST LAST WEEK HE WAS DOING SO WELL 
+[2025-01-12 18:34:43,332][evaluate.py][line:343][INFO] Transcription of file 150 'Ses02F_impro06_F003.wav' has been formatted
+[2025-01-12 18:34:43,332][evaluate.py][line:344][INFO] ORIGINAL: Yes.  P p
+
+[2025-01-12 18:34:43,333][evaluate.py][line:345][INFO] FORMATTED: YES  P P 
+[2025-01-12 18:34:44,223][evaluate.py][line:343][INFO] Transcription of file 151 'Ses02F_impro06_F004.wav' has been formatted
+[2025-01-12 18:34:44,223][evaluate.py][line:344][INFO] ORIGINAL: I just don't want him to be gone.
+
+[2025-01-12 18:34:44,223][evaluate.py][line:345][INFO] FORMATTED: I JUST DON'T WANT HIM TO BE GONE 
+[2025-01-12 18:34:45,090][evaluate.py][line:343][INFO] Transcription of file 152 'Ses02F_impro06_F005.wav' has been formatted
+[2025-01-12 18:34:45,090][evaluate.py][line:344][INFO] ORIGINAL: His whole family was there.
+
+[2025-01-12 18:34:45,090][evaluate.py][line:345][INFO] FORMATTED: HIS WHOLE FAMILY WAS THERE 
+[2025-01-12 18:34:46,130][evaluate.py][line:343][INFO] Transcription of file 153 'Ses02F_impro06_F006.wav' has been formatted
+[2025-01-12 18:34:46,130][evaluate.py][line:344][INFO] ORIGINAL: I mean, he was like really conscious right up until the end, you know.
+
+[2025-01-12 18:34:46,130][evaluate.py][line:345][INFO] FORMATTED: I MEAN  HE WAS LIKE REALLY CONSCIOUS RIGHT UP UNTIL THE END  YOU KNOW 
+[2025-01-12 18:34:47,310][evaluate.py][line:343][INFO] Transcription of file 154 'Ses02F_impro06_F007.wav' has been formatted
+[2025-01-12 18:34:47,310][evaluate.py][line:344][INFO] ORIGINAL: I was so young, you know? He and all these stories he used to tell me about…
+
+[2025-01-12 18:34:47,310][evaluate.py][line:345][INFO] FORMATTED: I WAS SO YOUNG  YOU KNOW  HE AND ALL THESE STORIES HE USED TO TELL ME ABOUT 
+[2025-01-12 18:34:48,416][evaluate.py][line:343][INFO] Transcription of file 155 'Ses02F_impro06_F008.wav' has been formatted
+[2025-01-12 18:34:48,416][evaluate.py][line:344][INFO] ORIGINAL: the way he wanted to live and he was gonna go to Africa and he was gonna
+
+[2025-01-12 18:34:48,416][evaluate.py][line:345][INFO] FORMATTED: THE WAY HE WANTED TO LIVE AND HE WAS GONNA GO TO AFRICA AND HE WAS GONNA 
+[2025-01-12 18:34:49,393][evaluate.py][line:343][INFO] Transcription of file 156 'Ses02F_impro06_F009.wav' has been formatted
+[2025-01-12 18:34:49,393][evaluate.py][line:344][INFO] ORIGINAL: Nobody's ever gonna forget him.
+
+[2025-01-12 18:34:49,394][evaluate.py][line:345][INFO] FORMATTED: NOBODY'S EVER GONNA FORGET HIM 
+[2025-01-12 18:34:50,367][evaluate.py][line:343][INFO] Transcription of file 157 'Ses02F_impro06_F010.wav' has been formatted
+[2025-01-12 18:34:50,367][evaluate.py][line:344][INFO] ORIGINAL: He didn't lie. But 
+[sound of beeping]
+
+[2025-01-12 18:34:50,367][evaluate.py][line:345][INFO] FORMATTED: HE DIDN'T LIE BUT   SOUND OF BEEPING  
+[2025-01-12 18:34:51,427][evaluate.py][line:343][INFO] Transcription of file 158 'Ses02F_impro06_F011.wav' has been formatted
+[2025-01-12 18:34:51,427][evaluate.py][line:344][INFO] ORIGINAL: I'm going to forget him.
+
+[2025-01-12 18:34:51,427][evaluate.py][line:345][INFO] FORMATTED: I'M GOING TO FORGET HIM 
+[2025-01-12 18:34:52,345][evaluate.py][line:343][INFO] Transcription of file 159 'Ses02F_impro06_F012.wav' has been formatted
+[2025-01-12 18:34:52,345][evaluate.py][line:344][INFO] ORIGINAL: I'm Gravel here, boys, sir.
+
+[2025-01-12 18:34:52,345][evaluate.py][line:345][INFO] FORMATTED: I'M GRAVEL HERE  BOYS  SIR 
+[2025-01-12 18:34:53,315][evaluate.py][line:343][INFO] Transcription of file 160 'Ses02F_impro06_F013.wav' has been formatted
+[2025-01-12 18:34:53,316][evaluate.py][line:344][INFO] ORIGINAL: you start to lose like that image after a while.
+
+[2025-01-12 18:34:53,316][evaluate.py][line:345][INFO] FORMATTED: YOU START TO LOSE LIKE THAT IMAGE AFTER A WHILE 
+[2025-01-12 18:34:53,981][evaluate.py][line:343][INFO] Transcription of file 161 'Ses02F_impro06_F014.wav' has been formatted
+[2025-01-12 18:34:53,981][evaluate.py][line:344][INFO] ORIGINAL: Thanks.
+
+[2025-01-12 18:34:53,981][evaluate.py][line:345][INFO] FORMATTED: THANKS 
+[2025-01-12 18:34:55,119][evaluate.py][line:343][INFO] Transcription of file 162 'Ses02F_impro01_F000.wav' has been formatted
+[2025-01-12 18:34:55,119][evaluate.py][line:344][INFO] ORIGINAL: Hi. Excuse me. Um, I'd like to put in this application for my registration.
+
+[2025-01-12 18:34:55,119][evaluate.py][line:345][INFO] FORMATTED: HI EXCUSE ME UM  I'D LIKE TO PUT IN THIS APPLICATION FOR MY REGISTRATION 
+[2025-01-12 18:34:56,124][evaluate.py][line:343][INFO] Transcription of file 163 'Ses02F_impro01_F018.wav' has been formatted
+[2025-01-12 18:34:56,124][evaluate.py][line:344][INFO] ORIGINAL: Well, why didn't the DMV put that you needed your birth certificate on the application then?
+
+[2025-01-12 18:34:56,124][evaluate.py][line:345][INFO] FORMATTED: WELL  WHY DIDN'T THE DMV PUT THAT YOU NEEDED YOUR BIRTH CERTIFICATE ON THE APPLICATION THEN  
+[2025-01-12 18:34:57,174][evaluate.py][line:343][INFO] Transcription of file 164 'Ses02F_impro01_F019.wav' has been formatted
+[2025-01-12 18:34:57,174][evaluate.py][line:344][INFO] ORIGINAL: Yeah, but your birth certificate, I mean, who carries around their birth certificate? Nobody does that.
+
+[2025-01-12 18:34:57,175][evaluate.py][line:345][INFO] FORMATTED: YEAH  BUT YOUR BIRTH CERTIFICATE  I MEAN  WHO CARRIES AROUND THEIR BIRTH CERTIFICATE  NOBODY DOES THAT 
+[2025-01-12 18:34:58,145][evaluate.py][line:343][INFO] Transcription of file 165 'Ses02F_impro01_F020.wav' has been formatted
+[2025-01-12 18:34:58,145][evaluate.py][line:344][INFO] ORIGINAL: with your driver's license and your passport just like everybody else.
+
+[2025-01-12 18:34:58,145][evaluate.py][line:345][INFO] FORMATTED: WITH YOUR DRIVER'S LICENSE AND YOUR PASSPORT JUST LIKE EVERYBODY ELSE 
+[2025-01-12 18:34:58,145][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:34:58,146][evaluate.py][line:400][INFO] [Files Processed] 165 of 481
+[2025-01-12 18:34:58,146][evaluate.py][line:401][INFO] [Total Tokens] 27830
+[2025-01-12 18:34:58,146][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:34:59,517][evaluate.py][line:343][INFO] Transcription of file 166 'Ses02F_impro01_F021.wav' has been formatted
+[2025-01-12 18:34:59,517][evaluate.py][line:344][INFO] ORIGINAL: Something before then.  You always use your driver's license. I mean, you're not coming to the DMV if you're not over sixteen and that's when you get your driver's license, so you're never gonna need it anyway.
+
+[2025-01-12 18:34:59,517][evaluate.py][line:345][INFO] FORMATTED: SOMETHING BEFORE THEN  YOU ALWAYS USE YOUR DRIVER'S LICENSE I MEAN  YOU'RE NOT COMING TO THE DMV IF YOU'RE NOT OVER SIXTEEN AND THAT'S WHEN YOU GET YOUR DRIVER'S LICENSE  SO YOU'RE NEVER GONNA NEED IT ANYWAY 
+[2025-01-12 18:35:00,552][evaluate.py][line:343][INFO] Transcription of file 167 'Ses02F_impro08_F000.wav' has been formatted
+[2025-01-12 18:35:00,552][evaluate.py][line:344][INFO] ORIGINAL: Hi, my name's Shyla. Welcome to Airline 6. Hi, how may I help you?
+
+[2025-01-12 18:35:00,552][evaluate.py][line:345][INFO] FORMATTED: HI  MY NAME'S SHYLA WELCOME TO AIRLINE 6 HI  HOW MAY I HELP YOU  
+[2025-01-12 18:35:01,336][evaluate.py][line:343][INFO] Transcription of file 168 'Ses02F_impro08_F001.wav' has been formatted
+[2025-01-12 18:35:01,336][evaluate.py][line:344][INFO] ORIGINAL: All right, sir.  I know. I'm sorry.
+
+[2025-01-12 18:35:01,336][evaluate.py][line:345][INFO] FORMATTED: ALL RIGHT  SIR  I KNOW I'M SORRY 
+[2025-01-12 18:35:02,308][evaluate.py][line:343][INFO] Transcription of file 169 'Ses02F_impro08_F002.wav' has been formatted
+[2025-01-12 18:35:02,308][evaluate.py][line:344][INFO] ORIGINAL: Frustrating. I completely understand that automated systems are very difficult sometimes.
+
+[2025-01-12 18:35:02,308][evaluate.py][line:345][INFO] FORMATTED: FRUSTRATING I COMPLETELY UNDERSTAND THAT AUTOMATED SYSTEMS ARE VERY DIFFICULT SOMETIMES 
+[2025-01-12 18:35:03,273][evaluate.py][line:343][INFO] Transcription of file 170 'Ses02F_impro08_F003.wav' has been formatted
+[2025-01-12 18:35:03,273][evaluate.py][line:344][INFO] ORIGINAL: How may I help you? You're trying to book a specific flight?
+
+[2025-01-12 18:35:03,273][evaluate.py][line:345][INFO] FORMATTED: HOW MAY I HELP YOU  YOU'RE TRYING TO BOOK A SPECIFIC FLIGHT  
+[2025-01-12 18:35:04,370][evaluate.py][line:343][INFO] Transcription of file 171 'Ses02F_impro08_F004.wav' has been formatted
+[2025-01-12 18:35:04,370][evaluate.py][line:344][INFO] ORIGINAL: Oh yeah, absolutely. You know, and especially because you've been waiting so long and I know that um you've been having a difficult time.
+
+[2025-01-12 18:35:04,370][evaluate.py][line:345][INFO] FORMATTED: OH YEAH  ABSOLUTELY YOU KNOW  AND ESPECIALLY BECAUSE YOU'VE BEEN WAITING SO LONG AND I KNOW THAT UM YOU'VE BEEN HAVING A DIFFICULT TIME 
+[2025-01-12 18:35:05,557][evaluate.py][line:343][INFO] Transcription of file 172 'Ses02F_impro08_F005.wav' has been formatted
+[2025-01-12 18:35:05,557][evaluate.py][line:344][INFO] ORIGINAL: I want to definitely give you our special package today, which um is usually only for valued customers who have a record of having previous
+[The audio cuts off with a repeated "p" sound]
+
+[2025-01-12 18:35:05,557][evaluate.py][line:345][INFO] FORMATTED: I WANT TO DEFINITELY GIVE YOU OUR SPECIAL PACKAGE TODAY  WHICH UM IS USUALLY ONLY FOR VALUED CUSTOMERS WHO HAVE A RECORD OF HAVING PREVIOUS  THE AUDIO CUTS OFF WITH A REPEATED  P  SOUND  
+[2025-01-12 18:35:06,877][evaluate.py][line:343][INFO] Transcription of file 173 'Ses02F_impro08_F006.wav' has been formatted
+[2025-01-12 18:35:06,877][evaluate.py][line:344][INFO] ORIGINAL: um lots of purchases but we're going to go ahead and give that to you anyway uh just to make sure that you're happy with your service here.
+
+[2025-01-12 18:35:06,877][evaluate.py][line:345][INFO] FORMATTED: UM LOTS OF PURCHASES BUT WE'RE GOING TO GO AHEAD AND GIVE THAT TO YOU ANYWAY UH JUST TO MAKE SURE THAT YOU'RE HAPPY WITH YOUR SERVICE HERE 
+[2025-01-12 18:35:07,572][evaluate.py][line:343][INFO] Transcription of file 174 'Ses02F_impro08_F007.wav' has been formatted
+[2025-01-12 18:35:07,572][evaluate.py][line:344][INFO] ORIGINAL: Is that all right?
+
+[2025-01-12 18:35:07,572][evaluate.py][line:345][INFO] FORMATTED: IS THAT ALL RIGHT  
+[2025-01-12 18:35:08,648][evaluate.py][line:343][INFO] Transcription of file 175 'Ses02F_impro08_F008.wav' has been formatted
+[2025-01-12 18:35:08,648][evaluate.py][line:344][INFO] ORIGINAL: I can do that right now for you. No, absolutely. I can take care of you all the way through to the end.
+
+[2025-01-12 18:35:08,648][evaluate.py][line:345][INFO] FORMATTED: I CAN DO THAT RIGHT NOW FOR YOU NO  ABSOLUTELY I CAN TAKE CARE OF YOU ALL THE WAY THROUGH TO THE END 
+[2025-01-12 18:35:09,686][evaluate.py][line:343][INFO] Transcription of file 176 'Ses02F_impro08_F009.wav' has been formatted
+[2025-01-12 18:35:09,687][evaluate.py][line:344][INFO] ORIGINAL: All I'm gonna need is your credit card number, but just give me one moment. So, beep beep beep...
+
+[2025-01-12 18:35:09,687][evaluate.py][line:345][INFO] FORMATTED: ALL I'M GONNA NEED IS YOUR CREDIT CARD NUMBER  BUT JUST GIVE ME ONE MOMENT SO  BEEP BEEP BEEP 
+[2025-01-12 18:35:11,099][evaluate.py][line:343][INFO] Transcription of file 177 'Ses02F_impro08_F010.wav' has been formatted
+[2025-01-12 18:35:11,099][evaluate.py][line:344][INFO] ORIGINAL: Um you're scheduling a flight as well and you would like to um we have a highly discounted hotel rate that goes along with that. So that everything is all in one deal you're taken care of by the time that you get there.  I wanna make sure
+
+[2025-01-12 18:35:11,100][evaluate.py][line:345][INFO] FORMATTED: UM YOU'RE SCHEDULING A FLIGHT AS WELL AND YOU WOULD LIKE TO UM WE HAVE A HIGHLY DISCOUNTED HOTEL RATE THAT GOES ALONG WITH THAT SO THAT EVERYTHING IS ALL IN ONE DEAL YOU'RE TAKEN CARE OF BY THE TIME THAT YOU GET THERE  I WANNA MAKE SURE 
+[2025-01-12 18:35:11,969][evaluate.py][line:343][INFO] Transcription of file 178 'Ses02F_impro08_F011.wav' has been formatted
+[2025-01-12 18:35:11,969][evaluate.py][line:344][INFO] ORIGINAL: Absolutely. We, we, we
+
+[2025-01-12 18:35:11,969][evaluate.py][line:345][INFO] FORMATTED: ABSOLUTELY WE  WE  WE 
+[2025-01-12 18:35:13,425][evaluate.py][line:343][INFO] Transcription of file 179 'Ses02F_impro08_F012.wav' has been formatted
+[2025-01-12 18:35:13,425][evaluate.py][line:344][INFO] ORIGINAL: Yes, I completely understand. Actually our our airline only uses uh five-star hotels and above except we charge at a three-star hotel rate because as a corporation we're able to get a deal from the hotels themselves.
+
+[2025-01-12 18:35:13,425][evaluate.py][line:345][INFO] FORMATTED: YES  I COMPLETELY UNDERSTAND ACTUALLY OUR OUR AIRLINE ONLY USES UH FIVE STAR HOTELS AND ABOVE EXCEPT WE CHARGE AT A THREE STAR HOTEL RATE BECAUSE AS A CORPORATION WE'RE ABLE TO GET A DEAL FROM THE HOTELS THEMSELVES 
+[2025-01-12 18:35:14,587][evaluate.py][line:343][INFO] Transcription of file 180 'Ses02F_impro08_F013.wav' has been formatted
+[2025-01-12 18:35:14,587][evaluate.py][line:344][INFO] ORIGINAL: So you will absolutely be in a high-rated uh great hotel and we can make sure that it's in an area of town that you like as well.
+
+[2025-01-12 18:35:14,587][evaluate.py][line:345][INFO] FORMATTED: SO YOU WILL ABSOLUTELY BE IN A HIGH RATED UH GREAT HOTEL AND WE CAN MAKE SURE THAT IT'S IN AN AREA OF TOWN THAT YOU LIKE AS WELL 
+[2025-01-12 18:35:15,265][evaluate.py][line:343][INFO] Transcription of file 181 'Ses02F_impro08_F014.wav' has been formatted
+[2025-01-12 18:35:15,265][evaluate.py][line:344][INFO] ORIGINAL: So yeah what
+
+[2025-01-12 18:35:15,265][evaluate.py][line:345][INFO] FORMATTED: SO YEAH WHAT 
+[2025-01-12 18:35:15,961][evaluate.py][line:343][INFO] Transcription of file 182 'Ses02F_impro08_F015.wav' has been formatted
+[2025-01-12 18:35:15,961][evaluate.py][line:344][INFO] ORIGINAL: Okay.
+
+[2025-01-12 18:35:15,961][evaluate.py][line:345][INFO] FORMATTED: OKAY 
+[2025-01-12 18:35:16,863][evaluate.py][line:343][INFO] Transcription of file 183 'Ses02F_impro08_F016.wav' has been formatted
+[2025-01-12 18:35:16,863][evaluate.py][line:344][INFO] ORIGINAL: Great. Um, how many seats?
+Pppppp
+
+[2025-01-12 18:35:16,863][evaluate.py][line:345][INFO] FORMATTED: GREAT UM  HOW MANY SEATS  PPPPPP 
+[2025-01-12 18:35:17,811][evaluate.py][line:343][INFO] Transcription of file 184 'Ses02F_impro08_F017.wav' has been formatted
+[2025-01-12 18:35:17,811][evaluate.py][line:344][INFO] ORIGINAL: Okay, great. Four seats. I'll book you for four seats.
+
+[2025-01-12 18:35:17,811][evaluate.py][line:345][INFO] FORMATTED: OKAY  GREAT FOUR SEATS I'LL BOOK YOU FOR FOUR SEATS 
+[2025-01-12 18:35:18,788][evaluate.py][line:343][INFO] Transcription of file 185 'Ses02F_impro08_F018.wav' has been formatted
+[2025-01-12 18:35:18,788][evaluate.py][line:344][INFO] ORIGINAL: together. Oh yeah, absolutely. Uh, would you like Windows sheets or iOS?
+
+[2025-01-12 18:35:18,788][evaluate.py][line:345][INFO] FORMATTED: TOGETHER OH YEAH  ABSOLUTELY UH  WOULD YOU LIKE WINDOWS SHEETS OR IOS  
+[2025-01-12 18:35:20,134][evaluate.py][line:343][INFO] Transcription of file 186 'Ses02F_impro08_F019.wav' has been formatted
+[2025-01-12 18:35:20,134][evaluate.py][line:344][INFO] ORIGINAL: Okay. I could do uh a win two like a window and an aisle and a window and an aisle next to each other so that each of you can sit two by two and switch around maybe.
+
+[2025-01-12 18:35:20,134][evaluate.py][line:345][INFO] FORMATTED: OKAY I COULD DO UH A WIN TWO LIKE A WINDOW AND AN AISLE AND A WINDOW AND AN AISLE NEXT TO EACH OTHER SO THAT EACH OF YOU CAN SIT TWO BY TWO AND SWITCH AROUND MAYBE 
+[2025-01-12 18:35:21,078][evaluate.py][line:343][INFO] Transcription of file 187 'Ses02F_impro08_F020.wav' has been formatted
+[2025-01-12 18:35:21,078][evaluate.py][line:344][INFO] ORIGINAL: Good. Okay, great. What time of the day would you like?
+
+[2025-01-12 18:35:21,078][evaluate.py][line:345][INFO] FORMATTED: GOOD OKAY  GREAT WHAT TIME OF THE DAY WOULD YOU LIKE  
+[2025-01-12 18:35:22,236][evaluate.py][line:343][INFO] Transcription of file 188 'Ses02F_impro08_F021.wav' has been formatted
+[2025-01-12 18:35:22,236][evaluate.py][line:344][INFO] ORIGINAL: All right, great. Well we have a very open flight that leaves at 9 AM. Unfortunately, uh the time change actually goes um backwards but that [noise]
+
+[2025-01-12 18:35:22,236][evaluate.py][line:345][INFO] FORMATTED: ALL RIGHT  GREAT WELL WE HAVE A VERY OPEN FLIGHT THAT LEAVES AT 9 AM UNFORTUNATELY  UH THE TIME CHANGE ACTUALLY GOES UM BACKWARDS BUT THAT  NOISE  
+[2025-01-12 18:35:23,800][evaluate.py][line:343][INFO] Transcription of file 189 'Ses02F_impro08_F022.wav' has been formatted
+[2025-01-12 18:35:23,800][evaluate.py][line:344][INFO] ORIGINAL: So it'll it's a five hour flight, but you'll arrive only at 11 o'clock in the morning. So that day you can have plenty of time to get to your hotel, rest up and then still have a nice afternoon, your first afternoon in Maui.
+
+[2025-01-12 18:35:23,800][evaluate.py][line:345][INFO] FORMATTED: SO IT'LL IT'S A FIVE HOUR FLIGHT  BUT YOU'LL ARRIVE ONLY AT 11 O'CLOCK IN THE MORNING SO THAT DAY YOU CAN HAVE PLENTY OF TIME TO GET TO YOUR HOTEL  REST UP AND THEN STILL HAVE A NICE AFTERNOON  YOUR FIRST AFTERNOON IN MAUI 
+[2025-01-12 18:35:25,032][evaluate.py][line:343][INFO] Transcription of file 190 'Ses02F_impro08_F023.wav' has been formatted
+[2025-01-12 18:35:25,032][evaluate.py][line:344][INFO] ORIGINAL: Absolutely. That actually goes in in the same package with our hotel. You just give me your address, we'll come and pick you up at a time that allows you to get to your flight with plenty of time to spare.
+
+[2025-01-12 18:35:25,032][evaluate.py][line:345][INFO] FORMATTED: ABSOLUTELY THAT ACTUALLY GOES IN IN THE SAME PACKAGE WITH OUR HOTEL YOU JUST GIVE ME YOUR ADDRESS  WE'LL COME AND PICK YOU UP AT A TIME THAT ALLOWS YOU TO GET TO YOUR FLIGHT WITH PLENTY OF TIME TO SPARE 
+[2025-01-12 18:35:26,072][evaluate.py][line:343][INFO] Transcription of file 191 'Ses02F_impro08_F024.wav' has been formatted
+[2025-01-12 18:35:26,072][evaluate.py][line:344][INFO] ORIGINAL: and uh there will also be a shuttle waiting for you to take you to the appropriate hotel.
+
+[2025-01-12 18:35:26,072][evaluate.py][line:345][INFO] FORMATTED: AND UH THERE WILL ALSO BE A SHUTTLE WAITING FOR YOU TO TAKE YOU TO THE APPROPRIATE HOTEL 
+[2025-01-12 18:35:27,229][evaluate.py][line:343][INFO] Transcription of file 192 'Ses02F_impro08_F025.wav' has been formatted
+[2025-01-12 18:35:27,229][evaluate.py][line:344][INFO] ORIGINAL: Yes. I completely understand. It's a difficult process sometimes and we want to make travelling as easy as possible.
+
+[2025-01-12 18:35:27,229][evaluate.py][line:345][INFO] FORMATTED: YES I COMPLETELY UNDERSTAND IT'S A DIFFICULT PROCESS SOMETIMES AND WE WANT TO MAKE TRAVELLING AS EASY AS POSSIBLE 
+[2025-01-12 18:35:28,247][evaluate.py][line:343][INFO] Transcription of file 193 'Ses02F_impro08_F026.wav' has been formatted
+[2025-01-12 18:35:28,247][evaluate.py][line:344][INFO] ORIGINAL: Absolutely. Thank you so much for calling and we hope that you will come to us again.
+
+[2025-01-12 18:35:28,247][evaluate.py][line:345][INFO] FORMATTED: ABSOLUTELY THANK YOU SO MUCH FOR CALLING AND WE HOPE THAT YOU WILL COME TO US AGAIN 
+[2025-01-12 18:35:28,903][evaluate.py][line:343][INFO] Transcription of file 194 'Ses02F_impro08_F027.wav' has been formatted
+[2025-01-12 18:35:28,903][evaluate.py][line:344][INFO] ORIGINAL: Thank you.
+
+[2025-01-12 18:35:28,903][evaluate.py][line:345][INFO] FORMATTED: THANK YOU 
+[2025-01-12 18:35:29,827][evaluate.py][line:343][INFO] Transcription of file 195 'Ses02M_impro07_F000.wav' has been formatted
+[2025-01-12 18:35:29,827][evaluate.py][line:344][INFO] ORIGINAL: Oh yeah. Have you gotten letters yet?  [sound of static or interference]
+
+[2025-01-12 18:35:29,827][evaluate.py][line:345][INFO] FORMATTED: OH YEAH HAVE YOU GOTTEN LETTERS YET    SOUND OF STATIC OR INTERFERENCE  
+[2025-01-12 18:35:30,777][evaluate.py][line:343][INFO] Transcription of file 196 'Ses02M_impro07_F001.wav' has been formatted
+[2025-01-12 18:35:30,777][evaluate.py][line:344][INFO] ORIGINAL: Um, I don't know. Where?  Ppppp
+
+[2025-01-12 18:35:30,777][evaluate.py][line:345][INFO] FORMATTED: UM  I DON'T KNOW WHERE   PPPPP 
+[2025-01-12 18:35:31,699][evaluate.py][line:343][INFO] Transcription of file 197 'Ses02M_impro07_F003.wav' has been formatted
+[2025-01-12 18:35:31,699][evaluate.py][line:344][INFO] ORIGINAL: Oh my gosh, that's so cool.
+
+[2025-01-12 18:35:31,699][evaluate.py][line:345][INFO] FORMATTED: OH MY GOSH  THAT'S SO COOL 
+[2025-01-12 18:35:32,560][evaluate.py][line:343][INFO] Transcription of file 198 'Ses02M_impro07_F004.wav' has been formatted
+[2025-01-12 18:35:32,560][evaluate.py][line:344][INFO] ORIGINAL: This gotta be it, like
+
+[2025-01-12 18:35:32,560][evaluate.py][line:345][INFO] FORMATTED: THIS GOTTA BE IT  LIKE 
+[2025-01-12 18:35:33,264][evaluate.py][line:343][INFO] Transcription of file 199 'Ses02M_impro07_F005.wav' has been formatted
+[2025-01-12 18:35:33,264][evaluate.py][line:344][INFO] ORIGINAL: Oh my gosh, that's so cool!
+
+[2025-01-12 18:35:33,264][evaluate.py][line:345][INFO] FORMATTED: OH MY GOSH  THAT'S SO COOL  
+[2025-01-12 18:35:34,192][evaluate.py][line:343][INFO] Transcription of file 200 'Ses02M_impro07_F006.wav' has been formatted
+[2025-01-12 18:35:34,192][evaluate.py][line:344][INFO] ORIGINAL: I think like it's got to be the real thing, yeah.
+
+[2025-01-12 18:35:34,192][evaluate.py][line:345][INFO] FORMATTED: I THINK LIKE IT'S GOT TO BE THE REAL THING  YEAH 
+[2025-01-12 18:35:35,349][evaluate.py][line:343][INFO] Transcription of file 201 'Ses02M_impro07_F007.wav' has been formatted
+[2025-01-12 18:35:35,349][evaluate.py][line:344][INFO] ORIGINAL: Oh my gosh! I thought that there was like maybe gonna be some like, I don't know if you're gonna get in or not, so I'm really glad that you did.
+
+[2025-01-12 18:35:35,349][evaluate.py][line:345][INFO] FORMATTED: OH MY GOSH  I THOUGHT THAT THERE WAS LIKE MAYBE GONNA BE SOME LIKE  I DON'T KNOW IF YOU'RE GONNA GET IN OR NOT  SO I'M REALLY GLAD THAT YOU DID 
+[2025-01-12 18:35:36,037][evaluate.py][line:343][INFO] Transcription of file 202 'Ses02M_impro07_F008.wav' has been formatted
+[2025-01-12 18:35:36,037][evaluate.py][line:344][INFO] ORIGINAL: That's so cool.
+
+[2025-01-12 18:35:36,037][evaluate.py][line:345][INFO] FORMATTED: THAT'S SO COOL 
+[2025-01-12 18:35:36,703][evaluate.py][line:343][INFO] Transcription of file 203 'Ses02M_impro07_F009.wav' has been formatted
+[2025-01-12 18:35:36,703][evaluate.py][line:344][INFO] ORIGINAL: Yeah, totally.
+
+[2025-01-12 18:35:36,703][evaluate.py][line:345][INFO] FORMATTED: YEAH  TOTALLY 
+[2025-01-12 18:35:37,702][evaluate.py][line:343][INFO] Transcription of file 204 'Ses02M_impro07_F010.wav' has been formatted
+[2025-01-12 18:35:37,702][evaluate.py][line:344][INFO] ORIGINAL: It's going to be right here in Los Angeles. That is so cool.
+
+[2025-01-12 18:35:37,702][evaluate.py][line:345][INFO] FORMATTED: IT'S GOING TO BE RIGHT HERE IN LOS ANGELES THAT IS SO COOL 
+[2025-01-12 18:35:38,485][evaluate.py][line:343][INFO] Transcription of file 205 'Ses02M_impro07_F011.wav' has been formatted
+[2025-01-12 18:35:38,485][evaluate.py][line:344][INFO] ORIGINAL: So can we hang out?
+
+[2025-01-12 18:35:38,485][evaluate.py][line:345][INFO] FORMATTED: SO CAN WE HANG OUT  
+[2025-01-12 18:35:39,152][evaluate.py][line:343][INFO] Transcription of file 206 'Ses02M_impro07_F012.wav' has been formatted
+[2025-01-12 18:35:39,152][evaluate.py][line:344][INFO] ORIGINAL: Yay!
+Pppppp
+
+[2025-01-12 18:35:39,152][evaluate.py][line:345][INFO] FORMATTED: YAY  PPPPPP 
+[2025-01-12 18:35:40,021][evaluate.py][line:343][INFO] Transcription of file 207 'Ses02M_impro07_F013.wav' has been formatted
+[2025-01-12 18:35:40,021][evaluate.py][line:344][INFO] ORIGINAL: Oh yeah, thank you.
+
+[2025-01-12 18:35:40,021][evaluate.py][line:345][INFO] FORMATTED: OH YEAH  THANK YOU 
+[2025-01-12 18:35:40,980][evaluate.py][line:343][INFO] Transcription of file 208 'Ses02M_impro07_F014.wav' has been formatted
+[2025-01-12 18:35:40,980][evaluate.py][line:344][INFO] ORIGINAL: No, but that's an awesome school. That's so cool.
+
+[2025-01-12 18:35:40,980][evaluate.py][line:345][INFO] FORMATTED: NO  BUT THAT'S AN AWESOME SCHOOL THAT'S SO COOL 
+[2025-01-12 18:35:41,677][evaluate.py][line:343][INFO] Transcription of file 209 'Ses02M_impro07_F015.wav' has been formatted
+[2025-01-12 18:35:41,678][evaluate.py][line:344][INFO] ORIGINAL: Oh, totally, totally.
+
+[2025-01-12 18:35:41,678][evaluate.py][line:345][INFO] FORMATTED: OH  TOTALLY  TOTALLY 
+[2025-01-12 18:35:42,529][evaluate.py][line:343][INFO] Transcription of file 210 'Ses02M_impro07_F016.wav' has been formatted
+[2025-01-12 18:35:42,529][evaluate.py][line:344][INFO] ORIGINAL: You get to like be a part of that.
+
+[2025-01-12 18:35:42,529][evaluate.py][line:345][INFO] FORMATTED: YOU GET TO LIKE BE A PART OF THAT 
+[2025-01-12 18:35:43,531][evaluate.py][line:343][INFO] Transcription of file 211 'Ses02M_impro07_F017.wav' has been formatted
+[2025-01-12 18:35:43,531][evaluate.py][line:344][INFO] ORIGINAL: Like you get to be a part of that like the like the like a cult
+
+[2025-01-12 18:35:43,531][evaluate.py][line:345][INFO] FORMATTED: LIKE YOU GET TO BE A PART OF THAT LIKE THE LIKE THE LIKE A CULT 
+[2025-01-12 18:35:44,578][evaluate.py][line:343][INFO] Transcription of file 212 'Ses02M_impro07_F018.wav' has been formatted
+[2025-01-12 18:35:44,578][evaluate.py][line:344][INFO] ORIGINAL: Like like a
+
+No, but I mean like everywhere you go people will know who you are.
+P
+
+[2025-01-12 18:35:44,578][evaluate.py][line:345][INFO] FORMATTED: LIKE LIKE A  NO  BUT I MEAN LIKE EVERYWHERE YOU GO PEOPLE WILL KNOW WHO YOU ARE P 
+[2025-01-12 18:35:45,470][evaluate.py][line:343][INFO] Transcription of file 213 'Ses02M_impro07_F019.wav' has been formatted
+[2025-01-12 18:35:45,470][evaluate.py][line:344][INFO] ORIGINAL: So did you know what you're going to do there?
+
+[2025-01-12 18:35:45,470][evaluate.py][line:345][INFO] FORMATTED: SO DID YOU KNOW WHAT YOU'RE GOING TO DO THERE  
+[2025-01-12 18:35:46,378][evaluate.py][line:343][INFO] Transcription of file 214 'Ses02M_impro07_F020.wav' has been formatted
+[2025-01-12 18:35:46,378][evaluate.py][line:344][INFO] ORIGINAL: Okay. They have a lot of really good schools, right?
+
+[2025-01-12 18:35:46,378][evaluate.py][line:345][INFO] FORMATTED: OKAY THEY HAVE A LOT OF REALLY GOOD SCHOOLS  RIGHT  
+[2025-01-12 18:35:47,316][evaluate.py][line:343][INFO] Transcription of file 215 'Ses02M_impro07_F021.wav' has been formatted
+[2025-01-12 18:35:47,316][evaluate.py][line:344][INFO] ORIGINAL: Yeah, it's intimate.
+
+[2025-01-12 18:35:47,316][evaluate.py][line:345][INFO] FORMATTED: YEAH  IT'S INTIMATE 
+[2025-01-12 18:35:48,292][evaluate.py][line:343][INFO] Transcription of file 216 'Ses02M_impro07_F022.wav' has been formatted
+[2025-01-12 18:35:48,292][evaluate.py][line:344][INFO] ORIGINAL: Hey girl! That's so cool. Uh... pppp...
+
+[2025-01-12 18:35:48,292][evaluate.py][line:345][INFO] FORMATTED: HEY GIRL  THAT'S SO COOL UH PPPP 
+[2025-01-12 18:35:49,197][evaluate.py][line:343][INFO] Transcription of file 217 'Ses02M_impro07_F023.wav' has been formatted
+[2025-01-12 18:35:49,197][evaluate.py][line:344][INFO] ORIGINAL: That is for you. Wow! Oh my gosh.
+
+[2025-01-12 18:35:49,197][evaluate.py][line:345][INFO] FORMATTED: THAT IS FOR YOU WOW  OH MY GOSH 
+[2025-01-12 18:35:50,178][evaluate.py][line:343][INFO] Transcription of file 218 'Ses02M_impro07_F024.wav' has been formatted
+[2025-01-12 18:35:50,178][evaluate.py][line:344][INFO] ORIGINAL: I will do the best I can.
+
+[2025-01-12 18:35:50,178][evaluate.py][line:345][INFO] FORMATTED: I WILL DO THE BEST I CAN 
+[2025-01-12 18:35:51,257][evaluate.py][line:343][INFO] Transcription of file 219 'Ses02M_impro07_F025.wav' has been formatted
+[2025-01-12 18:35:51,257][evaluate.py][line:344][INFO] ORIGINAL: Brother, all kinds of awesome secrets, so you'll really enjoy it. It's gonna be great. I'm so glad.
+
+[2025-01-12 18:35:51,257][evaluate.py][line:345][INFO] FORMATTED: BROTHER  ALL KINDS OF AWESOME SECRETS  SO YOU'LL REALLY ENJOY IT IT'S GONNA BE GREAT I'M SO GLAD 
+[2025-01-12 18:35:51,924][evaluate.py][line:343][INFO] Transcription of file 220 'Ses02M_impro07_F026.wav' has been formatted
+[2025-01-12 18:35:51,924][evaluate.py][line:344][INFO] ORIGINAL: Yeah. So we
+
+[2025-01-12 18:35:51,924][evaluate.py][line:345][INFO] FORMATTED: YEAH SO WE 
+[2025-01-12 18:35:51,924][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:35:51,924][evaluate.py][line:400][INFO] [Files Processed] 220 of 481
+[2025-01-12 18:35:51,924][evaluate.py][line:401][INFO] [Total Tokens] 38864
+[2025-01-12 18:35:51,924][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:35:52,616][evaluate.py][line:343][INFO] Transcription of file 221 'Ses02M_impro07_F027.wav' has been formatted
+[2025-01-12 18:35:52,616][evaluate.py][line:344][INFO] ORIGINAL: Okay. Yeah, totally come visit.
+
+[2025-01-12 18:35:52,616][evaluate.py][line:345][INFO] FORMATTED: OKAY YEAH  TOTALLY COME VISIT 
+[2025-01-12 18:35:53,685][evaluate.py][line:343][INFO] Transcription of file 222 'Ses02M_impro07_F028.wav' has been formatted
+[2025-01-12 18:35:53,685][evaluate.py][line:344][INFO] ORIGINAL: and to explore and you're gonna have such a good time. You're gonna fit in so well. It's gonna be awesome.
+
+[2025-01-12 18:35:53,685][evaluate.py][line:345][INFO] FORMATTED: AND TO EXPLORE AND YOU'RE GONNA HAVE SUCH A GOOD TIME YOU'RE GONNA FIT IN SO WELL IT'S GONNA BE AWESOME 
+[2025-01-12 18:35:54,617][evaluate.py][line:343][INFO] Transcription of file 223 'Ses02M_impro07_F029.wav' has been formatted
+[2025-01-12 18:35:54,617][evaluate.py][line:344][INFO] ORIGINAL: So, congratulations. That's awesome.
+
+[2025-01-12 18:35:54,617][evaluate.py][line:345][INFO] FORMATTED: SO  CONGRATULATIONS THAT'S AWESOME 
+[2025-01-12 18:35:55,618][evaluate.py][line:343][INFO] Transcription of file 224 'Ses02M_script03_1_F002.wav' has been formatted
+[2025-01-12 18:35:55,618][evaluate.py][line:344][INFO] ORIGINAL: So what are we gonna do?
+
+[2025-01-12 18:35:55,618][evaluate.py][line:345][INFO] FORMATTED: SO WHAT ARE WE GONNA DO  
+[2025-01-12 18:35:56,464][evaluate.py][line:343][INFO] Transcription of file 225 'Ses02M_script03_1_F003.wav' has been formatted
+[2025-01-12 18:35:56,464][evaluate.py][line:344][INFO] ORIGINAL: Now and always, sweet.
+
+[2025-01-12 18:35:56,464][evaluate.py][line:345][INFO] FORMATTED: NOW AND ALWAYS  SWEET 
+[2025-01-12 18:35:57,396][evaluate.py][line:343][INFO] Transcription of file 226 'Ses02M_script03_1_F005.wav' has been formatted
+[2025-01-12 18:35:57,396][evaluate.py][line:344][INFO] ORIGINAL: Oh! It's a shiver down my spine. What is it?
+
+[2025-01-12 18:35:57,396][evaluate.py][line:345][INFO] FORMATTED: OH  IT'S A SHIVER DOWN MY SPINE WHAT IS IT  
+[2025-01-12 18:35:58,304][evaluate.py][line:343][INFO] Transcription of file 227 'Ses02M_script03_1_F006.wav' has been formatted
+[2025-01-12 18:35:58,304][evaluate.py][line:344][INFO] ORIGINAL: behave exquisitely with the most
+
+[2025-01-12 18:35:58,304][evaluate.py][line:345][INFO] FORMATTED: BEHAVE EXQUISITELY WITH THE MOST 
+[2025-01-12 18:35:59,233][evaluate.py][line:343][INFO] Transcription of file 228 'Ses02M_script03_1_F007.wav' has been formatted
+[2025-01-12 18:35:59,233][evaluate.py][line:344][INFO] ORIGINAL: Yes, I should probably do a court curtsy.
+
+[2025-01-12 18:35:59,233][evaluate.py][line:345][INFO] FORMATTED: YES  I SHOULD PROBABLY DO A COURT CURTSY 
+[2025-01-12 18:35:59,889][evaluate.py][line:343][INFO] Transcription of file 229 'Ses02M_script03_1_F012.wav' has been formatted
+[2025-01-12 18:35:59,889][evaluate.py][line:344][INFO] ORIGINAL: Who's there?
+
+[2025-01-12 18:35:59,889][evaluate.py][line:345][INFO] FORMATTED: WHO'S THERE  
+[2025-01-12 18:36:00,787][evaluate.py][line:343][INFO] Transcription of file 230 'Ses02M_script03_1_F015.wav' has been formatted
+[2025-01-12 18:36:00,787][evaluate.py][line:344][INFO] ORIGINAL: Oh dear, should we like that?
+
+[2025-01-12 18:36:00,787][evaluate.py][line:345][INFO] FORMATTED: OH DEAR  SHOULD WE LIKE THAT  
+[2025-01-12 18:36:01,658][evaluate.py][line:343][INFO] Transcription of file 231 'Ses02M_script03_1_F021.wav' has been formatted
+[2025-01-12 18:36:01,658][evaluate.py][line:344][INFO] ORIGINAL: Which particular one?
+P...
+
+[2025-01-12 18:36:01,658][evaluate.py][line:345][INFO] FORMATTED: WHICH PARTICULAR ONE  P 
+[2025-01-12 18:36:02,615][evaluate.py][line:343][INFO] Transcription of file 232 'Ses02M_script03_1_F022.wav' has been formatted
+[2025-01-12 18:36:02,615][evaluate.py][line:344][INFO] ORIGINAL: Oh, Charles. That was his name, Charles. He just wriggled so beautifully.
+
+[2025-01-12 18:36:02,616][evaluate.py][line:345][INFO] FORMATTED: OH  CHARLES THAT WAS HIS NAME  CHARLES HE JUST WRIGGLED SO BEAUTIFULLY 
+[2025-01-12 18:36:03,780][evaluate.py][line:343][INFO] Transcription of file 233 'Ses02M_script03_1_F023.wav' has been formatted
+[2025-01-12 18:36:03,780][evaluate.py][line:344][INFO] ORIGINAL: Yes, I know you did. You threw it out of the window, into the Grand Canal. I don't think I'll ever forgive you for that.
+
+[2025-01-12 18:36:03,780][evaluate.py][line:345][INFO] FORMATTED: YES  I KNOW YOU DID YOU THREW IT OUT OF THE WINDOW  INTO THE GRAND CANAL I DON'T THINK I'LL EVER FORGIVE YOU FOR THAT 
+[2025-01-12 18:36:04,660][evaluate.py][line:343][INFO] Transcription of file 234 'Ses02M_script03_1_F024.wav' has been formatted
+[2025-01-12 18:36:04,660][evaluate.py][line:344][INFO] ORIGINAL: Been on intermittently for days.
+
+[2025-01-12 18:36:04,660][evaluate.py][line:345][INFO] FORMATTED: BEEN ON INTERMITTENTLY FOR DAYS 
+[2025-01-12 18:36:05,750][evaluate.py][line:343][INFO] Transcription of file 235 'Ses02M_script03_1_F025.wav' has been formatted
+[2025-01-12 18:36:05,750][evaluate.py][line:344][INFO] ORIGINAL: It burnt my comb too and all the towels in the bathroom.  Well that was a... PEEP!
+
+[2025-01-12 18:36:05,750][evaluate.py][line:345][INFO] FORMATTED: IT BURNT MY COMB TOO AND ALL THE TOWELS IN THE BATHROOM  WELL THAT WAS A PEEP  
+[2025-01-12 18:36:06,868][evaluate.py][line:343][INFO] Transcription of file 236 'Ses02M_script03_1_F027.wav' has been formatted
+[2025-01-12 18:36:06,869][evaluate.py][line:344][INFO] ORIGINAL: The manager came in and found us rolling around on the floor, biting and scratching like panthers. I'll never forget it.
+
+[2025-01-12 18:36:06,869][evaluate.py][line:345][INFO] FORMATTED: THE MANAGER CAME IN AND FOUND US ROLLING AROUND ON THE FLOOR  BITING AND SCRATCHING LIKE PANTHERS I'LL NEVER FORGET IT 
+[2025-01-12 18:36:07,793][evaluate.py][line:343][INFO] Transcription of file 237 'Ses02M_script03_1_F028.wav' has been formatted
+[2025-01-12 18:36:07,793][evaluate.py][line:344][INFO] ORIGINAL: Oh, it was ridiculous. Completely ridiculous.
+
+[2025-01-12 18:36:07,793][evaluate.py][line:345][INFO] FORMATTED: OH  IT WAS RIDICULOUS COMPLETELY RIDICULOUS 
+[2025-01-12 18:36:08,659][evaluate.py][line:343][INFO] Transcription of file 238 'Ses02M_script03_1_F029.wav' has been formatted
+[2025-01-12 18:36:08,659][evaluate.py][line:344][INFO] ORIGINAL: And very much sillier.
+
+[2025-01-12 18:36:08,659][evaluate.py][line:345][INFO] FORMATTED: AND VERY MUCH SILLIER 
+[2025-01-12 18:36:09,557][evaluate.py][line:343][INFO] Transcription of file 239 'Ses02F_impro02_F000.wav' has been formatted
+[2025-01-12 18:36:09,557][evaluate.py][line:344][INFO] ORIGINAL: It's almost time for me to go.
+
+[2025-01-12 18:36:09,557][evaluate.py][line:345][INFO] FORMATTED: IT'S ALMOST TIME FOR ME TO GO 
+[2025-01-12 18:36:10,597][evaluate.py][line:343][INFO] Transcription of file 240 'Ses02F_impro02_F001.wav' has been formatted
+[2025-01-12 18:36:10,597][evaluate.py][line:344][INFO] ORIGINAL: There's nothing I can do. I mean, it's the government, you know. I mean...
+
+[2025-01-12 18:36:10,597][evaluate.py][line:345][INFO] FORMATTED: THERE'S NOTHING I CAN DO I MEAN  IT'S THE GOVERNMENT  YOU KNOW I MEAN 
+[2025-01-12 18:36:11,681][evaluate.py][line:343][INFO] Transcription of file 241 'Ses02F_impro02_F002.wav' has been formatted
+[2025-01-12 18:36:11,681][evaluate.py][line:344][INFO] ORIGINAL: You're gonna have to.
+
+I mean, you're a great father, you can do it. I know you can.
+
+[2025-01-12 18:36:11,681][evaluate.py][line:345][INFO] FORMATTED: YOU'RE GONNA HAVE TO  I MEAN  YOU'RE A GREAT FATHER  YOU CAN DO IT I KNOW YOU CAN 
+[2025-01-12 18:36:12,564][evaluate.py][line:343][INFO] Transcription of file 242 'Ses02F_impro02_F003.wav' has been formatted
+[2025-01-12 18:36:12,564][evaluate.py][line:344][INFO] ORIGINAL: I don't think so.
+
+[2025-01-12 18:36:12,564][evaluate.py][line:345][INFO] FORMATTED: I DON'T THINK SO 
+[2025-01-12 18:36:13,732][evaluate.py][line:343][INFO] Transcription of file 243 'Ses02F_impro02_F004.wav' has been formatted
+[2025-01-12 18:36:13,732][evaluate.py][line:344][INFO] ORIGINAL: Well, we could do the best we can and and with um you know, like wireless internet these days, I think that we could probably talk every once in a while.
+
+[2025-01-12 18:36:13,732][evaluate.py][line:345][INFO] FORMATTED: WELL  WE COULD DO THE BEST WE CAN AND AND WITH UM YOU KNOW  LIKE WIRELESS INTERNET THESE DAYS  I THINK THAT WE COULD PROBABLY TALK EVERY ONCE IN A WHILE 
+[2025-01-12 18:36:14,621][evaluate.py][line:343][INFO] Transcription of file 244 'Ses02F_impro02_F005.wav' has been formatted
+[2025-01-12 18:36:14,621][evaluate.py][line:344][INFO] ORIGINAL: You could send me pictures.
+
+[2025-01-12 18:36:14,621][evaluate.py][line:345][INFO] FORMATTED: YOU COULD SEND ME PICTURES 
+[2025-01-12 18:36:15,645][evaluate.py][line:343][INFO] Transcription of file 245 'Ses02F_impro02_F006.wav' has been formatted
+[2025-01-12 18:36:15,646][evaluate.py][line:344][INFO] ORIGINAL: They're not gonna let you. You have to stay home and I have to go. And we met so
+
+[2025-01-12 18:36:15,646][evaluate.py][line:345][INFO] FORMATTED: THEY'RE NOT GONNA LET YOU YOU HAVE TO STAY HOME AND I HAVE TO GO AND WE MET SO 
+[2025-01-12 18:36:16,787][evaluate.py][line:343][INFO] Transcription of file 246 'Ses02F_impro02_F007.wav' has been formatted
+[2025-01-12 18:36:16,788][evaluate.py][line:344][INFO] ORIGINAL: And I mean, and our daughter, I don't want to put her in danger, you know? She has to stay.
+
+[2025-01-12 18:36:16,788][evaluate.py][line:345][INFO] FORMATTED: AND I MEAN  AND OUR DAUGHTER  I DON'T WANT TO PUT HER IN DANGER  YOU KNOW  SHE HAS TO STAY 
+[2025-01-12 18:36:18,001][evaluate.py][line:343][INFO] Transcription of file 247 'Ses02F_impro02_F008.wav' has been formatted
+[2025-01-12 18:36:18,001][evaluate.py][line:344][INFO] ORIGINAL: I know, but she needs to be safe more. She needs to be around kids her own age. She needs to be able to play on the street and
+
+[2025-01-12 18:36:18,001][evaluate.py][line:345][INFO] FORMATTED: I KNOW  BUT SHE NEEDS TO BE SAFE MORE SHE NEEDS TO BE AROUND KIDS HER OWN AGE SHE NEEDS TO BE ABLE TO PLAY ON THE STREET AND 
+[2025-01-12 18:36:18,953][evaluate.py][line:343][INFO] Transcription of file 248 'Ses02F_impro02_F009.wav' has been formatted
+[2025-01-12 18:36:18,953][evaluate.py][line:344][INFO] ORIGINAL: You can just remember it for me.
+P
+
+[2025-01-12 18:36:18,953][evaluate.py][line:345][INFO] FORMATTED: YOU CAN JUST REMEMBER IT FOR ME P 
+[2025-01-12 18:36:20,054][evaluate.py][line:343][INFO] Transcription of file 249 'Ses02F_impro02_F010.wav' has been formatted
+[2025-01-12 18:36:20,054][evaluate.py][line:344][INFO] ORIGINAL: Well, I need I need you to be able to do this for me because I can't do anything about it.
+
+[2025-01-12 18:36:20,055][evaluate.py][line:345][INFO] FORMATTED: WELL  I NEED I NEED YOU TO BE ABLE TO DO THIS FOR ME BECAUSE I CAN'T DO ANYTHING ABOUT IT 
+[2025-01-12 18:36:21,220][evaluate.py][line:343][INFO] Transcription of file 250 'Ses02F_impro02_F011.wav' has been formatted
+[2025-01-12 18:36:21,220][evaluate.py][line:344][INFO] ORIGINAL: I mean it's just as hard for me, but I know that we can do it, you know.
+
+[2025-01-12 18:36:21,220][evaluate.py][line:345][INFO] FORMATTED: I MEAN IT'S JUST AS HARD FOR ME  BUT I KNOW THAT WE CAN DO IT  YOU KNOW 
+[2025-01-12 18:36:22,325][evaluate.py][line:343][INFO] Transcription of file 251 'Ses02F_impro02_F012.wav' has been formatted
+[2025-01-12 18:36:22,325][evaluate.py][line:344][INFO] ORIGINAL: Better. I don't want you in danger. And I don't want her in danger. So what you  [indistinct sound]
+
+[2025-01-12 18:36:22,326][evaluate.py][line:345][INFO] FORMATTED: BETTER I DON'T WANT YOU IN DANGER AND I DON'T WANT HER IN DANGER SO WHAT YOU   INDISTINCT SOUND  
+[2025-01-12 18:36:23,473][evaluate.py][line:343][INFO] Transcription of file 252 'Ses02F_impro02_F013.wav' has been formatted
+[2025-01-12 18:36:23,473][evaluate.py][line:344][INFO] ORIGINAL: I have no choice. There's nothing I can do.
+
+[2025-01-12 18:36:23,473][evaluate.py][line:345][INFO] FORMATTED: I HAVE NO CHOICE THERE'S NOTHING I CAN DO 
+[2025-01-12 18:36:24,566][evaluate.py][line:343][INFO] Transcription of file 253 'Ses02F_impro05_F000.wav' has been formatted
+[2025-01-12 18:36:24,567][evaluate.py][line:344][INFO] ORIGINAL: Hi. Um, excuse me. I believe that the airline lost my baggage.
+
+[2025-01-12 18:36:24,567][evaluate.py][line:345][INFO] FORMATTED: HI UM  EXCUSE ME I BELIEVE THAT THE AIRLINE LOST MY BAGGAGE 
+[2025-01-12 18:36:25,688][evaluate.py][line:343][INFO] Transcription of file 254 'Ses02F_impro05_F001.wav' has been formatted
+[2025-01-12 18:36:25,689][evaluate.py][line:344][INFO] ORIGINAL: No, it didn't um it didn't come out and I don't see it anywhere around here. So uh what can you do about that?
+
+[2025-01-12 18:36:25,689][evaluate.py][line:345][INFO] FORMATTED: NO  IT DIDN'T UM IT DIDN'T COME OUT AND I DON'T SEE IT ANYWHERE AROUND HERE SO UH WHAT CAN YOU DO ABOUT THAT  
+[2025-01-12 18:36:26,348][evaluate.py][line:343][INFO] Transcription of file 255 'Ses02F_impro05_F004.wav' has been formatted
+[2025-01-12 18:36:26,348][evaluate.py][line:344][INFO] ORIGINAL:  
+
+[2025-01-12 18:36:26,348][evaluate.py][line:345][INFO] FORMATTED:  
+[2025-01-12 18:36:27,486][evaluate.py][line:343][INFO] Transcription of file 256 'Ses02F_impro05_F006.wav' has been formatted
+[2025-01-12 18:36:27,486][evaluate.py][line:344][INFO] ORIGINAL: That's all? That's all? That's all you're gonna do is just give me $50 and say go have fun on your vacation without any of your stuff?
+
+[2025-01-12 18:36:27,486][evaluate.py][line:345][INFO] FORMATTED: THAT'S ALL  THAT'S ALL  THAT'S ALL YOU'RE GONNA DO IS JUST GIVE ME  50 AND SAY GO HAVE FUN ON YOUR VACATION WITHOUT ANY OF YOUR STUFF  
+[2025-01-12 18:36:28,394][evaluate.py][line:343][INFO] Transcription of file 257 'Ses02F_impro05_F010.wav' has been formatted
+[2025-01-12 18:36:28,394][evaluate.py][line:344][INFO] ORIGINAL: Because you don't seem to care very much, you know?  Why?
+
+[2025-01-12 18:36:28,394][evaluate.py][line:345][INFO] FORMATTED: BECAUSE YOU DON'T SEEM TO CARE VERY MUCH  YOU KNOW   WHY  
+[2025-01-12 18:36:29,567][evaluate.py][line:343][INFO] Transcription of file 258 'Ses02F_impro05_F019.wav' has been formatted
+[2025-01-12 18:36:29,568][evaluate.py][line:344][INFO] ORIGINAL: Wait over. It sounds like it's such a little like oh, maybe, well, no big deal, whatever. It's a big deal to me.  [sound of rapid breathing/wheezing]
+
+[2025-01-12 18:36:29,568][evaluate.py][line:345][INFO] FORMATTED: WAIT OVER IT SOUNDS LIKE IT'S SUCH A LITTLE LIKE OH  MAYBE  WELL  NO BIG DEAL  WHATEVER IT'S A BIG DEAL TO ME   SOUND OF RAPID BREATHING WHEEZING  
+[2025-01-12 18:36:30,579][evaluate.py][line:343][INFO] Transcription of file 259 'Ses02M_script01_3_F001.wav' has been formatted
+[2025-01-12 18:36:30,579][evaluate.py][line:344][INFO] ORIGINAL: It's all right. It's a good thing.
+
+[2025-01-12 18:36:30,579][evaluate.py][line:345][INFO] FORMATTED: IT'S ALL RIGHT IT'S A GOOD THING 
+[2025-01-12 18:36:31,524][evaluate.py][line:343][INFO] Transcription of file 260 'Ses02M_script01_3_F002.wav' has been formatted
+[2025-01-12 18:36:31,524][evaluate.py][line:344][INFO] ORIGINAL: You know, it's lovely here. The air is sweet.
+
+[2025-01-12 18:36:31,524][evaluate.py][line:345][INFO] FORMATTED: YOU KNOW  IT'S LOVELY HERE THE AIR IS SWEET 
+[2025-01-12 18:36:32,539][evaluate.py][line:343][INFO] Transcription of file 261 'Ses02M_script01_3_F003.wav' has been formatted
+[2025-01-12 18:36:32,539][evaluate.py][line:344][INFO] ORIGINAL: No, not sorry. Um, but I'm not gonna say.
+
+[2025-01-12 18:36:32,539][evaluate.py][line:345][INFO] FORMATTED: NO  NOT SORRY UM  BUT I'M NOT GONNA SAY 
+[2025-01-12 18:36:33,445][evaluate.py][line:343][INFO] Transcription of file 262 'Ses02M_script01_3_F007.wav' has been formatted
+[2025-01-12 18:36:33,446][evaluate.py][line:344][INFO] ORIGINAL: I knew they would your mother anyway.
+
+[2025-01-12 18:36:33,446][evaluate.py][line:345][INFO] FORMATTED: I KNEW THEY WOULD YOUR MOTHER ANYWAY 
+[2025-01-12 18:36:34,427][evaluate.py][line:343][INFO] Transcription of file 263 'Ses02M_script01_3_F008.wav' has been formatted
+[2025-01-12 18:36:34,427][evaluate.py][line:344][INFO] ORIGINAL: And from her point of view, why else would I come?
+
+[2025-01-12 18:36:34,427][evaluate.py][line:345][INFO] FORMATTED: AND FROM HER POINT OF VIEW  WHY ELSE WOULD I COME  
+[2025-01-12 18:36:35,339][evaluate.py][line:343][INFO] Transcription of file 264 'Ses02M_script01_3_F009.wav' has been formatted
+[2025-01-12 18:36:35,339][evaluate.py][line:344][INFO] ORIGINAL: I guess this is why I came.
+
+[2025-01-12 18:36:35,339][evaluate.py][line:345][INFO] FORMATTED: I GUESS THIS IS WHY I CAME 
+[2025-01-12 18:36:36,233][evaluate.py][line:343][INFO] Transcription of file 265 'Ses02M_script01_3_F012.wav' has been formatted
+[2025-01-12 18:36:36,233][evaluate.py][line:344][INFO] ORIGINAL: While you started to write me, and
+
+[2025-01-12 18:36:36,233][evaluate.py][line:345][INFO] FORMATTED: WHILE YOU STARTED TO WRITE ME  AND 
+[2025-01-12 18:36:37,098][evaluate.py][line:343][INFO] Transcription of file 266 'Ses02M_script01_3_F013.wav' has been formatted
+[2025-01-12 18:36:37,098][evaluate.py][line:344][INFO] ORIGINAL: Every day since.
+
+[2025-01-12 18:36:37,098][evaluate.py][line:345][INFO] FORMATTED: EVERY DAY SINCE 
+[2025-01-12 18:36:38,128][evaluate.py][line:343][INFO] Transcription of file 267 'Ses02M_script01_3_F019.wav' has been formatted
+[2025-01-12 18:36:38,128][evaluate.py][line:344][INFO] ORIGINAL: Well, what's wrong? I mean, even in your letters there was um something ashamed.
+
+[2025-01-12 18:36:38,128][evaluate.py][line:345][INFO] FORMATTED: WELL  WHAT'S WRONG  I MEAN  EVEN IN YOUR LETTERS THERE WAS UM SOMETHING ASHAMED 
+[2025-01-12 18:36:39,070][evaluate.py][line:343][INFO] Transcription of file 268 'Ses02M_script01_3_F021.wav' has been formatted
+[2025-01-12 18:36:39,071][evaluate.py][line:344][INFO] ORIGINAL: It wouldn't work this way.
+
+[2025-01-12 18:36:39,071][evaluate.py][line:345][INFO] FORMATTED: IT WOULDN'T WORK THIS WAY 
+[2025-01-12 18:36:39,971][evaluate.py][line:343][INFO] Transcription of file 269 'Ses02M_script01_3_F025.wav' has been formatted
+[2025-01-12 18:36:39,972][evaluate.py][line:344][INFO] ORIGINAL: Do you still feel that way?
+
+[2025-01-12 18:36:39,972][evaluate.py][line:345][INFO] FORMATTED: DO YOU STILL FEEL THAT WAY  
+[2025-01-12 18:36:41,218][evaluate.py][line:343][INFO] Transcription of file 270 'Ses02M_script01_3_F026.wav' has been formatted
+[2025-01-12 18:36:41,219][evaluate.py][line:344][INFO] ORIGINAL: because you mustn't feel that way. Because you have a right to everything you have Chris, everything. You understand that, me too.
+
+[2025-01-12 18:36:41,219][evaluate.py][line:345][INFO] FORMATTED: BECAUSE YOU MUSTN'T FEEL THAT WAY BECAUSE YOU HAVE A RIGHT TO EVERYTHING YOU HAVE CHRIS  EVERYTHING YOU UNDERSTAND THAT  ME TOO 
+[2025-01-12 18:36:42,430][evaluate.py][line:343][INFO] Transcription of file 271 'Ses02M_script01_3_F027.wav' has been formatted
+[2025-01-12 18:36:42,430][evaluate.py][line:344][INFO] ORIGINAL: I mean, and your money, there's there's nothing wrong with your money. Your your father put hundreds of planes in the air. A man should be paid for that.
+
+[2025-01-12 18:36:42,430][evaluate.py][line:345][INFO] FORMATTED: I MEAN  AND YOUR MONEY  THERE'S THERE'S NOTHING WRONG WITH YOUR MONEY YOUR YOUR FATHER PUT HUNDREDS OF PLANES IN THE AIR A MAN SHOULD BE PAID FOR THAT 
+[2025-01-12 18:36:43,324][evaluate.py][line:343][INFO] Transcription of file 272 'Ses02M_script01_3_F028.wav' has been formatted
+[2025-01-12 18:36:43,325][evaluate.py][line:344][INFO] ORIGINAL: What will I do with a fortune?
+
+[2025-01-12 18:36:43,325][evaluate.py][line:345][INFO] FORMATTED: WHAT WILL I DO WITH A FORTUNE  
+[2025-01-12 18:36:44,018][evaluate.py][line:343][INFO] Transcription of file 273 'Ses02M_impro04_F000.wav' has been formatted
+[2025-01-12 18:36:44,018][evaluate.py][line:344][INFO] ORIGINAL: So, how you feeling?
+
+[2025-01-12 18:36:44,019][evaluate.py][line:345][INFO] FORMATTED: SO  HOW YOU FEELING  
+[2025-01-12 18:36:45,050][evaluate.py][line:343][INFO] Transcription of file 274 'Ses02M_impro04_F001.wav' has been formatted
+[2025-01-12 18:36:45,051][evaluate.py][line:344][INFO] ORIGINAL: Uh well you've been you've been doing a lot of work for it, right?  Well
+ p p p p p p
+
+[2025-01-12 18:36:45,051][evaluate.py][line:345][INFO] FORMATTED: UH WELL YOU'VE BEEN YOU'VE BEEN DOING A LOT OF WORK FOR IT  RIGHT   WELL  P P P P P P 
+[2025-01-12 18:36:46,013][evaluate.py][line:343][INFO] Transcription of file 275 'Ses02M_impro04_F002.wav' has been formatted
+[2025-01-12 18:36:46,014][evaluate.py][line:344][INFO] ORIGINAL: Okay. So the fact that you're doing the best that you can is...
+
+[2025-01-12 18:36:46,014][evaluate.py][line:345][INFO] FORMATTED: OKAY SO THE FACT THAT YOU'RE DOING THE BEST THAT YOU CAN IS 
+[2025-01-12 18:36:46,014][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:36:46,014][evaluate.py][line:400][INFO] [Files Processed] 275 of 481
+[2025-01-12 18:36:46,014][evaluate.py][line:401][INFO] [Total Tokens] 51002
+[2025-01-12 18:36:46,014][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:36:46,990][evaluate.py][line:343][INFO] Transcription of file 276 'Ses02M_impro04_F003.wav' has been formatted
+[2025-01-12 18:36:46,990][evaluate.py][line:344][INFO] ORIGINAL: You know, you shouldn't give yourself a hard time for that. It's the best you can.
+
+[2025-01-12 18:36:46,990][evaluate.py][line:345][INFO] FORMATTED: YOU KNOW  YOU SHOULDN'T GIVE YOURSELF A HARD TIME FOR THAT IT'S THE BEST YOU CAN 
+[2025-01-12 18:36:47,976][evaluate.py][line:343][INFO] Transcription of file 277 'Ses02M_impro04_F004.wav' has been formatted
+[2025-01-12 18:36:47,976][evaluate.py][line:344][INFO] ORIGINAL: Well, but you care about what you do, right?
+
+[2025-01-12 18:36:47,976][evaluate.py][line:345][INFO] FORMATTED: WELL  BUT YOU CARE ABOUT WHAT YOU DO  RIGHT  
+[2025-01-12 18:36:49,072][evaluate.py][line:343][INFO] Transcription of file 278 'Ses02M_impro04_F005.wav' has been formatted
+[2025-01-12 18:36:49,073][evaluate.py][line:344][INFO] ORIGINAL: I understand that it's so frustrating, but I know that you're here because you really want it, you know? And and uh I think...
+
+[2025-01-12 18:36:49,073][evaluate.py][line:345][INFO] FORMATTED: I UNDERSTAND THAT IT'S SO FRUSTRATING  BUT I KNOW THAT YOU'RE HERE BECAUSE YOU REALLY WANT IT  YOU KNOW  AND AND UH I THINK 
+[2025-01-12 18:36:50,158][evaluate.py][line:343][INFO] Transcription of file 279 'Ses02M_impro04_F006.wav' has been formatted
+[2025-01-12 18:36:50,158][evaluate.py][line:344][INFO] ORIGINAL: Well, I mean you're still here. You've tried for this long, so I think that says something all on its own.
+[SOUND]
+
+[2025-01-12 18:36:50,158][evaluate.py][line:345][INFO] FORMATTED: WELL  I MEAN YOU'RE STILL HERE YOU'VE TRIED FOR THIS LONG  SO I THINK THAT SAYS SOMETHING ALL ON ITS OWN  SOUND  
+[2025-01-12 18:36:51,126][evaluate.py][line:343][INFO] Transcription of file 280 'Ses02M_impro04_F007.wav' has been formatted
+[2025-01-12 18:36:51,127][evaluate.py][line:344][INFO] ORIGINAL: Your persistence.  I mean that's important. That's
+
+[2025-01-12 18:36:51,127][evaluate.py][line:345][INFO] FORMATTED: YOUR PERSISTENCE  I MEAN THAT'S IMPORTANT THAT'S 
+[2025-01-12 18:36:52,198][evaluate.py][line:343][INFO] Transcription of file 281 'Ses02M_impro04_F008.wav' has been formatted
+[2025-01-12 18:36:52,198][evaluate.py][line:344][INFO] ORIGINAL: Well, you're talented, so keep that in mind. You know, you shouldn't give yourself too hard of a time.
+
+[2025-01-12 18:36:52,198][evaluate.py][line:345][INFO] FORMATTED: WELL  YOU'RE TALENTED  SO KEEP THAT IN MIND YOU KNOW  YOU SHOULDN'T GIVE YOURSELF TOO HARD OF A TIME 
+[2025-01-12 18:36:52,888][evaluate.py][line:343][INFO] Transcription of file 282 'Ses02M_impro04_F009.wav' has been formatted
+[2025-01-12 18:36:52,888][evaluate.py][line:344][INFO] ORIGINAL: I'm sorry.  P
+
+[2025-01-12 18:36:52,888][evaluate.py][line:345][INFO] FORMATTED: I'M SORRY  P 
+[2025-01-12 18:36:53,956][evaluate.py][line:343][INFO] Transcription of file 283 'Ses02M_impro04_F010.wav' has been formatted
+[2025-01-12 18:36:53,956][evaluate.py][line:344][INFO] ORIGINAL: possible. That's I mean, there are more factors than just whether you're good or not. You know what I mean? Like
+
+[2025-01-12 18:36:53,957][evaluate.py][line:345][INFO] FORMATTED: POSSIBLE THAT'S I MEAN  THERE ARE MORE FACTORS THAN JUST WHETHER YOU'RE GOOD OR NOT YOU KNOW WHAT I MEAN  LIKE 
+[2025-01-12 18:36:55,249][evaluate.py][line:343][INFO] Transcription of file 284 'Ses02M_impro04_F011.wav' has been formatted
+[2025-01-12 18:36:55,249][evaluate.py][line:344][INFO] ORIGINAL: and the fact that you know there's always different types of things of what kind of people they want in the office and whether it's male or female or you know what I mean like things that are out of your control.
+
+[2025-01-12 18:36:55,249][evaluate.py][line:345][INFO] FORMATTED: AND THE FACT THAT YOU KNOW THERE'S ALWAYS DIFFERENT TYPES OF THINGS OF WHAT KIND OF PEOPLE THEY WANT IN THE OFFICE AND WHETHER IT'S MALE OR FEMALE OR YOU KNOW WHAT I MEAN LIKE THINGS THAT ARE OUT OF YOUR CONTROL 
+[2025-01-12 18:36:56,220][evaluate.py][line:343][INFO] Transcription of file 285 'Ses02M_impro04_F012.wav' has been formatted
+[2025-01-12 18:36:56,220][evaluate.py][line:344][INFO] ORIGINAL: So you should take that into consideration rather than giving yourself such a hard time.
+
+[2025-01-12 18:36:56,220][evaluate.py][line:345][INFO] FORMATTED: SO YOU SHOULD TAKE THAT INTO CONSIDERATION RATHER THAN GIVING YOURSELF SUCH A HARD TIME 
+[2025-01-12 18:36:57,381][evaluate.py][line:343][INFO] Transcription of file 286 'Ses02M_impro04_F014.wav' has been formatted
+[2025-01-12 18:36:57,381][evaluate.py][line:344][INFO] ORIGINAL: You know, and and the fact that you're still here and still cooking, like it's good that you're thinking about it, that you're reconsidering.
+
+[2025-01-12 18:36:57,382][evaluate.py][line:345][INFO] FORMATTED: YOU KNOW  AND AND THE FACT THAT YOU'RE STILL HERE AND STILL COOKING  LIKE IT'S GOOD THAT YOU'RE THINKING ABOUT IT  THAT YOU'RE RECONSIDERING 
+[2025-01-12 18:36:58,448][evaluate.py][line:343][INFO] Transcription of file 287 'Ses02M_impro04_F015.wav' has been formatted
+[2025-01-12 18:36:58,448][evaluate.py][line:344][INFO] ORIGINAL: But like, just because you're considering why it's been so difficult doesn't mean you should just stop.
+
+[2025-01-12 18:36:58,448][evaluate.py][line:345][INFO] FORMATTED: BUT LIKE  JUST BECAUSE YOU'RE CONSIDERING WHY IT'S BEEN SO DIFFICULT DOESN'T MEAN YOU SHOULD JUST STOP 
+[2025-01-12 18:36:59,489][evaluate.py][line:343][INFO] Transcription of file 288 'Ses02M_impro04_F016.wav' has been formatted
+[2025-01-12 18:36:59,489][evaluate.py][line:344][INFO] ORIGINAL: Well, maybe you should take a little break from it, but I don't think you should stop.
+
+[2025-01-12 18:36:59,490][evaluate.py][line:345][INFO] FORMATTED: WELL  MAYBE YOU SHOULD TAKE A LITTLE BREAK FROM IT  BUT I DON'T THINK YOU SHOULD STOP 
+[2025-01-12 18:37:00,451][evaluate.py][line:343][INFO] Transcription of file 289 'Ses02M_impro03_F000.wav' has been formatted
+[2025-01-12 18:37:00,452][evaluate.py][line:344][INFO] ORIGINAL: What? What? You look really happy. What's going on?
+
+[2025-01-12 18:37:00,452][evaluate.py][line:345][INFO] FORMATTED: WHAT  WHAT  YOU LOOK REALLY HAPPY WHAT'S GOING ON  
+[2025-01-12 18:37:01,108][evaluate.py][line:343][INFO] Transcription of file 290 'Ses02M_impro03_F001.wav' has been formatted
+[2025-01-12 18:37:01,108][evaluate.py][line:344][INFO] ORIGINAL: Finally did what?
+
+[2025-01-12 18:37:01,108][evaluate.py][line:345][INFO] FORMATTED: FINALLY DID WHAT  
+[2025-01-12 18:37:02,006][evaluate.py][line:343][INFO] Transcription of file 291 'Ses02M_impro03_F003.wav' has been formatted
+[2025-01-12 18:37:02,006][evaluate.py][line:344][INFO] ORIGINAL: Oh my gosh! Well, and the p p p
+
+[2025-01-12 18:37:02,007][evaluate.py][line:345][INFO] FORMATTED: OH MY GOSH  WELL  AND THE P P P 
+[2025-01-12 18:37:02,833][evaluate.py][line:343][INFO] Transcription of file 292 'Ses02M_impro03_F004.wav' has been formatted
+[2025-01-12 18:37:02,833][evaluate.py][line:344][INFO] ORIGINAL: Did she say yes?
+[Sound of indistinct speech]
+
+[2025-01-12 18:37:02,833][evaluate.py][line:345][INFO] FORMATTED: DID SHE SAY YES   SOUND OF INDISTINCT SPEECH  
+[2025-01-12 18:37:03,729][evaluate.py][line:343][INFO] Transcription of file 293 'Ses02M_impro03_F005.wav' has been formatted
+[2025-01-12 18:37:03,729][evaluate.py][line:344][INFO] ORIGINAL: And it's like, definitively.
+
+[2025-01-12 18:37:03,729][evaluate.py][line:345][INFO] FORMATTED: AND IT'S LIKE  DEFINITIVELY 
+[2025-01-12 18:37:04,722][evaluate.py][line:343][INFO] Transcription of file 294 'Ses02M_impro03_F007.wav' has been formatted
+[2025-01-12 18:37:04,722][evaluate.py][line:344][INFO] ORIGINAL: I thought, would've thought you would've told me that you were planning on doing this.  Well,
+
+[2025-01-12 18:37:04,722][evaluate.py][line:345][INFO] FORMATTED: I THOUGHT  WOULD'VE THOUGHT YOU WOULD'VE TOLD ME THAT YOU WERE PLANNING ON DOING THIS  WELL  
+[2025-01-12 18:37:05,836][evaluate.py][line:343][INFO] Transcription of file 295 'Ses02M_impro03_F008.wav' has been formatted
+[2025-01-12 18:37:05,837][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I guess so. Oh my gosh! Was she surprised?
+[sound of beeping]
+
+[2025-01-12 18:37:05,837][evaluate.py][line:345][INFO] FORMATTED: YEAH  I GUESS SO OH MY GOSH  WAS SHE SURPRISED   SOUND OF BEEPING  
+[2025-01-12 18:37:06,838][evaluate.py][line:343][INFO] Transcription of file 296 'Ses02M_impro03_F011.wav' has been formatted
+[2025-01-12 18:37:06,838][evaluate.py][line:344][INFO] ORIGINAL: Oh, you did not!
+
+[2025-01-12 18:37:06,838][evaluate.py][line:345][INFO] FORMATTED: OH  YOU DID NOT  
+[2025-01-12 18:37:07,731][evaluate.py][line:343][INFO] Transcription of file 297 'Ses02M_impro03_F012.wav' has been formatted
+[2025-01-12 18:37:07,731][evaluate.py][line:344][INFO] ORIGINAL: Oh my gosh! That's so cute!
+
+[2025-01-12 18:37:07,731][evaluate.py][line:345][INFO] FORMATTED: OH MY GOSH  THAT'S SO CUTE  
+[2025-01-12 18:37:08,909][evaluate.py][line:343][INFO] Transcription of file 298 'Ses02M_impro03_F013.wav' has been formatted
+[2025-01-12 18:37:08,909][evaluate.py][line:344][INFO] ORIGINAL: That's so romantic! Oh my gosh, she must have died. That's like one of those things you write into like a magazine about, like, "My boyfriend did this." Oh my god!
+
+[2025-01-12 18:37:08,909][evaluate.py][line:345][INFO] FORMATTED: THAT'S SO ROMANTIC  OH MY GOSH  SHE MUST HAVE DIED THAT'S LIKE ONE OF THOSE THINGS YOU WRITE INTO LIKE A MAGAZINE ABOUT  LIKE   MY BOYFRIEND DID THIS  OH MY GOD  
+[2025-01-12 18:37:09,620][evaluate.py][line:343][INFO] Transcription of file 299 'Ses02M_impro03_F014.wav' has been formatted
+[2025-01-12 18:37:09,620][evaluate.py][line:344][INFO] ORIGINAL: She must have flipped out!
+
+[2025-01-12 18:37:09,620][evaluate.py][line:345][INFO] FORMATTED: SHE MUST HAVE FLIPPED OUT  
+[2025-01-12 18:37:10,583][evaluate.py][line:343][INFO] Transcription of file 300 'Ses02M_impro03_F015.wav' has been formatted
+[2025-01-12 18:37:10,583][evaluate.py][line:344][INFO] ORIGINAL: Right, exactly. Yeah, because you can't see anyone from like thousands of people.
+
+[2025-01-12 18:37:10,583][evaluate.py][line:345][INFO] FORMATTED: RIGHT  EXACTLY YEAH  BECAUSE YOU CAN'T SEE ANYONE FROM LIKE THOUSANDS OF PEOPLE 
+[2025-01-12 18:37:11,500][evaluate.py][line:343][INFO] Transcription of file 301 'Ses02M_impro03_F016.wav' has been formatted
+[2025-01-12 18:37:11,500][evaluate.py][line:344][INFO] ORIGINAL: Did you bring her up on stage too?  Yeah.  Pppp
+
+[2025-01-12 18:37:11,500][evaluate.py][line:345][INFO] FORMATTED: DID YOU BRING HER UP ON STAGE TOO   YEAH  PPPP 
+[2025-01-12 18:37:12,392][evaluate.py][line:343][INFO] Transcription of file 302 'Ses02M_impro03_F017.wav' has been formatted
+[2025-01-12 18:37:12,392][evaluate.py][line:344][INFO] ORIGINAL: Oh my gosh, that's so cute.
+
+[2025-01-12 18:37:12,392][evaluate.py][line:345][INFO] FORMATTED: OH MY GOSH  THAT'S SO CUTE 
+[2025-01-12 18:37:13,244][evaluate.py][line:343][INFO] Transcription of file 303 'Ses02M_impro03_F018.wav' has been formatted
+[2025-01-12 18:37:13,244][evaluate.py][line:344][INFO] ORIGINAL: And are your parents excited or...?
+
+[2025-01-12 18:37:13,244][evaluate.py][line:345][INFO] FORMATTED: AND ARE YOUR PARENTS EXCITED OR  
+[2025-01-12 18:37:14,120][evaluate.py][line:343][INFO] Transcription of file 304 'Ses02M_impro03_F020.wav' has been formatted
+[2025-01-12 18:37:14,120][evaluate.py][line:344][INFO] ORIGINAL: Ooh, that would be fine. Well,
+
+[2025-01-12 18:37:14,120][evaluate.py][line:345][INFO] FORMATTED: OOH  THAT WOULD BE FINE WELL  
+[2025-01-12 18:37:15,108][evaluate.py][line:343][INFO] Transcription of file 305 'Ses02M_impro03_F023.wav' has been formatted
+[2025-01-12 18:37:15,115][evaluate.py][line:344][INFO] ORIGINAL: Oh my gosh! I cannot believe you're getting married. That is so cool!
+
+[2025-01-12 18:37:15,115][evaluate.py][line:345][INFO] FORMATTED: OH MY GOSH  I CANNOT BELIEVE YOU'RE GETTING MARRIED THAT IS SO COOL  
+[2025-01-12 18:37:16,167][evaluate.py][line:343][INFO] Transcription of file 306 'Ses02M_impro03_F024.wav' has been formatted
+[2025-01-12 18:37:16,167][evaluate.py][line:344][INFO] ORIGINAL: God, Lee. It just makes me all like romantic inside. Like I really want that to happen to me.
+
+[2025-01-12 18:37:16,167][evaluate.py][line:345][INFO] FORMATTED: GOD  LEE IT JUST MAKES ME ALL LIKE ROMANTIC INSIDE LIKE I REALLY WANT THAT TO HAPPEN TO ME 
+[2025-01-12 18:37:17,167][evaluate.py][line:343][INFO] Transcription of file 307 'Ses02M_impro03_F028.wav' has been formatted
+[2025-01-12 18:37:17,167][evaluate.py][line:344][INFO] ORIGINAL: Yay! Congratulations! That's so cool!  I can't wait!
+
+[2025-01-12 18:37:17,167][evaluate.py][line:345][INFO] FORMATTED: YAY  CONGRATULATIONS  THAT'S SO COOL   I CAN'T WAIT  
+[2025-01-12 18:37:18,091][evaluate.py][line:343][INFO] Transcription of file 308 'Ses02M_script03_2_F000.wav' has been formatted
+[2025-01-12 18:37:18,091][evaluate.py][line:344][INFO] ORIGINAL: You knew there was nothing in that.  I knew nothing.
+
+[2025-01-12 18:37:18,091][evaluate.py][line:345][INFO] FORMATTED: YOU KNEW THERE WAS NOTHING IN THAT  I KNEW NOTHING 
+[2025-01-12 18:37:19,000][evaluate.py][line:343][INFO] Transcription of file 309 'Ses02M_script03_2_F001.wav' has been formatted
+[2025-01-12 18:37:19,000][evaluate.py][line:344][INFO] ORIGINAL: Precious? Just a trivial little brooch.
+
+[2025-01-12 18:37:19,000][evaluate.py][line:345][INFO] FORMATTED: PRECIOUS  JUST A TRIVIAL LITTLE BROOCH 
+[2025-01-12 18:37:20,011][evaluate.py][line:343][INFO] Transcription of file 310 'Ses02M_script03_2_F002.wav' has been formatted
+[2025-01-12 18:37:20,011][evaluate.py][line:344][INFO] ORIGINAL: No, it wasn't. It was very pretty. I still have it and I wear it often.
+
+[2025-01-12 18:37:20,011][evaluate.py][line:345][INFO] FORMATTED: NO  IT WASN'T IT WAS VERY PRETTY I STILL HAVE IT AND I WEAR IT OFTEN 
+[2025-01-12 18:37:20,993][evaluate.py][line:343][INFO] Transcription of file 311 'Ses02M_script03_2_F003.wav' has been formatted
+[2025-01-12 18:37:20,993][evaluate.py][line:344][INFO] ORIGINAL: No, I didn't. You worked the whole thing up in your jealous imagination. You must...
+
+[2025-01-12 18:37:20,993][evaluate.py][line:345][INFO] FORMATTED: NO  I DIDN'T YOU WORKED THE WHOLE THING UP IN YOUR JEALOUS IMAGINATION YOU MUST 
+[2025-01-12 18:37:21,824][evaluate.py][line:343][INFO] Transcription of file 312 'Ses02M_script03_2_F005.wav' has been formatted
+[2025-01-12 18:37:21,825][evaluate.py][line:344][INFO] ORIGINAL: It sounds like the audio contains a lot of background noise and possibly some unintelligible speech or non-speech sounds.  I cannot provide a reliable transcript. 
+
+[2025-01-12 18:37:21,825][evaluate.py][line:345][INFO] FORMATTED: IT SOUNDS LIKE THE AUDIO CONTAINS A LOT OF BACKGROUND NOISE AND POSSIBLY SOME UNINTELLIGIBLE SPEECH OR NON SPEECH SOUNDS  I CANNOT PROVIDE A RELIABLE TRANSCRIPT  
+[2025-01-12 18:37:22,777][evaluate.py][line:343][INFO] Transcription of file 313 'Ses02M_script03_2_F006.wav' has been formatted
+[2025-01-12 18:37:22,777][evaluate.py][line:344][INFO] ORIGINAL: It gave him a lot of pleasure. Didn't hurt me any.
+
+[2025-01-12 18:37:22,777][evaluate.py][line:345][INFO] FORMATTED: IT GAVE HIM A LOT OF PLEASURE DIDN'T HURT ME ANY 
+[2025-01-12 18:37:23,798][evaluate.py][line:343][INFO] Transcription of file 314 'Ses02M_script03_2_F007.wav' has been formatted
+[2025-01-12 18:37:23,799][evaluate.py][line:344][INFO] ORIGINAL: Well, if you hadn't been so nosy and suspicious, you never would have known anything about it.
+
+[2025-01-12 18:37:23,799][evaluate.py][line:345][INFO] FORMATTED: WELL  IF YOU HADN'T BEEN SO NOSY AND SUSPICIOUS  YOU NEVER WOULD HAVE KNOWN ANYTHING ABOUT IT 
+[2025-01-12 18:37:24,478][evaluate.py][line:343][INFO] Transcription of file 315 'Ses02M_script03_2_F009.wav' has been formatted
+[2025-01-12 18:37:24,478][evaluate.py][line:344][INFO] ORIGINAL: No thanks.
+
+[2025-01-12 18:37:24,479][evaluate.py][line:345][INFO] FORMATTED: NO THANKS 
+[2025-01-12 18:37:25,471][evaluate.py][line:343][INFO] Transcription of file 316 'Ses02M_script03_2_F011.wav' has been formatted
+[2025-01-12 18:37:25,471][evaluate.py][line:344][INFO] ORIGINAL: It just seems so silly to go on and on and on with such a thing.
+
+[2025-01-12 18:37:25,471][evaluate.py][line:345][INFO] FORMATTED: IT JUST SEEMS SO SILLY TO GO ON AND ON AND ON WITH SUCH A THING 
+[2025-01-12 18:37:26,401][evaluate.py][line:343][INFO] Transcription of file 317 'Ses02M_script03_2_F012.wav' has been formatted
+[2025-01-12 18:37:26,401][evaluate.py][line:344][INFO] ORIGINAL: Well, it's become a habit with you.
+
+[2025-01-12 18:37:26,402][evaluate.py][line:345][INFO] FORMATTED: WELL  IT'S BECOME A HABIT WITH YOU 
+[2025-01-12 18:37:27,136][evaluate.py][line:343][INFO] Transcription of file 318 'Ses02M_script03_2_F014.wav' has been formatted
+[2025-01-12 18:37:27,136][evaluate.py][line:344][INFO] ORIGINAL: What?
+P-p-p-p-p-
+
+[2025-01-12 18:37:27,136][evaluate.py][line:345][INFO] FORMATTED: WHAT  P P P P P  
+[2025-01-12 18:37:28,036][evaluate.py][line:343][INFO] Transcription of file 319 'Ses02M_script03_2_F015.wav' has been formatted
+[2025-01-12 18:37:28,036][evaluate.py][line:344][INFO] ORIGINAL: No, just making myself fascinating for you.
+
+[2025-01-12 18:37:28,036][evaluate.py][line:345][INFO] FORMATTED: NO  JUST MAKING MYSELF FASCINATING FOR YOU 
+[2025-01-12 18:37:28,808][evaluate.py][line:343][INFO] Transcription of file 320 'Ses02M_script03_2_F019.wav' has been formatted
+[2025-01-12 18:37:28,808][evaluate.py][line:344][INFO] ORIGINAL: Be quiet!
+Pssst!
+
+[2025-01-12 18:37:28,808][evaluate.py][line:345][INFO] FORMATTED: BE QUIET  PSSST  
+[2025-01-12 18:37:29,859][evaluate.py][line:343][INFO] Transcription of file 321 'Ses02M_script03_2_F023.wav' has been formatted
+[2025-01-12 18:37:29,859][evaluate.py][line:344][INFO] ORIGINAL: I don't care. Do you understand? I don't care. I don't care if they bark or roll about like hoops.
+
+[2025-01-12 18:37:29,859][evaluate.py][line:345][INFO] FORMATTED: I DON'T CARE DO YOU UNDERSTAND  I DON'T CARE I DON'T CARE IF THEY BARK OR ROLL ABOUT LIKE HOOPS 
+[2025-01-12 18:37:30,764][evaluate.py][line:343][INFO] Transcription of file 322 'Ses02M_script03_2_F024.wav' has been formatted
+[2025-01-12 18:37:30,765][evaluate.py][line:344][INFO] ORIGINAL: Yes, I did. Quite a lot.
+
+[2025-01-12 18:37:30,765][evaluate.py][line:345][INFO] FORMATTED: YES  I DID QUITE A LOT 
+[2025-01-12 18:37:31,611][evaluate.py][line:343][INFO] Transcription of file 323 'Ses02M_script03_2_F028.wav' has been formatted
+[2025-01-12 18:37:31,611][evaluate.py][line:344][INFO] ORIGINAL: Oh, be quiet!
+
+[2025-01-12 18:37:31,611][evaluate.py][line:345][INFO] FORMATTED: OH  BE QUIET  
+[2025-01-12 18:37:32,626][evaluate.py][line:343][INFO] Transcription of file 324 'Ses02M_script03_2_F035.wav' has been formatted
+[2025-01-12 18:37:32,626][evaluate.py][line:344][INFO] ORIGINAL: You are far too temperamental. Try to control yourself.
+
+[2025-01-12 18:37:32,626][evaluate.py][line:345][INFO] FORMATTED: YOU ARE FAR TOO TEMPERAMENTAL TRY TO CONTROL YOURSELF 
+[2025-01-12 18:37:33,513][evaluate.py][line:343][INFO] Transcription of file 325 'Ses02M_script03_2_F036.wav' has been formatted
+[2025-01-12 18:37:33,513][evaluate.py][line:344][INFO] ORIGINAL: Stop it! Stop it! I hate you!
+
+[2025-01-12 18:37:33,513][evaluate.py][line:345][INFO] FORMATTED: STOP IT  STOP IT  I HATE YOU  
+[2025-01-12 18:37:34,554][evaluate.py][line:343][INFO] Transcription of file 326 'Ses02M_script03_2_F037.wav' has been formatted
+[2025-01-12 18:37:34,554][evaluate.py][line:344][INFO] ORIGINAL: Listen, indeed! I'm sick and tired of listening to you, damn sadistic bully!  Very amusing.
+
+[2025-01-12 18:37:34,554][evaluate.py][line:345][INFO] FORMATTED: LISTEN  INDEED  I'M SICK AND TIRED OF LISTENING TO YOU  DAMN SADISTIC BULLY   VERY AMUSING 
+[2025-01-12 18:37:35,641][evaluate.py][line:343][INFO] Transcription of file 327 'Ses02M_script03_2_F038.wav' has been formatted
+[2025-01-12 18:37:35,642][evaluate.py][line:344][INFO] ORIGINAL: Stop it! Stop it! I hate you, do you hear? You're overbearing and conceited and utterly impossible! You're a...
+
+[2025-01-12 18:37:35,642][evaluate.py][line:345][INFO] FORMATTED: STOP IT  STOP IT  I HATE YOU  DO YOU HEAR  YOU'RE OVERBEARING AND CONCEITED AND UTTERLY IMPOSSIBLE  YOU'RE A 
+[2025-01-12 18:37:36,655][evaluate.py][line:343][INFO] Transcription of file 328 'Ses02M_script03_2_F039.wav' has been formatted
+[2025-01-12 18:37:36,655][evaluate.py][line:344][INFO] ORIGINAL: This is the end. Do you hear the end? Finally and forever.  You're not... *beep beep beep*
+
+[2025-01-12 18:37:36,655][evaluate.py][line:345][INFO] FORMATTED: THIS IS THE END DO YOU HEAR THE END  FINALLY AND FOREVER  YOU'RE NOT  BEEP BEEP BEEP  
+[2025-01-12 18:37:37,616][evaluate.py][line:343][INFO] Transcription of file 329 'Ses02M_script03_2_F040.wav' has been formatted
+[2025-01-12 18:37:37,616][evaluate.py][line:344][INFO] ORIGINAL: Oh yes I am.
+
+[2025-01-12 18:37:37,616][evaluate.py][line:345][INFO] FORMATTED: OH YES I AM 
+[2025-01-12 18:37:38,907][evaluate.py][line:343][INFO] Transcription of file 330 'Ses02M_script03_2_F041.wav' has been formatted
+[2025-01-12 18:37:38,907][evaluate.py][line:344][INFO] ORIGINAL: Yes, I am. Let go of me! You're a cruel fiend, and I hate and loath you. Thank God I realised what you really are before I would ever, ever marry you again. I would never marry you again. I would rather die in torment.
+
+[2025-01-12 18:37:38,907][evaluate.py][line:345][INFO] FORMATTED: YES  I AM LET GO OF ME  YOU'RE A CRUEL FIEND  AND I HATE AND LOATH YOU THANK GOD I REALISED WHAT YOU REALLY ARE BEFORE I WOULD EVER  EVER MARRY YOU AGAIN I WOULD NEVER MARRY YOU AGAIN I WOULD RATHER DIE IN TORMENT 
+[2025-01-12 18:37:38,908][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:37:38,908][evaluate.py][line:400][INFO] [Files Processed] 330 of 481
+[2025-01-12 18:37:38,908][evaluate.py][line:401][INFO] [Total Tokens] 61454
+[2025-01-12 18:37:38,908][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:37:39,843][evaluate.py][line:343][INFO] Transcription of file 331 'Ses02M_script03_2_F042.wav' has been formatted
+[2025-01-12 18:37:39,843][evaluate.py][line:344][INFO] ORIGINAL: You're a beast! I hate you! Stop it! Stop it!
+
+[2025-01-12 18:37:39,843][evaluate.py][line:345][INFO] FORMATTED: YOU'RE A BEAST  I HATE YOU  STOP IT  STOP IT  
+[2025-01-12 18:37:41,035][evaluate.py][line:343][INFO] Transcription of file 332 'Ses02M_script02_2_F005.wav' has been formatted
+[2025-01-12 18:37:41,036][evaluate.py][line:344][INFO] ORIGINAL: God damn it, Auggie! Don't ask me that! I hate it when you ask me that! You always ask me that. It's insulting! What about
+
+[2025-01-12 18:37:41,036][evaluate.py][line:345][INFO] FORMATTED: GOD DAMN IT  AUGGIE  DON'T ASK ME THAT  I HATE IT WHEN YOU ASK ME THAT  YOU ALWAYS ASK ME THAT IT'S INSULTING  WHAT ABOUT 
+[2025-01-12 18:37:41,970][evaluate.py][line:343][INFO] Transcription of file 333 'Ses02M_script02_2_F006.wav' has been formatted
+[2025-01-12 18:37:41,971][evaluate.py][line:344][INFO] ORIGINAL: We just have different ideas of what this evening is supposed to look like.
+
+[2025-01-12 18:37:41,971][evaluate.py][line:345][INFO] FORMATTED: WE JUST HAVE DIFFERENT IDEAS OF WHAT THIS EVENING IS SUPPOSED TO LOOK LIKE 
+[2025-01-12 18:37:43,191][evaluate.py][line:343][INFO] Transcription of file 334 'Ses02M_script02_2_F011.wav' has been formatted
+[2025-01-12 18:37:43,191][evaluate.py][line:344][INFO] ORIGINAL: I mean, I feel like my whole life is going to be spent standing on the beach waiting for the fish to show up with my eyes open and my hands clasped expectantly, and the fish won't show up.
+
+[2025-01-12 18:37:43,191][evaluate.py][line:345][INFO] FORMATTED: I MEAN  I FEEL LIKE MY WHOLE LIFE IS GOING TO BE SPENT STANDING ON THE BEACH WAITING FOR THE FISH TO SHOW UP WITH MY EYES OPEN AND MY HANDS CLASPED EXPECTANTLY  AND THE FISH WON'T SHOW UP 
+[2025-01-12 18:37:44,300][evaluate.py][line:343][INFO] Transcription of file 335 'Ses02M_script02_2_F013.wav' has been formatted
+[2025-01-12 18:37:44,300][evaluate.py][line:344][INFO] ORIGINAL: I did want to see them. I always do. I mean, I keep thinking that this is going to be the time and it never is.
+
+[2025-01-12 18:37:44,300][evaluate.py][line:345][INFO] FORMATTED: I DID WANT TO SEE THEM I ALWAYS DO I MEAN  I KEEP THINKING THAT THIS IS GOING TO BE THE TIME AND IT NEVER IS 
+[2025-01-12 18:37:45,390][evaluate.py][line:343][INFO] Transcription of file 336 'Ses02M_script02_2_F015.wav' has been formatted
+[2025-01-12 18:37:45,390][evaluate.py][line:344][INFO] ORIGINAL: Do you remember the first time we came to see it?  It was about four years ago, right after we got married.
+
+[2025-01-12 18:37:45,390][evaluate.py][line:345][INFO] FORMATTED: DO YOU REMEMBER THE FIRST TIME WE CAME TO SEE IT   IT WAS ABOUT FOUR YEARS AGO  RIGHT AFTER WE GOT MARRIED 
+[2025-01-12 18:37:46,511][evaluate.py][line:343][INFO] Transcription of file 337 'Ses02M_script02_2_F016.wav' has been formatted
+[2025-01-12 18:37:46,511][evaluate.py][line:344][INFO] ORIGINAL: We thought I was pregnant and we had a bottle of champagne, but no glasses. You asked me to dance, we kicked off our shoes and you popped the cork.
+
+[2025-01-12 18:37:46,511][evaluate.py][line:345][INFO] FORMATTED: WE THOUGHT I WAS PREGNANT AND WE HAD A BOTTLE OF CHAMPAGNE  BUT NO GLASSES YOU ASKED ME TO DANCE  WE KICKED OFF OUR SHOES AND YOU POPPED THE CORK 
+[2025-01-12 18:37:47,650][evaluate.py][line:343][INFO] Transcription of file 338 'Ses02M_script02_2_F017.wav' has been formatted
+[2025-01-12 18:37:47,650][evaluate.py][line:344][INFO] ORIGINAL: And while we were dancing you said the softest most intimate things to me right into my ear so I could feel them as much as hear them.
+
+[2025-01-12 18:37:47,650][evaluate.py][line:345][INFO] FORMATTED: AND WHILE WE WERE DANCING YOU SAID THE SOFTEST MOST INTIMATE THINGS TO ME RIGHT INTO MY EAR SO I COULD FEEL THEM AS MUCH AS HEAR THEM 
+[2025-01-12 18:37:48,727][evaluate.py][line:343][INFO] Transcription of file 339 'Ses02M_script02_2_F018.wav' has been formatted
+[2025-01-12 18:37:48,727][evaluate.py][line:344][INFO] ORIGINAL: And I remember thinking that this is it. You know, at last, at last I am as happy as I am supposed to be.
+
+[2025-01-12 18:37:48,727][evaluate.py][line:345][INFO] FORMATTED: AND I REMEMBER THINKING THAT THIS IS IT YOU KNOW  AT LAST  AT LAST I AM AS HAPPY AS I AM SUPPOSED TO BE 
+[2025-01-12 18:37:49,656][evaluate.py][line:343][INFO] Transcription of file 340 'Ses02M_script02_2_F019.wav' has been formatted
+[2025-01-12 18:37:49,656][evaluate.py][line:344][INFO] ORIGINAL: Just dancing barefoot in the sand, drinking champagne out of the bottle.
+
+[2025-01-12 18:37:49,657][evaluate.py][line:345][INFO] FORMATTED: JUST DANCING BAREFOOT IN THE SAND  DRINKING CHAMPAGNE OUT OF THE BOTTLE 
+[2025-01-12 18:37:50,662][evaluate.py][line:343][INFO] Transcription of file 341 'Ses02M_script02_2_F020.wav' has been formatted
+[2025-01-12 18:37:50,662][evaluate.py][line:344][INFO] ORIGINAL: I'd rather not remember some things. I would rather not hope for some things.  [Beep sound]
+
+[2025-01-12 18:37:50,662][evaluate.py][line:345][INFO] FORMATTED: I'D RATHER NOT REMEMBER SOME THINGS I WOULD RATHER NOT HOPE FOR SOME THINGS   BEEP SOUND  
+[2025-01-12 18:37:51,300][evaluate.py][line:343][INFO] Transcription of file 342 'Ses02M_script02_2_F021.wav' has been formatted
+[2025-01-12 18:37:51,300][evaluate.py][line:344][INFO] ORIGINAL: No.
+
+[2025-01-12 18:37:51,300][evaluate.py][line:345][INFO] FORMATTED: NO 
+[2025-01-12 18:37:52,012][evaluate.py][line:343][INFO] Transcription of file 343 'Ses02M_script02_2_F022.wav' has been formatted
+[2025-01-12 18:37:52,012][evaluate.py][line:344][INFO] ORIGINAL: No.
+
+[2025-01-12 18:37:52,012][evaluate.py][line:345][INFO] FORMATTED: NO 
+[2025-01-12 18:37:53,118][evaluate.py][line:343][INFO] Transcription of file 344 'Ses02M_script02_2_F031.wav' has been formatted
+[2025-01-12 18:37:53,118][evaluate.py][line:344][INFO] ORIGINAL: Well, but this isn't anything like I thought anything would be like.
+
+[2025-01-12 18:37:53,118][evaluate.py][line:345][INFO] FORMATTED: WELL  BUT THIS ISN'T ANYTHING LIKE I THOUGHT ANYTHING WOULD BE LIKE 
+[2025-01-12 18:37:54,333][evaluate.py][line:343][INFO] Transcription of file 345 'Ses02M_script02_2_F034.wav' has been formatted
+[2025-01-12 18:37:54,333][evaluate.py][line:344][INFO] ORIGINAL: I know that you meant this to be special and nice and there's the sand and the moon and everything, but I just couldn't help thinking about being somewhere else.
+
+[2025-01-12 18:37:54,333][evaluate.py][line:345][INFO] FORMATTED: I KNOW THAT YOU MEANT THIS TO BE SPECIAL AND NICE AND THERE'S THE SAND AND THE MOON AND EVERYTHING  BUT I JUST COULDN'T HELP THINKING ABOUT BEING SOMEWHERE ELSE 
+[2025-01-12 18:37:55,299][evaluate.py][line:343][INFO] Transcription of file 346 'Ses02M_script02_2_F037.wav' has been formatted
+[2025-01-12 18:37:55,300][evaluate.py][line:344][INFO] ORIGINAL: Don't be ridiculous. I mean, don't you know that?
+
+[2025-01-12 18:37:55,300][evaluate.py][line:345][INFO] FORMATTED: DON'T BE RIDICULOUS I MEAN  DON'T YOU KNOW THAT  
+[2025-01-12 18:37:56,402][evaluate.py][line:343][INFO] Transcription of file 347 'Ses02M_script02_2_F038.wav' has been formatted
+[2025-01-12 18:37:56,402][evaluate.py][line:344][INFO] ORIGINAL: And you're the one who probably wishes you was with someone else, someone who knew how to enjoy herself and didn't take everything so hard.
+
+[2025-01-12 18:37:56,402][evaluate.py][line:345][INFO] FORMATTED: AND YOU'RE THE ONE WHO PROBABLY WISHES YOU WAS WITH SOMEONE ELSE  SOMEONE WHO KNEW HOW TO ENJOY HERSELF AND DIDN'T TAKE EVERYTHING SO HARD 
+[2025-01-12 18:37:57,305][evaluate.py][line:343][INFO] Transcription of file 348 'Ses02M_script02_2_F042.wav' has been formatted
+[2025-01-12 18:37:57,305][evaluate.py][line:344][INFO] ORIGINAL: And I guess we don't need glasses.
+
+[2025-01-12 18:37:57,305][evaluate.py][line:345][INFO] FORMATTED: AND I GUESS WE DON'T NEED GLASSES 
+[2025-01-12 18:37:58,185][evaluate.py][line:343][INFO] Transcription of file 349 'Ses02M_script02_2_F044.wav' has been formatted
+[2025-01-12 18:37:58,186][evaluate.py][line:344][INFO] ORIGINAL: Okay, I'm sorry.
+
+[2025-01-12 18:37:58,186][evaluate.py][line:345][INFO] FORMATTED: OKAY  I'M SORRY 
+[2025-01-12 18:37:58,847][evaluate.py][line:343][INFO] Transcription of file 350 'Ses02M_script02_2_F045.wav' has been formatted
+[2025-01-12 18:37:58,847][evaluate.py][line:344][INFO] ORIGINAL: Or not?
+
+[2025-01-12 18:37:58,847][evaluate.py][line:345][INFO] FORMATTED: OR NOT  
+[2025-01-12 18:37:59,512][evaluate.py][line:343][INFO] Transcription of file 351 'Ses02M_script02_2_F046.wav' has been formatted
+[2025-01-12 18:37:59,527][evaluate.py][line:344][INFO] ORIGINAL: Hmm.  Ppppp
+
+[2025-01-12 18:37:59,527][evaluate.py][line:345][INFO] FORMATTED: HMM  PPPPP 
+[2025-01-12 18:38:00,419][evaluate.py][line:343][INFO] Transcription of file 352 'Ses02F_script01_2_F005.wav' has been formatted
+[2025-01-12 18:38:00,419][evaluate.py][line:344][INFO] ORIGINAL: It's got that all about it.
+
+[2025-01-12 18:38:00,419][evaluate.py][line:345][INFO] FORMATTED: IT'S GOT THAT ALL ABOUT IT 
+[2025-01-12 18:38:01,425][evaluate.py][line:343][INFO] Transcription of file 353 'Ses02F_script01_2_F012.wav' has been formatted
+[2025-01-12 18:38:01,425][evaluate.py][line:344][INFO] ORIGINAL: because if he's not coming back, I'll kill myself. I mean laugh, laugh at me, but
+
+[2025-01-12 18:38:01,425][evaluate.py][line:345][INFO] FORMATTED: BECAUSE IF HE'S NOT COMING BACK  I'LL KILL MYSELF I MEAN LAUGH  LAUGH AT ME  BUT 
+[2025-01-12 18:38:02,532][evaluate.py][line:343][INFO] Transcription of file 354 'Ses02F_script01_2_F013.wav' has been formatted
+[2025-01-12 18:38:02,532][evaluate.py][line:344][INFO] ORIGINAL: But why did that happen the very night she came here? She sleeps in his room and his memorial breaks to pieces. Just look, look at it!
+
+[2025-01-12 18:38:02,532][evaluate.py][line:345][INFO] FORMATTED: BUT WHY DID THAT HAPPEN THE VERY NIGHT SHE CAME HERE  SHE SLEEPS IN HIS ROOM AND HIS MEMORIAL BREAKS TO PIECES JUST LOOK  LOOK AT IT  
+[2025-01-12 18:38:03,418][evaluate.py][line:343][INFO] Transcription of file 355 'Ses02M_impro02_F000.wav' has been formatted
+[2025-01-12 18:38:03,419][evaluate.py][line:344][INFO] ORIGINAL: I don't want you to go.
+
+[2025-01-12 18:38:03,419][evaluate.py][line:345][INFO] FORMATTED: I DON'T WANT YOU TO GO 
+[2025-01-12 18:38:04,501][evaluate.py][line:343][INFO] Transcription of file 356 'Ses02M_impro02_F001.wav' has been formatted
+[2025-01-12 18:38:04,501][evaluate.py][line:344][INFO] ORIGINAL: I'm gonna miss you too. I don't know what I'm gonna do here without you. It's gonna be so lonely and so hard to
+
+[2025-01-12 18:38:04,501][evaluate.py][line:345][INFO] FORMATTED: I'M GONNA MISS YOU TOO I DON'T KNOW WHAT I'M GONNA DO HERE WITHOUT YOU IT'S GONNA BE SO LONELY AND SO HARD TO 
+[2025-01-12 18:38:05,403][evaluate.py][line:343][INFO] Transcription of file 357 'Ses02M_impro02_F002.wav' has been formatted
+[2025-01-12 18:38:05,403][evaluate.py][line:344][INFO] ORIGINAL: I don't want to be a single mom.
+
+[2025-01-12 18:38:05,403][evaluate.py][line:345][INFO] FORMATTED: I DON'T WANT TO BE A SINGLE MOM 
+[2025-01-12 18:38:06,096][evaluate.py][line:343][INFO] Transcription of file 358 'Ses02M_impro02_F003.wav' has been formatted
+[2025-01-12 18:38:06,096][evaluate.py][line:344][INFO] ORIGINAL:  
+
+[2025-01-12 18:38:06,096][evaluate.py][line:345][INFO] FORMATTED:  
+[2025-01-12 18:38:07,055][evaluate.py][line:343][INFO] Transcription of file 359 'Ses02M_impro02_F004.wav' has been formatted
+[2025-01-12 18:38:07,055][evaluate.py][line:344][INFO] ORIGINAL: It's dangerous. I mean, how can you make sure that you'll
+
+[2025-01-12 18:38:07,055][evaluate.py][line:345][INFO] FORMATTED: IT'S DANGEROUS I MEAN  HOW CAN YOU MAKE SURE THAT YOU'LL 
+[2025-01-12 18:38:07,735][evaluate.py][line:343][INFO] Transcription of file 360 'Ses02M_impro02_F005.wav' has been formatted
+[2025-01-12 18:38:07,735][evaluate.py][line:344][INFO] ORIGINAL: I hope so.
+
+[2025-01-12 18:38:07,735][evaluate.py][line:345][INFO] FORMATTED: I HOPE SO 
+[2025-01-12 18:38:08,441][evaluate.py][line:343][INFO] Transcription of file 361 'Ses02M_impro02_F006.wav' has been formatted
+[2025-01-12 18:38:08,441][evaluate.py][line:344][INFO] ORIGINAL: I hope so.
+
+[2025-01-12 18:38:08,441][evaluate.py][line:345][INFO] FORMATTED: I HOPE SO 
+[2025-01-12 18:38:09,319][evaluate.py][line:343][INFO] Transcription of file 362 'Ses02M_impro02_F007.wav' has been formatted
+[2025-01-12 18:38:09,319][evaluate.py][line:344][INFO] ORIGINAL: It's going to be really rough.
+
+[2025-01-12 18:38:09,319][evaluate.py][line:345][INFO] FORMATTED: IT'S GOING TO BE REALLY ROUGH 
+[2025-01-12 18:38:10,172][evaluate.py][line:343][INFO] Transcription of file 363 'Ses02M_impro02_F008.wav' has been formatted
+[2025-01-12 18:38:10,172][evaluate.py][line:344][INFO] ORIGINAL: I'll send you lots of pictures.
+
+[2025-01-12 18:38:10,172][evaluate.py][line:345][INFO] FORMATTED: I'LL SEND YOU LOTS OF PICTURES 
+[2025-01-12 18:38:11,093][evaluate.py][line:343][INFO] Transcription of file 364 'Ses02M_impro02_F009.wav' has been formatted
+[2025-01-12 18:38:11,094][evaluate.py][line:344][INFO] ORIGINAL: Well, just promise me that you're gonna be safe.
+
+[2025-01-12 18:38:11,094][evaluate.py][line:345][INFO] FORMATTED: WELL  JUST PROMISE ME THAT YOU'RE GONNA BE SAFE 
+[2025-01-12 18:38:12,178][evaluate.py][line:343][INFO] Transcription of file 365 'Ses02M_impro02_F010.wav' has been formatted
+[2025-01-12 18:38:12,178][evaluate.py][line:344][INFO] ORIGINAL: I mean, can't they put you in like, you know, kitchen work or something where you won't get  [sound of a beep]
+
+[2025-01-12 18:38:12,178][evaluate.py][line:345][INFO] FORMATTED: I MEAN  CAN'T THEY PUT YOU IN LIKE  YOU KNOW  KITCHEN WORK OR SOMETHING WHERE YOU WON'T GET   SOUND OF A BEEP  
+[2025-01-12 18:38:13,089][evaluate.py][line:343][INFO] Transcription of file 366 'Ses02M_impro02_F012.wav' has been formatted
+[2025-01-12 18:38:13,089][evaluate.py][line:344][INFO] ORIGINAL: Will you write me letters? Paper ones.
+[Sound of writing]
+
+[2025-01-12 18:38:13,089][evaluate.py][line:345][INFO] FORMATTED: WILL YOU WRITE ME LETTERS  PAPER ONES  SOUND OF WRITING  
+[2025-01-12 18:38:14,036][evaluate.py][line:343][INFO] Transcription of file 367 'Ses02M_impro02_F013.wav' has been formatted
+[2025-01-12 18:38:14,036][evaluate.py][line:344][INFO] ORIGINAL: My baby needs a dad. You can't leave. Okay? You can't disappear.
+
+[2025-01-12 18:38:14,036][evaluate.py][line:345][INFO] FORMATTED: MY BABY NEEDS A DAD YOU CAN'T LEAVE OKAY  YOU CAN'T DISAPPEAR 
+[2025-01-12 18:38:14,919][evaluate.py][line:343][INFO] Transcription of file 368 'Ses02M_impro02_F014.wav' has been formatted
+[2025-01-12 18:38:14,919][evaluate.py][line:344][INFO] ORIGINAL: Come see you.  Beep beep.
+
+[2025-01-12 18:38:14,919][evaluate.py][line:345][INFO] FORMATTED: COME SEE YOU  BEEP BEEP 
+[2025-01-12 18:38:15,784][evaluate.py][line:343][INFO] Transcription of file 369 'Ses02M_script01_2_F000.wav' has been formatted
+[2025-01-12 18:38:15,784][evaluate.py][line:344][INFO] ORIGINAL: Why did he invite her here?
+
+[2025-01-12 18:38:15,785][evaluate.py][line:345][INFO] FORMATTED: WHY DID HE INVITE HER HERE  
+[2025-01-12 18:38:16,790][evaluate.py][line:343][INFO] Transcription of file 370 'Ses02M_script01_2_F001.wav' has been formatted
+[2025-01-12 18:38:16,790][evaluate.py][line:344][INFO] ORIGINAL: She's been in New York three and a half years. Why all of a sudden  [audio cuts out with static]
+
+[2025-01-12 18:38:16,790][evaluate.py][line:345][INFO] FORMATTED: SHE'S BEEN IN NEW YORK THREE AND A HALF YEARS WHY ALL OF A SUDDEN   AUDIO CUTS OUT WITH STATIC  
+[2025-01-12 18:38:17,718][evaluate.py][line:343][INFO] Transcription of file 371 'Ses02M_script01_2_F002.wav' has been formatted
+[2025-01-12 18:38:17,718][evaluate.py][line:344][INFO] ORIGINAL: Nobody comes seven hundred miles just to see
+[Sound of static/interference]
+
+[2025-01-12 18:38:17,718][evaluate.py][line:345][INFO] FORMATTED: NOBODY COMES SEVEN HUNDRED MILES JUST TO SEE  SOUND OF STATIC INTERFERENCE  
+[2025-01-12 18:38:18,603][evaluate.py][line:343][INFO] Transcription of file 372 'Ses02M_script01_2_F003.wav' has been formatted
+[2025-01-12 18:38:18,603][evaluate.py][line:344][INFO] ORIGINAL: He's not going to marry her.
+
+[2025-01-12 18:38:18,603][evaluate.py][line:345][INFO] FORMATTED: HE'S NOT GOING TO MARRY HER 
+[2025-01-12 18:38:19,573][evaluate.py][line:343][INFO] Transcription of file 373 'Ses02M_script01_2_F005.wav' has been formatted
+[2025-01-12 18:38:19,573][evaluate.py][line:344][INFO] ORIGINAL: What's going on here, Joe?  I don't know.  [beep sound]
+
+[2025-01-12 18:38:19,573][evaluate.py][line:345][INFO] FORMATTED: WHAT'S GOING ON HERE  JOE   I DON'T KNOW   BEEP SOUND  
+[2025-01-12 18:38:20,548][evaluate.py][line:343][INFO] Transcription of file 374 'Ses02M_script01_2_F006.wav' has been formatted
+[2025-01-12 18:38:20,554][evaluate.py][line:344][INFO] ORIGINAL: She's not his girl, Joe. She knows she's not.
+
+[2025-01-12 18:38:20,554][evaluate.py][line:345][INFO] FORMATTED: SHE'S NOT HIS GIRL  JOE SHE KNOWS SHE'S NOT 
+[2025-01-12 18:38:21,739][evaluate.py][line:343][INFO] Transcription of file 375 'Ses02M_script01_2_F010.wav' has been formatted
+[2025-01-12 18:38:21,739][evaluate.py][line:344][INFO] ORIGINAL: I want you to act like he's coming back, both of you. Don't you think I haven't noticed since he invited her here? I won't stand for any nonsense.
+
+[2025-01-12 18:38:21,739][evaluate.py][line:345][INFO] FORMATTED: I WANT YOU TO ACT LIKE HE'S COMING BACK  BOTH OF YOU DON'T YOU THINK I HAVEN'T NOTICED SINCE HE INVITED HER HERE  I WON'T STAND FOR ANY NONSENSE 
+[2025-01-12 18:38:22,698][evaluate.py][line:343][INFO] Transcription of file 376 'Ses02M_script01_2_F013.wav' has been formatted
+[2025-01-12 18:38:22,698][evaluate.py][line:344][INFO] ORIGINAL: I need you to believe with me. I can't stand all alone.
+
+[2025-01-12 18:38:22,698][evaluate.py][line:345][INFO] FORMATTED: I NEED YOU TO BELIEVE WITH ME I CAN'T STAND ALL ALONE 
+[2025-01-12 18:38:23,384][evaluate.py][line:343][INFO] Transcription of file 377 'Ses02M_impro05_F000.wav' has been formatted
+[2025-01-12 18:38:23,384][evaluate.py][line:344][INFO] ORIGINAL: Hi, can I help you?
+
+[2025-01-12 18:38:23,384][evaluate.py][line:345][INFO] FORMATTED: HI  CAN I HELP YOU  
+[2025-01-12 18:38:24,357][evaluate.py][line:343][INFO] Transcription of file 378 'Ses02M_impro05_F001.wav' has been formatted
+[2025-01-12 18:38:24,357][evaluate.py][line:344][INFO] ORIGINAL: Oh, did you check? Did you make sure that as it went around a second time that it...
+
+[2025-01-12 18:38:24,358][evaluate.py][line:345][INFO] FORMATTED: OH  DID YOU CHECK  DID YOU MAKE SURE THAT AS IT WENT AROUND A SECOND TIME THAT IT 
+[2025-01-12 18:38:25,075][evaluate.py][line:343][INFO] Transcription of file 379 'Ses02M_impro05_F002.wav' has been formatted
+[2025-01-12 18:38:25,075][evaluate.py][line:344][INFO] ORIGINAL: Okay, well, um, the fact that
+
+[2025-01-12 18:38:25,075][evaluate.py][line:345][INFO] FORMATTED: OKAY  WELL  UM  THE FACT THAT 
+[2025-01-12 18:38:26,376][evaluate.py][line:343][INFO] Transcription of file 380 'Ses02M_impro05_F003.wav' has been formatted
+[2025-01-12 18:38:26,376][evaluate.py][line:344][INFO] ORIGINAL: Actually, I'm looking here at the information. The flight that you were on, we had some trouble with uh some of the baggage. It looks like a few people's bags didn't make it through. Um so
+
+[2025-01-12 18:38:26,377][evaluate.py][line:345][INFO] FORMATTED: ACTUALLY  I'M LOOKING HERE AT THE INFORMATION THE FLIGHT THAT YOU WERE ON  WE HAD SOME TROUBLE WITH UH SOME OF THE BAGGAGE IT LOOKS LIKE A FEW PEOPLE'S BAGS DIDN'T MAKE IT THROUGH UM SO 
+[2025-01-12 18:38:27,497][evaluate.py][line:343][INFO] Transcription of file 381 'Ses02M_impro05_F004.wav' has been formatted
+[2025-01-12 18:38:27,497][evaluate.py][line:344][INFO] ORIGINAL: Well, you can fill out this paperwork, um, and if for some reason it shows up, we can bring it to you, but...  [sound of beeping]
+
+[2025-01-12 18:38:27,497][evaluate.py][line:345][INFO] FORMATTED: WELL  YOU CAN FILL OUT THIS PAPERWORK  UM  AND IF FOR SOME REASON IT SHOWS UP  WE CAN BRING IT TO YOU  BUT   SOUND OF BEEPING  
+[2025-01-12 18:38:28,674][evaluate.py][line:343][INFO] Transcription of file 382 'Ses02M_impro05_F005.wav' has been formatted
+[2025-01-12 18:38:28,674][evaluate.py][line:344][INFO] ORIGINAL: Well, sometimes it's just late baggage or misplaced baggage and it comes out. But it seems to be here and I'm just I'm reading off of this that
+(Sound of beeping)
+
+[2025-01-12 18:38:28,674][evaluate.py][line:345][INFO] FORMATTED: WELL  SOMETIMES IT'S JUST LATE BAGGAGE OR MISPLACED BAGGAGE AND IT COMES OUT BUT IT SEEMS TO BE HERE AND I'M JUST I'M READING OFF OF THIS THAT  SOUND OF BEEPING  
+[2025-01-12 18:38:29,822][evaluate.py][line:343][INFO] Transcription of file 383 'Ses02M_impro05_F006.wav' has been formatted
+[2025-01-12 18:38:29,822][evaluate.py][line:344][INFO] ORIGINAL: Uh, it didn't make it into the second plane, so it looks like they they don't actually know what happened to it.
+
+[2025-01-12 18:38:29,822][evaluate.py][line:345][INFO] FORMATTED: UH  IT DIDN'T MAKE IT INTO THE SECOND PLANE  SO IT LOOKS LIKE THEY THEY DON'T ACTUALLY KNOW WHAT HAPPENED TO IT 
+[2025-01-12 18:38:31,024][evaluate.py][line:343][INFO] Transcription of file 384 'Ses02M_impro05_F007.wav' has been formatted
+[2025-01-12 18:38:31,024][evaluate.py][line:344][INFO] ORIGINAL: Um, well, sometimes there's just difficulties with loading onto the plane. Uh, there can be a theft or um, some sort of, you know, mishap with a cart or something.  [Sound of beeping]
+
+[2025-01-12 18:38:31,024][evaluate.py][line:345][INFO] FORMATTED: UM  WELL  SOMETIMES THERE'S JUST DIFFICULTIES WITH LOADING ONTO THE PLANE UH  THERE CAN BE A THEFT OR UM  SOME SORT OF  YOU KNOW  MISHAP WITH A CART OR SOMETHING   SOUND OF BEEPING  
+[2025-01-12 18:38:31,908][evaluate.py][line:343][INFO] Transcription of file 385 'Ses02M_impro05_F008.wav' has been formatted
+[2025-01-12 18:38:31,908][evaluate.py][line:344][INFO] ORIGINAL: I I I understand but um
+
+[2025-01-12 18:38:31,908][evaluate.py][line:345][INFO] FORMATTED: I I I UNDERSTAND BUT UM 
+[2025-01-12 18:38:31,908][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:38:31,908][evaluate.py][line:400][INFO] [Files Processed] 385 of 481
+[2025-01-12 18:38:31,908][evaluate.py][line:401][INFO] [Total Tokens] 73276
+[2025-01-12 18:38:31,908][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:38:32,599][evaluate.py][line:343][INFO] Transcription of file 386 'Ses02M_impro05_F009.wav' has been formatted
+[2025-01-12 18:38:32,599][evaluate.py][line:344][INFO] ORIGINAL: Okay.  P
+
+[2025-01-12 18:38:32,599][evaluate.py][line:345][INFO] FORMATTED: OKAY  P 
+[2025-01-12 18:38:33,334][evaluate.py][line:343][INFO] Transcription of file 387 'Ses02M_impro05_F010.wav' has been formatted
+[2025-01-12 18:38:33,334][evaluate.py][line:344][INFO] ORIGINAL: Right. It's worth a lot.
+
+[2025-01-12 18:38:33,334][evaluate.py][line:345][INFO] FORMATTED: RIGHT IT'S WORTH A LOT 
+[2025-01-12 18:38:34,634][evaluate.py][line:343][INFO] Transcription of file 388 'Ses02M_impro05_F011.wav' has been formatted
+[2025-01-12 18:38:34,635][evaluate.py][line:344][INFO] ORIGINAL: I understand that. Um so I'm going to put down here that you're looking for your baggage, but we actually can't uh this baggage is is likely not going to show up. So what we're going to do is
+
+[2025-01-12 18:38:34,635][evaluate.py][line:345][INFO] FORMATTED: I UNDERSTAND THAT UM SO I'M GOING TO PUT DOWN HERE THAT YOU'RE LOOKING FOR YOUR BAGGAGE  BUT WE ACTUALLY CAN'T UH THIS BAGGAGE IS IS LIKELY NOT GOING TO SHOW UP SO WHAT WE'RE GOING TO DO IS 
+[2025-01-12 18:38:35,580][evaluate.py][line:343][INFO] Transcription of file 389 'Ses02M_impro05_F012.wav' has been formatted
+[2025-01-12 18:38:35,580][evaluate.py][line:344][INFO] ORIGINAL: Sometimes it gets stolen. Sometimes it gets misplaced on another plane and
+
+[2025-01-12 18:38:35,580][evaluate.py][line:345][INFO] FORMATTED: SOMETIMES IT GETS STOLEN SOMETIMES IT GETS MISPLACED ON ANOTHER PLANE AND 
+[2025-01-12 18:38:36,668][evaluate.py][line:343][INFO] Transcription of file 390 'Ses02M_impro05_F013.wav' has been formatted
+[2025-01-12 18:38:36,668][evaluate.py][line:344][INFO] ORIGINAL: they they it gets shifted somewhere else and then it's stuck somewhere and we have no way of tracking that.
+
+[2025-01-12 18:38:36,668][evaluate.py][line:345][INFO] FORMATTED: THEY THEY IT GETS SHIFTED SOMEWHERE ELSE AND THEN IT'S STUCK SOMEWHERE AND WE HAVE NO WAY OF TRACKING THAT 
+[2025-01-12 18:38:37,406][evaluate.py][line:343][INFO] Transcription of file 391 'Ses02M_impro05_F014.wav' has been formatted
+[2025-01-12 18:38:37,406][evaluate.py][line:344][INFO] ORIGINAL: So what we're we're able to do
+
+[2025-01-12 18:38:37,406][evaluate.py][line:345][INFO] FORMATTED: SO WHAT WE'RE WE'RE ABLE TO DO 
+[2025-01-12 18:38:38,459][evaluate.py][line:343][INFO] Transcription of file 392 'Ses02M_impro05_F015.wav' has been formatted
+[2025-01-12 18:38:38,459][evaluate.py][line:344][INFO] ORIGINAL: Right. Like I said, sometimes theft and things happen like that, but we are willing to reimburse you.
+
+[2025-01-12 18:38:38,459][evaluate.py][line:345][INFO] FORMATTED: RIGHT LIKE I SAID  SOMETIMES THEFT AND THINGS HAPPEN LIKE THAT  BUT WE ARE WILLING TO REIMBURSE YOU 
+[2025-01-12 18:38:39,184][evaluate.py][line:343][INFO] Transcription of file 393 'Ses02M_impro05_F016.wav' has been formatted
+[2025-01-12 18:38:39,184][evaluate.py][line:344][INFO] ORIGINAL: Um, so P-P-
+
+[2025-01-12 18:38:39,184][evaluate.py][line:345][INFO] FORMATTED: UM  SO P P  
+[2025-01-12 18:38:40,300][evaluate.py][line:343][INFO] Transcription of file 394 'Ses02M_impro05_F017.wav' has been formatted
+[2025-01-12 18:38:40,300][evaluate.py][line:344][INFO] ORIGINAL: We have very tight security, but we uh, there are times when we just can't um make sure that there are absolutely no human error, you know?
+
+[2025-01-12 18:38:40,300][evaluate.py][line:345][INFO] FORMATTED: WE HAVE VERY TIGHT SECURITY  BUT WE UH  THERE ARE TIMES WHEN WE JUST CAN'T UM MAKE SURE THAT THERE ARE ABSOLUTELY NO HUMAN ERROR  YOU KNOW  
+[2025-01-12 18:38:41,229][evaluate.py][line:343][INFO] Transcription of file 395 'Ses02M_impro05_F018.wav' has been formatted
+[2025-01-12 18:38:41,229][evaluate.py][line:344][INFO] ORIGINAL: Uh, I'm sorry, there's no guarantee on baggage.
+
+[2025-01-12 18:38:41,229][evaluate.py][line:345][INFO] FORMATTED: UH  I'M SORRY  THERE'S NO GUARANTEE ON BAGGAGE 
+[2025-01-12 18:38:41,926][evaluate.py][line:343][INFO] Transcription of file 396 'Ses02M_impro05_F019.wav' has been formatted
+[2025-01-12 18:38:41,927][evaluate.py][line:344][INFO] ORIGINAL: I understand. So...
+
+[2025-01-12 18:38:41,927][evaluate.py][line:345][INFO] FORMATTED: I UNDERSTAND SO 
+[2025-01-12 18:38:42,864][evaluate.py][line:343][INFO] Transcription of file 397 'Ses02M_impro05_F020.wav' has been formatted
+[2025-01-12 18:38:42,865][evaluate.py][line:344][INFO] ORIGINAL: All right, we've already checked back here for your baggage.
+
+[2025-01-12 18:38:42,865][evaluate.py][line:345][INFO] FORMATTED: ALL RIGHT  WE'VE ALREADY CHECKED BACK HERE FOR YOUR BAGGAGE 
+[2025-01-12 18:38:43,763][evaluate.py][line:343][INFO] Transcription of file 398 'Ses02M_impro05_F021.wav' has been formatted
+[2025-01-12 18:38:43,763][evaluate.py][line:344][INFO] ORIGINAL: and we will continue to look for it and because your paper
+
+[2025-01-12 18:38:43,763][evaluate.py][line:345][INFO] FORMATTED: AND WE WILL CONTINUE TO LOOK FOR IT AND BECAUSE YOUR PAPER 
+[2025-01-12 18:38:44,981][evaluate.py][line:343][INFO] Transcription of file 399 'Ses02M_impro05_F023.wav' has been formatted
+[2025-01-12 18:38:44,981][evaluate.py][line:344][INFO] ORIGINAL: Well, it's it's just to sort of help with the fact that uh you lost some of your possessions and we'd rather do that than
+
+[2025-01-12 18:38:44,981][evaluate.py][line:345][INFO] FORMATTED: WELL  IT'S IT'S JUST TO SORT OF HELP WITH THE FACT THAT UH YOU LOST SOME OF YOUR POSSESSIONS AND WE'D RATHER DO THAT THAN 
+[2025-01-12 18:38:45,954][evaluate.py][line:343][INFO] Transcription of file 400 'Ses02M_impro05_F024.wav' has been formatted
+[2025-01-12 18:38:45,954][evaluate.py][line:344][INFO] ORIGINAL: The airline can't afford to give you everything that is in that suitcase and so
+
+[2025-01-12 18:38:45,959][evaluate.py][line:345][INFO] FORMATTED: THE AIRLINE CAN'T AFFORD TO GIVE YOU EVERYTHING THAT IS IN THAT SUITCASE AND SO 
+[2025-01-12 18:38:47,082][evaluate.py][line:343][INFO] Transcription of file 401 'Ses02M_impro05_F025.wav' has been formatted
+[2025-01-12 18:38:47,082][evaluate.py][line:344][INFO] ORIGINAL: Well, because lots of people get their baggage lost and we don't want to have false claims or anything like that. So we have [beep]
+
+[2025-01-12 18:38:47,082][evaluate.py][line:345][INFO] FORMATTED: WELL  BECAUSE LOTS OF PEOPLE GET THEIR BAGGAGE LOST AND WE DON'T WANT TO HAVE FALSE CLAIMS OR ANYTHING LIKE THAT SO WE HAVE  BEEP  
+[2025-01-12 18:38:48,341][evaluate.py][line:343][INFO] Transcription of file 402 'Ses02M_impro05_F026.wav' has been formatted
+[2025-01-12 18:38:48,341][evaluate.py][line:344][INFO] ORIGINAL: we can give you $50 to sort of make up for it, to compensate. And we can definitely let you know if it shows up, but likely, more than likely not.
+
+[2025-01-12 18:38:48,341][evaluate.py][line:345][INFO] FORMATTED: WE CAN GIVE YOU  50 TO SORT OF MAKE UP FOR IT  TO COMPENSATE AND WE CAN DEFINITELY LET YOU KNOW IF IT SHOWS UP  BUT LIKELY  MORE THAN LIKELY NOT 
+[2025-01-12 18:38:49,203][evaluate.py][line:343][INFO] Transcription of file 403 'Ses02F_impro04_F009.wav' has been formatted
+[2025-01-12 18:38:49,203][evaluate.py][line:344][INFO] ORIGINAL: I feel so worthless.
+
+[2025-01-12 18:38:49,203][evaluate.py][line:345][INFO] FORMATTED: I FEEL SO WORTHLESS 
+[2025-01-12 18:38:50,300][evaluate.py][line:343][INFO] Transcription of file 404 'Ses02F_impro04_F016.wav' has been formatted
+[2025-01-12 18:38:50,300][evaluate.py][line:344][INFO] ORIGINAL: I just want to crawl in a hole, you know? Like it just makes you not want to even open your eyes in the morning.
+
+[2025-01-12 18:38:50,300][evaluate.py][line:345][INFO] FORMATTED: I JUST WANT TO CRAWL IN A HOLE  YOU KNOW  LIKE IT JUST MAKES YOU NOT WANT TO EVEN OPEN YOUR EYES IN THE MORNING 
+[2025-01-12 18:38:50,996][evaluate.py][line:343][INFO] Transcription of file 405 'Ses02F_script02_2_F000.wav' has been formatted
+[2025-01-12 18:38:50,996][evaluate.py][line:344][INFO] ORIGINAL: About what?
+
+[2025-01-12 18:38:50,996][evaluate.py][line:345][INFO] FORMATTED: ABOUT WHAT  
+[2025-01-12 18:38:52,112][evaluate.py][line:343][INFO] Transcription of file 406 'Ses02F_script02_2_F005.wav' has been formatted
+[2025-01-12 18:38:52,113][evaluate.py][line:344][INFO] ORIGINAL: God damn it, Argie! Don't ask me that! I hate it when you ask me that! You always ask me that! It's insulting!  What's...
+
+[2025-01-12 18:38:52,113][evaluate.py][line:345][INFO] FORMATTED: GOD DAMN IT  ARGIE  DON'T ASK ME THAT  I HATE IT WHEN YOU ASK ME THAT  YOU ALWAYS ASK ME THAT  IT'S INSULTING   WHAT'S 
+[2025-01-12 18:38:53,040][evaluate.py][line:343][INFO] Transcription of file 407 'Ses02F_script02_2_F006.wav' has been formatted
+[2025-01-12 18:38:53,040][evaluate.py][line:344][INFO] ORIGINAL: We just have different ideas of what this evening is supposed to look like.
+
+[2025-01-12 18:38:53,040][evaluate.py][line:345][INFO] FORMATTED: WE JUST HAVE DIFFERENT IDEAS OF WHAT THIS EVENING IS SUPPOSED TO LOOK LIKE 
+[2025-01-12 18:38:54,320][evaluate.py][line:343][INFO] Transcription of file 408 'Ses02F_script02_2_F011.wav' has been formatted
+[2025-01-12 18:38:54,320][evaluate.py][line:344][INFO] ORIGINAL: I mean, I feel like my whole life is going to be spent standing on the beach with my eyes wide open and my hands clasped expectantly, waiting for the fish to show up. And the fish won't show up.
+
+[2025-01-12 18:38:54,320][evaluate.py][line:345][INFO] FORMATTED: I MEAN  I FEEL LIKE MY WHOLE LIFE IS GOING TO BE SPENT STANDING ON THE BEACH WITH MY EYES WIDE OPEN AND MY HANDS CLASPED EXPECTANTLY  WAITING FOR THE FISH TO SHOW UP AND THE FISH WON'T SHOW UP 
+[2025-01-12 18:38:55,323][evaluate.py][line:343][INFO] Transcription of file 409 'Ses02F_script02_2_F015.wav' has been formatted
+[2025-01-12 18:38:55,323][evaluate.py][line:344][INFO] ORIGINAL: Do you remember the first time we came to see it? It was about four years ago, right after we got married.
+
+[2025-01-12 18:38:55,323][evaluate.py][line:345][INFO] FORMATTED: DO YOU REMEMBER THE FIRST TIME WE CAME TO SEE IT  IT WAS ABOUT FOUR YEARS AGO  RIGHT AFTER WE GOT MARRIED 
+[2025-01-12 18:38:56,502][evaluate.py][line:343][INFO] Transcription of file 410 'Ses02F_script02_2_F016.wav' has been formatted
+[2025-01-12 18:38:56,502][evaluate.py][line:344][INFO] ORIGINAL: We thought I was pregnant and a bottle of champagne but no glasses. You asked me to dance so we kicked off our shoes and you popped the cork.  Pppppp
+
+[2025-01-12 18:38:56,502][evaluate.py][line:345][INFO] FORMATTED: WE THOUGHT I WAS PREGNANT AND A BOTTLE OF CHAMPAGNE BUT NO GLASSES YOU ASKED ME TO DANCE SO WE KICKED OFF OUR SHOES AND YOU POPPED THE CORK  PPPPPP 
+[2025-01-12 18:38:57,638][evaluate.py][line:343][INFO] Transcription of file 411 'Ses02F_script02_2_F017.wav' has been formatted
+[2025-01-12 18:38:57,638][evaluate.py][line:344][INFO] ORIGINAL: And and while we were dancing, you said the softest, most intimate things to me, right into my ears so I could feel them as much as hear them.
+
+[2025-01-12 18:38:57,638][evaluate.py][line:345][INFO] FORMATTED: AND AND WHILE WE WERE DANCING  YOU SAID THE SOFTEST  MOST INTIMATE THINGS TO ME  RIGHT INTO MY EARS SO I COULD FEEL THEM AS MUCH AS HEAR THEM 
+[2025-01-12 18:38:58,793][evaluate.py][line:343][INFO] Transcription of file 412 'Ses02F_script02_2_F018.wav' has been formatted
+[2025-01-12 18:38:58,793][evaluate.py][line:344][INFO] ORIGINAL: And I remember thinking, this is it. You know, at last, at last I am as happy as I am supposed to be.  We'll
+
+[2025-01-12 18:38:58,793][evaluate.py][line:345][INFO] FORMATTED: AND I REMEMBER THINKING  THIS IS IT YOU KNOW  AT LAST  AT LAST I AM AS HAPPY AS I AM SUPPOSED TO BE  WE'LL 
+[2025-01-12 18:38:59,743][evaluate.py][line:343][INFO] Transcription of file 413 'Ses02F_script02_2_F019.wav' has been formatted
+[2025-01-12 18:38:59,743][evaluate.py][line:344][INFO] ORIGINAL: Dancing barefoot in the sand, drinking champagne out of the bottle.
+
+[2025-01-12 18:38:59,743][evaluate.py][line:345][INFO] FORMATTED: DANCING BAREFOOT IN THE SAND  DRINKING CHAMPAGNE OUT OF THE BOTTLE 
+[2025-01-12 18:39:00,693][evaluate.py][line:343][INFO] Transcription of file 414 'Ses02F_script02_2_F020.wav' has been formatted
+[2025-01-12 18:39:00,694][evaluate.py][line:344][INFO] ORIGINAL: I would rather not remember some things. I would rather not hope for some things.
+
+[2025-01-12 18:39:00,694][evaluate.py][line:345][INFO] FORMATTED: I WOULD RATHER NOT REMEMBER SOME THINGS I WOULD RATHER NOT HOPE FOR SOME THINGS 
+[2025-01-12 18:39:01,354][evaluate.py][line:343][INFO] Transcription of file 415 'Ses02F_script02_2_F021.wav' has been formatted
+[2025-01-12 18:39:01,354][evaluate.py][line:344][INFO] ORIGINAL: No.
+
+[2025-01-12 18:39:01,354][evaluate.py][line:345][INFO] FORMATTED: NO 
+[2025-01-12 18:39:02,027][evaluate.py][line:343][INFO] Transcription of file 416 'Ses02F_script02_2_F022.wav' has been formatted
+[2025-01-12 18:39:02,027][evaluate.py][line:344][INFO] ORIGINAL: No.
+
+[2025-01-12 18:39:02,027][evaluate.py][line:345][INFO] FORMATTED: NO 
+[2025-01-12 18:39:02,726][evaluate.py][line:343][INFO] Transcription of file 417 'Ses02F_script02_2_F024.wav' has been formatted
+[2025-01-12 18:39:02,726][evaluate.py][line:344][INFO] ORIGINAL: No.
+
+[2025-01-12 18:39:02,726][evaluate.py][line:345][INFO] FORMATTED: NO 
+[2025-01-12 18:39:03,658][evaluate.py][line:343][INFO] Transcription of file 418 'Ses02F_script02_2_F031.wav' has been formatted
+[2025-01-12 18:39:03,658][evaluate.py][line:344][INFO] ORIGINAL: What? This isn't anything like I thought anything would be like.
+
+[2025-01-12 18:39:03,658][evaluate.py][line:345][INFO] FORMATTED: WHAT  THIS ISN'T ANYTHING LIKE I THOUGHT ANYTHING WOULD BE LIKE 
+[2025-01-12 18:39:04,552][evaluate.py][line:343][INFO] Transcription of file 419 'Ses02F_script02_2_F033.wav' has been formatted
+[2025-01-12 18:39:04,552][evaluate.py][line:344][INFO] ORIGINAL: I know that, Augie, really. I do.
+
+[2025-01-12 18:39:04,552][evaluate.py][line:345][INFO] FORMATTED: I KNOW THAT  AUGIE  REALLY I DO 
+[2025-01-12 18:39:05,805][evaluate.py][line:343][INFO] Transcription of file 420 'Ses02F_script02_2_F034.wav' has been formatted
+[2025-01-12 18:39:05,805][evaluate.py][line:344][INFO] ORIGINAL: I know that you meant this to be special and nice and in the sand and the moon and all but I just couldn't help thinking about being somewhere else.
+
+[2025-01-12 18:39:05,805][evaluate.py][line:345][INFO] FORMATTED: I KNOW THAT YOU MEANT THIS TO BE SPECIAL AND NICE AND IN THE SAND AND THE MOON AND ALL BUT I JUST COULDN'T HELP THINKING ABOUT BEING SOMEWHERE ELSE 
+[2025-01-12 18:39:06,463][evaluate.py][line:343][INFO] Transcription of file 421 'Ses02F_script02_2_F035.wav' has been formatted
+[2025-01-12 18:39:06,463][evaluate.py][line:344][INFO] ORIGINAL: I didn't say that.
+
+[2025-01-12 18:39:06,478][evaluate.py][line:345][INFO] FORMATTED: I DIDN'T SAY THAT 
+[2025-01-12 18:39:07,569][evaluate.py][line:343][INFO] Transcription of file 422 'Ses02F_script02_2_F038.wav' has been formatted
+[2025-01-12 18:39:07,569][evaluate.py][line:344][INFO] ORIGINAL: I'm you're the one who probably wishes you were with someone else, someone who knew how to enjoy yourself and didn't take everything so hard.
+
+[2025-01-12 18:39:07,569][evaluate.py][line:345][INFO] FORMATTED: I'M YOU'RE THE ONE WHO PROBABLY WISHES YOU WERE WITH SOMEONE ELSE  SOMEONE WHO KNEW HOW TO ENJOY YOURSELF AND DIDN'T TAKE EVERYTHING SO HARD 
+[2025-01-12 18:39:08,468][evaluate.py][line:343][INFO] Transcription of file 423 'Ses02F_script02_2_F041.wav' has been formatted
+[2025-01-12 18:39:08,468][evaluate.py][line:344][INFO] ORIGINAL: Are you a freshman?
+
+[2025-01-12 18:39:08,468][evaluate.py][line:345][INFO] FORMATTED: ARE YOU A FRESHMAN  
+[2025-01-12 18:39:09,411][evaluate.py][line:343][INFO] Transcription of file 424 'Ses02F_script02_2_F042.wav' has been formatted
+[2025-01-12 18:39:09,411][evaluate.py][line:344][INFO] ORIGINAL: But then I don't need glasses.
+
+[2025-01-12 18:39:09,411][evaluate.py][line:345][INFO] FORMATTED: BUT THEN I DON'T NEED GLASSES 
+[2025-01-12 18:39:10,420][evaluate.py][line:343][INFO] Transcription of file 425 'Ses02F_script02_2_F043.wav' has been formatted
+[2025-01-12 18:39:10,420][evaluate.py][line:344][INFO] ORIGINAL: No.  I think you might be right. Maybe this is a spot after all.
+
+[2025-01-12 18:39:10,420][evaluate.py][line:345][INFO] FORMATTED: NO  I THINK YOU MIGHT BE RIGHT MAYBE THIS IS A SPOT AFTER ALL 
+[2025-01-12 18:39:11,313][evaluate.py][line:343][INFO] Transcription of file 426 'Ses02F_script02_2_F044.wav' has been formatted
+[2025-01-12 18:39:11,313][evaluate.py][line:344][INFO] ORIGINAL: Oh yeah, I'm sorry.
+
+[2025-01-12 18:39:11,313][evaluate.py][line:345][INFO] FORMATTED: OH YEAH  I'M SORRY 
+[2025-01-12 18:39:12,003][evaluate.py][line:343][INFO] Transcription of file 427 'Ses02F_script02_2_F045.wav' has been formatted
+[2025-01-12 18:39:12,003][evaluate.py][line:344][INFO] ORIGINAL: or not.
+
+[2025-01-12 18:39:12,003][evaluate.py][line:345][INFO] FORMATTED: OR NOT 
+[2025-01-12 18:39:13,030][evaluate.py][line:343][INFO] Transcription of file 428 'Ses02F_impro03_F000.wav' has been formatted
+[2025-01-12 18:39:13,030][evaluate.py][line:344][INFO] ORIGINAL: Oh my god, guess what? Guess what? Guess what? Guess what? Guess what? Guess what?
+[Sound of blowing raspberries]
+
+[2025-01-12 18:39:13,030][evaluate.py][line:345][INFO] FORMATTED: OH MY GOD  GUESS WHAT  GUESS WHAT  GUESS WHAT  GUESS WHAT  GUESS WHAT  GUESS WHAT   SOUND OF BLOWING RASPBERRIES  
+[2025-01-12 18:39:13,922][evaluate.py][line:343][INFO] Transcription of file 429 'Ses02F_impro03_F001.wav' has been formatted
+[2025-01-12 18:39:13,922][evaluate.py][line:344][INFO] ORIGINAL: Boo guess guess guess guess
+P p p p p
+
+[2025-01-12 18:39:13,922][evaluate.py][line:345][INFO] FORMATTED: BOO GUESS GUESS GUESS GUESS P P P P P 
+[2025-01-12 18:39:14,781][evaluate.py][line:343][INFO] Transcription of file 430 'Ses02F_impro03_F004.wav' has been formatted
+[2025-01-12 18:39:14,781][evaluate.py][line:344][INFO] ORIGINAL: There's a little something. What?
+
+[2025-01-12 18:39:14,781][evaluate.py][line:345][INFO] FORMATTED: THERE'S A LITTLE SOMETHING WHAT  
+[2025-01-12 18:39:16,102][evaluate.py][line:343][INFO] Transcription of file 431 'Ses02F_impro03_F009.wav' has been formatted
+[2025-01-12 18:39:16,102][evaluate.py][line:344][INFO] ORIGINAL: Sorry like all laid out and I was like, "What's going on?" And he like takes my hand and pulls me into the middle. And he's like gets down, you know, gets on his knee and everything and he's like, "Will you marry me?" And I flipped out.
+
+[2025-01-12 18:39:16,102][evaluate.py][line:345][INFO] FORMATTED: SORRY LIKE ALL LAID OUT AND I WAS LIKE   WHAT'S GOING ON   AND HE LIKE TAKES MY HAND AND PULLS ME INTO THE MIDDLE AND HE'S LIKE GETS DOWN  YOU KNOW  GETS ON HIS KNEE AND EVERYTHING AND HE'S LIKE   WILL YOU MARRY ME   AND I FLIPPED OUT 
+[2025-01-12 18:39:17,040][evaluate.py][line:343][INFO] Transcription of file 432 'Ses02F_impro03_F011.wav' has been formatted
+[2025-01-12 18:39:17,040][evaluate.py][line:344][INFO] ORIGINAL: 'Cause 'cause he was with me, you know? You didn't do it, did you?
+
+[2025-01-12 18:39:17,040][evaluate.py][line:345][INFO] FORMATTED: 'CAUSE 'CAUSE HE WAS WITH ME  YOU KNOW  YOU DIDN'T DO IT  DID YOU  
+[2025-01-12 18:39:17,759][evaluate.py][line:343][INFO] Transcription of file 433 'Ses02F_impro03_F012.wav' has been formatted
+[2025-01-12 18:39:17,759][evaluate.py][line:344][INFO] ORIGINAL: You didn't know anything?
+No.
+Ppp
+
+[2025-01-12 18:39:17,759][evaluate.py][line:345][INFO] FORMATTED: YOU DIDN'T KNOW ANYTHING  NO PPP 
+[2025-01-12 18:39:18,837][evaluate.py][line:343][INFO] Transcription of file 434 'Ses02F_impro03_F013.wav' has been formatted
+[2025-01-12 18:39:18,837][evaluate.py][line:344][INFO] ORIGINAL: I was just it was so like I thought this might happen eventually, but like not yet, you know what I mean? Like
+
+[2025-01-12 18:39:18,837][evaluate.py][line:345][INFO] FORMATTED: I WAS JUST IT WAS SO LIKE I THOUGHT THIS MIGHT HAPPEN EVENTUALLY  BUT LIKE NOT YET  YOU KNOW WHAT I MEAN  LIKE 
+[2025-01-12 18:39:19,916][evaluate.py][line:343][INFO] Transcription of file 435 'Ses02F_impro03_F014.wav' has been formatted
+[2025-01-12 18:39:19,916][evaluate.py][line:344][INFO] ORIGINAL: No. It is good. It's totally good. I mean, it's like, uh, you know,  [indistinct sounds/noise]
+
+[2025-01-12 18:39:19,916][evaluate.py][line:345][INFO] FORMATTED: NO IT IS GOOD IT'S TOTALLY GOOD I MEAN  IT'S LIKE  UH  YOU KNOW    INDISTINCT SOUNDS NOISE  
+[2025-01-12 18:39:21,026][evaluate.py][line:343][INFO] Transcription of file 436 'Ses02F_impro03_F015.wav' has been formatted
+[2025-01-12 18:39:21,026][evaluate.py][line:344][INFO] ORIGINAL: I know. So we're going to take it like we're not going to get married right away because we want to like have plenty of time to plan everything out.
+
+[2025-01-12 18:39:21,026][evaluate.py][line:345][INFO] FORMATTED: I KNOW SO WE'RE GOING TO TAKE IT LIKE WE'RE NOT GOING TO GET MARRIED RIGHT AWAY BECAUSE WE WANT TO LIKE HAVE PLENTY OF TIME TO PLAN EVERYTHING OUT 
+[2025-01-12 18:39:22,090][evaluate.py][line:343][INFO] Transcription of file 437 'Ses02F_impro03_F016.wav' has been formatted
+[2025-01-12 18:39:22,090][evaluate.py][line:344][INFO] ORIGINAL: And um, and my parents want to like be part of it and help out and everything. So we want to give a lot of time to like
+
+[2025-01-12 18:39:22,090][evaluate.py][line:345][INFO] FORMATTED: AND UM  AND MY PARENTS WANT TO LIKE BE PART OF IT AND HELP OUT AND EVERYTHING SO WE WANT TO GIVE A LOT OF TIME TO LIKE 
+[2025-01-12 18:39:23,261][evaluate.py][line:343][INFO] Transcription of file 438 'Ses02F_impro03_F017.wav' has been formatted
+[2025-01-12 18:39:23,261][evaluate.py][line:344][INFO] ORIGINAL: Yeah, yeah, I called them. I called them last night. And of course they were so excited because they love him, you know, like they always have. Um, [sound of beeping]
+
+[2025-01-12 18:39:23,261][evaluate.py][line:345][INFO] FORMATTED: YEAH  YEAH  I CALLED THEM I CALLED THEM LAST NIGHT AND OF COURSE THEY WERE SO EXCITED BECAUSE THEY LOVE HIM  YOU KNOW  LIKE THEY ALWAYS HAVE UM   SOUND OF BEEPING  
+[2025-01-12 18:39:24,444][evaluate.py][line:343][INFO] Transcription of file 439 'Ses02F_impro03_F018.wav' has been formatted
+[2025-01-12 18:39:24,444][evaluate.py][line:344][INFO] ORIGINAL: So yeah, I mean it'll be good. We wanna like uh, I think we're gonna have it in the springtime, like early spring so it's not too hot yet and um...  [sound of beeping]
+
+[2025-01-12 18:39:24,444][evaluate.py][line:345][INFO] FORMATTED: SO YEAH  I MEAN IT'LL BE GOOD WE WANNA LIKE UH  I THINK WE'RE GONNA HAVE IT IN THE SPRINGTIME  LIKE EARLY SPRING SO IT'S NOT TOO HOT YET AND UM   SOUND OF BEEPING  
+[2025-01-12 18:39:25,504][evaluate.py][line:343][INFO] Transcription of file 440 'Ses02F_impro03_F019.wav' has been formatted
+[2025-01-12 18:39:25,504][evaluate.py][line:344][INFO] ORIGINAL: I don't know. I mean, I kind of like the idea of having something outside, but like it's Yeah.
+
+[2025-01-12 18:39:25,504][evaluate.py][line:345][INFO] FORMATTED: I DON'T KNOW I MEAN  I KIND OF LIKE THE IDEA OF HAVING SOMETHING OUTSIDE  BUT LIKE IT'S YEAH 
+[2025-01-12 18:39:25,504][evaluate.py][line:399][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:39:25,504][evaluate.py][line:400][INFO] [Files Processed] 440 of 481
+[2025-01-12 18:39:25,504][evaluate.py][line:401][INFO] [Total Tokens] 85870
+[2025-01-12 18:39:25,504][evaluate.py][line:402][INFO] --------------------------------------
+[2025-01-12 18:39:26,784][evaluate.py][line:343][INFO] Transcription of file 441 'Ses02F_impro03_F021.wav' has been formatted
+[2025-01-12 18:39:26,784][evaluate.py][line:344][INFO] ORIGINAL: Yeah, I don't know. I don't I don't know. I don't even think that I mean, I can't even the whole idea of like living with spending my whole life with somebody is just crazy. Yeah.
+
+[2025-01-12 18:39:26,784][evaluate.py][line:345][INFO] FORMATTED: YEAH  I DON'T KNOW I DON'T I DON'T KNOW I DON'T EVEN THINK THAT I MEAN  I CAN'T EVEN THE WHOLE IDEA OF LIKE LIVING WITH SPENDING MY WHOLE LIFE WITH SOMEBODY IS JUST CRAZY YEAH 
+[2025-01-12 18:39:27,597][evaluate.py][line:343][INFO] Transcription of file 442 'Ses02F_impro03_F023.wav' has been formatted
+[2025-01-12 18:39:27,597][evaluate.py][line:344][INFO] ORIGINAL: Thank you so much.
+
+[2025-01-12 18:39:27,597][evaluate.py][line:345][INFO] FORMATTED: THANK YOU SO MUCH 
+[2025-01-12 18:39:28,742][evaluate.py][line:343][INFO] Transcription of file 443 'Ses02F_impro03_F024.wav' has been formatted
+[2025-01-12 18:39:28,742][evaluate.py][line:344][INFO] ORIGINAL: Oh, you will. You will. You'll find, that's the right girl. It'll be perfect for you and everything will be great. And you go... p p p
+
+[2025-01-12 18:39:28,742][evaluate.py][line:345][INFO] FORMATTED: OH  YOU WILL YOU WILL YOU'LL FIND  THAT'S THE RIGHT GIRL IT'LL BE PERFECT FOR YOU AND EVERYTHING WILL BE GREAT AND YOU GO P P P 
+[2025-01-12 18:39:29,461][evaluate.py][line:343][INFO] Transcription of file 444 'Ses02F_impro03_F026.wav' has been formatted
+[2025-01-12 18:39:29,461][evaluate.py][line:344][INFO] ORIGINAL: Yeah, that's pretty good. Oh, we'll keep
+
+[2025-01-12 18:39:29,461][evaluate.py][line:345][INFO] FORMATTED: YEAH  THAT'S PRETTY GOOD OH  WE'LL KEEP 
+[2025-01-12 18:39:30,498][evaluate.py][line:343][INFO] Transcription of file 445 'Ses02F_impro03_F027.wav' has been formatted
+[2025-01-12 18:39:30,498][evaluate.py][line:344][INFO] ORIGINAL: Of course, of course you'll be helping behind it. You can come help me pick my colors.  [sound of beeping]
+
+[2025-01-12 18:39:30,498][evaluate.py][line:345][INFO] FORMATTED: OF COURSE  OF COURSE YOU'LL BE HELPING BEHIND IT YOU CAN COME HELP ME PICK MY COLORS   SOUND OF BEEPING  
+[2025-01-12 18:39:31,706][evaluate.py][line:343][INFO] Transcription of file 446 'Ses02F_impro03_F028.wav' has been formatted
+[2025-01-12 18:39:31,706][evaluate.py][line:344][INFO] ORIGINAL: It's so girly, I don't even know how to like.  So weird. But it'll be fun. My mom will love to be like, she'll get so into it, I'm sure.
+
+[2025-01-12 18:39:31,706][evaluate.py][line:345][INFO] FORMATTED: IT'S SO GIRLY  I DON'T EVEN KNOW HOW TO LIKE  SO WEIRD BUT IT'LL BE FUN MY MOM WILL LOVE TO BE LIKE  SHE'LL GET SO INTO IT  I'M SURE 
+[2025-01-12 18:39:32,762][evaluate.py][line:343][INFO] Transcription of file 447 'Ses02F_impro03_F029.wav' has been formatted
+[2025-01-12 18:39:32,762][evaluate.py][line:344][INFO] ORIGINAL: You're gonna like what we eat.  On flowers and ants.  Ppppppp
+
+[2025-01-12 18:39:32,762][evaluate.py][line:345][INFO] FORMATTED: YOU'RE GONNA LIKE WHAT WE EAT  ON FLOWERS AND ANTS  PPPPPPP 
+[2025-01-12 18:39:33,654][evaluate.py][line:343][INFO] Transcription of file 448 'Ses02F_impro03_F030.wav' has been formatted
+[2025-01-12 18:39:33,654][evaluate.py][line:344][INFO] ORIGINAL: Uh, thank you.
+
+[2025-01-12 18:39:33,654][evaluate.py][line:345][INFO] FORMATTED: UH  THANK YOU 
+[2025-01-12 18:39:34,571][evaluate.py][line:343][INFO] Transcription of file 449 'Ses02F_script01_3_F009.wav' has been formatted
+[2025-01-12 18:39:34,571][evaluate.py][line:344][INFO] ORIGINAL: From her point of view, why else would I come?
+
+[2025-01-12 18:39:34,571][evaluate.py][line:345][INFO] FORMATTED: FROM HER POINT OF VIEW  WHY ELSE WOULD I COME  
+[2025-01-12 18:39:35,462][evaluate.py][line:343][INFO] Transcription of file 450 'Ses02F_script01_3_F012.wav' has been formatted
+[2025-01-12 18:39:35,463][evaluate.py][line:344][INFO] ORIGINAL: I almost got married two years ago.
+
+[2025-01-12 18:39:35,463][evaluate.py][line:345][INFO] FORMATTED: I ALMOST GOT MARRIED TWO YEARS AGO 
+[2025-01-12 18:39:36,376][evaluate.py][line:343][INFO] Transcription of file 451 'Ses02F_script01_3_F013.wav' has been formatted
+[2025-01-12 18:39:36,376][evaluate.py][line:344][INFO] ORIGINAL: Well, he started to write me and...
+
+[2025-01-12 18:39:36,376][evaluate.py][line:345][INFO] FORMATTED: WELL  HE STARTED TO WRITE ME AND 
+[2025-01-12 18:39:37,018][evaluate.py][line:343][INFO] Transcription of file 452 'Ses02F_script01_3_F014.wav' has been formatted
+[2025-01-12 18:39:37,018][evaluate.py][line:344][INFO] ORIGINAL: every day since
+
+[2025-01-12 18:39:37,018][evaluate.py][line:345][INFO] FORMATTED: EVERY DAY SINCE 
+[2025-01-12 18:39:38,103][evaluate.py][line:343][INFO] Transcription of file 453 'Ses02F_script01_3_F016.wav' has been formatted
+[2025-01-12 18:39:38,103][evaluate.py][line:344][INFO] ORIGINAL: I will never forgive you. Why did you wait all these years? All All I did was sit and wonder if I was crazy for thinking of you.
+
+[2025-01-12 18:39:38,103][evaluate.py][line:345][INFO] FORMATTED: I WILL NEVER FORGIVE YOU WHY DID YOU WAIT ALL THESE YEARS  ALL ALL I DID WAS SIT AND WONDER IF I WAS CRAZY FOR THINKING OF YOU 
+[2025-01-12 18:39:39,214][evaluate.py][line:343][INFO] Transcription of file 454 'Ses02F_script01_3_F020.wav' has been formatted
+[2025-01-12 18:39:39,214][evaluate.py][line:344][INFO] ORIGINAL: What's wrong?  I mean, even in your letters there was some something ashamed.
+
+[2025-01-12 18:39:39,214][evaluate.py][line:345][INFO] FORMATTED: WHAT'S WRONG   I MEAN  EVEN IN YOUR LETTERS THERE WAS SOME SOMETHING ASHAMED 
+[2025-01-12 18:39:40,123][evaluate.py][line:343][INFO] Transcription of file 455 'Ses02F_script01_3_F021.wav' has been formatted
+[2025-01-12 18:39:40,123][evaluate.py][line:344][INFO] ORIGINAL: You've gotta tell me.
+P-p-p-p-
+
+[2025-01-12 18:39:40,123][evaluate.py][line:345][INFO] FORMATTED: YOU'VE GOTTA TELL ME P P P P  
+[2025-01-12 18:39:40,991][evaluate.py][line:343][INFO] Transcription of file 456 'Ses02F_script01_3_F022.wav' has been formatted
+[2025-01-12 18:39:40,991][evaluate.py][line:344][INFO] ORIGINAL: It wouldn't work this way.
+
+[2025-01-12 18:39:40,992][evaluate.py][line:345][INFO] FORMATTED: IT WOULDN'T WORK THIS WAY 
+[2025-01-12 18:39:41,662][evaluate.py][line:343][INFO] Transcription of file 457 'Ses02F_script01_3_F023.wav' has been formatted
+[2025-01-12 18:39:41,678][evaluate.py][line:344][INFO] ORIGINAL: Yes, sure.
+
+[2025-01-12 18:39:41,678][evaluate.py][line:345][INFO] FORMATTED: YES  SURE 
+[2025-01-12 18:39:42,361][evaluate.py][line:343][INFO] Transcription of file 458 'Ses02F_script01_3_F024.wav' has been formatted
+[2025-01-12 18:39:42,361][evaluate.py][line:344][INFO] ORIGINAL: How many?
+
+[2025-01-12 18:39:42,361][evaluate.py][line:345][INFO] FORMATTED: HOW MANY  
+[2025-01-12 18:39:43,089][evaluate.py][line:343][INFO] Transcription of file 459 'Ses02F_script01_3_F025.wav' has been formatted
+[2025-01-12 18:39:43,089][evaluate.py][line:344][INFO] ORIGINAL: Ah-choo.
+
+[2025-01-12 18:39:43,089][evaluate.py][line:345][INFO] FORMATTED: AH CHOO 
+[2025-01-12 18:39:44,043][evaluate.py][line:343][INFO] Transcription of file 460 'Ses02F_script01_3_F026.wav' has been formatted
+[2025-01-12 18:39:44,043][evaluate.py][line:344][INFO] ORIGINAL: Do you still feel that way?
+Ppppppp
+
+[2025-01-12 18:39:44,043][evaluate.py][line:345][INFO] FORMATTED: DO YOU STILL FEEL THAT WAY  PPPPPPP 
+[2025-01-12 18:39:44,932][evaluate.py][line:343][INFO] Transcription of file 461 'Ses02F_script01_3_F029.wav' has been formatted
+[2025-01-12 18:39:44,932][evaluate.py][line:344][INFO] ORIGINAL: What'll I do with a fortune?
+
+[2025-01-12 18:39:44,932][evaluate.py][line:345][INFO] FORMATTED: WHAT'LL I DO WITH A FORTUNE  
+[2025-01-12 18:39:45,965][evaluate.py][line:343][INFO] Transcription of file 462 'Ses02F_script03_2_F007.wav' has been formatted
+[2025-01-12 18:39:45,965][evaluate.py][line:344][INFO] ORIGINAL: Well, if you hadn't been so suspicious and nosy, you never would have known a thing about it.
+
+[2025-01-12 18:39:45,965][evaluate.py][line:345][INFO] FORMATTED: WELL  IF YOU HADN'T BEEN SO SUSPICIOUS AND NOSY  YOU NEVER WOULD HAVE KNOWN A THING ABOUT IT 
+[2025-01-12 18:39:46,975][evaluate.py][line:343][INFO] Transcription of file 463 'Ses02F_script03_2_F011.wav' has been formatted
+[2025-01-12 18:39:46,975][evaluate.py][line:344][INFO] ORIGINAL: But it seems so silly to go on and on and on with such a thing.
+
+[2025-01-12 18:39:46,975][evaluate.py][line:345][INFO] FORMATTED: BUT IT SEEMS SO SILLY TO GO ON AND ON AND ON WITH SUCH A THING 
+[2025-01-12 18:39:47,899][evaluate.py][line:343][INFO] Transcription of file 464 'Ses02F_script03_2_F012.wav' has been formatted
+[2025-01-12 18:39:47,899][evaluate.py][line:344][INFO] ORIGINAL: Well, it's become a habit with you. You need...
+
+[2025-01-12 18:39:47,899][evaluate.py][line:345][INFO] FORMATTED: WELL  IT'S BECOME A HABIT WITH YOU YOU NEED 
+[2025-01-12 18:39:48,781][evaluate.py][line:343][INFO] Transcription of file 465 'Ses02F_script03_2_F013.wav' has been formatted
+[2025-01-12 18:39:48,781][evaluate.py][line:344][INFO] ORIGINAL: Don't be so stupid.  Really?  [Sound of beeping]
+
+[2025-01-12 18:39:48,781][evaluate.py][line:345][INFO] FORMATTED: DON'T BE SO STUPID  REALLY    SOUND OF BEEPING  
+[2025-01-12 18:39:49,439][evaluate.py][line:343][INFO] Transcription of file 466 'Ses02F_script03_2_F014.wav' has been formatted
+[2025-01-12 18:39:49,439][evaluate.py][line:344][INFO] ORIGINAL: What?  Ppppppp
+
+[2025-01-12 18:39:49,439][evaluate.py][line:345][INFO] FORMATTED: WHAT   PPPPPPP 
+[2025-01-12 18:39:50,455][evaluate.py][line:343][INFO] Transcription of file 467 'Ses02F_script03_2_F016.wav' has been formatted
+[2025-01-12 18:39:50,455][evaluate.py][line:344][INFO] ORIGINAL: The woman's job is to allure the man. Watch me a minute, will you?  [sound of kissing]
+
+[2025-01-12 18:39:50,455][evaluate.py][line:345][INFO] FORMATTED: THE WOMAN'S JOB IS TO ALLURE THE MAN WATCH ME A MINUTE  WILL YOU    SOUND OF KISSING  
+[2025-01-12 18:39:51,394][evaluate.py][line:343][INFO] Transcription of file 468 'Ses02F_script03_2_F018.wav' has been formatted
+[2025-01-12 18:39:51,394][evaluate.py][line:344][INFO] ORIGINAL: Oh, be quiet!  Ppppppp
+
+[2025-01-12 18:39:51,394][evaluate.py][line:345][INFO] FORMATTED: OH  BE QUIET   PPPPPPP 
+[2025-01-12 18:39:52,318][evaluate.py][line:343][INFO] Transcription of file 469 'Ses02F_script03_2_F020.wav' has been formatted
+[2025-01-12 18:39:52,318][evaluate.py][line:344][INFO] ORIGINAL: That's some snappy sting.  Ppppppp
+
+[2025-01-12 18:39:52,318][evaluate.py][line:345][INFO] FORMATTED: THAT'S SOME SNAPPY STING  PPPPPPP 
+[2025-01-12 18:39:53,022][evaluate.py][line:343][INFO] Transcription of file 470 'Ses02F_script03_2_F025.wav' has been formatted
+[2025-01-12 18:39:53,022][evaluate.py][line:344][INFO] ORIGINAL: You're quite insufferable.
+
+[2025-01-12 18:39:53,022][evaluate.py][line:345][INFO] FORMATTED: YOU'RE QUITE INSUFFERABLE 
+[2025-01-12 18:39:53,695][evaluate.py][line:343][INFO] Transcription of file 471 'Ses02F_script03_2_F029.wav' has been formatted
+[2025-01-12 18:39:53,695][evaluate.py][line:344][INFO] ORIGINAL: Shut up!
+
+[2025-01-12 18:39:53,695][evaluate.py][line:345][INFO] FORMATTED: SHUT UP  
+[2025-01-12 18:39:54,368][evaluate.py][line:343][INFO] Transcription of file 472 'Ses02F_script03_2_F031.wav' has been formatted
+[2025-01-12 18:39:54,383][evaluate.py][line:344][INFO] ORIGINAL: Why?
+P
+
+[2025-01-12 18:39:54,383][evaluate.py][line:345][INFO] FORMATTED: WHY  P 
+[2025-01-12 18:39:55,306][evaluate.py][line:343][INFO] Transcription of file 473 'Ses02F_script03_2_F034.wav' has been formatted
+[2025-01-12 18:39:55,306][evaluate.py][line:344][INFO] ORIGINAL: Turn it on again, please.  [sound of static]
+
+[2025-01-12 18:39:55,306][evaluate.py][line:345][INFO] FORMATTED: TURN IT ON AGAIN  PLEASE   SOUND OF STATIC  
+[2025-01-12 18:39:56,277][evaluate.py][line:343][INFO] Transcription of file 474 'Ses02F_script03_2_F035.wav' has been formatted
+[2025-01-12 18:39:56,277][evaluate.py][line:344][INFO] ORIGINAL: Very well, if you insist on being boorish and idiotic.
+
+[2025-01-12 18:39:56,277][evaluate.py][line:345][INFO] FORMATTED: VERY WELL  IF YOU INSIST ON BEING BOORISH AND IDIOTIC 
+[2025-01-12 18:39:57,184][evaluate.py][line:343][INFO] Transcription of file 475 'Ses02F_script03_2_F036.wav' has been formatted
+[2025-01-12 18:39:57,199][evaluate.py][line:344][INFO] ORIGINAL: You are far too temperamental. Try to control yourself.
+
+[2025-01-12 18:39:57,199][evaluate.py][line:345][INFO] FORMATTED: YOU ARE FAR TOO TEMPERAMENTAL TRY TO CONTROL YOURSELF 
+[2025-01-12 18:39:58,075][evaluate.py][line:343][INFO] Transcription of file 476 'Ses02F_script03_2_F037.wav' has been formatted
+[2025-01-12 18:39:58,075][evaluate.py][line:344][INFO] ORIGINAL: Stop it! Go away! I hate you!
+
+[2025-01-12 18:39:58,075][evaluate.py][line:345][INFO] FORMATTED: STOP IT  GO AWAY  I HATE YOU  
+[2025-01-12 18:39:59,045][evaluate.py][line:343][INFO] Transcription of file 477 'Ses02F_script03_2_F038.wav' has been formatted
+[2025-01-12 18:39:59,045][evaluate.py][line:344][INFO] ORIGINAL: Listen, listen indeed. I am sick and tired of listening to you, damn sadistic bully.  Very…
+
+[2025-01-12 18:39:59,045][evaluate.py][line:345][INFO] FORMATTED: LISTEN  LISTEN INDEED I AM SICK AND TIRED OF LISTENING TO YOU  DAMN SADISTIC BULLY  VERY 
+[2025-01-12 18:40:00,140][evaluate.py][line:343][INFO] Transcription of file 478 'Ses02F_script03_2_F039.wav' has been formatted
+[2025-01-12 18:40:00,140][evaluate.py][line:344][INFO] ORIGINAL: Oh, I hate you! Stop it! Stop it! I hate you! Do you hear? You're conceited and overbearing and utterly impossible!
+
+[2025-01-12 18:40:00,140][evaluate.py][line:345][INFO] FORMATTED: OH  I HATE YOU  STOP IT  STOP IT  I HATE YOU  DO YOU HEAR  YOU'RE CONCEITED AND OVERBEARING AND UTTERLY IMPOSSIBLE  
+[2025-01-12 18:40:01,172][evaluate.py][line:343][INFO] Transcription of file 479 'Ses02F_script03_2_F040.wav' has been formatted
+[2025-01-12 18:40:01,172][evaluate.py][line:344][INFO] ORIGINAL: This is the end. Finally and forever. Do you hear me? The end! You're not…  [sound of static/breathing]
+
+[2025-01-12 18:40:01,172][evaluate.py][line:345][INFO] FORMATTED: THIS IS THE END FINALLY AND FOREVER DO YOU HEAR ME  THE END  YOU'RE NOT   SOUND OF STATIC BREATHING  
+[2025-01-12 18:40:02,064][evaluate.py][line:343][INFO] Transcription of file 480 'Ses02F_script03_2_F041.wav' has been formatted
+[2025-01-12 18:40:02,064][evaluate.py][line:344][INFO] ORIGINAL: Ah, yes, I am.
+
+[2025-01-12 18:40:02,064][evaluate.py][line:345][INFO] FORMATTED: AH  YES  I AM 
+[2025-01-12 18:40:03,097][evaluate.py][line:343][INFO] Transcription of file 481 'Ses02F_script03_2_F042.wav' has been formatted
+[2025-01-12 18:40:03,097][evaluate.py][line:344][INFO] ORIGINAL: I am. Let go of me! You're a cruel fiend and I hate and loath you!  Ppp
+
+[2025-01-12 18:40:03,097][evaluate.py][line:345][INFO] FORMATTED: I AM LET GO OF ME  YOU'RE A CRUEL FIEND AND I HATE AND LOATH YOU   PPP 
+[2025-01-12 18:40:04,396][evaluate.py][line:343][INFO] Transcription of file 482 'Ses02F_script03_2_F043.wav' has been formatted
+[2025-01-12 18:40:04,396][evaluate.py][line:344][INFO] ORIGINAL: Thank God I realized what you are, because I would never marry you again ever in my life. You're a cruel fiend and I hate you. You're a beast! You're a beast! I hate you! Stop it! Stop it!
+
+[2025-01-12 18:40:04,396][evaluate.py][line:345][INFO] FORMATTED: THANK GOD I REALIZED WHAT YOU ARE  BECAUSE I WOULD NEVER MARRY YOU AGAIN EVER IN MY LIFE YOU'RE A CRUEL FIEND AND I HATE YOU YOU'RE A BEAST  YOU'RE A BEAST  I HATE YOU  STOP IT  STOP IT  
+[2025-01-12 18:40:04,396][evaluate.py][line:405][INFO] Done processing 481 files
+[2025-01-12 18:40:04,396][evaluate.py][line:407][INFO] ------ Gemini API Usage Metrics ------
+[2025-01-12 18:40:04,396][evaluate.py][line:408][INFO] [Files Processed] 481 of 481
+[2025-01-12 18:40:04,396][evaluate.py][line:409][INFO] [Total Tokens] 93350
+[2025-01-12 18:40:04,396][evaluate.py][line:410][INFO] --------------------------------------
+[2025-01-12 18:40:04,412][evaluate.py][line:421][INFO] Transcriptions saved to ./fold_2\transcriptions.csv

@@ -1,0 +1,13 @@
+[2025-01-12 04:06:14,769][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-12 04:06:14,770][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-12 04:06:17,403][evaluate.py][line:139][INFO] ----- Models -----
+[2025-01-12 04:06:17,403][evaluate.py][line:140][INFO] Speech-To-Text (Transcription) Model: facebook/wav2vec2-base-960h
+[2025-01-12 04:06:17,403][evaluate.py][line:141][INFO] ----- Parameters -----
+[2025-01-12 04:06:17,403][evaluate.py][line:142][INFO] Seed: 22
+[2025-01-12 04:06:17,403][evaluate.py][line:143][INFO] Fold: 8
+[2025-01-12 04:06:17,403][evaluate.py][line:144][INFO] --------------------
+[2025-01-12 04:06:19,525][evaluate.py][line:193][INFO] Speech-To-Text (Transcription) model loaded from facebook/wav2vec2-base-960h successfully
+[2025-01-12 04:06:19,542][evaluate.py][line:243][INFO] Mode: test Fold: 8
+[2025-01-12 04:06:19,543][evaluate.py][line:287][INFO] Dataset Loaded
+[2025-01-12 04:06:29,438][evaluate.py][line:378][INFO] Done processing 590 files
+[2025-01-12 04:06:29,439][evaluate.py][line:389][INFO] Transcriptions saved to ./fold_8\transcriptions.csv

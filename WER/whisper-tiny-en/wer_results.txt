@@ -1,0 +1,51 @@
+Results for fold_0:
+%WER 37.23 [ 1862 / 5002, 1047 ins, 247 del, 568 sub ] [PARTIAL]
+%SER 63.78 [ 331 / 519 ]
+Scored 519 sentences, 4981 not present in hyp.
+
+Results for fold_1:
+%WER 25.23 [ 1648 / 6531, 316 ins, 439 del, 893 sub ] [PARTIAL]
+%SER 76.04 [ 422 / 555 ]
+Scored 555 sentences, 4945 not present in hyp.
+
+Results for fold_2:
+%WER 31.79 [ 1790 / 5631, 783 ins, 308 del, 699 sub ] [PARTIAL]
+%SER 72.29 [ 347 / 480 ]
+Scored 480 sentences, 5020 not present in hyp.
+
+Results for fold_3:
+%WER 19.44 [ 1457 / 7494, 254 ins, 523 del, 680 sub ] [PARTIAL]
+%SER 72.64 [ 393 / 541 ]
+Scored 541 sentences, 4959 not present in hyp.
+
+Results for fold_4:
+%WER 24.34 [ 1289 / 5296, 256 ins, 307 del, 726 sub ] [PARTIAL]
+%SER 69.48 [ 362 / 521 ]
+Scored 521 sentences, 4979 not present in hyp.
+
+Results for fold_5:
+%WER 26.31 [ 1803 / 6854, 655 ins, 374 del, 774 sub ] [PARTIAL]
+%SER 65.66 [ 413 / 629 ]
+Scored 629 sentences, 4871 not present in hyp.
+
+Results for fold_6:
+%WER 11.67 [ 661 / 5662, 119 ins, 183 del, 359 sub ] [PARTIAL]
+%SER 48.76 [ 255 / 523 ]
+Scored 523 sentences, 4977 not present in hyp.
+
+Results for fold_7:
+%WER 15.66 [ 978 / 6247, 145 ins, 356 del, 477 sub ] [PARTIAL]
+%SER 63.82 [ 321 / 503 ]
+Scored 503 sentences, 4997 not present in hyp.
+
+Results for fold_8:
+%WER 18.70 [ 1003 / 5365, 203 ins, 342 del, 458 sub ] [PARTIAL]
+%SER 62.48 [ 363 / 581 ]
+Scored 581 sentences, 4919 not present in hyp.
+
+Results for fold_9:
+%WER 19.22 [ 1811 / 9422, 297 ins, 540 del, 974 sub ] [PARTIAL]
+%SER 74.07 [ 480 / 648 ]
+Scored 648 sentences, 4852 not present in hyp.
+
+Average WER across 10 folds: 22.959

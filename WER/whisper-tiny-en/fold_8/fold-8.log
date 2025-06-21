@@ -1,0 +1,1783 @@
+[2025-01-12 05:54:59,857][config.py][line:54][INFO] PyTorch version 2.4.1+cu124 available.
+[2025-01-12 05:54:59,858][config.py][line:101][INFO] TensorFlow version 2.18.0 available.
+[2025-01-12 05:55:02,503][evaluate.py][line:139][INFO] ----- Models -----
+[2025-01-12 05:55:02,503][evaluate.py][line:140][INFO] Speech-To-Text (Transcription) Model: openai/whisper-tiny.en
+[2025-01-12 05:55:02,503][evaluate.py][line:141][INFO] ----- Parameters -----
+[2025-01-12 05:55:02,503][evaluate.py][line:142][INFO] Seed: 22
+[2025-01-12 05:55:02,503][evaluate.py][line:143][INFO] Fold: 8
+[2025-01-12 05:55:02,503][evaluate.py][line:144][INFO] --------------------
+[2025-01-12 05:55:04,605][evaluate.py][line:193][INFO] Speech-To-Text (Transcription) model loaded from openai/whisper-tiny.en successfully
+[2025-01-12 05:55:04,612][evaluate.py][line:243][INFO] Mode: test Fold: 8
+[2025-01-12 05:55:04,613][evaluate.py][line:287][INFO] Dataset Loaded
+[2025-01-12 05:55:05,708][evaluate.py][line:325][INFO] Transcription of file 2 has been formatted
+[2025-01-12 05:55:05,709][evaluate.py][line:326][INFO] ORIGINAL:  What's he gonna say? Maybe we gotta tell him before he sees it.
+[2025-01-12 05:55:05,709][evaluate.py][line:327][INFO] FORMATTED:  WHAT'S HE GONNA SAY  MAYBE WE GOTTA TELL HIM BEFORE HE SEES IT
+[2025-01-12 05:55:05,747][evaluate.py][line:325][INFO] Transcription of file 3 has been formatted
+[2025-01-12 05:55:05,747][evaluate.py][line:326][INFO] ORIGINAL:  Did you talk to him?
+[2025-01-12 05:55:05,747][evaluate.py][line:327][INFO] FORMATTED:  DID YOU TALK TO HIM 
+[2025-01-12 05:55:05,775][evaluate.py][line:325][INFO] Transcription of file 4 has been formatted
+[2025-01-12 05:55:05,775][evaluate.py][line:326][INFO] ORIGINAL:  Ride hard.
+[2025-01-12 05:55:05,775][evaluate.py][line:327][INFO] FORMATTED:  RIDE HARD
+[2025-01-12 05:55:05,808][evaluate.py][line:325][INFO] Transcription of file 5 has been formatted
+[2025-01-12 05:55:05,808][evaluate.py][line:326][INFO] ORIGINAL:  Thinking about him again.
+[2025-01-12 05:55:05,808][evaluate.py][line:327][INFO] FORMATTED:  THINKING ABOUT HIM AGAIN
+[2025-01-12 05:55:05,897][evaluate.py][line:325][INFO] Transcription of file 6 has been formatted
+[2025-01-12 05:55:05,897][evaluate.py][line:326][INFO] ORIGINAL:  He's getting just like after Larry died. He's having dreams. He's walking around at night.
+[2025-01-12 05:55:05,897][evaluate.py][line:327][INFO] FORMATTED:  HE'S GETTING JUST LIKE AFTER LARRY DIED HE'S HAVING DREAMS HE'S WALKING AROUND AT NIGHT
+[2025-01-12 05:55:05,935][evaluate.py][line:325][INFO] Transcription of file 7 has been formatted
+[2025-01-12 05:55:05,935][evaluate.py][line:326][INFO] ORIGINAL:  What's the meaning of that?
+[2025-01-12 05:55:05,935][evaluate.py][line:327][INFO] FORMATTED:  WHAT'S THE MEANING OF THAT 
+[2025-01-12 05:55:05,997][evaluate.py][line:325][INFO] Transcription of file 8 has been formatted
+[2025-01-12 05:55:05,997][evaluate.py][line:326][INFO] ORIGINAL:  Well, I got an idea, but what's the story?
+[2025-01-12 05:55:05,997][evaluate.py][line:327][INFO] FORMATTED:  WELL  I GOT AN IDEA  BUT WHAT'S THE STORY 
+[2025-01-12 05:55:06,069][evaluate.py][line:325][INFO] Transcription of file 9 has been formatted
+[2025-01-12 05:55:06,069][evaluate.py][line:326][INFO] ORIGINAL:  Well, you're a considerate fellow. There's nothing wrong in there.
+[2025-01-12 05:55:06,069][evaluate.py][line:327][INFO] FORMATTED:  WELL  YOU'RE A CONSIDERATE FELLOW THERE'S NOTHING WRONG IN THERE
+[2025-01-12 05:55:06,114][evaluate.py][line:325][INFO] Transcription of file 10 has been formatted
+[2025-01-12 05:55:06,114][evaluate.py][line:326][INFO] ORIGINAL:  Have you asked Annie yet to marry you?
+[2025-01-12 05:55:06,114][evaluate.py][line:327][INFO] FORMATTED:  HAVE YOU ASKED ANNIE YET TO MARRY YOU 
+[2025-01-12 05:55:06,223][evaluate.py][line:325][INFO] Transcription of file 11 has been formatted
+[2025-01-12 05:55:06,223][evaluate.py][line:326][INFO] ORIGINAL:  Well, how do you know that she will go along with it? I mean, maybe she feels the same way as your father.
+[2025-01-12 05:55:06,223][evaluate.py][line:327][INFO] FORMATTED:  WELL  HOW DO YOU KNOW THAT SHE WILL GO ALONG WITH IT  I MEAN  MAYBE SHE FEELS THE SAME WAY AS YOUR FATHER
+[2025-01-12 05:55:06,286][evaluate.py][line:325][INFO] Transcription of file 12 has been formatted
+[2025-01-12 05:55:06,286][evaluate.py][line:326][INFO] ORIGINAL:  The trouble is you don't see enough women you never have.
+[2025-01-12 05:55:06,286][evaluate.py][line:327][INFO] FORMATTED:  THE TROUBLE IS YOU DON'T SEE ENOUGH WOMEN YOU NEVER HAVE
+[2025-01-12 05:55:06,350][evaluate.py][line:325][INFO] Transcription of file 13 has been formatted
+[2025-01-12 05:55:06,351][evaluate.py][line:326][INFO] ORIGINAL:  Well, I just don't say why it has to be any.
+[2025-01-12 05:55:06,351][evaluate.py][line:327][INFO] FORMATTED:  WELL  I JUST DON'T SAY WHY IT HAS TO BE ANY
+[2025-01-12 05:55:06,470][evaluate.py][line:325][INFO] Transcription of file 14 has been formatted
+[2025-01-12 05:55:06,470][evaluate.py][line:326][INFO] ORIGINAL:  You marry his girl and you're pronouncing him dead. Now what's gonna happen to your father? Do you know? I don't.
+[2025-01-12 05:55:06,470][evaluate.py][line:327][INFO] FORMATTED:  YOU MARRY HIS GIRL AND YOU'RE PRONOUNCING HIM DEAD NOW WHAT'S GONNA HAPPEN TO YOUR FATHER  DO YOU KNOW  I DON'T
+[2025-01-12 05:55:06,504][evaluate.py][line:325][INFO] Transcription of file 15 has been formatted
+[2025-01-12 05:55:06,504][evaluate.py][line:326][INFO] ORIGINAL:  What the hell is this?
+[2025-01-12 05:55:06,504][evaluate.py][line:327][INFO] FORMATTED:  WHAT THE HELL IS THIS 
+[2025-01-12 05:55:06,534][evaluate.py][line:325][INFO] Transcription of file 16 has been formatted
+[2025-01-12 05:55:06,535][evaluate.py][line:326][INFO] ORIGINAL:  Are you crazy?
+[2025-01-12 05:55:06,535][evaluate.py][line:327][INFO] FORMATTED:  ARE YOU CRAZY 
+[2025-01-12 05:55:06,695][evaluate.py][line:325][INFO] Transcription of file 17 has been formatted
+[2025-01-12 05:55:06,695][evaluate.py][line:326][INFO] ORIGINAL:  All right, but don't think like that. I mean because what the hell did we do all this for Chris? The whole business. It's all for you. The whole shooting matches for you.
+[2025-01-12 05:55:06,695][evaluate.py][line:327][INFO] FORMATTED:  ALL RIGHT  BUT DON'T THINK LIKE THAT I MEAN BECAUSE WHAT THE HELL DID WE DO ALL THIS FOR CHRIS  THE WHOLE BUSINESS IT'S ALL FOR YOU THE WHOLE SHOOTING MATCHES FOR YOU
+[2025-01-12 05:55:06,716][evaluate.py][line:325][INFO] Transcription of file 18 has been formatted
+[2025-01-12 05:55:06,716][evaluate.py][line:326][INFO] ORIGINAL:  Fine.
+[2025-01-12 05:55:06,716][evaluate.py][line:327][INFO] FORMATTED:  FINE
+[2025-01-12 05:55:06,745][evaluate.py][line:325][INFO] Transcription of file 19 has been formatted
+[2025-01-12 05:55:06,745][evaluate.py][line:326][INFO] ORIGINAL:  What fleshly?
+[2025-01-12 05:55:06,745][evaluate.py][line:327][INFO] FORMATTED:  WHAT FLESHLY 
+[2025-01-12 05:55:06,778][evaluate.py][line:325][INFO] Transcription of file 20 has been formatted
+[2025-01-12 05:55:06,778][evaluate.py][line:326][INFO] ORIGINAL:  I'm just not.
+[2025-01-12 05:55:06,778][evaluate.py][line:327][INFO] FORMATTED:  I'M JUST NOT
+[2025-01-12 05:55:06,826][evaluate.py][line:325][INFO] Transcription of file 21 has been formatted
+[2025-01-12 05:55:06,826][evaluate.py][line:326][INFO] ORIGINAL:  Hi sir, how can I help you?
+[2025-01-12 05:55:06,826][evaluate.py][line:327][INFO] FORMATTED:  HI SIR  HOW CAN I HELP YOU 
+[2025-01-12 05:55:06,848][evaluate.py][line:325][INFO] Transcription of file 22 has been formatted
+[2025-01-12 05:55:06,848][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:06,848][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:06,928][evaluate.py][line:325][INFO] Transcription of file 23 has been formatted
+[2025-01-12 05:55:06,928][evaluate.py][line:326][INFO] ORIGINAL:  All right, I'm sorry, sir, that you've been having a hard time.
+[2025-01-12 05:55:06,928][evaluate.py][line:327][INFO] FORMATTED:  ALL RIGHT  I'M SORRY  SIR  THAT YOU'VE BEEN HAVING A HARD TIME
+[2025-01-12 05:55:06,991][evaluate.py][line:325][INFO] Transcription of file 24 has been formatted
+[2025-01-12 05:55:06,992][evaluate.py][line:326][INFO] ORIGINAL:  I know it's just that's where make ever work for me.
+[2025-01-12 05:55:06,992][evaluate.py][line:327][INFO] FORMATTED:  I KNOW IT'S JUST THAT'S WHERE MAKE EVER WORK FOR ME
+[2025-01-12 05:55:07,031][evaluate.py][line:325][INFO] Transcription of file 25 has been formatted
+[2025-01-12 05:55:07,031][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I can't understand.
+[2025-01-12 05:55:07,031][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I CAN'T UNDERSTAND
+[2025-01-12 05:55:07,067][evaluate.py][line:325][INFO] Transcription of file 26 has been formatted
+[2025-01-12 05:55:07,067][evaluate.py][line:326][INFO] ORIGINAL:  Um, well, when?
+[2025-01-12 05:55:07,067][evaluate.py][line:327][INFO] FORMATTED:  UM  WELL  WHEN 
+[2025-01-12 05:55:07,244][evaluate.py][line:325][INFO] Transcription of file 27 has been formatted
+[2025-01-12 05:55:07,244][evaluate.py][line:326][INFO] ORIGINAL:  If you just slow down, we'll definitely have your problem solved and after we have your problem solved, then I can transpareto a manager or someone who can voice your complaint to be able to do something about it.
+[2025-01-12 05:55:07,244][evaluate.py][line:327][INFO] FORMATTED:  IF YOU JUST SLOW DOWN  WE'LL DEFINITELY HAVE YOUR PROBLEM SOLVED AND AFTER WE HAVE YOUR PROBLEM SOLVED  THEN I CAN TRANSPARETO A MANAGER OR SOMEONE WHO CAN VOICE YOUR COMPLAINT TO BE ABLE TO DO SOMETHING ABOUT IT
+[2025-01-12 05:55:07,328][evaluate.py][line:325][INFO] Transcription of file 28 has been formatted
+[2025-01-12 05:55:07,328][evaluate.py][line:326][INFO] ORIGINAL:  I know I can't let this happen. Okay, so where did you locate your bill?
+[2025-01-12 05:55:07,328][evaluate.py][line:327][INFO] FORMATTED:  I KNOW I CAN'T LET THIS HAPPEN OKAY  SO WHERE DID YOU LOCATE YOUR BILL 
+[2025-01-12 05:55:07,355][evaluate.py][line:325][INFO] Transcription of file 29 has been formatted
+[2025-01-12 05:55:07,355][evaluate.py][line:326][INFO] ORIGINAL:  in the mail.
+[2025-01-12 05:55:07,355][evaluate.py][line:327][INFO] FORMATTED:  IN THE MAIL
+[2025-01-12 05:55:07,459][evaluate.py][line:325][INFO] Transcription of file 30 has been formatted
+[2025-01-12 05:55:07,459][evaluate.py][line:326][INFO] ORIGINAL:  So is it is it all possible that maybe the statement is just old and the transaction hadn't been processed yet?
+[2025-01-12 05:55:07,459][evaluate.py][line:327][INFO] FORMATTED:  SO IS IT IS IT ALL POSSIBLE THAT MAYBE THE STATEMENT IS JUST OLD AND THE TRANSACTION HADN'T BEEN PROCESSED YET 
+[2025-01-12 05:55:07,484][evaluate.py][line:325][INFO] Transcription of file 31 has been formatted
+[2025-01-12 05:55:07,484][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:07,484][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:07,529][evaluate.py][line:325][INFO] Transcription of file 32 has been formatted
+[2025-01-12 05:55:07,529][evaluate.py][line:326][INFO] ORIGINAL:  How many more am I doing?
+[2025-01-12 05:55:07,529][evaluate.py][line:327][INFO] FORMATTED:  HOW MANY MORE AM I DOING 
+[2025-01-12 05:55:07,615][evaluate.py][line:325][INFO] Transcription of file 33 has been formatted
+[2025-01-12 05:55:07,615][evaluate.py][line:326][INFO] ORIGINAL:  Okay, so I'll just look it up and see what's going on me we can.
+[2025-01-12 05:55:07,615][evaluate.py][line:327][INFO] FORMATTED:  OKAY  SO I'LL JUST LOOK IT UP AND SEE WHAT'S GOING ON ME WE CAN
+[2025-01-12 05:55:07,659][evaluate.py][line:325][INFO] Transcription of file 34 has been formatted
+[2025-01-12 05:55:07,660][evaluate.py][line:326][INFO] ORIGINAL:  If I call that up on the screen.
+[2025-01-12 05:55:07,660][evaluate.py][line:327][INFO] FORMATTED:  IF I CALL THAT UP ON THE SCREEN
+[2025-01-12 05:55:07,836][evaluate.py][line:325][INFO] Transcription of file 35 has been formatted
+[2025-01-12 05:55:07,836][evaluate.py][line:326][INFO] ORIGINAL:  So in the database it looks as though there was like a glitch in the transaction where it hadn't gone through before but I do see that you paid the what can you tell me the amount what was the amount?
+[2025-01-12 05:55:07,836][evaluate.py][line:327][INFO] FORMATTED:  SO IN THE DATABASE IT LOOKS AS THOUGH THERE WAS LIKE A GLITCH IN THE TRANSACTION WHERE IT HADN'T GONE THROUGH BEFORE BUT I DO SEE THAT YOU PAID THE WHAT CAN YOU TELL ME THE AMOUNT WHAT WAS THE AMOUNT 
+[2025-01-12 05:55:07,963][evaluate.py][line:325][INFO] Transcription of file 36 has been formatted
+[2025-01-12 05:55:07,963][evaluate.py][line:326][INFO] ORIGINAL:  Okay, I do see that on here and it says that it had some trouble clearing for some reason and I think that was a problem on our end so
+[2025-01-12 05:55:07,963][evaluate.py][line:327][INFO] FORMATTED:  OKAY  I DO SEE THAT ON HERE AND IT SAYS THAT IT HAD SOME TROUBLE CLEARING FOR SOME REASON AND I THINK THAT WAS A PROBLEM ON OUR END SO
+[2025-01-12 05:55:08,023][evaluate.py][line:325][INFO] Transcription of file 37 has been formatted
+[2025-01-12 05:55:08,023][evaluate.py][line:326][INFO] ORIGINAL:  Well, you know sometimes just with the online transactions things happen so
+[2025-01-12 05:55:08,023][evaluate.py][line:327][INFO] FORMATTED:  WELL  YOU KNOW SOMETIMES JUST WITH THE ONLINE TRANSACTIONS THINGS HAPPEN SO
+[2025-01-12 05:55:08,097][evaluate.py][line:325][INFO] Transcription of file 38 has been formatted
+[2025-01-12 05:55:08,098][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, somebody went in and cleared the problem that looks like you're all paid.
+[2025-01-12 05:55:08,098][evaluate.py][line:327][INFO] FORMATTED:  YEAH  SOMEBODY WENT IN AND CLEARED THE PROBLEM THAT LOOKS LIKE YOU'RE ALL PAID
+[2025-01-12 05:55:08,175][evaluate.py][line:325][INFO] Transcription of file 39 has been formatted
+[2025-01-12 05:55:08,175][evaluate.py][line:326][INFO] ORIGINAL:  You do the direct, the direct is taken right out of your bank account. Exactly.
+[2025-01-12 05:55:08,175][evaluate.py][line:327][INFO] FORMATTED:  YOU DO THE DIRECT  THE DIRECT IS TAKEN RIGHT OUT OF YOUR BANK ACCOUNT EXACTLY
+[2025-01-12 05:55:08,215][evaluate.py][line:325][INFO] Transcription of file 40 has been formatted
+[2025-01-12 05:55:08,215][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, so that did go through.
+[2025-01-12 05:55:08,215][evaluate.py][line:327][INFO] FORMATTED:  YEAH  SO THAT DID GO THROUGH
+[2025-01-12 05:55:08,268][evaluate.py][line:325][INFO] Transcription of file 41 has been formatted
+[2025-01-12 05:55:08,268][evaluate.py][line:326][INFO] ORIGINAL:  I can try to do that for you, certainly.
+[2025-01-12 05:55:08,268][evaluate.py][line:327][INFO] FORMATTED:  I CAN TRY TO DO THAT FOR YOU  CERTAINLY
+[2025-01-12 05:55:08,539][evaluate.py][line:325][INFO] Transcription of file 42 has been formatted
+[2025-01-12 05:55:08,539][evaluate.py][line:326][INFO] ORIGINAL:  Right, right. And since it was just a computer glitch, then that should be cleared up as well. So I'm going to go ahead and try to put that into the computer. And if for some reason you notice on your statement in a few days that you've been charged and overdue fee, then you should just call back and we'll have that.
+[2025-01-12 05:55:08,539][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  RIGHT AND SINCE IT WAS JUST A COMPUTER GLITCH  THEN THAT SHOULD BE CLEARED UP AS WELL SO I'M GOING TO GO AHEAD AND TRY TO PUT THAT INTO THE COMPUTER AND IF FOR SOME REASON YOU NOTICE ON YOUR STATEMENT IN A FEW DAYS THAT YOU'VE BEEN CHARGED AND OVERDUE FEE  THEN YOU SHOULD JUST CALL BACK AND WE'LL HAVE THAT
+[2025-01-12 05:55:08,620][evaluate.py][line:325][INFO] Transcription of file 43 has been formatted
+[2025-01-12 05:55:08,620][evaluate.py][line:326][INFO] ORIGINAL:  I'll give you my direct line and my number so that you can get directly to me.
+[2025-01-12 05:55:08,620][evaluate.py][line:327][INFO] FORMATTED:  I'LL GIVE YOU MY DIRECT LINE AND MY NUMBER SO THAT YOU CAN GET DIRECTLY TO ME
+[2025-01-12 05:55:08,640][evaluate.py][line:325][INFO] Transcription of file 44 has been formatted
+[2025-01-12 05:55:08,640][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:08,640][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:08,664][evaluate.py][line:325][INFO] Transcription of file 45 has been formatted
+[2025-01-12 05:55:08,664][evaluate.py][line:326][INFO] ORIGINAL:  No problem.
+[2025-01-12 05:55:08,664][evaluate.py][line:327][INFO] FORMATTED:  NO PROBLEM
+[2025-01-12 05:55:08,699][evaluate.py][line:325][INFO] Transcription of file 46 has been formatted
+[2025-01-12 05:55:08,699][evaluate.py][line:326][INFO] ORIGINAL:  1-800-323-
+[2025-01-12 05:55:08,699][evaluate.py][line:327][INFO] FORMATTED:  1 800 323 
+[2025-01-12 05:55:08,740][evaluate.py][line:325][INFO] Transcription of file 47 has been formatted
+[2025-01-12 05:55:08,740][evaluate.py][line:326][INFO] ORIGINAL:  6, 4, 9, 4.
+[2025-01-12 05:55:08,740][evaluate.py][line:327][INFO] FORMATTED:  6  4  9  4
+[2025-01-12 05:55:08,766][evaluate.py][line:325][INFO] Transcription of file 48 has been formatted
+[2025-01-12 05:55:08,766][evaluate.py][line:326][INFO] ORIGINAL:  You're welcome.
+[2025-01-12 05:55:08,766][evaluate.py][line:327][INFO] FORMATTED:  YOU'RE WELCOME
+[2025-01-12 05:55:08,818][evaluate.py][line:325][INFO] Transcription of file 49 has been formatted
+[2025-01-12 05:55:08,818][evaluate.py][line:326][INFO] ORIGINAL:  I'm sorry that it was an inconvenience.
+[2025-01-12 05:55:08,818][evaluate.py][line:327][INFO] FORMATTED:  I'M SORRY THAT IT WAS AN INCONVENIENCE
+[2025-01-12 05:55:08,858][evaluate.py][line:325][INFO] Transcription of file 50 has been formatted
+[2025-01-12 05:55:08,858][evaluate.py][line:326][INFO] ORIGINAL:  Okay, have a good day.
+[2025-01-12 05:55:08,858][evaluate.py][line:327][INFO] FORMATTED:  OKAY  HAVE A GOOD DAY
+[2025-01-12 05:55:08,888][evaluate.py][line:325][INFO] Transcription of file 51 has been formatted
+[2025-01-12 05:55:08,888][evaluate.py][line:326][INFO] ORIGINAL:  Bye bye. Bye.
+[2025-01-12 05:55:08,888][evaluate.py][line:327][INFO] FORMATTED:  BYE BYE BYE
+[2025-01-12 05:55:08,909][evaluate.py][line:325][INFO] Transcription of file 52 has been formatted
+[2025-01-12 05:55:08,909][evaluate.py][line:326][INFO] ORIGINAL:  What?
+[2025-01-12 05:55:08,909][evaluate.py][line:327][INFO] FORMATTED:  WHAT 
+[2025-01-12 05:55:08,939][evaluate.py][line:325][INFO] Transcription of file 53 has been formatted
+[2025-01-12 05:55:08,939][evaluate.py][line:326][INFO] ORIGINAL:  Oh for real?
+[2025-01-12 05:55:08,939][evaluate.py][line:327][INFO] FORMATTED:  OH FOR REAL 
+[2025-01-12 05:55:08,980][evaluate.py][line:325][INFO] Transcription of file 54 has been formatted
+[2025-01-12 05:55:08,980][evaluate.py][line:326][INFO] ORIGINAL:  Oh, it's so good.
+[2025-01-12 05:55:08,980][evaluate.py][line:327][INFO] FORMATTED:  OH  IT'S SO GOOD
+[2025-01-12 05:55:09,012][evaluate.py][line:325][INFO] Transcription of file 55 has been formatted
+[2025-01-12 05:55:09,013][evaluate.py][line:326][INFO] ORIGINAL:  What are you gonna study?
+[2025-01-12 05:55:09,013][evaluate.py][line:327][INFO] FORMATTED:  WHAT ARE YOU GONNA STUDY 
+[2025-01-12 05:55:09,063][evaluate.py][line:325][INFO] Transcription of file 56 has been formatted
+[2025-01-12 05:55:09,063][evaluate.py][line:326][INFO] ORIGINAL:  Really? Are you doing the MFA program?
+[2025-01-12 05:55:09,063][evaluate.py][line:327][INFO] FORMATTED:  REALLY  ARE YOU DOING THE MFA PROGRAM 
+[2025-01-12 05:55:09,112][evaluate.py][line:325][INFO] Transcription of file 57 has been formatted
+[2025-01-12 05:55:09,112][evaluate.py][line:326][INFO] ORIGINAL:  I heard that was so tough to get into.
+[2025-01-12 05:55:09,112][evaluate.py][line:327][INFO] FORMATTED:  I HEARD THAT WAS SO TOUGH TO GET INTO
+[2025-01-12 05:55:09,138][evaluate.py][line:325][INFO] Transcription of file 58 has been formatted
+[2025-01-12 05:55:09,138][evaluate.py][line:326][INFO] ORIGINAL:  That's awesome.
+[2025-01-12 05:55:09,138][evaluate.py][line:327][INFO] FORMATTED:  THAT'S AWESOME
+[2025-01-12 05:55:09,172][evaluate.py][line:325][INFO] Transcription of file 59 has been formatted
+[2025-01-12 05:55:09,172][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, that's awesome.
+[2025-01-12 05:55:09,172][evaluate.py][line:327][INFO] FORMATTED:  YEAH  THAT'S AWESOME
+[2025-01-12 05:55:09,192][evaluate.py][line:325][INFO] Transcription of file 60 has been formatted
+[2025-01-12 05:55:09,192][evaluate.py][line:326][INFO] ORIGINAL:  Now.
+[2025-01-12 05:55:09,192][evaluate.py][line:327][INFO] FORMATTED:  NOW
+[2025-01-12 05:55:09,226][evaluate.py][line:325][INFO] Transcription of file 61 has been formatted
+[2025-01-12 05:55:09,226][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, seriously for years.
+[2025-01-12 05:55:09,226][evaluate.py][line:327][INFO] FORMATTED:  YEAH  SERIOUSLY FOR YEARS
+[2025-01-12 05:55:09,285][evaluate.py][line:325][INFO] Transcription of file 62 has been formatted
+[2025-01-12 05:55:09,285][evaluate.py][line:326][INFO] ORIGINAL:  I know, I know, I'm definitely, I realized.
+[2025-01-12 05:55:09,285][evaluate.py][line:327][INFO] FORMATTED:  I KNOW  I KNOW  I'M DEFINITELY  I REALIZED
+[2025-01-12 05:55:09,330][evaluate.py][line:325][INFO] Transcription of file 63 has been formatted
+[2025-01-12 05:55:09,330][evaluate.py][line:326][INFO] ORIGINAL:  I'm gonna be studying at USC 2.
+[2025-01-12 05:55:09,330][evaluate.py][line:327][INFO] FORMATTED:  I'M GONNA BE STUDYING AT USC 2
+[2025-01-12 05:55:09,386][evaluate.py][line:325][INFO] Transcription of file 64 has been formatted
+[2025-01-12 05:55:09,386][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, totally. Well, where are you gonna live?
+[2025-01-12 05:55:09,386][evaluate.py][line:327][INFO] FORMATTED:  YEAH  TOTALLY WELL  WHERE ARE YOU GONNA LIVE 
+[2025-01-12 05:55:09,426][evaluate.py][line:325][INFO] Transcription of file 65 has been formatted
+[2025-01-12 05:55:09,426][evaluate.py][line:326][INFO] ORIGINAL:  I am going around here.
+[2025-01-12 05:55:09,426][evaluate.py][line:327][INFO] FORMATTED:  I AM GOING AROUND HERE
+[2025-01-12 05:55:09,457][evaluate.py][line:325][INFO] Transcription of file 66 has been formatted
+[2025-01-12 05:55:09,457][evaluate.py][line:326][INFO] ORIGINAL:  Good to try now.
+[2025-01-12 05:55:09,457][evaluate.py][line:327][INFO] FORMATTED:  GOOD TO TRY NOW
+[2025-01-12 05:55:09,508][evaluate.py][line:325][INFO] Transcription of file 67 has been formatted
+[2025-01-12 05:55:09,508][evaluate.py][line:326][INFO] ORIGINAL:  I don't think it's a bad.
+[2025-01-12 05:55:09,508][evaluate.py][line:327][INFO] FORMATTED:  I DON'T THINK IT'S A BAD
+[2025-01-12 05:55:09,527][evaluate.py][line:325][INFO] Transcription of file 68 has been formatted
+[2025-01-12 05:55:09,527][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:09,527][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:09,672][evaluate.py][line:325][INFO] Transcription of file 69 has been formatted
+[2025-01-12 05:55:09,672][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I think it's really also if you consider yourself like of us and them kind of thing like if you think that you're part of your community then you're going to make it
+[2025-01-12 05:55:09,672][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I THINK IT'S REALLY ALSO IF YOU CONSIDER YOURSELF LIKE OF US AND THEM KIND OF THING LIKE IF YOU THINK THAT YOU'RE PART OF YOUR COMMUNITY THEN YOU'RE GOING TO MAKE IT
+[2025-01-12 05:55:09,704][evaluate.py][line:325][INFO] Transcription of file 70 has been formatted
+[2025-01-12 05:55:09,704][evaluate.py][line:326][INFO] ORIGINAL:  Right, exactly.
+[2025-01-12 05:55:09,704][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  EXACTLY
+[2025-01-12 05:55:09,742][evaluate.py][line:325][INFO] Transcription of file 71 has been formatted
+[2025-01-12 05:55:09,742][evaluate.py][line:326][INFO] ORIGINAL:  Oh, I'm so glad.
+[2025-01-12 05:55:09,742][evaluate.py][line:327][INFO] FORMATTED:  OH  I'M SO GLAD
+[2025-01-12 05:55:09,797][evaluate.py][line:325][INFO] Transcription of file 72 has been formatted
+[2025-01-12 05:55:09,797][evaluate.py][line:326][INFO] ORIGINAL:  So when do you know like where you're gonna live?
+[2025-01-12 05:55:09,797][evaluate.py][line:327][INFO] FORMATTED:  SO WHEN DO YOU KNOW LIKE WHERE YOU'RE GONNA LIVE 
+[2025-01-12 05:55:09,825][evaluate.py][line:325][INFO] Transcription of file 73 has been formatted
+[2025-01-12 05:55:09,825][evaluate.py][line:326][INFO] ORIGINAL:  Oh wow.
+[2025-01-12 05:55:09,825][evaluate.py][line:327][INFO] FORMATTED:  OH WOW
+[2025-01-12 05:55:09,847][evaluate.py][line:325][INFO] Transcription of file 74 has been formatted
+[2025-01-12 05:55:09,847][evaluate.py][line:326][INFO] ORIGINAL:  Um...
+[2025-01-12 05:55:09,847][evaluate.py][line:327][INFO] FORMATTED:  UM
+[2025-01-12 05:55:09,918][evaluate.py][line:325][INFO] Transcription of file 75 has been formatted
+[2025-01-12 05:55:09,918][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I mean, I know like the the housing surrounding campus pretty well
+[2025-01-12 05:55:09,918][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I MEAN  I KNOW LIKE THE THE HOUSING SURROUNDING CAMPUS PRETTY WELL
+[2025-01-12 05:55:09,968][evaluate.py][line:325][INFO] Transcription of file 76 has been formatted
+[2025-01-12 05:55:09,968][evaluate.py][line:326][INFO] ORIGINAL:  How many people do you want to live with?
+[2025-01-12 05:55:09,968][evaluate.py][line:327][INFO] FORMATTED:  HOW MANY PEOPLE DO YOU WANT TO LIVE WITH 
+[2025-01-12 05:55:10,002][evaluate.py][line:325][INFO] Transcription of file 77 has been formatted
+[2025-01-12 05:55:10,003][evaluate.py][line:326][INFO] ORIGINAL:  I'll do it.
+[2025-01-12 05:55:10,003][evaluate.py][line:327][INFO] FORMATTED:  I'LL DO IT
+[2025-01-12 05:55:10,041][evaluate.py][line:325][INFO] Transcription of file 78 has been formatted
+[2025-01-12 05:55:10,041][evaluate.py][line:326][INFO] ORIGINAL:  I think I have some friends.
+[2025-01-12 05:55:10,041][evaluate.py][line:327][INFO] FORMATTED:  I THINK I HAVE SOME FRIENDS
+[2025-01-12 05:55:10,061][evaluate.py][line:325][INFO] Transcription of file 79 has been formatted
+[2025-01-12 05:55:10,061][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:10,061][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:10,159][evaluate.py][line:325][INFO] Transcription of file 80 has been formatted
+[2025-01-12 05:55:10,159][evaluate.py][line:326][INFO] ORIGINAL:  There's actually a friend of mine is moving out of her place and her place is amazing and it's really cheap.
+[2025-01-12 05:55:10,159][evaluate.py][line:327][INFO] FORMATTED:  THERE'S ACTUALLY A FRIEND OF MINE IS MOVING OUT OF HER PLACE AND HER PLACE IS AMAZING AND IT'S REALLY CHEAP
+[2025-01-12 05:55:10,178][evaluate.py][line:325][INFO] Transcription of file 81 has been formatted
+[2025-01-12 05:55:10,178][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:10,178][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:10,205][evaluate.py][line:325][INFO] Transcription of file 82 has been formatted
+[2025-01-12 05:55:10,205][evaluate.py][line:326][INFO] ORIGINAL:  Okay, but
+[2025-01-12 05:55:10,205][evaluate.py][line:327][INFO] FORMATTED:  OKAY  BUT
+[2025-01-12 05:55:10,247][evaluate.py][line:325][INFO] Transcription of file 83 has been formatted
+[2025-01-12 05:55:10,247][evaluate.py][line:326][INFO] ORIGINAL:  You got to let, oh awesome.
+[2025-01-12 05:55:10,247][evaluate.py][line:327][INFO] FORMATTED:  YOU GOT TO LET  OH AWESOME
+[2025-01-12 05:55:10,269][evaluate.py][line:325][INFO] Transcription of file 84 has been formatted
+[2025-01-12 05:55:10,269][evaluate.py][line:326][INFO] ORIGINAL:  Oh cool.
+[2025-01-12 05:55:10,269][evaluate.py][line:327][INFO] FORMATTED:  OH COOL
+[2025-01-12 05:55:10,292][evaluate.py][line:325][INFO] Transcription of file 85 has been formatted
+[2025-01-12 05:55:10,292][evaluate.py][line:326][INFO] ORIGINAL:  Yeah
+[2025-01-12 05:55:10,292][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:10,313][evaluate.py][line:325][INFO] Transcription of file 86 has been formatted
+[2025-01-12 05:55:10,313][evaluate.py][line:326][INFO] ORIGINAL:  Totally.
+[2025-01-12 05:55:10,313][evaluate.py][line:327][INFO] FORMATTED:  TOTALLY
+[2025-01-12 05:55:10,340][evaluate.py][line:325][INFO] Transcription of file 87 has been formatted
+[2025-01-12 05:55:10,340][evaluate.py][line:326][INFO] ORIGINAL:  Good for you.
+[2025-01-12 05:55:10,340][evaluate.py][line:327][INFO] FORMATTED:  GOOD FOR YOU
+[2025-01-12 05:55:10,381][evaluate.py][line:325][INFO] Transcription of file 88 has been formatted
+[2025-01-12 05:55:10,381][evaluate.py][line:326][INFO] ORIGINAL:  So we're going to do it.
+[2025-01-12 05:55:10,381][evaluate.py][line:327][INFO] FORMATTED:  SO WE'RE GOING TO DO IT
+[2025-01-12 05:55:10,422][evaluate.py][line:325][INFO] Transcription of file 89 has been formatted
+[2025-01-12 05:55:10,422][evaluate.py][line:326][INFO] ORIGINAL:  Wow, are you so excited?
+[2025-01-12 05:55:10,422][evaluate.py][line:327][INFO] FORMATTED:  WOW  ARE YOU SO EXCITED 
+[2025-01-12 05:55:10,492][evaluate.py][line:325][INFO] Transcription of file 90 has been formatted
+[2025-01-12 05:55:10,492][evaluate.py][line:326][INFO] ORIGINAL:  Wow, you're gonna be so busy too. That program's so hard.
+[2025-01-12 05:55:10,492][evaluate.py][line:327][INFO] FORMATTED:  WOW  YOU'RE GONNA BE SO BUSY TOO THAT PROGRAM'S SO HARD
+[2025-01-12 05:55:10,539][evaluate.py][line:325][INFO] Transcription of file 91 has been formatted
+[2025-01-12 05:55:10,539][evaluate.py][line:326][INFO] ORIGINAL:  Alright, wow, it's so exciting.
+[2025-01-12 05:55:10,539][evaluate.py][line:327][INFO] FORMATTED:  ALRIGHT  WOW  IT'S SO EXCITING
+[2025-01-12 05:55:10,583][evaluate.py][line:325][INFO] Transcription of file 92 has been formatted
+[2025-01-12 05:55:10,583][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, we'll have so much fun.
+[2025-01-12 05:55:10,583][evaluate.py][line:327][INFO] FORMATTED:  YEAH  WE'LL HAVE SO MUCH FUN
+[2025-01-12 05:55:10,624][evaluate.py][line:325][INFO] Transcription of file 93 has been formatted
+[2025-01-12 05:55:10,624][evaluate.py][line:326][INFO] ORIGINAL:  Alright, I need an ID.
+[2025-01-12 05:55:10,624][evaluate.py][line:327][INFO] FORMATTED:  ALRIGHT  I NEED AN ID
+[2025-01-12 05:55:10,712][evaluate.py][line:325][INFO] Transcription of file 94 has been formatted
+[2025-01-12 05:55:10,712][evaluate.py][line:326][INFO] ORIGINAL:  So could I maybe get the form from you, fill it out here and then maybe you could.
+[2025-01-12 05:55:10,712][evaluate.py][line:327][INFO] FORMATTED:  SO COULD I MAYBE GET THE FORM FROM YOU  FILL IT OUT HERE AND THEN MAYBE YOU COULD
+[2025-01-12 05:55:10,826][evaluate.py][line:325][INFO] Transcription of file 95 has been formatted
+[2025-01-12 05:55:10,826][evaluate.py][line:326][INFO] ORIGINAL:  Isn't there anything you can do just call over and ask them if I can go to the front of the line and the other line?
+[2025-01-12 05:55:10,826][evaluate.py][line:327][INFO] FORMATTED:  ISN'T THERE ANYTHING YOU CAN DO JUST CALL OVER AND ASK THEM IF I CAN GO TO THE FRONT OF THE LINE AND THE OTHER LINE 
+[2025-01-12 05:55:10,849][evaluate.py][line:325][INFO] Transcription of file 96 has been formatted
+[2025-01-12 05:55:10,849][evaluate.py][line:326][INFO] ORIGINAL:  Why not?
+[2025-01-12 05:55:10,849][evaluate.py][line:327][INFO] FORMATTED:  WHY NOT 
+[2025-01-12 05:55:10,929][evaluate.py][line:325][INFO] Transcription of file 97 has been formatted
+[2025-01-12 05:55:10,929][evaluate.py][line:326][INFO] ORIGINAL:  Right, well last time they told me it was this line and obviously it's not true.
+[2025-01-12 05:55:10,929][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  WELL LAST TIME THEY TOLD ME IT WAS THIS LINE AND OBVIOUSLY IT'S NOT TRUE
+[2025-01-12 05:55:10,993][evaluate.py][line:325][INFO] Transcription of file 98 has been formatted
+[2025-01-12 05:55:10,993][evaluate.py][line:326][INFO] ORIGINAL:  I'm a good friend of mine, passed away the other day.
+[2025-01-12 05:55:10,993][evaluate.py][line:327][INFO] FORMATTED:  I'M A GOOD FRIEND OF MINE  PASSED AWAY THE OTHER DAY
+[2025-01-12 05:55:11,031][evaluate.py][line:325][INFO] Transcription of file 99 has been formatted
+[2025-01-12 05:55:11,031][evaluate.py][line:326][INFO] ORIGINAL:  They had some pretty progressive cancer.
+[2025-01-12 05:55:11,031][evaluate.py][line:327][INFO] FORMATTED:  THEY HAD SOME PRETTY PROGRESSIVE CANCER
+[2025-01-12 05:55:11,111][evaluate.py][line:325][INFO] Transcription of file 100 has been formatted
+[2025-01-12 05:55:11,111][evaluate.py][line:326][INFO] ORIGINAL:  metastasized it was old. I mean we knew that it wasn't looking good but
+[2025-01-12 05:55:11,111][evaluate.py][line:327][INFO] FORMATTED:  METASTASIZED IT WAS OLD I MEAN WE KNEW THAT IT WASN'T LOOKING GOOD BUT
+[2025-01-12 05:55:11,150][evaluate.py][line:325][INFO] Transcription of file 101 has been formatted
+[2025-01-12 05:55:11,150][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, we are pretty close.
+[2025-01-12 05:55:11,150][evaluate.py][line:327][INFO] FORMATTED:  YEAH  WE ARE PRETTY CLOSE
+[2025-01-12 05:55:11,165][evaluate.py][line:325][INFO] Transcription of file 102 has been formatted
+[2025-01-12 05:55:11,165][evaluate.py][line:326][INFO] ORIGINAL:  you
+[2025-01-12 05:55:11,165][evaluate.py][line:327][INFO] FORMATTED:  YOU
+[2025-01-12 05:55:11,189][evaluate.py][line:325][INFO] Transcription of file 103 has been formatted
+[2025-01-12 05:55:11,189][evaluate.py][line:326][INFO] ORIGINAL:  I know.
+[2025-01-12 05:55:11,189][evaluate.py][line:327][INFO] FORMATTED:  I KNOW
+[2025-01-12 05:55:11,256][evaluate.py][line:325][INFO] Transcription of file 104 has been formatted
+[2025-01-12 05:55:11,256][evaluate.py][line:326][INFO] ORIGINAL:  That's hard to watch when it's painful for them, you know?
+[2025-01-12 05:55:11,256][evaluate.py][line:327][INFO] FORMATTED:  THAT'S HARD TO WATCH WHEN IT'S PAINFUL FOR THEM  YOU KNOW 
+[2025-01-12 05:55:11,294][evaluate.py][line:325][INFO] Transcription of file 105 has been formatted
+[2025-01-12 05:55:11,294][evaluate.py][line:326][INFO] ORIGINAL:  Just tell her that's crazy.
+[2025-01-12 05:55:11,294][evaluate.py][line:327][INFO] FORMATTED:  JUST TELL HER THAT'S CRAZY
+[2025-01-12 05:55:11,325][evaluate.py][line:325][INFO] Transcription of file 106 has been formatted
+[2025-01-12 05:55:11,326][evaluate.py][line:326][INFO] ORIGINAL:  I don't know.
+[2025-01-12 05:55:11,326][evaluate.py][line:327][INFO] FORMATTED:  I DON'T KNOW
+[2025-01-12 05:55:11,378][evaluate.py][line:325][INFO] Transcription of file 107 has been formatted
+[2025-01-12 05:55:11,378][evaluate.py][line:326][INFO] ORIGINAL:  And then he could have, it was pretty awesome.
+[2025-01-12 05:55:11,378][evaluate.py][line:327][INFO] FORMATTED:  AND THEN HE COULD HAVE  IT WAS PRETTY AWESOME
+[2025-01-12 05:55:11,409][evaluate.py][line:325][INFO] Transcription of file 108 has been formatted
+[2025-01-12 05:55:11,409][evaluate.py][line:326][INFO] ORIGINAL:  We grew up together.
+[2025-01-12 05:55:11,410][evaluate.py][line:327][INFO] FORMATTED:  WE GREW UP TOGETHER
+[2025-01-12 05:55:11,482][evaluate.py][line:325][INFO] Transcription of file 109 has been formatted
+[2025-01-12 05:55:11,482][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, you could have did a lot of things, but we acted together sometimes.
+[2025-01-12 05:55:11,482][evaluate.py][line:327][INFO] FORMATTED:  YEAH  YOU COULD HAVE DID A LOT OF THINGS  BUT WE ACTED TOGETHER SOMETIMES
+[2025-01-12 05:55:11,535][evaluate.py][line:325][INFO] Transcription of file 110 has been formatted
+[2025-01-12 05:55:11,535][evaluate.py][line:326][INFO] ORIGINAL:  I feel really bad for his family, you know.
+[2025-01-12 05:55:11,535][evaluate.py][line:327][INFO] FORMATTED:  I FEEL REALLY BAD FOR HIS FAMILY  YOU KNOW
+[2025-01-12 05:55:11,583][evaluate.py][line:325][INFO] Transcription of file 111 has been formatted
+[2025-01-12 05:55:11,583][evaluate.py][line:326][INFO] ORIGINAL:  must be really really hard to lose a child.
+[2025-01-12 05:55:11,583][evaluate.py][line:327][INFO] FORMATTED:  MUST BE REALLY REALLY HARD TO LOSE A CHILD
+[2025-01-12 05:55:11,645][evaluate.py][line:325][INFO] Transcription of file 112 has been formatted
+[2025-01-12 05:55:11,645][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, and they were really supportive like through the whole process, but
+[2025-01-12 05:55:11,645][evaluate.py][line:327][INFO] FORMATTED:  YEAH  AND THEY WERE REALLY SUPPORTIVE LIKE THROUGH THE WHOLE PROCESS  BUT
+[2025-01-12 05:55:11,662][evaluate.py][line:325][INFO] Transcription of file 113 has been formatted
+[2025-01-12 05:55:11,662][evaluate.py][line:326][INFO] ORIGINAL:  you
+[2025-01-12 05:55:11,662][evaluate.py][line:327][INFO] FORMATTED:  YOU
+[2025-01-12 05:55:11,713][evaluate.py][line:325][INFO] Transcription of file 114 has been formatted
+[2025-01-12 05:55:11,713][evaluate.py][line:326][INFO] ORIGINAL:  Thank you and imagine what his parents are going through.
+[2025-01-12 05:55:11,713][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU AND IMAGINE WHAT HIS PARENTS ARE GOING THROUGH
+[2025-01-12 05:55:11,754][evaluate.py][line:325][INFO] Transcription of file 115 has been formatted
+[2025-01-12 05:55:11,754][evaluate.py][line:326][INFO] ORIGINAL:  I'm just gonna miss it.
+[2025-01-12 05:55:11,754][evaluate.py][line:327][INFO] FORMATTED:  I'M JUST GONNA MISS IT
+[2025-01-12 05:55:11,776][evaluate.py][line:325][INFO] Transcription of file 116 has been formatted
+[2025-01-12 05:55:11,776][evaluate.py][line:326][INFO] ORIGINAL:  Thank you.
+[2025-01-12 05:55:11,776][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU
+[2025-01-12 05:55:11,857][evaluate.py][line:325][INFO] Transcription of file 117 has been formatted
+[2025-01-12 05:55:11,857][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I don't know, they're gonna do some sort of memorial service or something.
+[2025-01-12 05:55:11,857][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I DON'T KNOW  THEY'RE GONNA DO SOME SORT OF MEMORIAL SERVICE OR SOMETHING
+[2025-01-12 05:55:11,876][evaluate.py][line:325][INFO] Transcription of file 118 has been formatted
+[2025-01-12 05:55:11,876][evaluate.py][line:326][INFO] ORIGINAL:  Thanks.
+[2025-01-12 05:55:11,876][evaluate.py][line:327][INFO] FORMATTED:  THANKS
+[2025-01-12 05:55:11,954][evaluate.py][line:325][INFO] Transcription of file 119 has been formatted
+[2025-01-12 05:55:11,954][evaluate.py][line:326][INFO] ORIGINAL:  It's really bizarre, you know, when you know somebody really well and then.
+[2025-01-12 05:55:11,954][evaluate.py][line:327][INFO] FORMATTED:  IT'S REALLY BIZARRE  YOU KNOW  WHEN YOU KNOW SOMEBODY REALLY WELL AND THEN
+[2025-01-12 05:55:12,003][evaluate.py][line:325][INFO] Transcription of file 120 has been formatted
+[2025-01-12 05:55:12,003][evaluate.py][line:326][INFO] ORIGINAL:  Something happens and they die and it's like
+[2025-01-12 05:55:12,003][evaluate.py][line:327][INFO] FORMATTED:  SOMETHING HAPPENS AND THEY DIE AND IT'S LIKE
+[2025-01-12 05:55:12,095][evaluate.py][line:325][INFO] Transcription of file 121 has been formatted
+[2025-01-12 05:55:12,095][evaluate.py][line:326][INFO] ORIGINAL:  really hard to imagine that you're going to continue to live and that person's just going to have stopped.
+[2025-01-12 05:55:12,095][evaluate.py][line:327][INFO] FORMATTED:  REALLY HARD TO IMAGINE THAT YOU'RE GOING TO CONTINUE TO LIVE AND THAT PERSON'S JUST GOING TO HAVE STOPPED
+[2025-01-12 05:55:12,111][evaluate.py][line:325][INFO] Transcription of file 122 has been formatted
+[2025-01-12 05:55:12,111][evaluate.py][line:326][INFO] ORIGINAL:  you
+[2025-01-12 05:55:12,111][evaluate.py][line:327][INFO] FORMATTED:  YOU
+[2025-01-12 05:55:12,130][evaluate.py][line:325][INFO] Transcription of file 123 has been formatted
+[2025-01-12 05:55:12,130][evaluate.py][line:326][INFO] ORIGINAL:  Yes.
+[2025-01-12 05:55:12,130][evaluate.py][line:327][INFO] FORMATTED:  YES
+[2025-01-12 05:55:12,163][evaluate.py][line:325][INFO] Transcription of file 124 has been formatted
+[2025-01-12 05:55:12,163][evaluate.py][line:326][INFO] ORIGINAL:  Start to say goodbye.
+[2025-01-12 05:55:12,163][evaluate.py][line:327][INFO] FORMATTED:  START TO SAY GOODBYE
+[2025-01-12 05:55:12,179][evaluate.py][line:325][INFO] Transcription of file 125 has been formatted
+[2025-01-12 05:55:12,179][evaluate.py][line:326][INFO] ORIGINAL:  you
+[2025-01-12 05:55:12,179][evaluate.py][line:327][INFO] FORMATTED:  YOU
+[2025-01-12 05:55:12,205][evaluate.py][line:325][INFO] Transcription of file 126 has been formatted
+[2025-01-12 05:55:12,205][evaluate.py][line:326][INFO] ORIGINAL:  Yeah. Yeah.
+[2025-01-12 05:55:12,205][evaluate.py][line:327][INFO] FORMATTED:  YEAH YEAH
+[2025-01-12 05:55:12,271][evaluate.py][line:325][INFO] Transcription of file 127 has been formatted
+[2025-01-12 05:55:12,271][evaluate.py][line:326][INFO] ORIGINAL:  Nobody knows we're here except Frieden. She wouldn't ring up.
+[2025-01-12 05:55:12,271][evaluate.py][line:327][INFO] FORMATTED:  NOBODY KNOWS WE'RE HERE EXCEPT FRIEDEN SHE WOULDN'T RING UP
+[2025-01-12 05:55:12,301][evaluate.py][line:325][INFO] Transcription of file 128 has been formatted
+[2025-01-12 05:55:12,301][evaluate.py][line:326][INFO] ORIGINAL:  What do we do?
+[2025-01-12 05:55:12,301][evaluate.py][line:327][INFO] FORMATTED:  WHAT DO WE DO 
+[2025-01-12 05:55:12,342][evaluate.py][line:325][INFO] Transcription of file 129 has been formatted
+[2025-01-12 05:55:12,342][evaluate.py][line:326][INFO] ORIGINAL:  Now I'm always in the suite.
+[2025-01-12 05:55:12,342][evaluate.py][line:327][INFO] FORMATTED:  NOW I'M ALWAYS IN THE SUITE
+[2025-01-12 05:55:12,387][evaluate.py][line:325][INFO] Transcription of file 130 has been formatted
+[2025-01-12 05:55:12,387][evaluate.py][line:326][INFO] ORIGINAL:  I was bound to happen sooner or later.
+[2025-01-12 05:55:12,387][evaluate.py][line:327][INFO] FORMATTED:  I WAS BOUND TO HAPPEN SOONER OR LATER
+[2025-01-12 05:55:12,436][evaluate.py][line:325][INFO] Transcription of file 131 has been formatted
+[2025-01-12 05:55:12,436][evaluate.py][line:326][INFO] ORIGINAL:  Oh, it's in sugars at my spine.
+[2025-01-12 05:55:12,436][evaluate.py][line:327][INFO] FORMATTED:  OH  IT'S IN SUGARS AT MY SPINE
+[2025-01-12 05:55:12,483][evaluate.py][line:325][INFO] Transcription of file 132 has been formatted
+[2025-01-12 05:55:12,483][evaluate.py][line:326][INFO] ORIGINAL:  Don't laugh at me, I'm serious.
+[2025-01-12 05:55:12,483][evaluate.py][line:327][INFO] FORMATTED:  DON'T LAUGH AT ME  I'M SERIOUS
+[2025-01-12 05:55:12,510][evaluate.py][line:325][INFO] Transcription of file 133 has been formatted
+[2025-01-12 05:55:12,510][evaluate.py][line:326][INFO] ORIGINAL:  Who's there?
+[2025-01-12 05:55:12,510][evaluate.py][line:327][INFO] FORMATTED:  WHO'S THERE 
+[2025-01-12 05:55:12,562][evaluate.py][line:325][INFO] Transcription of file 134 has been formatted
+[2025-01-12 05:55:12,562][evaluate.py][line:326][INFO] ORIGINAL:  for laughing everything that I must laugh at us too.
+[2025-01-12 05:55:12,562][evaluate.py][line:327][INFO] FORMATTED:  FOR LAUGHING EVERYTHING THAT I MUST LAUGH AT US TOO
+[2025-01-12 05:55:12,617][evaluate.py][line:325][INFO] Transcription of file 135 has been formatted
+[2025-01-12 05:55:12,617][evaluate.py][line:326][INFO] ORIGINAL:  Well, will we always pick her and fight? No.
+[2025-01-12 05:55:12,617][evaluate.py][line:327][INFO] FORMATTED:  WELL  WILL WE ALWAYS PICK HER AND FIGHT  NO
+[2025-01-12 05:55:12,679][evaluate.py][line:325][INFO] Transcription of file 136 has been formatted
+[2025-01-12 05:55:12,679][evaluate.py][line:326][INFO] ORIGINAL:  What if one of us dies? Does the other one laugh then?
+[2025-01-12 05:55:12,679][evaluate.py][line:327][INFO] FORMATTED:  WHAT IF ONE OF US DIES  DOES THE OTHER ONE LAUGH THEN 
+[2025-01-12 05:55:12,718][evaluate.py][line:325][INFO] Transcription of file 137 has been formatted
+[2025-01-12 05:55:12,718][evaluate.py][line:326][INFO] ORIGINAL:  Elliot Worms don't pop.
+[2025-01-12 05:55:12,718][evaluate.py][line:327][INFO] FORMATTED:  ELLIOT WORMS DON'T POP
+[2025-01-12 05:55:12,832][evaluate.py][line:325][INFO] Transcription of file 138 has been formatted
+[2025-01-12 05:55:12,832][evaluate.py][line:326][INFO] ORIGINAL:  I know you did, you threw it out the window into the gate canal below. I don't think I'll ever forgive you for that.
+[2025-01-12 05:55:12,833][evaluate.py][line:327][INFO] FORMATTED:  I KNOW YOU DID  YOU THREW IT OUT THE WINDOW INTO THE GATE CANAL BELOW I DON'T THINK I'LL EVER FORGIVE YOU FOR THAT
+[2025-01-12 05:55:12,902][evaluate.py][line:325][INFO] Transcription of file 139 has been formatted
+[2025-01-12 05:55:12,902][evaluate.py][line:326][INFO] ORIGINAL:  Oh, it burnt my comb and all the towels in the bathroom.
+[2025-01-12 05:55:12,902][evaluate.py][line:327][INFO] FORMATTED:  OH  IT BURNT MY COMB AND ALL THE TOWELS IN THE BATHROOM
+[2025-01-12 05:55:12,947][evaluate.py][line:325][INFO] Transcription of file 140 has been formatted
+[2025-01-12 05:55:12,947][evaluate.py][line:326][INFO] ORIGINAL:  Do you know there's nothing in that?
+[2025-01-12 05:55:12,947][evaluate.py][line:327][INFO] FORMATTED:  DO YOU KNOW THERE'S NOTHING IN THAT 
+[2025-01-12 05:55:12,974][evaluate.py][line:325][INFO] Transcription of file 141 has been formatted
+[2025-01-12 05:55:12,975][evaluate.py][line:326][INFO] ORIGINAL:  So guess what?
+[2025-01-12 05:55:12,975][evaluate.py][line:327][INFO] FORMATTED:  SO GUESS WHAT 
+[2025-01-12 05:55:13,005][evaluate.py][line:325][INFO] Transcription of file 142 has been formatted
+[2025-01-12 05:55:13,005][evaluate.py][line:326][INFO] ORIGINAL:  I got into college.
+[2025-01-12 05:55:13,005][evaluate.py][line:327][INFO] FORMATTED:  I GOT INTO COLLEGE
+[2025-01-12 05:55:13,032][evaluate.py][line:325][INFO] Transcription of file 143 has been formatted
+[2025-01-12 05:55:13,032][evaluate.py][line:326][INFO] ORIGINAL:  You see?
+[2025-01-12 05:55:13,032][evaluate.py][line:327][INFO] FORMATTED:  YOU SEE 
+[2025-01-12 05:55:13,048][evaluate.py][line:325][INFO] Transcription of file 144 has been formatted
+[2025-01-12 05:55:13,048][evaluate.py][line:326][INFO] ORIGINAL:  Yeah
+[2025-01-12 05:55:13,048][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:13,075][evaluate.py][line:325][INFO] Transcription of file 145 has been formatted
+[2025-01-12 05:55:13,075][evaluate.py][line:326][INFO] ORIGINAL:  bit now.
+[2025-01-12 05:55:13,075][evaluate.py][line:327][INFO] FORMATTED:  BIT NOW
+[2025-01-12 05:55:13,110][evaluate.py][line:325][INFO] Transcription of file 146 has been formatted
+[2025-01-12 05:55:13,110][evaluate.py][line:326][INFO] ORIGINAL:  I'll stay in town.
+[2025-01-12 05:55:13,110][evaluate.py][line:327][INFO] FORMATTED:  I'LL STAY IN TOWN
+[2025-01-12 05:55:13,141][evaluate.py][line:325][INFO] Transcription of file 147 has been formatted
+[2025-01-12 05:55:13,141][evaluate.py][line:326][INFO] ORIGINAL:  I don't know.
+[2025-01-12 05:55:13,141][evaluate.py][line:327][INFO] FORMATTED:  I DON'T KNOW
+[2025-01-12 05:55:13,197][evaluate.py][line:325][INFO] Transcription of file 148 has been formatted
+[2025-01-12 05:55:13,197][evaluate.py][line:326][INFO] ORIGINAL:  Well, I don't want to live with my mom.
+[2025-01-12 05:55:13,197][evaluate.py][line:327][INFO] FORMATTED:  WELL  I DON'T WANT TO LIVE WITH MY MOM
+[2025-01-12 05:55:13,259][evaluate.py][line:325][INFO] Transcription of file 149 has been formatted
+[2025-01-12 05:55:13,259][evaluate.py][line:326][INFO] ORIGINAL:  Whoa, what an idea! Where would you wanna live?
+[2025-01-12 05:55:13,259][evaluate.py][line:327][INFO] FORMATTED:  WHOA  WHAT AN IDEA  WHERE WOULD YOU WANNA LIVE 
+[2025-01-12 05:55:13,313][evaluate.py][line:325][INFO] Transcription of file 150 has been formatted
+[2025-01-12 05:55:13,313][evaluate.py][line:326][INFO] ORIGINAL:  Whoa, this is gonna be so much fun.
+[2025-01-12 05:55:13,313][evaluate.py][line:327][INFO] FORMATTED:  WHOA  THIS IS GONNA BE SO MUCH FUN
+[2025-01-12 05:55:13,379][evaluate.py][line:325][INFO] Transcription of file 151 has been formatted
+[2025-01-12 05:55:13,379][evaluate.py][line:326][INFO] ORIGINAL:  Thank you. I know, I'm really, really, really excited.
+[2025-01-12 05:55:13,379][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU I KNOW  I'M REALLY  REALLY  REALLY EXCITED
+[2025-01-12 05:55:13,445][evaluate.py][line:325][INFO] Transcription of file 152 has been formatted
+[2025-01-12 05:55:13,445][evaluate.py][line:326][INFO] ORIGINAL:  I know they have a really really great program but what I want to do
+[2025-01-12 05:55:13,445][evaluate.py][line:327][INFO] FORMATTED:  I KNOW THEY HAVE A REALLY REALLY GREAT PROGRAM BUT WHAT I WANT TO DO
+[2025-01-12 05:55:13,489][evaluate.py][line:325][INFO] Transcription of file 153 has been formatted
+[2025-01-12 05:55:13,489][evaluate.py][line:326][INFO] ORIGINAL:  Can we just feel real, live together?
+[2025-01-12 05:55:13,489][evaluate.py][line:327][INFO] FORMATTED:  CAN WE JUST FEEL REAL  LIVE TOGETHER 
+[2025-01-12 05:55:13,533][evaluate.py][line:325][INFO] Transcription of file 154 has been formatted
+[2025-01-12 05:55:13,533][evaluate.py][line:326][INFO] ORIGINAL:  I don't know if anywhere I...
+[2025-01-12 05:55:13,533][evaluate.py][line:327][INFO] FORMATTED:  I DON'T KNOW IF ANYWHERE I
+[2025-01-12 05:55:13,580][evaluate.py][line:325][INFO] Transcription of file 155 has been formatted
+[2025-01-12 05:55:13,580][evaluate.py][line:326][INFO] ORIGINAL:  So should we get a place near campus or?
+[2025-01-12 05:55:13,580][evaluate.py][line:327][INFO] FORMATTED:  SO SHOULD WE GET A PLACE NEAR CAMPUS OR 
+[2025-01-12 05:55:13,615][evaluate.py][line:325][INFO] Transcription of file 156 has been formatted
+[2025-01-12 05:55:13,615][evaluate.py][line:326][INFO] ORIGINAL:  Although, you know what?
+[2025-01-12 05:55:13,615][evaluate.py][line:327][INFO] FORMATTED:  ALTHOUGH  YOU KNOW WHAT 
+[2025-01-12 05:55:13,667][evaluate.py][line:325][INFO] Transcription of file 157 has been formatted
+[2025-01-12 05:55:13,667][evaluate.py][line:326][INFO] ORIGINAL:  This will be ridiculous. That'll be so cool.
+[2025-01-12 05:55:13,667][evaluate.py][line:327][INFO] FORMATTED:  THIS WILL BE RIDICULOUS THAT'LL BE SO COOL
+[2025-01-12 05:55:13,720][evaluate.py][line:325][INFO] Transcription of file 158 has been formatted
+[2025-01-12 05:55:13,720][evaluate.py][line:326][INFO] ORIGINAL:  Well, I'm gonna be working too. I mean
+[2025-01-12 05:55:13,720][evaluate.py][line:327][INFO] FORMATTED:  WELL  I'M GONNA BE WORKING TOO I MEAN
+[2025-01-12 05:55:13,755][evaluate.py][line:325][INFO] Transcription of file 159 has been formatted
+[2025-01-12 05:55:13,755][evaluate.py][line:326][INFO] ORIGINAL:  I hear the same.
+[2025-01-12 05:55:13,755][evaluate.py][line:327][INFO] FORMATTED:  I HEAR THE SAME
+[2025-01-12 05:55:13,806][evaluate.py][line:325][INFO] Transcription of file 160 has been formatted
+[2025-01-12 05:55:13,807][evaluate.py][line:326][INFO] ORIGINAL:  Don't know how I feel about that, but...
+[2025-01-12 05:55:13,807][evaluate.py][line:327][INFO] FORMATTED:  DON'T KNOW HOW I FEEL ABOUT THAT  BUT
+[2025-01-12 05:55:13,844][evaluate.py][line:325][INFO] Transcription of file 161 has been formatted
+[2025-01-12 05:55:13,844][evaluate.py][line:326][INFO] ORIGINAL:  about that. Oh yeah.
+[2025-01-12 05:55:13,844][evaluate.py][line:327][INFO] FORMATTED:  ABOUT THAT OH YEAH
+[2025-01-12 05:55:13,868][evaluate.py][line:325][INFO] Transcription of file 162 has been formatted
+[2025-01-12 05:55:13,868][evaluate.py][line:326][INFO] ORIGINAL:  Oh yeah?
+[2025-01-12 05:55:13,868][evaluate.py][line:327][INFO] FORMATTED:  OH YEAH 
+[2025-01-12 05:55:13,900][evaluate.py][line:325][INFO] Transcription of file 163 has been formatted
+[2025-01-12 05:55:13,900][evaluate.py][line:326][INFO] ORIGINAL:  It'll be awesome.
+[2025-01-12 05:55:13,900][evaluate.py][line:327][INFO] FORMATTED:  IT'LL BE AWESOME
+[2025-01-12 05:55:13,945][evaluate.py][line:325][INFO] Transcription of file 164 has been formatted
+[2025-01-12 05:55:13,945][evaluate.py][line:326][INFO] ORIGINAL:  better than if I picked up and moved Boston
+[2025-01-12 05:55:13,945][evaluate.py][line:327][INFO] FORMATTED:  BETTER THAN IF I PICKED UP AND MOVED BOSTON
+[2025-01-12 05:55:13,982][evaluate.py][line:325][INFO] Transcription of file 165 has been formatted
+[2025-01-12 05:55:13,982][evaluate.py][line:326][INFO] ORIGINAL:  You can't buy yourself.
+[2025-01-12 05:55:13,982][evaluate.py][line:327][INFO] FORMATTED:  YOU CAN'T BUY YOURSELF
+[2025-01-12 05:55:14,017][evaluate.py][line:325][INFO] Transcription of file 166 has been formatted
+[2025-01-12 05:55:14,017][evaluate.py][line:326][INFO] ORIGINAL:  He's beat that kid.
+[2025-01-12 05:55:14,017][evaluate.py][line:327][INFO] FORMATTED:  HE'S BEAT THAT KID
+[2025-01-12 05:55:14,058][evaluate.py][line:325][INFO] Transcription of file 167 has been formatted
+[2025-01-12 05:55:14,058][evaluate.py][line:326][INFO] ORIGINAL:  Living their campus not going to school.
+[2025-01-12 05:55:14,058][evaluate.py][line:327][INFO] FORMATTED:  LIVING THEIR CAMPUS NOT GOING TO SCHOOL
+[2025-01-12 05:55:14,097][evaluate.py][line:325][INFO] Transcription of file 168 has been formatted
+[2025-01-12 05:55:14,097][evaluate.py][line:326][INFO] ORIGINAL:  That's a good idea.
+[2025-01-12 05:55:14,097][evaluate.py][line:327][INFO] FORMATTED:  THAT'S A GOOD IDEA
+[2025-01-12 05:55:14,119][evaluate.py][line:325][INFO] Transcription of file 169 has been formatted
+[2025-01-12 05:55:14,119][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:14,119][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:14,156][evaluate.py][line:325][INFO] Transcription of file 170 has been formatted
+[2025-01-12 05:55:14,156][evaluate.py][line:326][INFO] ORIGINAL:  We should go apartment shop hunting.
+[2025-01-12 05:55:14,156][evaluate.py][line:327][INFO] FORMATTED:  WE SHOULD GO APARTMENT SHOP HUNTING
+[2025-01-12 05:55:14,196][evaluate.py][line:325][INFO] Transcription of file 171 has been formatted
+[2025-01-12 05:55:14,196][evaluate.py][line:326][INFO] ORIGINAL:  It's good to know.
+[2025-01-12 05:55:14,196][evaluate.py][line:327][INFO] FORMATTED:  IT'S GOOD TO KNOW
+[2025-01-12 05:55:14,217][evaluate.py][line:325][INFO] Transcription of file 172 has been formatted
+[2025-01-12 05:55:14,217][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:14,217][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:14,241][evaluate.py][line:325][INFO] Transcription of file 173 has been formatted
+[2025-01-12 05:55:14,241][evaluate.py][line:326][INFO] ORIGINAL:  Thank you.
+[2025-01-12 05:55:14,241][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU
+[2025-01-12 05:55:14,261][evaluate.py][line:325][INFO] Transcription of file 174 has been formatted
+[2025-01-12 05:55:14,261][evaluate.py][line:326][INFO] ORIGINAL:  Same!
+[2025-01-12 05:55:14,261][evaluate.py][line:327][INFO] FORMATTED:  SAME 
+[2025-01-12 05:55:14,310][evaluate.py][line:325][INFO] Transcription of file 175 has been formatted
+[2025-01-12 05:55:14,310][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, we've painted a couple of times.
+[2025-01-12 05:55:14,310][evaluate.py][line:327][INFO] FORMATTED:  YEAH  WE'VE PAINTED A COUPLE OF TIMES
+[2025-01-12 05:55:14,391][evaluate.py][line:325][INFO] Transcription of file 176 has been formatted
+[2025-01-12 05:55:14,391][evaluate.py][line:326][INFO] ORIGINAL:  Pretty much. Yeah, I don't know if it's like bad phone lines or something.
+[2025-01-12 05:55:14,391][evaluate.py][line:327][INFO] FORMATTED:  PRETTY MUCH YEAH  I DON'T KNOW IF IT'S LIKE BAD PHONE LINES OR SOMETHING
+[2025-01-12 05:55:14,410][evaluate.py][line:325][INFO] Transcription of file 177 has been formatted
+[2025-01-12 05:55:14,410][evaluate.py][line:326][INFO] ORIGINAL:  right.
+[2025-01-12 05:55:14,410][evaluate.py][line:327][INFO] FORMATTED:  RIGHT
+[2025-01-12 05:55:14,444][evaluate.py][line:325][INFO] Transcription of file 178 has been formatted
+[2025-01-12 05:55:14,444][evaluate.py][line:326][INFO] ORIGINAL:  and sort of go through.
+[2025-01-12 05:55:14,444][evaluate.py][line:327][INFO] FORMATTED:  AND SORT OF GO THROUGH
+[2025-01-12 05:55:14,507][evaluate.py][line:325][INFO] Transcription of file 179 has been formatted
+[2025-01-12 05:55:14,507][evaluate.py][line:326][INFO] ORIGINAL:  It goes like through doorways, but it goes a long distance.
+[2025-01-12 05:55:14,507][evaluate.py][line:327][INFO] FORMATTED:  IT GOES LIKE THROUGH DOORWAYS  BUT IT GOES A LONG DISTANCE
+[2025-01-12 05:55:14,617][evaluate.py][line:325][INFO] Transcription of file 180 has been formatted
+[2025-01-12 05:55:14,618][evaluate.py][line:326][INFO] ORIGINAL:  Well, I can check that as anything else we can do too. I'll go through and check the line throughout the house, but...
+[2025-01-12 05:55:14,618][evaluate.py][line:327][INFO] FORMATTED:  WELL  I CAN CHECK THAT AS ANYTHING ELSE WE CAN DO TOO I'LL GO THROUGH AND CHECK THE LINE THROUGHOUT THE HOUSE  BUT
+[2025-01-12 05:55:14,637][evaluate.py][line:325][INFO] Transcription of file 181 has been formatted
+[2025-01-12 05:55:14,637][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:14,637][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:14,657][evaluate.py][line:325][INFO] Transcription of file 182 has been formatted
+[2025-01-12 05:55:14,657][evaluate.py][line:326][INFO] ORIGINAL:  Right.
+[2025-01-12 05:55:14,657][evaluate.py][line:327][INFO] FORMATTED:  RIGHT
+[2025-01-12 05:55:14,687][evaluate.py][line:325][INFO] Transcription of file 183 has been formatted
+[2025-01-12 05:55:14,687][evaluate.py][line:326][INFO] ORIGINAL:  Yes, see that?
+[2025-01-12 05:55:14,687][evaluate.py][line:327][INFO] FORMATTED:  YES  SEE THAT 
+[2025-01-12 05:55:14,706][evaluate.py][line:325][INFO] Transcription of file 184 has been formatted
+[2025-01-12 05:55:14,706][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:14,706][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:14,726][evaluate.py][line:325][INFO] Transcription of file 185 has been formatted
+[2025-01-12 05:55:14,726][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:14,726][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:14,794][evaluate.py][line:325][INFO] Transcription of file 186 has been formatted
+[2025-01-12 05:55:14,794][evaluate.py][line:326][INFO] ORIGINAL:  It's like a bunch of different letters and numbers and stuff.
+[2025-01-12 05:55:14,794][evaluate.py][line:327][INFO] FORMATTED:  IT'S LIKE A BUNCH OF DIFFERENT LETTERS AND NUMBERS AND STUFF
+[2025-01-12 05:55:14,813][evaluate.py][line:325][INFO] Transcription of file 187 has been formatted
+[2025-01-12 05:55:14,813][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:14,813][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:14,884][evaluate.py][line:325][INFO] Transcription of file 188 has been formatted
+[2025-01-12 05:55:14,884][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, looks no, no, it's set to zero.
+[2025-01-12 05:55:14,884][evaluate.py][line:327][INFO] FORMATTED:  YEAH  LOOKS NO  NO  IT'S SET TO ZERO
+[2025-01-12 05:55:15,129][evaluate.py][line:325][INFO] Transcription of file 189 has been formatted
+[2025-01-12 05:55:15,129][evaluate.py][line:326][INFO] ORIGINAL:  Oh my god, I can't even tell you how much of a relief that is. I literally call and talk to five different people. Like last week it went off and I spent an hour and a half on the phone with different people and I've been doing that like every every other week for months now.
+[2025-01-12 05:55:15,129][evaluate.py][line:327][INFO] FORMATTED:  OH MY GOD  I CAN'T EVEN TELL YOU HOW MUCH OF A RELIEF THAT IS I LITERALLY CALL AND TALK TO FIVE DIFFERENT PEOPLE LIKE LAST WEEK IT WENT OFF AND I SPENT AN HOUR AND A HALF ON THE PHONE WITH DIFFERENT PEOPLE AND I'VE BEEN DOING THAT LIKE EVERY EVERY OTHER WEEK FOR MONTHS NOW
+[2025-01-12 05:55:15,182][evaluate.py][line:325][INFO] Transcription of file 190 has been formatted
+[2025-01-12 05:55:15,182][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, accountability. It's awesome.
+[2025-01-12 05:55:15,182][evaluate.py][line:327][INFO] FORMATTED:  YEAH  ACCOUNTABILITY IT'S AWESOME
+[2025-01-12 05:55:15,280][evaluate.py][line:325][INFO] Transcription of file 191 has been formatted
+[2025-01-12 05:55:15,280][evaluate.py][line:326][INFO] ORIGINAL:  Wow, you know I was thinking about changing internet providers but that really is like enough change my mind.
+[2025-01-12 05:55:15,280][evaluate.py][line:327][INFO] FORMATTED:  WOW  YOU KNOW I WAS THINKING ABOUT CHANGING INTERNET PROVIDERS BUT THAT REALLY IS LIKE ENOUGH CHANGE MY MIND
+[2025-01-12 05:55:15,340][evaluate.py][line:325][INFO] Transcription of file 192 has been formatted
+[2025-01-12 05:55:15,340][evaluate.py][line:326][INFO] ORIGINAL:  No, I'm just gonna go have a fantastic day now.
+[2025-01-12 05:55:15,340][evaluate.py][line:327][INFO] FORMATTED:  NO  I'M JUST GONNA GO HAVE A FANTASTIC DAY NOW
+[2025-01-12 05:55:15,367][evaluate.py][line:325][INFO] Transcription of file 193 has been formatted
+[2025-01-12 05:55:15,367][evaluate.py][line:326][INFO] ORIGINAL:  Okay, then.
+[2025-01-12 05:55:15,367][evaluate.py][line:327][INFO] FORMATTED:  OKAY  THEN
+[2025-01-12 05:55:15,419][evaluate.py][line:325][INFO] Transcription of file 194 has been formatted
+[2025-01-12 05:55:15,419][evaluate.py][line:326][INFO] ORIGINAL:  Ah, the shivers are nice fine.
+[2025-01-12 05:55:15,419][evaluate.py][line:327][INFO] FORMATTED:  AH  THE SHIVERS ARE NICE FINE
+[2025-01-12 05:55:15,458][evaluate.py][line:325][INFO] Transcription of file 195 has been formatted
+[2025-01-12 05:55:15,458][evaluate.py][line:326][INFO] ORIGINAL:  on a specific squisite lane.
+[2025-01-12 05:55:15,458][evaluate.py][line:327][INFO] FORMATTED:  ON A SPECIFIC SQUISITE LANE
+[2025-01-12 05:55:15,509][evaluate.py][line:325][INFO] Transcription of file 196 has been formatted
+[2025-01-12 05:55:15,509][evaluate.py][line:326][INFO] ORIGINAL:  Yes, I shall probably do a court court thing.
+[2025-01-12 05:55:15,509][evaluate.py][line:327][INFO] FORMATTED:  YES  I SHALL PROBABLY DO A COURT COURT THING
+[2025-01-12 05:55:15,556][evaluate.py][line:325][INFO] Transcription of file 197 has been formatted
+[2025-01-12 05:55:15,556][evaluate.py][line:326][INFO] ORIGINAL:  The whole business is really rather ridiculous.
+[2025-01-12 05:55:15,556][evaluate.py][line:327][INFO] FORMATTED:  THE WHOLE BUSINESS IS REALLY RATHER RIDICULOUS
+[2025-01-12 05:55:15,592][evaluate.py][line:325][INFO] Transcription of file 198 has been formatted
+[2025-01-12 05:55:15,592][evaluate.py][line:326][INFO] ORIGINAL:  meaning exactly that.
+[2025-01-12 05:55:15,592][evaluate.py][line:327][INFO] FORMATTED:  MEANING EXACTLY THAT
+[2025-01-12 05:55:15,621][evaluate.py][line:325][INFO] Transcription of file 199 has been formatted
+[2025-01-12 05:55:15,621][evaluate.py][line:326][INFO] ORIGINAL:  Who's name?
+[2025-01-12 05:55:15,621][evaluate.py][line:327][INFO] FORMATTED:  WHO'S NAME 
+[2025-01-12 05:55:15,675][evaluate.py][line:325][INFO] Transcription of file 200 has been formatted
+[2025-01-12 05:55:15,675][evaluate.py][line:326][INFO] ORIGINAL:  Well, what if... what happens when I love?
+[2025-01-12 05:55:15,675][evaluate.py][line:327][INFO] FORMATTED:  WELL  WHAT IF WHAT HAPPENS WHEN I LOVE 
+[2025-01-12 05:55:15,740][evaluate.py][line:325][INFO] Transcription of file 201 has been formatted
+[2025-01-12 05:55:15,740][evaluate.py][line:326][INFO] ORIGINAL:  Well, what if one of us dies? Does the other laugh then?
+[2025-01-12 05:55:15,740][evaluate.py][line:327][INFO] FORMATTED:  WELL  WHAT IF ONE OF US DIES  DOES THE OTHER LAUGH THEN 
+[2025-01-12 05:55:15,808][evaluate.py][line:325][INFO] Transcription of file 202 has been formatted
+[2025-01-12 05:55:15,808][evaluate.py][line:326][INFO] ORIGINAL:  Charles, that was his name. He did riggle so beautifully.
+[2025-01-12 05:55:15,808][evaluate.py][line:327][INFO] FORMATTED:  CHARLES  THAT WAS HIS NAME HE DID RIGGLE SO BEAUTIFULLY
+[2025-01-12 05:55:15,899][evaluate.py][line:325][INFO] Transcription of file 203 has been formatted
+[2025-01-12 05:55:15,899][evaluate.py][line:326][INFO] ORIGINAL:  And the manager came in and found his rolling around on the floor, biting and scratching like panthers.
+[2025-01-12 05:55:15,899][evaluate.py][line:327][INFO] FORMATTED:  AND THE MANAGER CAME IN AND FOUND HIS ROLLING AROUND ON THE FLOOR  BITING AND SCRATCHING LIKE PANTHERS
+[2025-01-12 05:55:15,929][evaluate.py][line:325][INFO] Transcription of file 204 has been formatted
+[2025-01-12 05:55:15,929][evaluate.py][line:326][INFO] ORIGINAL:  How ridiculous!
+[2025-01-12 05:55:15,929][evaluate.py][line:327][INFO] FORMATTED:  HOW RIDICULOUS 
+[2025-01-12 05:55:15,969][evaluate.py][line:325][INFO] Transcription of file 205 has been formatted
+[2025-01-12 05:55:15,969][evaluate.py][line:326][INFO] ORIGINAL:  Oh, you knew there was nothing.
+[2025-01-12 05:55:15,969][evaluate.py][line:327][INFO] FORMATTED:  OH  YOU KNEW THERE WAS NOTHING
+[2025-01-12 05:55:16,000][evaluate.py][line:325][INFO] Transcription of file 206 has been formatted
+[2025-01-12 05:55:16,000][evaluate.py][line:326][INFO] ORIGINAL:  Can I help you?
+[2025-01-12 05:55:16,000][evaluate.py][line:327][INFO] FORMATTED:  CAN I HELP YOU 
+[2025-01-12 05:55:16,125][evaluate.py][line:325][INFO] Transcription of file 207 has been formatted
+[2025-01-12 05:55:16,125][evaluate.py][line:326][INFO] ORIGINAL:  Oh, this form that you have is the wrong form. You need to go over to the other line on the other side of the DMB.
+[2025-01-12 05:55:16,125][evaluate.py][line:327][INFO] FORMATTED:  OH  THIS FORM THAT YOU HAVE IS THE WRONG FORM YOU NEED TO GO OVER TO THE OTHER LINE ON THE OTHER SIDE OF THE DMB
+[2025-01-12 05:55:16,198][evaluate.py][line:325][INFO] Transcription of file 208 has been formatted
+[2025-01-12 05:55:16,198][evaluate.py][line:326][INFO] ORIGINAL:  Right, but this is the wrong form. Somebody gave you the wrong form.
+[2025-01-12 05:55:16,198][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  BUT THIS IS THE WRONG FORM SOMEBODY GAVE YOU THE WRONG FORM
+[2025-01-12 05:55:16,261][evaluate.py][line:325][INFO] Transcription of file 209 has been formatted
+[2025-01-12 05:55:16,261][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, so I can't I can't do anything for you.
+[2025-01-12 05:55:16,261][evaluate.py][line:327][INFO] FORMATTED:  YEAH  SO I CAN'T I CAN'T DO ANYTHING FOR YOU
+[2025-01-12 05:55:16,348][evaluate.py][line:325][INFO] Transcription of file 210 has been formatted
+[2025-01-12 05:55:16,348][evaluate.py][line:326][INFO] ORIGINAL:  No, but this is for replacements and you need a new whole new license as a California.
+[2025-01-12 05:55:16,348][evaluate.py][line:327][INFO] FORMATTED:  NO  BUT THIS IS FOR REPLACEMENTS AND YOU NEED A NEW WHOLE NEW LICENSE AS A CALIFORNIA
+[2025-01-12 05:55:16,542][evaluate.py][line:325][INFO] Transcription of file 211 has been formatted
+[2025-01-12 05:55:16,542][evaluate.py][line:326][INFO] ORIGINAL:  No, I understand there are a lot of people here, but what I'm telling you is that it's different for different states and since you're getting a new license in the state of California, you have to fill out a different form than you did.
+[2025-01-12 05:55:16,542][evaluate.py][line:327][INFO] FORMATTED:  NO  I UNDERSTAND THERE ARE A LOT OF PEOPLE HERE  BUT WHAT I'M TELLING YOU IS THAT IT'S DIFFERENT FOR DIFFERENT STATES AND SINCE YOU'RE GETTING A NEW LICENSE IN THE STATE OF CALIFORNIA  YOU HAVE TO FILL OUT A DIFFERENT FORM THAN YOU DID
+[2025-01-12 05:55:16,566][evaluate.py][line:325][INFO] Transcription of file 212 has been formatted
+[2025-01-12 05:55:16,566][evaluate.py][line:326][INFO] ORIGINAL:  I know.
+[2025-01-12 05:55:16,566][evaluate.py][line:327][INFO] FORMATTED:  I KNOW
+[2025-01-12 05:55:16,648][evaluate.py][line:325][INFO] Transcription of file 213 has been formatted
+[2025-01-12 05:55:16,648][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I know it's gonna take a minute, but you see might as well get started now
+[2025-01-12 05:55:16,648][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I KNOW IT'S GONNA TAKE A MINUTE  BUT YOU SEE MIGHT AS WELL GET STARTED NOW
+[2025-01-12 05:55:16,711][evaluate.py][line:325][INFO] Transcription of file 214 has been formatted
+[2025-01-12 05:55:16,711][evaluate.py][line:326][INFO] ORIGINAL:  I'm going to bring security over and have them escort you out.
+[2025-01-12 05:55:16,711][evaluate.py][line:327][INFO] FORMATTED:  I'M GOING TO BRING SECURITY OVER AND HAVE THEM ESCORT YOU OUT
+[2025-01-12 05:55:16,798][evaluate.py][line:325][INFO] Transcription of file 215 has been formatted
+[2025-01-12 05:55:16,798][evaluate.py][line:326][INFO] ORIGINAL:  Well, that's unfortunate, sir. You're gonna have to go stand in the other line now.
+[2025-01-12 05:55:16,798][evaluate.py][line:327][INFO] FORMATTED:  WELL  THAT'S UNFORTUNATE  SIR YOU'RE GONNA HAVE TO GO STAND IN THE OTHER LINE NOW
+[2025-01-12 05:55:16,831][evaluate.py][line:325][INFO] Transcription of file 216 has been formatted
+[2025-01-12 05:55:16,831][evaluate.py][line:326][INFO] ORIGINAL:  No, this is sorry.
+[2025-01-12 05:55:16,831][evaluate.py][line:327][INFO] FORMATTED:  NO  THIS IS SORRY
+[2025-01-12 05:55:16,862][evaluate.py][line:325][INFO] Transcription of file 217 has been formatted
+[2025-01-12 05:55:16,862][evaluate.py][line:326][INFO] ORIGINAL:  Oh my gosh.
+[2025-01-12 05:55:16,862][evaluate.py][line:327][INFO] FORMATTED:  OH MY GOSH
+[2025-01-12 05:55:16,893][evaluate.py][line:325][INFO] Transcription of file 218 has been formatted
+[2025-01-12 05:55:16,893][evaluate.py][line:326][INFO] ORIGINAL:  What did he do?
+[2025-01-12 05:55:16,893][evaluate.py][line:327][INFO] FORMATTED:  WHAT DID HE DO 
+[2025-01-12 05:55:16,931][evaluate.py][line:325][INFO] Transcription of file 219 has been formatted
+[2025-01-12 05:55:16,932][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I'm so sorry.
+[2025-01-12 05:55:16,932][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I'M SO SORRY
+[2025-01-12 05:55:16,986][evaluate.py][line:325][INFO] Transcription of file 220 has been formatted
+[2025-01-12 05:55:16,986][evaluate.py][line:326][INFO] ORIGINAL:  You guys know they don't have that first.
+[2025-01-12 05:55:16,986][evaluate.py][line:327][INFO] FORMATTED:  YOU GUYS KNOW THEY DON'T HAVE THAT FIRST
+[2025-01-12 05:55:17,044][evaluate.py][line:325][INFO] Transcription of file 221 has been formatted
+[2025-01-12 05:55:17,044][evaluate.py][line:326][INFO] ORIGINAL:  I'm sorry. You're going to say the video.
+[2025-01-12 05:55:17,044][evaluate.py][line:327][INFO] FORMATTED:  I'M SORRY YOU'RE GOING TO SAY THE VIDEO
+[2025-01-12 05:55:17,142][evaluate.py][line:325][INFO] Transcription of file 222 has been formatted
+[2025-01-12 05:55:17,142][evaluate.py][line:326][INFO] ORIGINAL:  Oh, Ryan, I know that you're hurting right now, but I don't think you always feel like that.
+[2025-01-12 05:55:17,142][evaluate.py][line:327][INFO] FORMATTED:  OH  RYAN  I KNOW THAT YOU'RE HURTING RIGHT NOW  BUT I DON'T THINK YOU ALWAYS FEEL LIKE THAT
+[2025-01-12 05:55:17,204][evaluate.py][line:325][INFO] Transcription of file 223 has been formatted
+[2025-01-12 05:55:17,204][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I understand. I think it's a really healthy degree.
+[2025-01-12 05:55:17,204][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I UNDERSTAND I THINK IT'S A REALLY HEALTHY DEGREE
+[2025-01-12 05:55:17,270][evaluate.py][line:325][INFO] Transcription of file 224 has been formatted
+[2025-01-12 05:55:17,270][evaluate.py][line:326][INFO] ORIGINAL:  No, there's anything I can do to be there for you.
+[2025-01-12 05:55:17,270][evaluate.py][line:327][INFO] FORMATTED:  NO  THERE'S ANYTHING I CAN DO TO BE THERE FOR YOU
+[2025-01-12 05:55:17,290][evaluate.py][line:325][INFO] Transcription of file 225 has been formatted
+[2025-01-12 05:55:17,290][evaluate.py][line:326][INFO] ORIGINAL:  Fine.
+[2025-01-12 05:55:17,290][evaluate.py][line:327][INFO] FORMATTED:  FINE
+[2025-01-12 05:55:17,314][evaluate.py][line:325][INFO] Transcription of file 226 has been formatted
+[2025-01-12 05:55:17,314][evaluate.py][line:326][INFO] ORIGINAL:  Flashlight.
+[2025-01-12 05:55:17,314][evaluate.py][line:327][INFO] FORMATTED:  FLASHLIGHT
+[2025-01-12 05:55:17,333][evaluate.py][line:325][INFO] Transcription of file 227 has been formatted
+[2025-01-12 05:55:17,333][evaluate.py][line:326][INFO] ORIGINAL:  Yes.
+[2025-01-12 05:55:17,333][evaluate.py][line:327][INFO] FORMATTED:  YES
+[2025-01-12 05:55:17,382][evaluate.py][line:325][INFO] Transcription of file 228 has been formatted
+[2025-01-12 05:55:17,382][evaluate.py][line:326][INFO] ORIGINAL:  It's after 11, let's go home.
+[2025-01-12 05:55:17,382][evaluate.py][line:327][INFO] FORMATTED:  IT'S AFTER 11  LET'S GO HOME
+[2025-01-12 05:55:17,406][evaluate.py][line:325][INFO] Transcription of file 229 has been formatted
+[2025-01-12 05:55:17,406][evaluate.py][line:326][INFO] ORIGINAL:  Not particularly.
+[2025-01-12 05:55:17,406][evaluate.py][line:327][INFO] FORMATTED:  NOT PARTICULARLY
+[2025-01-12 05:55:17,435][evaluate.py][line:325][INFO] Transcription of file 230 has been formatted
+[2025-01-12 05:55:17,435][evaluate.py][line:326][INFO] ORIGINAL:  I just don't.
+[2025-01-12 05:55:17,435][evaluate.py][line:327][INFO] FORMATTED:  I JUST DON'T
+[2025-01-12 05:55:17,471][evaluate.py][line:325][INFO] Transcription of file 231 has been formatted
+[2025-01-12 05:55:17,471][evaluate.py][line:326][INFO] ORIGINAL:  I'm just not...
+[2025-01-12 05:55:17,471][evaluate.py][line:327][INFO] FORMATTED:  I'M JUST NOT
+[2025-01-12 05:55:17,491][evaluate.py][line:325][INFO] Transcription of file 232 has been formatted
+[2025-01-12 05:55:17,492][evaluate.py][line:326][INFO] ORIGINAL:  Yes.
+[2025-01-12 05:55:17,492][evaluate.py][line:327][INFO] FORMATTED:  YES
+[2025-01-12 05:55:17,565][evaluate.py][line:325][INFO] Transcription of file 233 has been formatted
+[2025-01-12 05:55:17,565][evaluate.py][line:326][INFO] ORIGINAL:  What's he going to say? Maybe we should tell him before he sees it.
+[2025-01-12 05:55:17,565][evaluate.py][line:327][INFO] FORMATTED:  WHAT'S HE GOING TO SAY  MAYBE WE SHOULD TELL HIM BEFORE HE SEES IT
+[2025-01-12 05:55:17,648][evaluate.py][line:325][INFO] Transcription of file 234 has been formatted
+[2025-01-12 05:55:17,648][evaluate.py][line:326][INFO] ORIGINAL:  I was the first one up, you were still in bed. How could you have seen it?
+[2025-01-12 05:55:17,648][evaluate.py][line:327][INFO] FORMATTED:  I WAS THE FIRST ONE UP  YOU WERE STILL IN BED HOW COULD YOU HAVE SEEN IT 
+[2025-01-12 05:55:17,682][evaluate.py][line:325][INFO] Transcription of file 235 has been formatted
+[2025-01-12 05:55:17,682][evaluate.py][line:326][INFO] ORIGINAL:  Did you talk to him?
+[2025-01-12 05:55:17,682][evaluate.py][line:327][INFO] FORMATTED:  DID YOU TALK TO HIM 
+[2025-01-12 05:55:17,713][evaluate.py][line:325][INFO] Transcription of file 236 has been formatted
+[2025-01-12 05:55:17,713][evaluate.py][line:326][INFO] ORIGINAL:  He cried hard.
+[2025-01-12 05:55:17,713][evaluate.py][line:327][INFO] FORMATTED:  HE CRIED HARD
+[2025-01-12 05:55:17,800][evaluate.py][line:325][INFO] Transcription of file 237 has been formatted
+[2025-01-12 05:55:17,800][evaluate.py][line:326][INFO] ORIGINAL:  The trouble is the goddamn newspapers. I mean every every week a kid turns up missing longer than Larry.
+[2025-01-12 05:55:17,800][evaluate.py][line:327][INFO] FORMATTED:  THE TROUBLE IS THE GODDAMN NEWSPAPERS I MEAN EVERY EVERY WEEK A KID TURNS UP MISSING LONGER THAN LARRY
+[2025-01-12 05:55:17,890][evaluate.py][line:325][INFO] Transcription of file 238 has been formatted
+[2025-01-12 05:55:17,890][evaluate.py][line:326][INFO] ORIGINAL:  Well, what do you want me to do? You're old enough to me to know your own mind.
+[2025-01-12 05:55:17,890][evaluate.py][line:327][INFO] FORMATTED:  WELL  WHAT DO YOU WANT ME TO DO  YOU'RE OLD ENOUGH TO ME TO KNOW YOUR OWN MIND
+[2025-01-12 05:55:17,955][evaluate.py][line:325][INFO] Transcription of file 239 has been formatted
+[2025-01-12 05:55:17,955][evaluate.py][line:326][INFO] ORIGINAL:  I ignore what I got, I mean the girl is Larry's girl.
+[2025-01-12 05:55:17,955][evaluate.py][line:327][INFO] FORMATTED:  I IGNORE WHAT I GOT  I MEAN THE GIRL IS LARRY'S GIRL
+[2025-01-12 05:55:18,146][evaluate.py][line:325][INFO] Transcription of file 240 has been formatted
+[2025-01-12 05:55:18,146][evaluate.py][line:326][INFO] ORIGINAL:  From your father's point of view, he's not dead and she's still his girl. Now, you can go on from there if you know where to go, Chris, but I don't know. So, what can I do for you?
+[2025-01-12 05:55:18,146][evaluate.py][line:327][INFO] FORMATTED:  FROM YOUR FATHER'S POINT OF VIEW  HE'S NOT DEAD AND SHE'S STILL HIS GIRL NOW  YOU CAN GO ON FROM THERE IF YOU KNOW WHERE TO GO  CHRIS  BUT I DON'T KNOW SO  WHAT CAN I DO FOR YOU 
+[2025-01-12 05:55:18,219][evaluate.py][line:325][INFO] Transcription of file 241 has been formatted
+[2025-01-12 05:55:18,219][evaluate.py][line:326][INFO] ORIGINAL:  Well, you're a considerate fellow. There's nothing to help with that.
+[2025-01-12 05:55:18,219][evaluate.py][line:327][INFO] FORMATTED:  WELL  YOU'RE A CONSIDERATE FELLOW THERE'S NOTHING TO HELP WITH THAT
+[2025-01-12 05:55:18,252][evaluate.py][line:325][INFO] Transcription of file 242 has been formatted
+[2025-01-12 05:55:18,252][evaluate.py][line:326][INFO] ORIGINAL:  Have you asked any yet?
+[2025-01-12 05:55:18,252][evaluate.py][line:327][INFO] FORMATTED:  HAVE YOU ASKED ANY YET 
+[2025-01-12 05:55:18,335][evaluate.py][line:325][INFO] Transcription of file 243 has been formatted
+[2025-01-12 05:55:18,335][evaluate.py][line:326][INFO] ORIGINAL:  Well, what if she feels like your father and how do you know she'll marry you?
+[2025-01-12 05:55:18,335][evaluate.py][line:327][INFO] FORMATTED:  WELL  WHAT IF SHE FEELS LIKE YOUR FATHER AND HOW DO YOU KNOW SHE'LL MARRY YOU 
+[2025-01-12 05:55:18,379][evaluate.py][line:325][INFO] Transcription of file 244 has been formatted
+[2025-01-12 05:55:18,379][evaluate.py][line:326][INFO] ORIGINAL:  The trouble is you never saw enough women.
+[2025-01-12 05:55:18,379][evaluate.py][line:327][INFO] FORMATTED:  THE TROUBLE IS YOU NEVER SAW ENOUGH WOMEN
+[2025-01-12 05:55:18,408][evaluate.py][line:325][INFO] Transcription of file 245 has been formatted
+[2025-01-12 05:55:18,408][evaluate.py][line:326][INFO] ORIGINAL:  Are you crazy?
+[2025-01-12 05:55:18,408][evaluate.py][line:327][INFO] FORMATTED:  ARE YOU CRAZY 
+[2025-01-12 05:55:18,538][evaluate.py][line:325][INFO] Transcription of file 246 has been formatted
+[2025-01-12 05:55:18,538][evaluate.py][line:326][INFO] ORIGINAL:  All right, but don't think like that because what the hell did we work for, Chris? I mean this whole thing, it's all for you.
+[2025-01-12 05:55:18,538][evaluate.py][line:327][INFO] FORMATTED:  ALL RIGHT  BUT DON'T THINK LIKE THAT BECAUSE WHAT THE HELL DID WE WORK FOR  CHRIS  I MEAN THIS WHOLE THING  IT'S ALL FOR YOU
+[2025-01-12 05:55:18,586][evaluate.py][line:325][INFO] Transcription of file 247 has been formatted
+[2025-01-12 05:55:18,587][evaluate.py][line:326][INFO] ORIGINAL:  Just don't think that way you hear me.
+[2025-01-12 05:55:18,587][evaluate.py][line:327][INFO] FORMATTED:  JUST DON'T THINK THAT WAY YOU HEAR ME
+[2025-01-12 05:55:18,671][evaluate.py][line:325][INFO] Transcription of file 248 has been formatted
+[2025-01-12 05:55:18,671][evaluate.py][line:326][INFO] ORIGINAL:  Goddammit Auggie. Why do you always ask things like that? It's so insulting.
+[2025-01-12 05:55:18,671][evaluate.py][line:327][INFO] FORMATTED:  GODDAMMIT AUGGIE WHY DO YOU ALWAYS ASK THINGS LIKE THAT  IT'S SO INSULTING
+[2025-01-12 05:55:18,802][evaluate.py][line:325][INFO] Transcription of file 249 has been formatted
+[2025-01-12 05:55:18,802][evaluate.py][line:326][INFO] ORIGINAL:  I'll get you remember the first time we came to see it. It was about four years ago right after we got married and we thought I was pregnant.
+[2025-01-12 05:55:18,802][evaluate.py][line:327][INFO] FORMATTED:  I'LL GET YOU REMEMBER THE FIRST TIME WE CAME TO SEE IT IT WAS ABOUT FOUR YEARS AGO RIGHT AFTER WE GOT MARRIED AND WE THOUGHT I WAS PREGNANT
+[2025-01-12 05:55:18,994][evaluate.py][line:325][INFO] Transcription of file 250 has been formatted
+[2025-01-12 05:55:18,994][evaluate.py][line:326][INFO] ORIGINAL:  We had a bottle of champagne but no glasses. And he asked me to dance. So we took off our shoes. And while we were dancing, you said the most intimate things right in my ear so I could feel them as much as hear them.
+[2025-01-12 05:55:18,994][evaluate.py][line:327][INFO] FORMATTED:  WE HAD A BOTTLE OF CHAMPAGNE BUT NO GLASSES AND HE ASKED ME TO DANCE SO WE TOOK OFF OUR SHOES AND WHILE WE WERE DANCING  YOU SAID THE MOST INTIMATE THINGS RIGHT IN MY EAR SO I COULD FEEL THEM AS MUCH AS HEAR THEM
+[2025-01-12 05:55:19,079][evaluate.py][line:325][INFO] Transcription of file 251 has been formatted
+[2025-01-12 05:55:19,079][evaluate.py][line:326][INFO] ORIGINAL:  And I remember thinking. Finally. Finally, I'm as happy as I'm supposed to be.
+[2025-01-12 05:55:19,079][evaluate.py][line:327][INFO] FORMATTED:  AND I REMEMBER THINKING FINALLY FINALLY  I'M AS HAPPY AS I'M SUPPOSED TO BE
+[2025-01-12 05:55:19,135][evaluate.py][line:325][INFO] Transcription of file 252 has been formatted
+[2025-01-12 05:55:19,135][evaluate.py][line:326][INFO] ORIGINAL:  dancing barefoot in the sand dream keeps champagne from the bottle
+[2025-01-12 05:55:19,135][evaluate.py][line:327][INFO] FORMATTED:  DANCING BAREFOOT IN THE SAND DREAM KEEPS CHAMPAGNE FROM THE BOTTLE
+[2025-01-12 05:55:19,214][evaluate.py][line:325][INFO] Transcription of file 253 has been formatted
+[2025-01-12 05:55:19,214][evaluate.py][line:326][INFO] ORIGINAL:  I would rather not remember some things. I would rather not hope for some things. Okay.
+[2025-01-12 05:55:19,214][evaluate.py][line:327][INFO] FORMATTED:  I WOULD RATHER NOT REMEMBER SOME THINGS I WOULD RATHER NOT HOPE FOR SOME THINGS OKAY
+[2025-01-12 05:55:19,234][evaluate.py][line:325][INFO] Transcription of file 254 has been formatted
+[2025-01-12 05:55:19,234][evaluate.py][line:326][INFO] ORIGINAL:  No.
+[2025-01-12 05:55:19,234][evaluate.py][line:327][INFO] FORMATTED:  NO
+[2025-01-12 05:55:19,253][evaluate.py][line:325][INFO] Transcription of file 255 has been formatted
+[2025-01-12 05:55:19,253][evaluate.py][line:326][INFO] ORIGINAL:  No.
+[2025-01-12 05:55:19,253][evaluate.py][line:327][INFO] FORMATTED:  NO
+[2025-01-12 05:55:19,313][evaluate.py][line:325][INFO] Transcription of file 256 has been formatted
+[2025-01-12 05:55:19,313][evaluate.py][line:326][INFO] ORIGINAL:  This what? What is this? This isn't even anything.
+[2025-01-12 05:55:19,313][evaluate.py][line:327][INFO] FORMATTED:  THIS WHAT  WHAT IS THIS  THIS ISN'T EVEN ANYTHING
+[2025-01-12 05:55:19,377][evaluate.py][line:325][INFO] Transcription of file 257 has been formatted
+[2025-01-12 05:55:19,377][evaluate.py][line:326][INFO] ORIGINAL:  Sure, this is standing, this is waiting, this is fighting.
+[2025-01-12 05:55:19,377][evaluate.py][line:327][INFO] FORMATTED:  SURE  THIS IS STANDING  THIS IS WAITING  THIS IS FIGHTING
+[2025-01-12 05:55:19,435][evaluate.py][line:325][INFO] Transcription of file 258 has been formatted
+[2025-01-12 05:55:19,435][evaluate.py][line:326][INFO] ORIGINAL:  But this isn't anything like I thought it would be.
+[2025-01-12 05:55:19,435][evaluate.py][line:327][INFO] FORMATTED:  BUT THIS ISN'T ANYTHING LIKE I THOUGHT IT WOULD BE
+[2025-01-12 05:55:19,621][evaluate.py][line:325][INFO] Transcription of file 259 has been formatted
+[2025-01-12 05:55:19,621][evaluate.py][line:326][INFO] ORIGINAL:  I mean, it's just this. I mean, it includes a lot and everything and you know, it's the sand and it's the full moon and I just... I'm sorry, but I couldn't help wishing our summer else.
+[2025-01-12 05:55:19,621][evaluate.py][line:327][INFO] FORMATTED:  I MEAN  IT'S JUST THIS I MEAN  IT INCLUDES A LOT AND EVERYTHING AND YOU KNOW  IT'S THE SAND AND IT'S THE FULL MOON AND I JUST I'M SORRY  BUT I COULDN'T HELP WISHING OUR SUMMER ELSE
+[2025-01-12 05:55:19,656][evaluate.py][line:325][INFO] Transcription of file 260 has been formatted
+[2025-01-12 05:55:19,656][evaluate.py][line:326][INFO] ORIGINAL:  I didn't say that.
+[2025-01-12 05:55:19,656][evaluate.py][line:327][INFO] FORMATTED:  I DIDN'T SAY THAT
+[2025-01-12 05:55:19,750][evaluate.py][line:325][INFO] Transcription of file 261 has been formatted
+[2025-01-12 05:55:19,750][evaluate.py][line:326][INFO] ORIGINAL:  For heaven's sake, Auggie. Wherever I am, I always want it to be with you.
+[2025-01-12 05:55:19,750][evaluate.py][line:327][INFO] FORMATTED:  FOR HEAVEN'S SAKE  AUGGIE WHEREVER I AM  I ALWAYS WANT IT TO BE WITH YOU
+[2025-01-12 05:55:19,923][evaluate.py][line:325][INFO] Transcription of file 262 has been formatted
+[2025-01-12 05:55:19,923][evaluate.py][line:326][INFO] ORIGINAL:  Whatever I'm doing, I want it to be with you. I mean, you're probably the one who wishes you were with somebody else. Somebody who didn't take everything so hard and who knew how to enjoy yourself.
+[2025-01-12 05:55:19,923][evaluate.py][line:327][INFO] FORMATTED:  WHATEVER I'M DOING  I WANT IT TO BE WITH YOU I MEAN  YOU'RE PROBABLY THE ONE WHO WISHES YOU WERE WITH SOMEBODY ELSE SOMEBODY WHO DIDN'T TAKE EVERYTHING SO HARD AND WHO KNEW HOW TO ENJOY YOURSELF
+[2025-01-12 05:55:20,003][evaluate.py][line:325][INFO] Transcription of file 263 has been formatted
+[2025-01-12 05:55:20,003][evaluate.py][line:326][INFO] ORIGINAL:  Good. So maybe we're in the wrong spot, but we're with the right person.
+[2025-01-12 05:55:20,003][evaluate.py][line:327][INFO] FORMATTED:  GOOD SO MAYBE WE'RE IN THE WRONG SPOT  BUT WE'RE WITH THE RIGHT PERSON
+[2025-01-12 05:55:20,089][evaluate.py][line:325][INFO] Transcription of file 264 has been formatted
+[2025-01-12 05:55:20,089][evaluate.py][line:326][INFO] ORIGINAL:  Yes, I did notice that. It does look really beautiful on the water. The gold white moon.
+[2025-01-12 05:55:20,089][evaluate.py][line:327][INFO] FORMATTED:  YES  I DID NOTICE THAT IT DOES LOOK REALLY BEAUTIFUL ON THE WATER THE GOLD WHITE MOON
+[2025-01-12 05:55:20,163][evaluate.py][line:325][INFO] Transcription of file 265 has been formatted
+[2025-01-12 05:55:20,163][evaluate.py][line:326][INFO] ORIGINAL:  No, I'm beginning to think that maybe this is the spot after all.
+[2025-01-12 05:55:20,163][evaluate.py][line:327][INFO] FORMATTED:  NO  I'M BEGINNING TO THINK THAT MAYBE THIS IS THE SPOT AFTER ALL
+[2025-01-12 05:55:20,204][evaluate.py][line:325][INFO] Transcription of file 266 has been formatted
+[2025-01-12 05:55:20,204][evaluate.py][line:326][INFO] ORIGINAL:  Nobody comes 700 miles just to see.
+[2025-01-12 05:55:20,204][evaluate.py][line:327][INFO] FORMATTED:  NOBODY COMES 700 MILES JUST TO SEE
+[2025-01-12 05:55:20,241][evaluate.py][line:325][INFO] Transcription of file 267 has been formatted
+[2025-01-12 05:55:20,241][evaluate.py][line:326][INFO] ORIGINAL:  It's got that about it.
+[2025-01-12 05:55:20,241][evaluate.py][line:327][INFO] FORMATTED:  IT'S GOT THAT ABOUT IT
+[2025-01-12 05:55:20,283][evaluate.py][line:325][INFO] Transcription of file 268 has been formatted
+[2025-01-12 05:55:20,283][evaluate.py][line:326][INFO] ORIGINAL:  What's going on here, Joe?
+[2025-01-12 05:55:20,283][evaluate.py][line:327][INFO] FORMATTED:  WHAT'S GOING ON HERE  JOE 
+[2025-01-12 05:55:20,326][evaluate.py][line:325][INFO] Transcription of file 269 has been formatted
+[2025-01-12 05:55:20,327][evaluate.py][line:326][INFO] ORIGINAL:  You, Babal, have gotta believe.
+[2025-01-12 05:55:20,327][evaluate.py][line:327][INFO] FORMATTED:  YOU  BABAL  HAVE GOTTA BELIEVE
+[2025-01-12 05:55:20,363][evaluate.py][line:325][INFO] Transcription of file 270 has been formatted
+[2025-01-12 05:55:20,363][evaluate.py][line:326][INFO] ORIGINAL:  I can't help it.
+[2025-01-12 05:55:20,363][evaluate.py][line:327][INFO] FORMATTED:  I CAN'T HELP IT
+[2025-01-12 05:55:20,440][evaluate.py][line:325][INFO] Transcription of file 271 has been formatted
+[2025-01-12 05:55:20,440][evaluate.py][line:326][INFO] ORIGINAL:  What's he going to say? May we ought to tell him before he sees it.
+[2025-01-12 05:55:20,440][evaluate.py][line:327][INFO] FORMATTED:  WHAT'S HE GOING TO SAY  MAY WE OUGHT TO TELL HIM BEFORE HE SEES IT
+[2025-01-12 05:55:20,473][evaluate.py][line:325][INFO] Transcription of file 272 has been formatted
+[2025-01-12 05:55:20,473][evaluate.py][line:326][INFO] ORIGINAL:  Have you asked Annie yet?
+[2025-01-12 05:55:20,473][evaluate.py][line:327][INFO] FORMATTED:  HAVE YOU ASKED ANNIE YET 
+[2025-01-12 05:55:20,567][evaluate.py][line:325][INFO] Transcription of file 273 has been formatted
+[2025-01-12 05:55:20,567][evaluate.py][line:326][INFO] ORIGINAL:  Well, how do you know she'll want to marry her? Maybe she feels like your father does.
+[2025-01-12 05:55:20,567][evaluate.py][line:327][INFO] FORMATTED:  WELL  HOW DO YOU KNOW SHE'LL WANT TO MARRY HER  MAYBE SHE FEELS LIKE YOUR FATHER DOES
+[2025-01-12 05:55:20,629][evaluate.py][line:325][INFO] Transcription of file 274 has been formatted
+[2025-01-12 05:55:20,629][evaluate.py][line:326][INFO] ORIGINAL:  The trouble is you don't see enough lemon, you never did.
+[2025-01-12 05:55:20,629][evaluate.py][line:327][INFO] FORMATTED:  THE TROUBLE IS YOU DON'T SEE ENOUGH LEMON  YOU NEVER DID
+[2025-01-12 05:55:20,761][evaluate.py][line:325][INFO] Transcription of file 275 has been formatted
+[2025-01-12 05:55:20,761][evaluate.py][line:326][INFO] ORIGINAL:  Well, that's a good reason, but it don't mean a thing. I mean, you haven't seen her since you went to Wart than five years.
+[2025-01-12 05:55:20,761][evaluate.py][line:327][INFO] FORMATTED:  WELL  THAT'S A GOOD REASON  BUT IT DON'T MEAN A THING I MEAN  YOU HAVEN'T SEEN HER SINCE YOU WENT TO WART THAN FIVE YEARS
+[2025-01-12 05:55:20,842][evaluate.py][line:325][INFO] Transcription of file 276 has been formatted
+[2025-01-12 05:55:20,842][evaluate.py][line:326][INFO] ORIGINAL:  Now, what's gonna happen to your father, do you know? I don't.
+[2025-01-12 05:55:20,842][evaluate.py][line:327][INFO] FORMATTED:  NOW  WHAT'S GONNA HAPPEN TO YOUR FATHER  DO YOU KNOW  I DON'T
+[2025-01-12 05:55:20,877][evaluate.py][line:325][INFO] Transcription of file 277 has been formatted
+[2025-01-12 05:55:20,877][evaluate.py][line:326][INFO] ORIGINAL:  Are you crazy?
+[2025-01-12 05:55:20,877][evaluate.py][line:327][INFO] FORMATTED:  ARE YOU CRAZY 
+[2025-01-12 05:55:20,909][evaluate.py][line:325][INFO] Transcription of file 278 has been formatted
+[2025-01-12 05:55:20,909][evaluate.py][line:326][INFO] ORIGINAL:  Must you be inspired?
+[2025-01-12 05:55:20,909][evaluate.py][line:327][INFO] FORMATTED:  MUST YOU BE INSPIRED 
+[2025-01-12 05:55:20,955][evaluate.py][line:325][INFO] Transcription of file 279 has been formatted
+[2025-01-12 05:55:20,955][evaluate.py][line:326][INFO] ORIGINAL:  You don't want to think like that.
+[2025-01-12 05:55:20,955][evaluate.py][line:327][INFO] FORMATTED:  YOU DON'T WANT TO THINK LIKE THAT
+[2025-01-12 05:55:20,997][evaluate.py][line:325][INFO] Transcription of file 280 has been formatted
+[2025-01-12 05:55:20,997][evaluate.py][line:326][INFO] ORIGINAL:  You knew there was nothing in that.
+[2025-01-12 05:55:20,997][evaluate.py][line:327][INFO] FORMATTED:  YOU KNEW THERE WAS NOTHING IN THAT
+[2025-01-12 05:55:21,034][evaluate.py][line:325][INFO] Transcription of file 281 has been formatted
+[2025-01-12 05:55:21,034][evaluate.py][line:326][INFO] ORIGINAL:  Only a trivial little broach.
+[2025-01-12 05:55:21,034][evaluate.py][line:327][INFO] FORMATTED:  ONLY A TRIVIAL LITTLE BROACH
+[2025-01-12 05:55:21,086][evaluate.py][line:325][INFO] Transcription of file 282 has been formatted
+[2025-01-12 05:55:21,086][evaluate.py][line:326][INFO] ORIGINAL:  You worked the whole thing up in your jealous imagination.
+[2025-01-12 05:55:21,086][evaluate.py][line:327][INFO] FORMATTED:  YOU WORKED THE WHOLE THING UP IN YOUR JEALOUS IMAGINATION
+[2025-01-12 05:55:21,127][evaluate.py][line:325][INFO] Transcription of file 283 has been formatted
+[2025-01-12 05:55:21,127][evaluate.py][line:326][INFO] ORIGINAL:  Maybe it's still little, but...
+[2025-01-12 05:55:21,127][evaluate.py][line:327][INFO] FORMATTED:  MAYBE IT'S STILL LITTLE  BUT
+[2025-01-12 05:55:21,156][evaluate.py][line:325][INFO] Transcription of file 284 has been formatted
+[2025-01-12 05:55:21,156][evaluate.py][line:326][INFO] ORIGINAL:  And what of it?
+[2025-01-12 05:55:21,156][evaluate.py][line:327][INFO] FORMATTED:  AND WHAT OF IT 
+[2025-01-12 05:55:21,235][evaluate.py][line:325][INFO] Transcription of file 285 has been formatted
+[2025-01-12 05:55:21,235][evaluate.py][line:326][INFO] ORIGINAL:  Well, he got a lot of pleasure out of it and it didn't hurt me.
+[2025-01-12 05:55:21,235][evaluate.py][line:327][INFO] FORMATTED:  WELL  HE GOT A LOT OF PLEASURE OUT OF IT AND IT DIDN'T HURT ME
+[2025-01-12 05:55:21,293][evaluate.py][line:325][INFO] Transcription of file 286 has been formatted
+[2025-01-12 05:55:21,293][evaluate.py][line:326][INFO] ORIGINAL:  I don't see why you want any of our other glasses.
+[2025-01-12 05:55:21,293][evaluate.py][line:327][INFO] FORMATTED:  I DON'T SEE WHY YOU WANT ANY OF OUR OTHER GLASSES
+[2025-01-12 05:55:21,358][evaluate.py][line:325][INFO] Transcription of file 287 has been formatted
+[2025-01-12 05:55:21,358][evaluate.py][line:326][INFO] ORIGINAL:  Well, it seems silly to go on and on with such a thing.
+[2025-01-12 05:55:21,358][evaluate.py][line:327][INFO] FORMATTED:  WELL  IT SEEMS SILLY TO GO ON AND ON WITH SUCH A THING
+[2025-01-12 05:55:21,402][evaluate.py][line:325][INFO] Transcription of file 288 has been formatted
+[2025-01-12 05:55:21,402][evaluate.py][line:326][INFO] ORIGINAL:  Let's be coming a habit with you.
+[2025-01-12 05:55:21,402][evaluate.py][line:327][INFO] FORMATTED:  LET'S BE COMING A HABIT WITH YOU
+[2025-01-12 05:55:21,440][evaluate.py][line:325][INFO] Transcription of file 289 has been formatted
+[2025-01-12 05:55:21,440][evaluate.py][line:326][INFO] ORIGINAL:  Just making myself fascinating for you.
+[2025-01-12 05:55:21,440][evaluate.py][line:327][INFO] FORMATTED:  JUST MAKING MYSELF FASCINATING FOR YOU
+[2025-01-12 05:55:21,508][evaluate.py][line:325][INFO] Transcription of file 290 has been formatted
+[2025-01-12 05:55:21,509][evaluate.py][line:326][INFO] ORIGINAL:  Hmm, it doesn't seem to have worked such wonders with you.
+[2025-01-12 05:55:21,509][evaluate.py][line:327][INFO] FORMATTED:  HMM  IT DOESN'T SEEM TO HAVE WORKED SUCH WONDERS WITH YOU
+[2025-01-12 05:55:21,549][evaluate.py][line:325][INFO] Transcription of file 291 has been formatted
+[2025-01-12 05:55:21,549][evaluate.py][line:326][INFO] ORIGINAL:  Outers don't snap this thing
+[2025-01-12 05:55:21,549][evaluate.py][line:327][INFO] FORMATTED:  OUTERS DON'T SNAP THIS THING
+[2025-01-12 05:55:21,585][evaluate.py][line:325][INFO] Transcription of file 292 has been formatted
+[2025-01-12 05:55:21,585][evaluate.py][line:326][INFO] ORIGINAL:  They've seen this.
+[2025-01-12 05:55:21,585][evaluate.py][line:327][INFO] FORMATTED:  THEY'VE SEEN THIS
+[2025-01-12 05:55:21,655][evaluate.py][line:325][INFO] Transcription of file 293 has been formatted
+[2025-01-12 05:55:21,655][evaluate.py][line:326][INFO] ORIGINAL:  I don't care if they bark and roll around my hoops, okay?
+[2025-01-12 05:55:21,655][evaluate.py][line:327][INFO] FORMATTED:  I DON'T CARE IF THEY BARK AND ROLL AROUND MY HOOPS  OKAY 
+[2025-01-12 05:55:21,696][evaluate.py][line:325][INFO] Transcription of file 294 has been formatted
+[2025-01-12 05:55:21,696][evaluate.py][line:326][INFO] ORIGINAL:  Yes, I did quite a bit.
+[2025-01-12 05:55:21,696][evaluate.py][line:327][INFO] FORMATTED:  YES  I DID QUITE A BIT
+[2025-01-12 05:55:21,730][evaluate.py][line:325][INFO] Transcription of file 295 has been formatted
+[2025-01-12 05:55:21,730][evaluate.py][line:326][INFO] ORIGINAL:  Mind your own business.
+[2025-01-12 05:55:21,730][evaluate.py][line:327][INFO] FORMATTED:  MIND YOUR OWN BUSINESS
+[2025-01-12 05:55:21,818][evaluate.py][line:325][INFO] Transcription of file 296 has been formatted
+[2025-01-12 05:55:21,818][evaluate.py][line:326][INFO] ORIGINAL:  Oh dear, you really are becoming quite insufferable. I would imagine it's because you're drunk.
+[2025-01-12 05:55:21,818][evaluate.py][line:327][INFO] FORMATTED:  OH DEAR  YOU REALLY ARE BECOMING QUITE INSUFFERABLE I WOULD IMAGINE IT'S BECAUSE YOU'RE DRUNK
+[2025-01-12 05:55:21,875][evaluate.py][line:325][INFO] Transcription of file 297 has been formatted
+[2025-01-12 05:55:21,875][evaluate.py][line:326][INFO] ORIGINAL:  Not very funny deer. You better have some more brands.
+[2025-01-12 05:55:21,875][evaluate.py][line:327][INFO] FORMATTED:  NOT VERY FUNNY DEER YOU BETTER HAVE SOME MORE BRANDS
+[2025-01-12 05:55:21,895][evaluate.py][line:325][INFO] Transcription of file 298 has been formatted
+[2025-01-12 05:55:21,895][evaluate.py][line:326][INFO] ORIGINAL:  Why?
+[2025-01-12 05:55:21,895][evaluate.py][line:327][INFO] FORMATTED:  WHY 
+[2025-01-12 05:55:21,954][evaluate.py][line:325][INFO] Transcription of file 299 has been formatted
+[2025-01-12 05:55:21,954][evaluate.py][line:326][INFO] ORIGINAL:  There aren't any people upstairs. It's a photographer studio.
+[2025-01-12 05:55:21,954][evaluate.py][line:327][INFO] FORMATTED:  THERE AREN'T ANY PEOPLE UPSTAIRS IT'S A PHOTOGRAPHER STUDIO
+[2025-01-12 05:55:21,988][evaluate.py][line:325][INFO] Transcription of file 300 has been formatted
+[2025-01-12 05:55:21,988][evaluate.py][line:326][INFO] ORIGINAL:  They're way too neat.
+[2025-01-12 05:55:21,988][evaluate.py][line:327][INFO] FORMATTED:  THEY'RE WAY TOO NEAT
+[2025-01-12 05:55:22,019][evaluate.py][line:325][INFO] Transcription of file 301 has been formatted
+[2025-01-12 05:55:22,019][evaluate.py][line:326][INFO] ORIGINAL:  Turn it on again.
+[2025-01-12 05:55:22,020][evaluate.py][line:327][INFO] FORMATTED:  TURN IT ON AGAIN
+[2025-01-12 05:55:22,071][evaluate.py][line:325][INFO] Transcription of file 302 has been formatted
+[2025-01-12 05:55:22,071][evaluate.py][line:326][INFO] ORIGINAL:  Fine, if you insist on being completely insolent.
+[2025-01-12 05:55:22,071][evaluate.py][line:327][INFO] FORMATTED:  FINE  IF YOU INSIST ON BEING COMPLETELY INSOLENT
+[2025-01-12 05:55:22,112][evaluate.py][line:325][INFO] Transcription of file 303 has been formatted
+[2025-01-12 05:55:22,112][evaluate.py][line:326][INFO] ORIGINAL:  We'll do try to control yourself darling
+[2025-01-12 05:55:22,112][evaluate.py][line:327][INFO] FORMATTED:  WE'LL DO TRY TO CONTROL YOURSELF DARLING
+[2025-01-12 05:55:22,165][evaluate.py][line:325][INFO] Transcription of file 304 has been formatted
+[2025-01-12 05:55:22,165][evaluate.py][line:326][INFO] ORIGINAL:  You really do need to develop a clear head.
+[2025-01-12 05:55:22,165][evaluate.py][line:327][INFO] FORMATTED:  YOU REALLY DO NEED TO DEVELOP A CLEAR HEAD
+[2025-01-12 05:55:22,192][evaluate.py][line:325][INFO] Transcription of file 305 has been formatted
+[2025-01-12 05:55:22,192][evaluate.py][line:326][INFO] ORIGINAL:  I hate you.
+[2025-01-12 05:55:22,192][evaluate.py][line:327][INFO] FORMATTED:  I HATE YOU
+[2025-01-12 05:55:22,218][evaluate.py][line:325][INFO] Transcription of file 306 has been formatted
+[2025-01-12 05:55:22,218][evaluate.py][line:326][INFO] ORIGINAL:  I hate you.
+[2025-01-12 05:55:22,218][evaluate.py][line:327][INFO] FORMATTED:  I HATE YOU
+[2025-01-12 05:55:22,320][evaluate.py][line:325][INFO] Transcription of file 307 has been formatted
+[2025-01-12 05:55:22,320][evaluate.py][line:326][INFO] ORIGINAL:  No, no, I'm tired of listening to you. You're boorish and idiotic and completely overbearing.
+[2025-01-12 05:55:22,320][evaluate.py][line:327][INFO] FORMATTED:  NO  NO  I'M TIRED OF LISTENING TO YOU YOU'RE BOORISH AND IDIOTIC AND COMPLETELY OVERBEARING
+[2025-01-12 05:55:22,440][evaluate.py][line:325][INFO] Transcription of file 308 has been formatted
+[2025-01-12 05:55:22,440][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, very amusing. Let me go. I'm getting out of here. I can't believe I intended to marry you or buy it.
+[2025-01-12 05:55:22,440][evaluate.py][line:327][INFO] FORMATTED:  YEAH  VERY AMUSING LET ME GO I'M GETTING OUT OF HERE I CAN'T BELIEVE I INTENDED TO MARRY YOU OR BUY IT
+[2025-01-12 05:55:22,537][evaluate.py][line:325][INFO] Transcription of file 309 has been formatted
+[2025-01-12 05:55:22,537][evaluate.py][line:326][INFO] ORIGINAL:  Ah, Mary again, I must have been insane. What was I thinking? I mean, you're completely outrageous.
+[2025-01-12 05:55:22,538][evaluate.py][line:327][INFO] FORMATTED:  AH  MARY AGAIN  I MUST HAVE BEEN INSANE WHAT WAS I THINKING  I MEAN  YOU'RE COMPLETELY OUTRAGEOUS
+[2025-01-12 05:55:22,586][evaluate.py][line:325][INFO] Transcription of file 310 has been formatted
+[2025-01-12 05:55:22,586][evaluate.py][line:326][INFO] ORIGINAL:  We're gonna be rolling fruit on the cat!
+[2025-01-12 05:55:22,586][evaluate.py][line:327][INFO] FORMATTED:  WE'RE GONNA BE ROLLING FRUIT ON THE CAT 
+[2025-01-12 05:55:22,623][evaluate.py][line:325][INFO] Transcription of file 311 has been formatted
+[2025-01-12 05:55:22,623][evaluate.py][line:326][INFO] ORIGINAL:  Okay, so big news.
+[2025-01-12 05:55:22,623][evaluate.py][line:327][INFO] FORMATTED:  OKAY  SO BIG NEWS
+[2025-01-12 05:55:22,654][evaluate.py][line:325][INFO] Transcription of file 312 has been formatted
+[2025-01-12 05:55:22,654][evaluate.py][line:326][INFO] ORIGINAL:  I'm getting married.
+[2025-01-12 05:55:22,655][evaluate.py][line:327][INFO] FORMATTED:  I'M GETTING MARRIED
+[2025-01-12 05:55:22,675][evaluate.py][line:325][INFO] Transcription of file 313 has been formatted
+[2025-01-12 05:55:22,676][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:22,676][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:22,701][evaluate.py][line:325][INFO] Transcription of file 314 has been formatted
+[2025-01-12 05:55:22,701][evaluate.py][line:326][INFO] ORIGINAL:  Where?
+[2025-01-12 05:55:22,701][evaluate.py][line:327][INFO] FORMATTED:  WHERE 
+[2025-01-12 05:55:22,734][evaluate.py][line:325][INFO] Transcription of file 315 has been formatted
+[2025-01-12 05:55:22,734][evaluate.py][line:326][INFO] ORIGINAL:  Thank you, aha.
+[2025-01-12 05:55:22,734][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU  AHA
+[2025-01-12 05:55:22,777][evaluate.py][line:325][INFO] Transcription of file 316 has been formatted
+[2025-01-12 05:55:22,777][evaluate.py][line:326][INFO] ORIGINAL:  It's a couple days ago.
+[2025-01-12 05:55:22,777][evaluate.py][line:327][INFO] FORMATTED:  IT'S A COUPLE DAYS AGO
+[2025-01-12 05:55:22,810][evaluate.py][line:325][INFO] Transcription of file 317 has been formatted
+[2025-01-12 05:55:22,810][evaluate.py][line:326][INFO] ORIGINAL:  I know, we neither.
+[2025-01-12 05:55:22,810][evaluate.py][line:327][INFO] FORMATTED:  I KNOW  WE NEITHER
+[2025-01-12 05:55:22,895][evaluate.py][line:325][INFO] Transcription of file 318 has been formatted
+[2025-01-12 05:55:22,895][evaluate.py][line:326][INFO] ORIGINAL:  I thought I'd be way older too. I thought it would be at least like 30 something.
+[2025-01-12 05:55:22,895][evaluate.py][line:327][INFO] FORMATTED:  I THOUGHT I'D BE WAY OLDER TOO I THOUGHT IT WOULD BE AT LEAST LIKE 30 SOMETHING
+[2025-01-12 05:55:22,915][evaluate.py][line:325][INFO] Transcription of file 319 has been formatted
+[2025-01-12 05:55:22,915][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:22,915][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:22,935][evaluate.py][line:325][INFO] Transcription of file 320 has been formatted
+[2025-01-12 05:55:22,935][evaluate.py][line:326][INFO] ORIGINAL:  Sorry!
+[2025-01-12 05:55:22,935][evaluate.py][line:327][INFO] FORMATTED:  SORRY 
+[2025-01-12 05:55:22,978][evaluate.py][line:325][INFO] Transcription of file 321 has been formatted
+[2025-01-12 05:55:22,978][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, yeah, of course.
+[2025-01-12 05:55:22,978][evaluate.py][line:327][INFO] FORMATTED:  YEAH  YEAH  OF COURSE
+[2025-01-12 05:55:23,094][evaluate.py][line:325][INFO] Transcription of file 322 has been formatted
+[2025-01-12 05:55:23,094][evaluate.py][line:326][INFO] ORIGINAL:  It's so weird too, right? That like you can grow up so near somebody and never know them until you travel hundreds of miles away.
+[2025-01-12 05:55:23,094][evaluate.py][line:327][INFO] FORMATTED:  IT'S SO WEIRD TOO  RIGHT  THAT LIKE YOU CAN GROW UP SO NEAR SOMEBODY AND NEVER KNOW THEM UNTIL YOU TRAVEL HUNDREDS OF MILES AWAY
+[2025-01-12 05:55:23,117][evaluate.py][line:325][INFO] Transcription of file 323 has been formatted
+[2025-01-12 05:55:23,117][evaluate.py][line:326][INFO] ORIGINAL:  Thank you.
+[2025-01-12 05:55:23,117][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU
+[2025-01-12 05:55:23,231][evaluate.py][line:325][INFO] Transcription of file 324 has been formatted
+[2025-01-12 05:55:23,231][evaluate.py][line:326][INFO] ORIGINAL:  Right, being like, oh, where are you from? The US, where in the US? Chicago, where in Chicago?
+[2025-01-12 05:55:23,231][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  BEING LIKE  OH  WHERE ARE YOU FROM  THE US  WHERE IN THE US  CHICAGO  WHERE IN CHICAGO 
+[2025-01-12 05:55:23,275][evaluate.py][line:325][INFO] Transcription of file 325 has been formatted
+[2025-01-12 05:55:23,275][evaluate.py][line:326][INFO] ORIGINAL:  Knowing the neighborhood? Yes, pretty bizarre.
+[2025-01-12 05:55:23,275][evaluate.py][line:327][INFO] FORMATTED:  KNOWING THE NEIGHBORHOOD  YES  PRETTY BIZARRE
+[2025-01-12 05:55:23,296][evaluate.py][line:325][INFO] Transcription of file 326 has been formatted
+[2025-01-12 05:55:23,296][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:23,296][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:23,316][evaluate.py][line:325][INFO] Transcription of file 327 has been formatted
+[2025-01-12 05:55:23,316][evaluate.py][line:326][INFO] ORIGINAL:  long.
+[2025-01-12 05:55:23,316][evaluate.py][line:327][INFO] FORMATTED:  LONG
+[2025-01-12 05:55:23,343][evaluate.py][line:325][INFO] Transcription of file 328 has been formatted
+[2025-01-12 05:55:23,343][evaluate.py][line:326][INFO] ORIGINAL:  She loves him.
+[2025-01-12 05:55:23,343][evaluate.py][line:327][INFO] FORMATTED:  SHE LOVES HIM
+[2025-01-12 05:55:23,370][evaluate.py][line:325][INFO] Transcription of file 329 has been formatted
+[2025-01-12 05:55:23,371][evaluate.py][line:326][INFO] ORIGINAL:  This guy.
+[2025-01-12 05:55:23,371][evaluate.py][line:327][INFO] FORMATTED:  THIS GUY
+[2025-01-12 05:55:23,394][evaluate.py][line:325][INFO] Transcription of file 330 has been formatted
+[2025-01-12 05:55:23,394][evaluate.py][line:326][INFO] ORIGINAL:  Thank you.
+[2025-01-12 05:55:23,394][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU
+[2025-01-12 05:55:23,422][evaluate.py][line:325][INFO] Transcription of file 331 has been formatted
+[2025-01-12 05:55:23,422][evaluate.py][line:326][INFO] ORIGINAL:  That's awesome.
+[2025-01-12 05:55:23,422][evaluate.py][line:327][INFO] FORMATTED:  THAT'S AWESOME
+[2025-01-12 05:55:23,467][evaluate.py][line:325][INFO] Transcription of file 332 has been formatted
+[2025-01-12 05:55:23,467][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, we all are staying out now.
+[2025-01-12 05:55:23,467][evaluate.py][line:327][INFO] FORMATTED:  YEAH  WE ALL ARE STAYING OUT NOW
+[2025-01-12 05:55:23,487][evaluate.py][line:325][INFO] Transcription of file 333 has been formatted
+[2025-01-12 05:55:23,487][evaluate.py][line:326][INFO] ORIGINAL:  Sorry
+[2025-01-12 05:55:23,487][evaluate.py][line:327][INFO] FORMATTED:  SORRY
+[2025-01-12 05:55:23,525][evaluate.py][line:325][INFO] Transcription of file 334 has been formatted
+[2025-01-12 05:55:23,525][evaluate.py][line:326][INFO] ORIGINAL:  They're still time for that.
+[2025-01-12 05:55:23,525][evaluate.py][line:327][INFO] FORMATTED:  THEY'RE STILL TIME FOR THAT
+[2025-01-12 05:55:23,551][evaluate.py][line:325][INFO] Transcription of file 335 has been formatted
+[2025-01-12 05:55:23,551][evaluate.py][line:326][INFO] ORIGINAL:  Haha!
+[2025-01-12 05:55:23,551][evaluate.py][line:327][INFO] FORMATTED:  HAHA 
+[2025-01-12 05:55:23,593][evaluate.py][line:325][INFO] Transcription of file 336 has been formatted
+[2025-01-12 05:55:23,593][evaluate.py][line:326][INFO] ORIGINAL:  I know I can't believe it.
+[2025-01-12 05:55:23,593][evaluate.py][line:327][INFO] FORMATTED:  I KNOW I CAN'T BELIEVE IT
+[2025-01-12 05:55:23,616][evaluate.py][line:325][INFO] Transcription of file 337 has been formatted
+[2025-01-12 05:55:23,616][evaluate.py][line:326][INFO] ORIGINAL:  Thank you.
+[2025-01-12 05:55:23,616][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU
+[2025-01-12 05:55:23,691][evaluate.py][line:325][INFO] Transcription of file 338 has been formatted
+[2025-01-12 05:55:23,691][evaluate.py][line:326][INFO] ORIGINAL:  I have to think about moving now. We're gonna move in together just to...
+[2025-01-12 05:55:23,691][evaluate.py][line:327][INFO] FORMATTED:  I HAVE TO THINK ABOUT MOVING NOW WE'RE GONNA MOVE IN TOGETHER JUST TO
+[2025-01-12 05:55:23,757][evaluate.py][line:325][INFO] Transcription of file 339 has been formatted
+[2025-01-12 05:55:23,757][evaluate.py][line:326][INFO] ORIGINAL:  I think it's a good idea to live together before you get married.
+[2025-01-12 05:55:23,757][evaluate.py][line:327][INFO] FORMATTED:  I THINK IT'S A GOOD IDEA TO LIVE TOGETHER BEFORE YOU GET MARRIED
+[2025-01-12 05:55:23,816][evaluate.py][line:325][INFO] Transcription of file 340 has been formatted
+[2025-01-12 05:55:23,816][evaluate.py][line:326][INFO] ORIGINAL:  I don't want to house, I mean just...
+[2025-01-12 05:55:23,816][evaluate.py][line:327][INFO] FORMATTED:  I DON'T WANT TO HOUSE  I MEAN JUST
+[2025-01-12 05:55:23,845][evaluate.py][line:325][INFO] Transcription of file 341 has been formatted
+[2025-01-12 05:55:23,845][evaluate.py][line:326][INFO] ORIGINAL:  LA Apartments Fine.
+[2025-01-12 05:55:23,845][evaluate.py][line:327][INFO] FORMATTED:  LA APARTMENTS FINE
+[2025-01-12 05:55:23,910][evaluate.py][line:325][INFO] Transcription of file 342 has been formatted
+[2025-01-12 05:55:23,910][evaluate.py][line:326][INFO] ORIGINAL:  Two artists though. I mean we're bound to be poor forever.
+[2025-01-12 05:55:23,910][evaluate.py][line:327][INFO] FORMATTED:  TWO ARTISTS THOUGH I MEAN WE'RE BOUND TO BE POOR FOREVER
+[2025-01-12 05:55:23,943][evaluate.py][line:325][INFO] Transcription of file 343 has been formatted
+[2025-01-12 05:55:23,943][evaluate.py][line:326][INFO] ORIGINAL:  Definitely not for a while.
+[2025-01-12 05:55:23,943][evaluate.py][line:327][INFO] FORMATTED:  DEFINITELY NOT FOR A WHILE
+[2025-01-12 05:55:23,962][evaluate.py][line:325][INFO] Transcription of file 344 has been formatted
+[2025-01-12 05:55:23,962][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:23,962][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:23,987][evaluate.py][line:325][INFO] Transcription of file 345 has been formatted
+[2025-01-12 05:55:23,988][evaluate.py][line:326][INFO] ORIGINAL:  Good luck.
+[2025-01-12 05:55:23,988][evaluate.py][line:327][INFO] FORMATTED:  GOOD LUCK
+[2025-01-12 05:55:24,035][evaluate.py][line:325][INFO] Transcription of file 346 has been formatted
+[2025-01-12 05:55:24,035][evaluate.py][line:326][INFO] ORIGINAL:  You are now trouble. You are now trouble.
+[2025-01-12 05:55:24,035][evaluate.py][line:327][INFO] FORMATTED:  YOU ARE NOW TROUBLE YOU ARE NOW TROUBLE
+[2025-01-12 05:55:24,114][evaluate.py][line:325][INFO] Transcription of file 347 has been formatted
+[2025-01-12 05:55:24,114][evaluate.py][line:326][INFO] ORIGINAL:  You should just approach her like that. Hey, will you bear my children? Exactly.
+[2025-01-12 05:55:24,114][evaluate.py][line:327][INFO] FORMATTED:  YOU SHOULD JUST APPROACH HER LIKE THAT HEY  WILL YOU BEAR MY CHILDREN  EXACTLY
+[2025-01-12 05:55:24,140][evaluate.py][line:325][INFO] Transcription of file 348 has been formatted
+[2025-01-12 05:55:24,140][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, totally.
+[2025-01-12 05:55:24,142][evaluate.py][line:327][INFO] FORMATTED:  YEAH  TOTALLY
+[2025-01-12 05:55:24,177][evaluate.py][line:325][INFO] Transcription of file 349 has been formatted
+[2025-01-12 05:55:24,177][evaluate.py][line:326][INFO] ORIGINAL:  The total turn on.
+[2025-01-12 05:55:24,177][evaluate.py][line:327][INFO] FORMATTED:  THE TOTAL TURN ON
+[2025-01-12 05:55:24,216][evaluate.py][line:325][INFO] Transcription of file 350 has been formatted
+[2025-01-12 05:55:24,216][evaluate.py][line:326][INFO] ORIGINAL:  I'll be honest you.
+[2025-01-12 05:55:24,216][evaluate.py][line:327][INFO] FORMATTED:  I'LL BE HONEST YOU
+[2025-01-12 05:55:24,251][evaluate.py][line:325][INFO] Transcription of file 351 has been formatted
+[2025-01-12 05:55:24,251][evaluate.py][line:326][INFO] ORIGINAL:  Right, I need help.
+[2025-01-12 05:55:24,251][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  I NEED HELP
+[2025-01-12 05:55:24,340][evaluate.py][line:325][INFO] Transcription of file 352 has been formatted
+[2025-01-12 05:55:24,340][evaluate.py][line:326][INFO] ORIGINAL:  I still can't live on 675. It's not possible in Los Angeles. Housing is too expensive.
+[2025-01-12 05:55:24,340][evaluate.py][line:327][INFO] FORMATTED:  I STILL CAN'T LIVE ON 675 IT'S NOT POSSIBLE IN LOS ANGELES HOUSING IS TOO EXPENSIVE
+[2025-01-12 05:55:24,438][evaluate.py][line:325][INFO] Transcription of file 353 has been formatted
+[2025-01-12 05:55:24,438][evaluate.py][line:326][INFO] ORIGINAL:  I'm just so scared to start over. I mean... What's so much time and energy in the being here?
+[2025-01-12 05:55:24,438][evaluate.py][line:327][INFO] FORMATTED:  I'M JUST SO SCARED TO START OVER I MEAN WHAT'S SO MUCH TIME AND ENERGY IN THE BEING HERE 
+[2025-01-12 05:55:24,493][evaluate.py][line:325][INFO] Transcription of file 354 has been formatted
+[2025-01-12 05:55:24,493][evaluate.py][line:326][INFO] ORIGINAL:  Where am I supposed to go? I mean like what?
+[2025-01-12 05:55:24,493][evaluate.py][line:327][INFO] FORMATTED:  WHERE AM I SUPPOSED TO GO  I MEAN LIKE WHAT 
+[2025-01-12 05:55:24,603][evaluate.py][line:325][INFO] Transcription of file 355 has been formatted
+[2025-01-12 05:55:24,603][evaluate.py][line:326][INFO] ORIGINAL:  I don't know, maybe I can take out a loan. I just need prospects and I don't feel like I have any.
+[2025-01-12 05:55:24,603][evaluate.py][line:327][INFO] FORMATTED:  I DON'T KNOW  MAYBE I CAN TAKE OUT A LOAN I JUST NEED PROSPECTS AND I DON'T FEEL LIKE I HAVE ANY
+[2025-01-12 05:55:24,630][evaluate.py][line:325][INFO] Transcription of file 356 has been formatted
+[2025-01-12 05:55:24,630][evaluate.py][line:326][INFO] ORIGINAL:  I'm sorry.
+[2025-01-12 05:55:24,630][evaluate.py][line:327][INFO] FORMATTED:  I'M SORRY
+[2025-01-12 05:55:24,672][evaluate.py][line:325][INFO] Transcription of file 357 has been formatted
+[2025-01-12 05:55:24,672][evaluate.py][line:326][INFO] ORIGINAL:  That's really hard to hear.
+[2025-01-12 05:55:24,672][evaluate.py][line:327][INFO] FORMATTED:  THAT'S REALLY HARD TO HEAR
+[2025-01-12 05:55:24,748][evaluate.py][line:325][INFO] Transcription of file 358 has been formatted
+[2025-01-12 05:55:24,748][evaluate.py][line:326][INFO] ORIGINAL:  I feel like I have faith and now faith is running thin because there's no money.
+[2025-01-12 05:55:24,748][evaluate.py][line:327][INFO] FORMATTED:  I FEEL LIKE I HAVE FAITH AND NOW FAITH IS RUNNING THIN BECAUSE THERE'S NO MONEY
+[2025-01-12 05:55:24,796][evaluate.py][line:325][INFO] Transcription of file 359 has been formatted
+[2025-01-12 05:55:24,796][evaluate.py][line:326][INFO] ORIGINAL:  Well, I'd like to be working after.
+[2025-01-12 05:55:24,796][evaluate.py][line:327][INFO] FORMATTED:  WELL  I'D LIKE TO BE WORKING AFTER
+[2025-01-12 05:55:24,812][evaluate.py][line:325][INFO] Transcription of file 360 has been formatted
+[2025-01-12 05:55:24,812][evaluate.py][line:326][INFO] ORIGINAL:  But
+[2025-01-12 05:55:24,812][evaluate.py][line:327][INFO] FORMATTED:  BUT
+[2025-01-12 05:55:24,832][evaluate.py][line:325][INFO] Transcription of file 361 has been formatted
+[2025-01-12 05:55:24,832][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:24,832][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:24,867][evaluate.py][line:325][INFO] Transcription of file 362 has been formatted
+[2025-01-12 05:55:24,867][evaluate.py][line:326][INFO] ORIGINAL:  Bartending, ketering.
+[2025-01-12 05:55:24,867][evaluate.py][line:327][INFO] FORMATTED:  BARTENDING  KETERING
+[2025-01-12 05:55:24,957][evaluate.py][line:325][INFO] Transcription of file 363 has been formatted
+[2025-01-12 05:55:24,957][evaluate.py][line:326][INFO] ORIGINAL:  Would you be willing to make some more calls? On my behalf, I won't make you look bad.
+[2025-01-12 05:55:24,957][evaluate.py][line:327][INFO] FORMATTED:  WOULD YOU BE WILLING TO MAKE SOME MORE CALLS  ON MY BEHALF  I WON'T MAKE YOU LOOK BAD
+[2025-01-12 05:55:24,977][evaluate.py][line:325][INFO] Transcription of file 364 has been formatted
+[2025-01-12 05:55:24,977][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:24,977][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:25,001][evaluate.py][line:325][INFO] Transcription of file 365 has been formatted
+[2025-01-12 05:55:25,001][evaluate.py][line:326][INFO] ORIGINAL:  Thank you.
+[2025-01-12 05:55:25,001][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU
+[2025-01-12 05:55:25,042][evaluate.py][line:325][INFO] Transcription of file 366 has been formatted
+[2025-01-12 05:55:25,042][evaluate.py][line:326][INFO] ORIGINAL:  I will. I will.
+[2025-01-12 05:55:25,042][evaluate.py][line:327][INFO] FORMATTED:  I WILL I WILL
+[2025-01-12 05:55:25,066][evaluate.py][line:325][INFO] Transcription of file 367 has been formatted
+[2025-01-12 05:55:25,066][evaluate.py][line:326][INFO] ORIGINAL:  and so um
+[2025-01-12 05:55:25,066][evaluate.py][line:327][INFO] FORMATTED:  AND SO UM
+[2025-01-12 05:55:25,100][evaluate.py][line:325][INFO] Transcription of file 368 has been formatted
+[2025-01-12 05:55:25,100][evaluate.py][line:326][INFO] ORIGINAL:  How long ago was that?
+[2025-01-12 05:55:25,100][evaluate.py][line:327][INFO] FORMATTED:  HOW LONG AGO WAS THAT 
+[2025-01-12 05:55:25,133][evaluate.py][line:325][INFO] Transcription of file 369 has been formatted
+[2025-01-12 05:55:25,133][evaluate.py][line:326][INFO] ORIGINAL:  I don't like this.
+[2025-01-12 05:55:25,133][evaluate.py][line:327][INFO] FORMATTED:  I DON'T LIKE THIS
+[2025-01-12 05:55:25,206][evaluate.py][line:325][INFO] Transcription of file 370 has been formatted
+[2025-01-12 05:55:25,206][evaluate.py][line:326][INFO] ORIGINAL:  Okay, well you can fly it file a claim. Where are you coming from?
+[2025-01-12 05:55:25,206][evaluate.py][line:327][INFO] FORMATTED:  OKAY  WELL YOU CAN FLY IT FILE A CLAIM WHERE ARE YOU COMING FROM 
+[2025-01-12 05:55:25,241][evaluate.py][line:325][INFO] Transcription of file 371 has been formatted
+[2025-01-12 05:55:25,241][evaluate.py][line:326][INFO] ORIGINAL:  So within the country though.
+[2025-01-12 05:55:25,241][evaluate.py][line:327][INFO] FORMATTED:  SO WITHIN THE COUNTRY THOUGH
+[2025-01-12 05:55:25,331][evaluate.py][line:325][INFO] Transcription of file 372 has been formatted
+[2025-01-12 05:55:25,332][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, well the chances of it being lost forever, you know, slight because you were in the in the
+[2025-01-12 05:55:25,332][evaluate.py][line:327][INFO] FORMATTED:  YEAH  WELL THE CHANCES OF IT BEING LOST FOREVER  YOU KNOW  SLIGHT BECAUSE YOU WERE IN THE IN THE
+[2025-01-12 05:55:25,412][evaluate.py][line:325][INFO] Transcription of file 373 has been formatted
+[2025-01-12 05:55:25,413][evaluate.py][line:326][INFO] ORIGINAL:  Well, I mean, you know, that happens pretty often that sometimes baggage just gets lost.
+[2025-01-12 05:55:25,413][evaluate.py][line:327][INFO] FORMATTED:  WELL  I MEAN  YOU KNOW  THAT HAPPENS PRETTY OFTEN THAT SOMETIMES BAGGAGE JUST GETS LOST
+[2025-01-12 05:55:25,432][evaluate.py][line:325][INFO] Transcription of file 374 has been formatted
+[2025-01-12 05:55:25,432][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:25,432][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:25,451][evaluate.py][line:325][INFO] Transcription of file 375 has been formatted
+[2025-01-12 05:55:25,451][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:25,451][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:25,493][evaluate.py][line:325][INFO] Transcription of file 376 has been formatted
+[2025-01-12 05:55:25,493][evaluate.py][line:326][INFO] ORIGINAL:  Did you have insurance on your flight?
+[2025-01-12 05:55:25,493][evaluate.py][line:327][INFO] FORMATTED:  DID YOU HAVE INSURANCE ON YOUR FLIGHT 
+[2025-01-12 05:55:25,563][evaluate.py][line:325][INFO] Transcription of file 377 has been formatted
+[2025-01-12 05:55:25,563][evaluate.py][line:326][INFO] ORIGINAL:  Now you have to buy it now. It's like $30 extra.
+[2025-01-12 05:55:25,563][evaluate.py][line:327][INFO] FORMATTED:  NOW YOU HAVE TO BUY IT NOW IT'S LIKE  30 EXTRA
+[2025-01-12 05:55:25,591][evaluate.py][line:325][INFO] Transcription of file 378 has been formatted
+[2025-01-12 05:55:25,591][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, well...
+[2025-01-12 05:55:25,591][evaluate.py][line:327][INFO] FORMATTED:  YEAH  WELL
+[2025-01-12 05:55:25,633][evaluate.py][line:325][INFO] Transcription of file 379 has been formatted
+[2025-01-12 05:55:25,633][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I don't know.
+[2025-01-12 05:55:25,633][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I DON'T KNOW
+[2025-01-12 05:55:25,692][evaluate.py][line:325][INFO] Transcription of file 380 has been formatted
+[2025-01-12 05:55:25,693][evaluate.py][line:326][INFO] ORIGINAL:  chances are it's probably just you know taking time being unloaded from
+[2025-01-12 05:55:25,693][evaluate.py][line:327][INFO] FORMATTED:  CHANCES ARE IT'S PROBABLY JUST YOU KNOW TAKING TIME BEING UNLOADED FROM
+[2025-01-12 05:55:25,795][evaluate.py][line:325][INFO] Transcription of file 381 has been formatted
+[2025-01-12 05:55:25,795][evaluate.py][line:326][INFO] ORIGINAL:  Well, there's not much I can do. I can file this report and we'll call you when it comes in.
+[2025-01-12 05:55:25,795][evaluate.py][line:327][INFO] FORMATTED:  WELL  THERE'S NOT MUCH I CAN DO I CAN FILE THIS REPORT AND WE'LL CALL YOU WHEN IT COMES IN
+[2025-01-12 05:55:25,815][evaluate.py][line:325][INFO] Transcription of file 382 has been formatted
+[2025-01-12 05:55:25,815][evaluate.py][line:326][INFO] ORIGINAL:  Wow!
+[2025-01-12 05:55:25,815][evaluate.py][line:327][INFO] FORMATTED:  WOW 
+[2025-01-12 05:55:25,872][evaluate.py][line:325][INFO] Transcription of file 383 has been formatted
+[2025-01-12 05:55:25,872][evaluate.py][line:326][INFO] ORIGINAL:  Wow, well that's really important obviously, but yeah.
+[2025-01-12 05:55:25,872][evaluate.py][line:327][INFO] FORMATTED:  WOW  WELL THAT'S REALLY IMPORTANT OBVIOUSLY  BUT YEAH
+[2025-01-12 05:55:25,923][evaluate.py][line:325][INFO] Transcription of file 384 has been formatted
+[2025-01-12 05:55:25,923][evaluate.py][line:326][INFO] ORIGINAL:  Actually, I don't know that that's legal.
+[2025-01-12 05:55:25,923][evaluate.py][line:327][INFO] FORMATTED:  ACTUALLY  I DON'T KNOW THAT THAT'S LEGAL
+[2025-01-12 05:55:25,982][evaluate.py][line:325][INFO] Transcription of file 385 has been formatted
+[2025-01-12 05:55:25,982][evaluate.py][line:326][INFO] ORIGINAL:  I mean, you're bag might have been confiscated because it's
+[2025-01-12 05:55:25,982][evaluate.py][line:327][INFO] FORMATTED:  I MEAN  YOU'RE BAG MIGHT HAVE BEEN CONFISCATED BECAUSE IT'S
+[2025-01-12 05:55:26,021][evaluate.py][line:325][INFO] Transcription of file 386 has been formatted
+[2025-01-12 05:55:26,021][evaluate.py][line:326][INFO] ORIGINAL:  It's a biohazard so...
+[2025-01-12 05:55:26,022][evaluate.py][line:327][INFO] FORMATTED:  IT'S A BIOHAZARD SO
+[2025-01-12 05:55:26,062][evaluate.py][line:325][INFO] Transcription of file 387 has been formatted
+[2025-01-12 05:55:26,062][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, let me just call security.
+[2025-01-12 05:55:26,062][evaluate.py][line:327][INFO] FORMATTED:  YEAH  LET ME JUST CALL SECURITY
+[2025-01-12 05:55:26,100][evaluate.py][line:325][INFO] Transcription of file 388 has been formatted
+[2025-01-12 05:55:26,100][evaluate.py][line:326][INFO] ORIGINAL:  Okay, a full not.
+[2025-01-12 05:55:26,100][evaluate.py][line:327][INFO] FORMATTED:  OKAY  A FULL NOT
+[2025-01-12 05:55:26,166][evaluate.py][line:325][INFO] Transcription of file 389 has been formatted
+[2025-01-12 05:55:26,166][evaluate.py][line:326][INFO] ORIGINAL:  What would be the worst of it happen if they found you somewhere else?
+[2025-01-12 05:55:26,166][evaluate.py][line:327][INFO] FORMATTED:  WHAT WOULD BE THE WORST OF IT HAPPEN IF THEY FOUND YOU SOMEWHERE ELSE 
+[2025-01-12 05:55:26,200][evaluate.py][line:325][INFO] Transcription of file 390 has been formatted
+[2025-01-12 05:55:26,200][evaluate.py][line:326][INFO] ORIGINAL:  But they're so young.
+[2025-01-12 05:55:26,200][evaluate.py][line:327][INFO] FORMATTED:  BUT THEY'RE SO YOUNG
+[2025-01-12 05:55:26,240][evaluate.py][line:325][INFO] Transcription of file 391 has been formatted
+[2025-01-12 05:55:26,241][evaluate.py][line:326][INFO] ORIGINAL:  I'm gonna miss you so much.
+[2025-01-12 05:55:26,241][evaluate.py][line:327][INFO] FORMATTED:  I'M GONNA MISS YOU SO MUCH
+[2025-01-12 05:55:26,282][evaluate.py][line:325][INFO] Transcription of file 392 has been formatted
+[2025-01-12 05:55:26,282][evaluate.py][line:326][INFO] ORIGINAL:  You have to write me every day.
+[2025-01-12 05:55:26,282][evaluate.py][line:327][INFO] FORMATTED:  YOU HAVE TO WRITE ME EVERY DAY
+[2025-01-12 05:55:26,318][evaluate.py][line:325][INFO] Transcription of file 393 has been formatted
+[2025-01-12 05:55:26,318][evaluate.py][line:326][INFO] ORIGINAL:  I'm going to do it.
+[2025-01-12 05:55:26,318][evaluate.py][line:327][INFO] FORMATTED:  I'M GOING TO DO IT
+[2025-01-12 05:55:26,335][evaluate.py][line:325][INFO] Transcription of file 394 has been formatted
+[2025-01-12 05:55:26,335][evaluate.py][line:326][INFO] ORIGINAL:  ah
+[2025-01-12 05:55:26,335][evaluate.py][line:327][INFO] FORMATTED:  AH
+[2025-01-12 05:55:26,386][evaluate.py][line:325][INFO] Transcription of file 395 has been formatted
+[2025-01-12 05:55:26,386][evaluate.py][line:326][INFO] ORIGINAL:  because the only one I know who loves his parents.
+[2025-01-12 05:55:26,386][evaluate.py][line:327][INFO] FORMATTED:  BECAUSE THE ONLY ONE I KNOW WHO LOVES HIS PARENTS
+[2025-01-12 05:55:26,418][evaluate.py][line:325][INFO] Transcription of file 396 has been formatted
+[2025-01-12 05:55:26,418][evaluate.py][line:326][INFO] ORIGINAL:  No, forget it.
+[2025-01-12 05:55:26,418][evaluate.py][line:327][INFO] FORMATTED:  NO  FORGET IT
+[2025-01-12 05:55:26,463][evaluate.py][line:325][INFO] Transcription of file 397 has been formatted
+[2025-01-12 05:55:26,463][evaluate.py][line:326][INFO] ORIGINAL:  So lovely here. The air is sweet.
+[2025-01-12 05:55:26,463][evaluate.py][line:327][INFO] FORMATTED:  SO LOVELY HERE THE AIR IS SWEET
+[2025-01-12 05:55:26,508][evaluate.py][line:325][INFO] Transcription of file 398 has been formatted
+[2025-01-12 05:55:26,508][evaluate.py][line:326][INFO] ORIGINAL:  No. But I'm not gonna stay.
+[2025-01-12 05:55:26,508][evaluate.py][line:327][INFO] FORMATTED:  NO BUT I'M NOT GONNA STAY
+[2025-01-12 05:55:26,565][evaluate.py][line:325][INFO] Transcription of file 399 has been formatted
+[2025-01-12 05:55:26,565][evaluate.py][line:326][INFO] ORIGINAL:  Well, it's sort of embarrassed since I came.
+[2025-01-12 05:55:26,565][evaluate.py][line:327][INFO] FORMATTED:  WELL  IT'S SORT OF EMBARRASSED SINCE I CAME
+[2025-01-12 05:55:26,627][evaluate.py][line:325][INFO] Transcription of file 400 has been formatted
+[2025-01-12 05:55:26,627][evaluate.py][line:326][INFO] ORIGINAL:  Well, from her point of view, I also when I come.
+[2025-01-12 05:55:26,627][evaluate.py][line:327][INFO] FORMATTED:  WELL  FROM HER POINT OF VIEW  I ALSO WHEN I COME
+[2025-01-12 05:55:26,672][evaluate.py][line:325][INFO] Transcription of file 401 has been formatted
+[2025-01-12 05:55:26,672][evaluate.py][line:326][INFO] ORIGINAL:  I guess this is where I came.
+[2025-01-12 05:55:26,672][evaluate.py][line:327][INFO] FORMATTED:  I GUESS THIS IS WHERE I CAME
+[2025-01-12 05:55:26,805][evaluate.py][line:325][INFO] Transcription of file 402 has been formatted
+[2025-01-12 05:55:26,805][evaluate.py][line:326][INFO] ORIGINAL:  I'll never forgive you. Why did you wait so long? All this time, I'm wondering if I was a fool for thinking of you.
+[2025-01-12 05:55:26,805][evaluate.py][line:327][INFO] FORMATTED:  I'LL NEVER FORGIVE YOU WHY DID YOU WAIT SO LONG  ALL THIS TIME  I'M WONDERING IF I WAS A FOOL FOR THINKING OF YOU
+[2025-01-12 05:55:26,847][evaluate.py][line:325][INFO] Transcription of file 403 has been formatted
+[2025-01-12 05:55:26,847][evaluate.py][line:326][INFO] ORIGINAL:  Not like that, you're not.
+[2025-01-12 05:55:26,847][evaluate.py][line:327][INFO] FORMATTED:  NOT LIKE THAT  YOU'RE NOT
+[2025-01-12 05:55:26,955][evaluate.py][line:325][INFO] Transcription of file 404 has been formatted
+[2025-01-12 05:55:26,955][evaluate.py][line:326][INFO] ORIGINAL:  Like Larry's brother. Do it like you, Chris. Chris, what's the matter?
+[2025-01-12 05:55:26,955][evaluate.py][line:327][INFO] FORMATTED:  LIKE LARRY'S BROTHER DO IT LIKE YOU  CHRIS CHRIS  WHAT'S THE MATTER 
+[2025-01-12 05:55:26,996][evaluate.py][line:325][INFO] Transcription of file 405 has been formatted
+[2025-01-12 05:55:26,996][evaluate.py][line:326][INFO] ORIGINAL:  It wouldn't work like this.
+[2025-01-12 05:55:26,996][evaluate.py][line:327][INFO] FORMATTED:  IT WOULDN'T WORK LIKE THIS
+[2025-01-12 05:55:27,023][evaluate.py][line:325][INFO] Transcription of file 406 has been formatted
+[2025-01-12 05:55:27,023][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, sure.
+[2025-01-12 05:55:27,023][evaluate.py][line:327][INFO] FORMATTED:  YEAH  SURE
+[2025-01-12 05:55:27,056][evaluate.py][line:325][INFO] Transcription of file 407 has been formatted
+[2025-01-12 05:55:27,056][evaluate.py][line:326][INFO] ORIGINAL:  How many?
+[2025-01-12 05:55:27,056][evaluate.py][line:327][INFO] FORMATTED:  HOW MANY 
+[2025-01-12 05:55:27,089][evaluate.py][line:325][INFO] Transcription of file 408 has been formatted
+[2025-01-12 05:55:27,089][evaluate.py][line:326][INFO] ORIGINAL:  Oh gee.
+[2025-01-12 05:55:27,089][evaluate.py][line:327][INFO] FORMATTED:  OH GEE
+[2025-01-12 05:55:27,141][evaluate.py][line:325][INFO] Transcription of file 409 has been formatted
+[2025-01-12 05:55:27,141][evaluate.py][line:326][INFO] ORIGINAL:  Do you still feel like that?
+[2025-01-12 05:55:27,141][evaluate.py][line:327][INFO] FORMATTED:  DO YOU STILL FEEL LIKE THAT 
+[2025-01-12 05:55:27,377][evaluate.py][line:325][INFO] Transcription of file 410 has been formatted
+[2025-01-12 05:55:27,377][evaluate.py][line:326][INFO] ORIGINAL:  Because you can't feel like that anymore, Chris. You hear me? I mean, everything that you have, you deserve. And that includes me. And your father, your father put hundreds of planes in the area. You should be proud. A man should be paid for that.
+[2025-01-12 05:55:27,377][evaluate.py][line:327][INFO] FORMATTED:  BECAUSE YOU CAN'T FEEL LIKE THAT ANYMORE  CHRIS YOU HEAR ME  I MEAN  EVERYTHING THAT YOU HAVE  YOU DESERVE AND THAT INCLUDES ME AND YOUR FATHER  YOUR FATHER PUT HUNDREDS OF PLANES IN THE AREA YOU SHOULD BE PROUD A MAN SHOULD BE PAID FOR THAT
+[2025-01-12 05:55:27,419][evaluate.py][line:325][INFO] Transcription of file 411 has been formatted
+[2025-01-12 05:55:27,419][evaluate.py][line:326][INFO] ORIGINAL:  Well, I do with a fortune.
+[2025-01-12 05:55:27,419][evaluate.py][line:327][INFO] FORMATTED:  WELL  I DO WITH A FORTUNE
+[2025-01-12 05:55:27,457][evaluate.py][line:325][INFO] Transcription of file 412 has been formatted
+[2025-01-12 05:55:27,457][evaluate.py][line:326][INFO] ORIGINAL:  Only a trivial little brooch.
+[2025-01-12 05:55:27,457][evaluate.py][line:327][INFO] FORMATTED:  ONLY A TRIVIAL LITTLE BROOCH
+[2025-01-12 05:55:27,524][evaluate.py][line:325][INFO] Transcription of file 413 has been formatted
+[2025-01-12 05:55:27,524][evaluate.py][line:326][INFO] ORIGINAL:  Not at all. I quite like it. I wear it often.
+[2025-01-12 05:55:27,524][evaluate.py][line:327][INFO] FORMATTED:  NOT AT ALL I QUITE LIKE IT I WEAR IT OFTEN
+[2025-01-12 05:55:27,554][evaluate.py][line:325][INFO] Transcription of file 414 has been formatted
+[2025-01-12 05:55:27,555][evaluate.py][line:326][INFO] ORIGINAL:  Maybe a little nothing serious
+[2025-01-12 05:55:27,555][evaluate.py][line:327][INFO] FORMATTED:  MAYBE A LITTLE NOTHING SERIOUS
+[2025-01-12 05:55:27,590][evaluate.py][line:325][INFO] Transcription of file 415 has been formatted
+[2025-01-12 05:55:27,591][evaluate.py][line:326][INFO] ORIGINAL:  Well, what of it?
+[2025-01-12 05:55:27,591][evaluate.py][line:327][INFO] FORMATTED:  WELL  WHAT OF IT 
+[2025-01-12 05:55:27,663][evaluate.py][line:325][INFO] Transcription of file 416 has been formatted
+[2025-01-12 05:55:27,663][evaluate.py][line:326][INFO] ORIGINAL:  Well, it gave him a lot of pleasure and it didn't hurt me.
+[2025-01-12 05:55:27,663][evaluate.py][line:327][INFO] FORMATTED:  WELL  IT GAVE HIM A LOT OF PLEASURE AND IT DIDN'T HURT ME
+[2025-01-12 05:55:27,686][evaluate.py][line:325][INFO] Transcription of file 417 has been formatted
+[2025-01-12 05:55:27,686][evaluate.py][line:326][INFO] ORIGINAL:  No thanks.
+[2025-01-12 05:55:27,686][evaluate.py][line:327][INFO] FORMATTED:  NO THANKS
+[2025-01-12 05:55:27,727][evaluate.py][line:325][INFO] Transcription of file 418 has been formatted
+[2025-01-12 05:55:27,727][evaluate.py][line:326][INFO] ORIGINAL:  It's becoming a habit with you.
+[2025-01-12 05:55:27,727][evaluate.py][line:327][INFO] FORMATTED:  IT'S BECOMING A HABIT WITH YOU
+[2025-01-12 05:55:27,764][evaluate.py][line:325][INFO] Transcription of file 419 has been formatted
+[2025-01-12 05:55:27,765][evaluate.py][line:326][INFO] ORIGINAL:  Just making myself fascinating for you.
+[2025-01-12 05:55:27,765][evaluate.py][line:327][INFO] FORMATTED:  JUST MAKING MYSELF FASCINATING FOR YOU
+[2025-01-12 05:55:27,798][evaluate.py][line:325][INFO] Transcription of file 420 has been formatted
+[2025-01-12 05:55:27,798][evaluate.py][line:326][INFO] ORIGINAL:  No, it isn't.
+[2025-01-12 05:55:27,798][evaluate.py][line:327][INFO] FORMATTED:  NO  IT ISN'T
+[2025-01-12 05:55:27,844][evaluate.py][line:325][INFO] Transcription of file 421 has been formatted
+[2025-01-12 05:55:27,844][evaluate.py][line:326][INFO] ORIGINAL:  No, it is not, be quiet.
+[2025-01-12 05:55:27,844][evaluate.py][line:327][INFO] FORMATTED:  NO  IT IS NOT  BE QUIET
+[2025-01-12 05:55:27,883][evaluate.py][line:325][INFO] Transcription of file 422 has been formatted
+[2025-01-12 05:55:27,883][evaluate.py][line:326][INFO] ORIGINAL:  Yes, I did quite a lot.
+[2025-01-12 05:55:27,883][evaluate.py][line:327][INFO] FORMATTED:  YES  I DID QUITE A LOT
+[2025-01-12 05:55:27,918][evaluate.py][line:325][INFO] Transcription of file 423 has been formatted
+[2025-01-12 05:55:27,919][evaluate.py][line:326][INFO] ORIGINAL:  You always had a weekend.
+[2025-01-12 05:55:27,919][evaluate.py][line:327][INFO] FORMATTED:  YOU ALWAYS HAD A WEEKEND
+[2025-01-12 05:55:27,962][evaluate.py][line:325][INFO] Transcription of file 424 has been formatted
+[2025-01-12 05:55:27,963][evaluate.py][line:326][INFO] ORIGINAL:  What'd you shut up?
+[2025-01-12 05:55:27,963][evaluate.py][line:327][INFO] FORMATTED:  WHAT'D YOU SHUT UP 
+[2025-01-12 05:55:28,028][evaluate.py][line:325][INFO] Transcription of file 425 has been formatted
+[2025-01-12 05:55:28,028][evaluate.py][line:326][INFO] ORIGINAL:  Very well. If you have to be borish and idiotic.
+[2025-01-12 05:55:28,028][evaluate.py][line:327][INFO] FORMATTED:  VERY WELL IF YOU HAVE TO BE BORISH AND IDIOTIC
+[2025-01-12 05:55:28,082][evaluate.py][line:325][INFO] Transcription of file 426 has been formatted
+[2025-01-12 05:55:28,082][evaluate.py][line:326][INFO] ORIGINAL:  You're far too temperamental, try to control yourself.
+[2025-01-12 05:55:28,082][evaluate.py][line:327][INFO] FORMATTED:  YOU'RE FAR TOO TEMPERAMENTAL  TRY TO CONTROL YOURSELF
+[2025-01-12 05:55:28,135][evaluate.py][line:325][INFO] Transcription of file 427 has been formatted
+[2025-01-12 05:55:28,135][evaluate.py][line:326][INFO] ORIGINAL:  Go away, go away, I hate you.
+[2025-01-12 05:55:28,135][evaluate.py][line:327][INFO] FORMATTED:  GO AWAY  GO AWAY  I HATE YOU
+[2025-01-12 05:55:28,225][evaluate.py][line:325][INFO] Transcription of file 428 has been formatted
+[2025-01-12 05:55:28,225][evaluate.py][line:326][INFO] ORIGINAL:  You know what? I'm sick and tired of listening to you. You're a total sadistic bully.
+[2025-01-12 05:55:28,225][evaluate.py][line:327][INFO] FORMATTED:  YOU KNOW WHAT  I'M SICK AND TIRED OF LISTENING TO YOU YOU'RE A TOTAL SADISTIC BULLY
+[2025-01-12 05:55:28,314][evaluate.py][line:325][INFO] Transcription of file 429 has been formatted
+[2025-01-12 05:55:28,314][evaluate.py][line:326][INFO] ORIGINAL:  Stop, would you just go away? I mean, you're conceited and overbearing and utterly impossible.
+[2025-01-12 05:55:28,314][evaluate.py][line:327][INFO] FORMATTED:  STOP  WOULD YOU JUST GO AWAY  I MEAN  YOU'RE CONCEITED AND OVERBEARING AND UTTERLY IMPOSSIBLE
+[2025-01-12 05:55:28,390][evaluate.py][line:325][INFO] Transcription of file 430 has been formatted
+[2025-01-12 05:55:28,390][evaluate.py][line:326][INFO] ORIGINAL:  This is the end. Do you understand me? This is the end.
+[2025-01-12 05:55:28,390][evaluate.py][line:327][INFO] FORMATTED:  THIS IS THE END DO YOU UNDERSTAND ME  THIS IS THE END
+[2025-01-12 05:55:28,447][evaluate.py][line:325][INFO] Transcription of file 431 has been formatted
+[2025-01-12 05:55:28,447][evaluate.py][line:326][INFO] ORIGINAL:  Yes, I am, let go of those.
+[2025-01-12 05:55:28,447][evaluate.py][line:327][INFO] FORMATTED:  YES  I AM  LET GO OF THOSE
+[2025-01-12 05:55:28,587][evaluate.py][line:325][INFO] Transcription of file 432 has been formatted
+[2025-01-12 05:55:28,587][evaluate.py][line:326][INFO] ORIGINAL:  You're a cruel fiend and I, I love you. I think God, I realized who you are before I decided to marry you again. Oh my God, never.
+[2025-01-12 05:55:28,587][evaluate.py][line:327][INFO] FORMATTED:  YOU'RE A CRUEL FIEND AND I  I LOVE YOU I THINK GOD  I REALIZED WHO YOU ARE BEFORE I DECIDED TO MARRY YOU AGAIN OH MY GOD  NEVER
+[2025-01-12 05:55:28,619][evaluate.py][line:325][INFO] Transcription of file 433 has been formatted
+[2025-01-12 05:55:28,619][evaluate.py][line:326][INFO] ORIGINAL:  It's best!
+[2025-01-12 05:55:28,619][evaluate.py][line:327][INFO] FORMATTED:  IT'S BEST 
+[2025-01-12 05:55:28,656][evaluate.py][line:325][INFO] Transcription of file 434 has been formatted
+[2025-01-12 05:55:28,656][evaluate.py][line:326][INFO] ORIGINAL:  You're on a ground!
+[2025-01-12 05:55:28,656][evaluate.py][line:327][INFO] FORMATTED:  YOU'RE ON A GROUND 
+[2025-01-12 05:55:28,675][evaluate.py][line:325][INFO] Transcription of file 435 has been formatted
+[2025-01-12 05:55:28,675][evaluate.py][line:326][INFO] ORIGINAL:  Bang!
+[2025-01-12 05:55:28,675][evaluate.py][line:327][INFO] FORMATTED:  BANG 
+[2025-01-12 05:55:28,730][evaluate.py][line:325][INFO] Transcription of file 436 has been formatted
+[2025-01-12 05:55:28,730][evaluate.py][line:326][INFO] ORIGINAL:  I'm the only one I know who loves his parents.
+[2025-01-12 05:55:28,730][evaluate.py][line:327][INFO] FORMATTED:  I'M THE ONLY ONE I KNOW WHO LOVES HIS PARENTS
+[2025-01-12 05:55:28,805][evaluate.py][line:325][INFO] Transcription of file 437 has been formatted
+[2025-01-12 05:55:28,805][evaluate.py][line:326][INFO] ORIGINAL:  It's a good thing. It's lovely here. The air is sweet.
+[2025-01-12 05:55:28,805][evaluate.py][line:327][INFO] FORMATTED:  IT'S A GOOD THING IT'S LOVELY HERE THE AIR IS SWEET
+[2025-01-12 05:55:28,874][evaluate.py][line:325][INFO] Transcription of file 438 has been formatted
+[2025-01-12 05:55:28,875][evaluate.py][line:326][INFO] ORIGINAL:  Well, your mother, first of all, pretty much told me to leave.
+[2025-01-12 05:55:28,875][evaluate.py][line:327][INFO] FORMATTED:  WELL  YOUR MOTHER  FIRST OF ALL  PRETTY MUCH TOLD ME TO LEAVE
+[2025-01-12 05:55:28,923][evaluate.py][line:325][INFO] Transcription of file 439 has been formatted
+[2025-01-12 05:55:28,923][evaluate.py][line:326][INFO] ORIGINAL:  I figured they would. Your mother at least.
+[2025-01-12 05:55:28,923][evaluate.py][line:327][INFO] FORMATTED:  I FIGURED THEY WOULD YOUR MOTHER AT LEAST
+[2025-01-12 05:55:29,002][evaluate.py][line:325][INFO] Transcription of file 440 has been formatted
+[2025-01-12 05:55:29,002][evaluate.py][line:326][INFO] ORIGINAL:  Well, from her perspective, I mean, well, so did I come here?
+[2025-01-12 05:55:29,002][evaluate.py][line:327][INFO] FORMATTED:  WELL  FROM HER PERSPECTIVE  I MEAN  WELL  SO DID I COME HERE 
+[2025-01-12 05:55:29,057][evaluate.py][line:325][INFO] Transcription of file 441 has been formatted
+[2025-01-12 05:55:29,057][evaluate.py][line:326][INFO] ORIGINAL:  Oh Chris, I've been ready for a long time.
+[2025-01-12 05:55:29,057][evaluate.py][line:327][INFO] FORMATTED:  OH CHRIS  I'VE BEEN READY FOR A LONG TIME
+[2025-01-12 05:55:29,102][evaluate.py][line:325][INFO] Transcription of file 442 has been formatted
+[2025-01-12 05:55:29,102][evaluate.py][line:326][INFO] ORIGINAL:  I almost got married two years ago.
+[2025-01-12 05:55:29,102][evaluate.py][line:327][INFO] FORMATTED:  I ALMOST GOT MARRIED TWO YEARS AGO
+[2025-01-12 05:55:29,127][evaluate.py][line:325][INFO] Transcription of file 443 has been formatted
+[2025-01-12 05:55:29,127][evaluate.py][line:326][INFO] ORIGINAL:  every day since.
+[2025-01-12 05:55:29,127][evaluate.py][line:327][INFO] FORMATTED:  EVERY DAY SINCE
+[2025-01-12 05:55:29,232][evaluate.py][line:325][INFO] Transcription of file 444 has been formatted
+[2025-01-12 05:55:29,232][evaluate.py][line:326][INFO] ORIGINAL:  Well, mean until then you never wrote and when you did what did you say? I mean you sure can't be ambiguous.
+[2025-01-12 05:55:29,232][evaluate.py][line:327][INFO] FORMATTED:  WELL  MEAN UNTIL THEN YOU NEVER WROTE AND WHEN YOU DID WHAT DID YOU SAY  I MEAN YOU SURE CAN'T BE AMBIGUOUS
+[2025-01-12 05:55:29,276][evaluate.py][line:325][INFO] Transcription of file 445 has been formatted
+[2025-01-12 05:55:29,277][evaluate.py][line:326][INFO] ORIGINAL:  Not like that, you're not.
+[2025-01-12 05:55:29,277][evaluate.py][line:327][INFO] FORMATTED:  NOT LIKE THAT  YOU'RE NOT
+[2025-01-12 05:55:29,346][evaluate.py][line:325][INFO] Transcription of file 446 has been formatted
+[2025-01-12 05:55:29,347][evaluate.py][line:326][INFO] ORIGINAL:  Like Larry's brother. Do it like you Chris. What's the matter?
+[2025-01-12 05:55:29,347][evaluate.py][line:327][INFO] FORMATTED:  LIKE LARRY'S BROTHER DO IT LIKE YOU CHRIS WHAT'S THE MATTER 
+[2025-01-12 05:55:29,389][evaluate.py][line:325][INFO] Transcription of file 447 has been formatted
+[2025-01-12 05:55:29,390][evaluate.py][line:326][INFO] ORIGINAL:  Even in your letters there was something ashamed.
+[2025-01-12 05:55:29,390][evaluate.py][line:327][INFO] FORMATTED:  EVEN IN YOUR LETTERS THERE WAS SOMETHING ASHAMED
+[2025-01-12 05:55:29,426][evaluate.py][line:325][INFO] Transcription of file 448 has been formatted
+[2025-01-12 05:55:29,426][evaluate.py][line:326][INFO] ORIGINAL:  You have to tell me.
+[2025-01-12 05:55:29,426][evaluate.py][line:327][INFO] FORMATTED:  YOU HAVE TO TELL ME
+[2025-01-12 05:55:29,465][evaluate.py][line:325][INFO] Transcription of file 449 has been formatted
+[2025-01-12 05:55:29,465][evaluate.py][line:326][INFO] ORIGINAL:  Wouldn't work like this.
+[2025-01-12 05:55:29,465][evaluate.py][line:327][INFO] FORMATTED:  WOULDN'T WORK LIKE THIS
+[2025-01-12 05:55:29,493][evaluate.py][line:325][INFO] Transcription of file 450 has been formatted
+[2025-01-12 05:55:29,493][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, sure.
+[2025-01-12 05:55:29,493][evaluate.py][line:327][INFO] FORMATTED:  YEAH  SURE
+[2025-01-12 05:55:29,516][evaluate.py][line:325][INFO] Transcription of file 451 has been formatted
+[2025-01-12 05:55:29,516][evaluate.py][line:326][INFO] ORIGINAL:  How many?
+[2025-01-12 05:55:29,516][evaluate.py][line:327][INFO] FORMATTED:  HOW MANY 
+[2025-01-12 05:55:29,556][evaluate.py][line:325][INFO] Transcription of file 452 has been formatted
+[2025-01-12 05:55:29,556][evaluate.py][line:326][INFO] ORIGINAL:  Do you still feel like that?
+[2025-01-12 05:55:29,556][evaluate.py][line:327][INFO] FORMATTED:  DO YOU STILL FEEL LIKE THAT 
+[2025-01-12 05:55:29,664][evaluate.py][line:325][INFO] Transcription of file 453 has been formatted
+[2025-01-12 05:55:29,664][evaluate.py][line:326][INFO] ORIGINAL:  Because you can't feel like that anymore, Chris. Because everything you have, you have a right to. And me included.
+[2025-01-12 05:55:29,664][evaluate.py][line:327][INFO] FORMATTED:  BECAUSE YOU CAN'T FEEL LIKE THAT ANYMORE  CHRIS BECAUSE EVERYTHING YOU HAVE  YOU HAVE A RIGHT TO AND ME INCLUDED
+[2025-01-12 05:55:29,707][evaluate.py][line:325][INFO] Transcription of file 454 has been formatted
+[2025-01-12 05:55:29,707][evaluate.py][line:326][INFO] ORIGINAL:  What will I do with the fortune?
+[2025-01-12 05:55:29,707][evaluate.py][line:327][INFO] FORMATTED:  WHAT WILL I DO WITH THE FORTUNE 
+[2025-01-12 05:55:29,783][evaluate.py][line:325][INFO] Transcription of file 455 has been formatted
+[2025-01-12 05:55:29,783][evaluate.py][line:326][INFO] ORIGINAL:  She's been in New York three and a half years while of a sudden.
+[2025-01-12 05:55:29,783][evaluate.py][line:327][INFO] FORMATTED:  SHE'S BEEN IN NEW YORK THREE AND A HALF YEARS WHILE OF A SUDDEN
+[2025-01-12 05:55:29,843][evaluate.py][line:325][INFO] Transcription of file 456 has been formatted
+[2025-01-12 05:55:29,843][evaluate.py][line:326][INFO] ORIGINAL:  She's not his girl. She knows she's not.
+[2025-01-12 05:55:29,843][evaluate.py][line:327][INFO] FORMATTED:  SHE'S NOT HIS GIRL SHE KNOWS SHE'S NOT
+[2025-01-12 05:55:29,895][evaluate.py][line:325][INFO] Transcription of file 457 has been formatted
+[2025-01-12 05:55:29,895][evaluate.py][line:326][INFO] ORIGINAL:  I want you to pretend like he's coming back.
+[2025-01-12 05:55:29,895][evaluate.py][line:327][INFO] FORMATTED:  I WANT YOU TO PRETEND LIKE HE'S COMING BACK
+[2025-01-12 05:55:29,953][evaluate.py][line:325][INFO] Transcription of file 458 has been formatted
+[2025-01-12 05:55:29,953][evaluate.py][line:326][INFO] ORIGINAL:  Because if he's not coming back then I'll kill myself.
+[2025-01-12 05:55:29,953][evaluate.py][line:327][INFO] FORMATTED:  BECAUSE IF HE'S NOT COMING BACK THEN I'LL KILL MYSELF
+[2025-01-12 05:55:30,066][evaluate.py][line:325][INFO] Transcription of file 459 has been formatted
+[2025-01-12 05:55:30,066][evaluate.py][line:326][INFO] ORIGINAL:  Laugh. Laugh at me, but what happened? The night that she goes to sleep in his bed and his memorial breaks in pieces.
+[2025-01-12 05:55:30,066][evaluate.py][line:327][INFO] FORMATTED:  LAUGH LAUGH AT ME  BUT WHAT HAPPENED  THE NIGHT THAT SHE GOES TO SLEEP IN HIS BED AND HIS MEMORIAL BREAKS IN PIECES
+[2025-01-12 05:55:30,164][evaluate.py][line:325][INFO] Transcription of file 460 has been formatted
+[2025-01-12 05:55:30,164][evaluate.py][line:326][INFO] ORIGINAL:  Only last week, another boy turned up in Detroit, mid-missing longer than Larry, you read it yourself.
+[2025-01-12 05:55:30,164][evaluate.py][line:327][INFO] FORMATTED:  ONLY LAST WEEK  ANOTHER BOY TURNED UP IN DETROIT  MID MISSING LONGER THAN LARRY  YOU READ IT YOURSELF
+[2025-01-12 05:55:30,210][evaluate.py][line:325][INFO] Transcription of file 461 has been formatted
+[2025-01-12 05:55:30,210][evaluate.py][line:326][INFO] ORIGINAL:  You've gotta believe you've gotta...
+[2025-01-12 05:55:30,210][evaluate.py][line:327][INFO] FORMATTED:  YOU'VE GOTTA BELIEVE YOU'VE GOTTA
+[2025-01-12 05:55:30,245][evaluate.py][line:325][INFO] Transcription of file 462 has been formatted
+[2025-01-12 05:55:30,245][evaluate.py][line:326][INFO] ORIGINAL:  I can't help it.
+[2025-01-12 05:55:30,245][evaluate.py][line:327][INFO] FORMATTED:  I CAN'T HELP IT
+[2025-01-12 05:55:30,268][evaluate.py][line:325][INFO] Transcription of file 463 has been formatted
+[2025-01-12 05:55:30,268][evaluate.py][line:326][INFO] ORIGINAL:  about what?
+[2025-01-12 05:55:30,268][evaluate.py][line:327][INFO] FORMATTED:  ABOUT WHAT 
+[2025-01-12 05:55:30,300][evaluate.py][line:325][INFO] Transcription of file 464 has been formatted
+[2025-01-12 05:55:30,300][evaluate.py][line:326][INFO] ORIGINAL:  It's ridiculous.
+[2025-01-12 05:55:30,300][evaluate.py][line:327][INFO] FORMATTED:  IT'S RIDICULOUS
+[2025-01-12 05:55:30,384][evaluate.py][line:325][INFO] Transcription of file 465 has been formatted
+[2025-01-12 05:55:30,384][evaluate.py][line:326][INFO] ORIGINAL:  Good damn it Augie Seriously you always ask me that why you ask me that I hated so insulting
+[2025-01-12 05:55:30,384][evaluate.py][line:327][INFO] FORMATTED:  GOOD DAMN IT AUGIE SERIOUSLY YOU ALWAYS ASK ME THAT WHY YOU ASK ME THAT I HATED SO INSULTING
+[2025-01-12 05:55:30,442][evaluate.py][line:325][INFO] Transcription of file 466 has been formatted
+[2025-01-12 05:55:30,442][evaluate.py][line:326][INFO] ORIGINAL:  Twice as every time we try, that's ever.
+[2025-01-12 05:55:30,442][evaluate.py][line:327][INFO] FORMATTED:  TWICE AS EVERY TIME WE TRY  THAT'S EVER
+[2025-01-12 05:55:30,691][evaluate.py][line:325][INFO] Transcription of file 467 has been formatted
+[2025-01-12 05:55:30,691][evaluate.py][line:326][INFO] ORIGINAL:  No, we won't. It's like waiting up for Santa Claus or something. I feel like as though my whole life is gonna be standing on the beach waiting with my eyes open, expectantly my hands clasped, neatly in front of me, waiting for fish to show up and the fish will not show up.
+[2025-01-12 05:55:30,691][evaluate.py][line:327][INFO] FORMATTED:  NO  WE WON'T IT'S LIKE WAITING UP FOR SANTA CLAUS OR SOMETHING I FEEL LIKE AS THOUGH MY WHOLE LIFE IS GONNA BE STANDING ON THE BEACH WAITING WITH MY EYES OPEN  EXPECTANTLY MY HANDS CLASPED  NEATLY IN FRONT OF ME  WAITING FOR FISH TO SHOW UP AND THE FISH WILL NOT SHOW UP
+[2025-01-12 05:55:30,812][evaluate.py][line:325][INFO] Transcription of file 468 has been formatted
+[2025-01-12 05:55:30,812][evaluate.py][line:326][INFO] ORIGINAL:  I did want to see it. I always want to see it. I just, I keep thinking this will be the time and it never is.
+[2025-01-12 05:55:30,812][evaluate.py][line:327][INFO] FORMATTED:  I DID WANT TO SEE IT I ALWAYS WANT TO SEE IT I JUST  I KEEP THINKING THIS WILL BE THE TIME AND IT NEVER IS
+[2025-01-12 05:55:31,104][evaluate.py][line:325][INFO] Transcription of file 469 has been formatted
+[2025-01-12 05:55:31,104][evaluate.py][line:326][INFO] ORIGINAL:  Do you remember the first time that we came to see the Grunion? It's about four years ago, right after we got married. We thought I was pregnant. We had a bottle of champagne and no glasses. You asked me to dance. We took off our shoes. While we were dancing, you said the most intimate things to me, right in my ear so that I could feel
+[2025-01-12 05:55:31,104][evaluate.py][line:327][INFO] FORMATTED:  DO YOU REMEMBER THE FIRST TIME THAT WE CAME TO SEE THE GRUNION  IT'S ABOUT FOUR YEARS AGO  RIGHT AFTER WE GOT MARRIED WE THOUGHT I WAS PREGNANT WE HAD A BOTTLE OF CHAMPAGNE AND NO GLASSES YOU ASKED ME TO DANCE WE TOOK OFF OUR SHOES WHILE WE WERE DANCING  YOU SAID THE MOST INTIMATE THINGS TO ME  RIGHT IN MY EAR SO THAT I COULD FEEL
+[2025-01-12 05:55:31,188][evaluate.py][line:325][INFO] Transcription of file 470 has been formatted
+[2025-01-12 05:55:31,188][evaluate.py][line:326][INFO] ORIGINAL:  And I remember thinking to myself. Finally. I'm as happy as I'm supposed to be.
+[2025-01-12 05:55:31,188][evaluate.py][line:327][INFO] FORMATTED:  AND I REMEMBER THINKING TO MYSELF FINALLY I'M AS HAPPY AS I'M SUPPOSED TO BE
+[2025-01-12 05:55:31,251][evaluate.py][line:325][INFO] Transcription of file 471 has been formatted
+[2025-01-12 05:55:31,251][evaluate.py][line:326][INFO] ORIGINAL:  Dancing barefoot in the sand, drinking champagne out of the bottle.
+[2025-01-12 05:55:31,251][evaluate.py][line:327][INFO] FORMATTED:  DANCING BAREFOOT IN THE SAND  DRINKING CHAMPAGNE OUT OF THE BOTTLE
+[2025-01-12 05:55:31,327][evaluate.py][line:325][INFO] Transcription of file 472 has been formatted
+[2025-01-12 05:55:31,327][evaluate.py][line:326][INFO] ORIGINAL:  I would rather not remember some things. I'd rather not hope for some things.
+[2025-01-12 05:55:31,327][evaluate.py][line:327][INFO] FORMATTED:  I WOULD RATHER NOT REMEMBER SOME THINGS I'D RATHER NOT HOPE FOR SOME THINGS
+[2025-01-12 05:55:31,346][evaluate.py][line:325][INFO] Transcription of file 473 has been formatted
+[2025-01-12 05:55:31,346][evaluate.py][line:326][INFO] ORIGINAL:  No.
+[2025-01-12 05:55:31,346][evaluate.py][line:327][INFO] FORMATTED:  NO
+[2025-01-12 05:55:31,367][evaluate.py][line:325][INFO] Transcription of file 474 has been formatted
+[2025-01-12 05:55:31,367][evaluate.py][line:326][INFO] ORIGINAL:  No.
+[2025-01-12 05:55:31,367][evaluate.py][line:327][INFO] FORMATTED:  NO
+[2025-01-12 05:55:31,387][evaluate.py][line:325][INFO] Transcription of file 475 has been formatted
+[2025-01-12 05:55:31,387][evaluate.py][line:326][INFO] ORIGINAL:  No.
+[2025-01-12 05:55:31,387][evaluate.py][line:327][INFO] FORMATTED:  NO
+[2025-01-12 05:55:31,407][evaluate.py][line:325][INFO] Transcription of file 476 has been formatted
+[2025-01-12 05:55:31,407][evaluate.py][line:326][INFO] ORIGINAL:  No.
+[2025-01-12 05:55:31,407][evaluate.py][line:327][INFO] FORMATTED:  NO
+[2025-01-12 05:55:31,470][evaluate.py][line:325][INFO] Transcription of file 477 has been formatted
+[2025-01-12 05:55:31,470][evaluate.py][line:326][INFO] ORIGINAL:  I just want things to turn out the way they're supposed to.
+[2025-01-12 05:55:31,470][evaluate.py][line:327][INFO] FORMATTED:  I JUST WANT THINGS TO TURN OUT THE WAY THEY'RE SUPPOSED TO
+[2025-01-12 05:55:31,527][evaluate.py][line:325][INFO] Transcription of file 478 has been formatted
+[2025-01-12 05:55:31,528][evaluate.py][line:326][INFO] ORIGINAL:  But this isn't at all what I wanted it to be.
+[2025-01-12 05:55:31,528][evaluate.py][line:327][INFO] FORMATTED:  BUT THIS ISN'T AT ALL WHAT I WANTED IT TO BE
+[2025-01-12 05:55:31,654][evaluate.py][line:325][INFO] Transcription of file 479 has been formatted
+[2025-01-12 05:55:31,654][evaluate.py][line:326][INFO] ORIGINAL:  And this is just this. I mean it's a lot and everything but it's not... you know, something else. I'm making any sense.
+[2025-01-12 05:55:31,655][evaluate.py][line:327][INFO] FORMATTED:  AND THIS IS JUST THIS I MEAN IT'S A LOT AND EVERYTHING BUT IT'S NOT YOU KNOW  SOMETHING ELSE I'M MAKING ANY SENSE
+[2025-01-12 05:55:31,860][evaluate.py][line:325][INFO] Transcription of file 480 has been formatted
+[2025-01-12 05:55:31,860][evaluate.py][line:326][INFO] ORIGINAL:  I know that, Augie. I do, I know that. And I know that this meant a lot to you and it's special, you know, with the sand and the moon, but...
+[2025-01-12 05:55:31,860][evaluate.py][line:327][INFO] FORMATTED:  I KNOW THAT  AUGIE I DO  I KNOW THAT AND I KNOW THAT THIS MEANT A LOT TO YOU AND IT'S SPECIAL  YOU KNOW  WITH THE SAND AND THE MOON  BUT
+[2025-01-12 05:55:31,923][evaluate.py][line:325][INFO] Transcription of file 481 has been formatted
+[2025-01-12 05:55:31,923][evaluate.py][line:326][INFO] ORIGINAL:  I just couldn't help thinking about being somewhere else.
+[2025-01-12 05:55:31,923][evaluate.py][line:327][INFO] FORMATTED:  I JUST COULDN'T HELP THINKING ABOUT BEING SOMEWHERE ELSE
+[2025-01-12 05:55:31,961][evaluate.py][line:325][INFO] Transcription of file 482 has been formatted
+[2025-01-12 05:55:31,961][evaluate.py][line:326][INFO] ORIGINAL:  I didn't say that.
+[2025-01-12 05:55:31,961][evaluate.py][line:327][INFO] FORMATTED:  I DIDN'T SAY THAT
+[2025-01-12 05:55:32,048][evaluate.py][line:325][INFO] Transcription of file 483 has been formatted
+[2025-01-12 05:55:32,048][evaluate.py][line:326][INFO] ORIGINAL:  For heaven's sake, Augie. Whatever I'm doing, I would rather it be with you.
+[2025-01-12 05:55:32,048][evaluate.py][line:327][INFO] FORMATTED:  FOR HEAVEN'S SAKE  AUGIE WHATEVER I'M DOING  I WOULD RATHER IT BE WITH YOU
+[2025-01-12 05:55:32,229][evaluate.py][line:325][INFO] Transcription of file 484 has been formatted
+[2025-01-12 05:55:32,229][evaluate.py][line:326][INFO] ORIGINAL:  Yes, don't you know that? I mean, you're probably the one who wishes you're with somebody else. It's when you didn't take everything so hard and who knew how to enjoy yourself.
+[2025-01-12 05:55:32,229][evaluate.py][line:327][INFO] FORMATTED:  YES  DON'T YOU KNOW THAT  I MEAN  YOU'RE PROBABLY THE ONE WHO WISHES YOU'RE WITH SOMEBODY ELSE IT'S WHEN YOU DIDN'T TAKE EVERYTHING SO HARD AND WHO KNEW HOW TO ENJOY YOURSELF
+[2025-01-12 05:55:32,346][evaluate.py][line:325][INFO] Transcription of file 485 has been formatted
+[2025-01-12 05:55:32,346][evaluate.py][line:326][INFO] ORIGINAL:  Yes, I did notice that. It does look really beautiful over the water. Big old white moon.
+[2025-01-12 05:55:32,346][evaluate.py][line:327][INFO] FORMATTED:  YES  I DID NOTICE THAT IT DOES LOOK REALLY BEAUTIFUL OVER THE WATER BIG OLD WHITE MOON
+[2025-01-12 05:55:32,503][evaluate.py][line:325][INFO] Transcription of file 486 has been formatted
+[2025-01-12 05:55:32,503][evaluate.py][line:326][INFO] ORIGINAL:  No. I'm beginning to think you might be right. I think this might be the spot after all. I'll be. I'm sorry.
+[2025-01-12 05:55:32,503][evaluate.py][line:327][INFO] FORMATTED:  NO I'M BEGINNING TO THINK YOU MIGHT BE RIGHT I THINK THIS MIGHT BE THE SPOT AFTER ALL I'LL BE I'M SORRY
+[2025-01-12 05:55:32,526][evaluate.py][line:325][INFO] Transcription of file 487 has been formatted
+[2025-01-12 05:55:32,526][evaluate.py][line:326][INFO] ORIGINAL:  or not.
+[2025-01-12 05:55:32,526][evaluate.py][line:327][INFO] FORMATTED:  OR NOT
+[2025-01-12 05:55:32,546][evaluate.py][line:325][INFO] Transcription of file 488 has been formatted
+[2025-01-12 05:55:32,547][evaluate.py][line:326][INFO] ORIGINAL:  Let.
+[2025-01-12 05:55:32,547][evaluate.py][line:327][INFO] FORMATTED:  LET
+[2025-01-12 05:55:32,565][evaluate.py][line:325][INFO] Transcription of file 489 has been formatted
+[2025-01-12 05:55:32,565][evaluate.py][line:326][INFO] ORIGINAL:  win!
+[2025-01-12 05:55:32,565][evaluate.py][line:327][INFO] FORMATTED:  WIN 
+[2025-01-12 05:55:32,609][evaluate.py][line:325][INFO] Transcription of file 490 has been formatted
+[2025-01-12 05:55:32,609][evaluate.py][line:326][INFO] ORIGINAL:  Oh, how did you do it?
+[2025-01-12 05:55:32,609][evaluate.py][line:327][INFO] FORMATTED:  OH  HOW DID YOU DO IT 
+[2025-01-12 05:55:32,653][evaluate.py][line:325][INFO] Transcription of file 491 has been formatted
+[2025-01-12 05:55:32,653][evaluate.py][line:326][INFO] ORIGINAL:  Okay, good. I assumed.
+[2025-01-12 05:55:32,653][evaluate.py][line:327][INFO] FORMATTED:  OKAY  GOOD I ASSUMED
+[2025-01-12 05:55:32,675][evaluate.py][line:325][INFO] Transcription of file 492 has been formatted
+[2025-01-12 05:55:32,675][evaluate.py][line:326][INFO] ORIGINAL:  Thank you.
+[2025-01-12 05:55:32,676][evaluate.py][line:327][INFO] FORMATTED:  THANK YOU
+[2025-01-12 05:55:32,704][evaluate.py][line:325][INFO] Transcription of file 493 has been formatted
+[2025-01-12 05:55:32,704][evaluate.py][line:326][INFO] ORIGINAL:  and you can click
+[2025-01-12 05:55:32,704][evaluate.py][line:327][INFO] FORMATTED:  AND YOU CAN CLICK
+[2025-01-12 05:55:32,749][evaluate.py][line:325][INFO] Transcription of file 494 has been formatted
+[2025-01-12 05:55:32,749][evaluate.py][line:326][INFO] ORIGINAL:  Oh my god, that's so dramatic.
+[2025-01-12 05:55:32,749][evaluate.py][line:327][INFO] FORMATTED:  OH MY GOD  THAT'S SO DRAMATIC
+[2025-01-12 05:55:32,779][evaluate.py][line:325][INFO] Transcription of file 495 has been formatted
+[2025-01-12 05:55:32,779][evaluate.py][line:326][INFO] ORIGINAL:  It's so cute!
+[2025-01-12 05:55:32,779][evaluate.py][line:327][INFO] FORMATTED:  IT'S SO CUTE 
+[2025-01-12 05:55:32,814][evaluate.py][line:325][INFO] Transcription of file 496 has been formatted
+[2025-01-12 05:55:32,815][evaluate.py][line:326][INFO] ORIGINAL:  No, totally original though.
+[2025-01-12 05:55:32,815][evaluate.py][line:327][INFO] FORMATTED:  NO  TOTALLY ORIGINAL THOUGH
+[2025-01-12 05:55:32,837][evaluate.py][line:325][INFO] Transcription of file 497 has been formatted
+[2025-01-12 05:55:32,837][evaluate.py][line:326][INFO] ORIGINAL:  Oh yeah.
+[2025-01-12 05:55:32,837][evaluate.py][line:327][INFO] FORMATTED:  OH YEAH
+[2025-01-12 05:55:32,897][evaluate.py][line:325][INFO] Transcription of file 498 has been formatted
+[2025-01-12 05:55:32,897][evaluate.py][line:326][INFO] ORIGINAL:  Oh, and then you had like a whole weekend of camping.
+[2025-01-12 05:55:32,897][evaluate.py][line:327][INFO] FORMATTED:  OH  AND THEN YOU HAD LIKE A WHOLE WEEKEND OF CAMPING
+[2025-01-12 05:55:32,934][evaluate.py][line:325][INFO] Transcription of file 499 has been formatted
+[2025-01-12 05:55:32,934][evaluate.py][line:326][INFO] ORIGINAL:  All right, I'm sure.
+[2025-01-12 05:55:32,934][evaluate.py][line:327][INFO] FORMATTED:  ALL RIGHT  I'M SURE
+[2025-01-12 05:55:33,002][evaluate.py][line:325][INFO] Transcription of file 500 has been formatted
+[2025-01-12 05:55:33,002][evaluate.py][line:326][INFO] ORIGINAL:  So where are you gonna have your wedding? We're gonna do it.
+[2025-01-12 05:55:33,003][evaluate.py][line:327][INFO] FORMATTED:  SO WHERE ARE YOU GONNA HAVE YOUR WEDDING  WE'RE GONNA DO IT
+[2025-01-12 05:55:33,033][evaluate.py][line:325][INFO] Transcription of file 501 has been formatted
+[2025-01-12 05:55:33,033][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, of course.
+[2025-01-12 05:55:33,033][evaluate.py][line:327][INFO] FORMATTED:  YEAH  OF COURSE
+[2025-01-12 05:55:33,061][evaluate.py][line:325][INFO] Transcription of file 502 has been formatted
+[2025-01-12 05:55:33,061][evaluate.py][line:326][INFO] ORIGINAL:  Okay, okay.
+[2025-01-12 05:55:33,061][evaluate.py][line:327][INFO] FORMATTED:  OKAY  OKAY
+[2025-01-12 05:55:33,096][evaluate.py][line:325][INFO] Transcription of file 503 has been formatted
+[2025-01-12 05:55:33,096][evaluate.py][line:326][INFO] ORIGINAL:  Where is he right now?
+[2025-01-12 05:55:33,096][evaluate.py][line:327][INFO] FORMATTED:  WHERE IS HE RIGHT NOW 
+[2025-01-12 05:55:33,156][evaluate.py][line:325][INFO] Transcription of file 504 has been formatted
+[2025-01-12 05:55:33,156][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I'm gonna hang out with the both of you.
+[2025-01-12 05:55:33,156][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I'M GONNA HANG OUT WITH THE BOTH OF YOU
+[2025-01-12 05:55:33,183][evaluate.py][line:325][INFO] Transcription of file 505 has been formatted
+[2025-01-12 05:55:33,183][evaluate.py][line:326][INFO] ORIGINAL:  Yes.
+[2025-01-12 05:55:33,183][evaluate.py][line:327][INFO] FORMATTED:  YES
+[2025-01-12 05:55:33,242][evaluate.py][line:325][INFO] Transcription of file 506 has been formatted
+[2025-01-12 05:55:33,242][evaluate.py][line:326][INFO] ORIGINAL:  Oh, I'm so excited for you.
+[2025-01-12 05:55:33,242][evaluate.py][line:327][INFO] FORMATTED:  OH  I'M SO EXCITED FOR YOU
+[2025-01-12 05:55:33,263][evaluate.py][line:325][INFO] Transcription of file 507 has been formatted
+[2025-01-12 05:55:33,263][evaluate.py][line:326][INFO] ORIGINAL:  Oh
+[2025-01-12 05:55:33,263][evaluate.py][line:327][INFO] FORMATTED:  OH
+[2025-01-12 05:55:33,325][evaluate.py][line:325][INFO] Transcription of file 508 has been formatted
+[2025-01-12 05:55:33,326][evaluate.py][line:326][INFO] ORIGINAL:  Oh my gosh. You told your parents already and everything.
+[2025-01-12 05:55:33,326][evaluate.py][line:327][INFO] FORMATTED:  OH MY GOSH YOU TOLD YOUR PARENTS ALREADY AND EVERYTHING
+[2025-01-12 05:55:33,359][evaluate.py][line:325][INFO] Transcription of file 509 has been formatted
+[2025-01-12 05:55:33,359][evaluate.py][line:326][INFO] ORIGINAL:  Are they so excited?
+[2025-01-12 05:55:33,359][evaluate.py][line:327][INFO] FORMATTED:  ARE THEY SO EXCITED 
+[2025-01-12 05:55:33,397][evaluate.py][line:325][INFO] Transcription of file 510 has been formatted
+[2025-01-12 05:55:33,397][evaluate.py][line:326][INFO] ORIGINAL:  Are you guys gonna have kids?
+[2025-01-12 05:55:33,397][evaluate.py][line:327][INFO] FORMATTED:  ARE YOU GUYS GONNA HAVE KIDS 
+[2025-01-12 05:55:33,435][evaluate.py][line:325][INFO] Transcription of file 511 has been formatted
+[2025-01-12 05:55:33,435][evaluate.py][line:326][INFO] ORIGINAL:  Are you gonna start right away?
+[2025-01-12 05:55:33,435][evaluate.py][line:327][INFO] FORMATTED:  ARE YOU GONNA START RIGHT AWAY 
+[2025-01-12 05:55:33,490][evaluate.py][line:325][INFO] Transcription of file 512 has been formatted
+[2025-01-12 05:55:33,490][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, have you ever like lived with someone else before?
+[2025-01-12 05:55:33,490][evaluate.py][line:327][INFO] FORMATTED:  YEAH  HAVE YOU EVER LIKE LIVED WITH SOMEONE ELSE BEFORE 
+[2025-01-12 05:55:33,510][evaluate.py][line:325][INFO] Transcription of file 513 has been formatted
+[2025-01-12 05:55:33,510][evaluate.py][line:326][INFO] ORIGINAL:  Um...
+[2025-01-12 05:55:33,511][evaluate.py][line:327][INFO] FORMATTED:  UM
+[2025-01-12 05:55:33,558][evaluate.py][line:325][INFO] Transcription of file 514 has been formatted
+[2025-01-12 05:55:33,558][evaluate.py][line:326][INFO] ORIGINAL:  I think it's incredible. Yeah, congratulations.
+[2025-01-12 05:55:33,558][evaluate.py][line:327][INFO] FORMATTED:  I THINK IT'S INCREDIBLE YEAH  CONGRATULATIONS
+[2025-01-12 05:55:33,596][evaluate.py][line:325][INFO] Transcription of file 515 has been formatted
+[2025-01-12 05:55:33,596][evaluate.py][line:326][INFO] ORIGINAL:  Really, just been that long.
+[2025-01-12 05:55:33,596][evaluate.py][line:327][INFO] FORMATTED:  REALLY  JUST BEEN THAT LONG
+[2025-01-12 05:55:33,611][evaluate.py][line:325][INFO] Transcription of file 516 has been formatted
+[2025-01-12 05:55:33,611][evaluate.py][line:326][INFO] ORIGINAL:  Wow
+[2025-01-12 05:55:33,611][evaluate.py][line:327][INFO] FORMATTED:  WOW
+[2025-01-12 05:55:33,645][evaluate.py][line:325][INFO] Transcription of file 517 has been formatted
+[2025-01-12 05:55:33,645][evaluate.py][line:326][INFO] ORIGINAL:  What have you been trying?
+[2025-01-12 05:55:33,645][evaluate.py][line:327][INFO] FORMATTED:  WHAT HAVE YOU BEEN TRYING 
+[2025-01-12 05:55:33,687][evaluate.py][line:325][INFO] Transcription of file 518 has been formatted
+[2025-01-12 05:55:33,687][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, I'm gonna slowly want.
+[2025-01-12 05:55:33,687][evaluate.py][line:327][INFO] FORMATTED:  YEAH  I'M GONNA SLOWLY WANT
+[2025-01-12 05:55:33,812][evaluate.py][line:325][INFO] Transcription of file 519 has been formatted
+[2025-01-12 05:55:33,812][evaluate.py][line:326][INFO] ORIGINAL:  Well, I mean right now I'm just doing a little bit of everything and I don't think that I'm in like a profession like career oriented place.
+[2025-01-12 05:55:33,812][evaluate.py][line:327][INFO] FORMATTED:  WELL  I MEAN RIGHT NOW I'M JUST DOING A LITTLE BIT OF EVERYTHING AND I DON'T THINK THAT I'M IN LIKE A PROFESSION LIKE CAREER ORIENTED PLACE
+[2025-01-12 05:55:33,909][evaluate.py][line:325][INFO] Transcription of file 520 has been formatted
+[2025-01-12 05:55:33,909][evaluate.py][line:326][INFO] ORIGINAL:  No, I mean I'm just working in restaurants and stuff, but I'm also trying to audition and whatnot.
+[2025-01-12 05:55:33,909][evaluate.py][line:327][INFO] FORMATTED:  NO  I MEAN I'M JUST WORKING IN RESTAURANTS AND STUFF  BUT I'M ALSO TRYING TO AUDITION AND WHATNOT
+[2025-01-12 05:55:33,929][evaluate.py][line:325][INFO] Transcription of file 521 has been formatted
+[2025-01-12 05:55:33,929][evaluate.py][line:326][INFO] ORIGINAL:  Really?
+[2025-01-12 05:55:33,929][evaluate.py][line:327][INFO] FORMATTED:  REALLY 
+[2025-01-12 05:55:34,050][evaluate.py][line:325][INFO] Transcription of file 522 has been formatted
+[2025-01-12 05:55:34,050][evaluate.py][line:326][INFO] ORIGINAL:  And it's really hard. I mean have you tried like just going into a bar a couple times to make friends with your work there?
+[2025-01-12 05:55:34,050][evaluate.py][line:327][INFO] FORMATTED:  AND IT'S REALLY HARD I MEAN HAVE YOU TRIED LIKE JUST GOING INTO A BAR A COUPLE TIMES TO MAKE FRIENDS WITH YOUR WORK THERE 
+[2025-01-12 05:55:34,152][evaluate.py][line:325][INFO] Transcription of file 523 has been formatted
+[2025-01-12 05:55:34,152][evaluate.py][line:326][INFO] ORIGINAL:  I was gonna say maybe that's your issue, because they're going in too much. No, I mean just
+[2025-01-12 05:55:34,152][evaluate.py][line:327][INFO] FORMATTED:  I WAS GONNA SAY MAYBE THAT'S YOUR ISSUE  BECAUSE THEY'RE GOING IN TOO MUCH NO  I MEAN JUST
+[2025-01-12 05:55:34,197][evaluate.py][line:325][INFO] Transcription of file 524 has been formatted
+[2025-01-12 05:55:34,197][evaluate.py][line:326][INFO] ORIGINAL:  Are you going in the bars every night?
+[2025-01-12 05:55:34,197][evaluate.py][line:327][INFO] FORMATTED:  ARE YOU GOING IN THE BARS EVERY NIGHT 
+[2025-01-12 05:55:34,295][evaluate.py][line:325][INFO] Transcription of file 525 has been formatted
+[2025-01-12 05:55:34,295][evaluate.py][line:326][INFO] ORIGINAL:  Well, I don't really know. I don't I don't know you in like a job situation. So
+[2025-01-12 05:55:34,295][evaluate.py][line:327][INFO] FORMATTED:  WELL  I DON'T REALLY KNOW I DON'T I DON'T KNOW YOU IN LIKE A JOB SITUATION SO
+[2025-01-12 05:55:34,374][evaluate.py][line:325][INFO] Transcription of file 526 has been formatted
+[2025-01-12 05:55:34,374][evaluate.py][line:326][INFO] ORIGINAL:  Wow, I mean, do you have like an attitude problem when you're on the job?
+[2025-01-12 05:55:34,374][evaluate.py][line:327][INFO] FORMATTED:  WOW  I MEAN  DO YOU HAVE LIKE AN ATTITUDE PROBLEM WHEN YOU'RE ON THE JOB 
+[2025-01-12 05:55:34,405][evaluate.py][line:325][INFO] Transcription of file 527 has been formatted
+[2025-01-12 05:55:34,405][evaluate.py][line:326][INFO] ORIGINAL:  Maybe you can't.
+[2025-01-12 05:55:34,405][evaluate.py][line:327][INFO] FORMATTED:  MAYBE YOU CAN'T
+[2025-01-12 05:55:34,491][evaluate.py][line:325][INFO] Transcription of file 528 has been formatted
+[2025-01-12 05:55:34,491][evaluate.py][line:326][INFO] ORIGINAL:  Right, maybe you have like, you know, a little bit of an abrasive vibe or something.
+[2025-01-12 05:55:34,491][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  MAYBE YOU HAVE LIKE  YOU KNOW  A LITTLE BIT OF AN ABRASIVE VIBE OR SOMETHING
+[2025-01-12 05:55:34,543][evaluate.py][line:325][INFO] Transcription of file 529 has been formatted
+[2025-01-12 05:55:34,546][evaluate.py][line:326][INFO] ORIGINAL:  I don't know. I'm trying to.
+[2025-01-12 05:55:34,546][evaluate.py][line:327][INFO] FORMATTED:  I DON'T KNOW I'M TRYING TO
+[2025-01-12 05:55:34,582][evaluate.py][line:325][INFO] Transcription of file 530 has been formatted
+[2025-01-12 05:55:34,582][evaluate.py][line:326][INFO] ORIGINAL:  Are you getting defensive?
+[2025-01-12 05:55:34,582][evaluate.py][line:327][INFO] FORMATTED:  ARE YOU GETTING DEFENSIVE 
+[2025-01-12 05:55:34,650][evaluate.py][line:325][INFO] Transcription of file 531 has been formatted
+[2025-01-12 05:55:34,650][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, that might be something you want to look at. I mean...
+[2025-01-12 05:55:34,650][evaluate.py][line:327][INFO] FORMATTED:  YEAH  THAT MIGHT BE SOMETHING YOU WANT TO LOOK AT I MEAN
+[2025-01-12 05:55:34,669][evaluate.py][line:325][INFO] Transcription of file 532 has been formatted
+[2025-01-12 05:55:34,669][evaluate.py][line:326][INFO] ORIGINAL:  Okay.
+[2025-01-12 05:55:34,669][evaluate.py][line:327][INFO] FORMATTED:  OKAY
+[2025-01-12 05:55:34,696][evaluate.py][line:325][INFO] Transcription of file 533 has been formatted
+[2025-01-12 05:55:34,696][evaluate.py][line:326][INFO] ORIGINAL:  I understand.
+[2025-01-12 05:55:34,696][evaluate.py][line:327][INFO] FORMATTED:  I UNDERSTAND
+[2025-01-12 05:55:34,747][evaluate.py][line:325][INFO] Transcription of file 534 has been formatted
+[2025-01-12 05:55:34,747][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, it's stressful. I recognize that.
+[2025-01-12 05:55:34,747][evaluate.py][line:327][INFO] FORMATTED:  YEAH  IT'S STRESSFUL I RECOGNIZE THAT
+[2025-01-12 05:55:34,770][evaluate.py][line:325][INFO] Transcription of file 535 has been formatted
+[2025-01-12 05:55:34,770][evaluate.py][line:326][INFO] ORIGINAL:  something.
+[2025-01-12 05:55:34,770][evaluate.py][line:327][INFO] FORMATTED:  SOMETHING
+[2025-01-12 05:55:34,806][evaluate.py][line:325][INFO] Transcription of file 536 has been formatted
+[2025-01-12 05:55:34,806][evaluate.py][line:326][INFO] ORIGINAL:  Not not selling pot right right
+[2025-01-12 05:55:34,806][evaluate.py][line:327][INFO] FORMATTED:  NOT NOT SELLING POT RIGHT RIGHT
+[2025-01-12 05:55:34,831][evaluate.py][line:325][INFO] Transcription of file 537 has been formatted
+[2025-01-12 05:55:34,831][evaluate.py][line:326][INFO] ORIGINAL:  Okay, so.
+[2025-01-12 05:55:34,831][evaluate.py][line:327][INFO] FORMATTED:  OKAY  SO
+[2025-01-12 05:55:34,855][evaluate.py][line:325][INFO] Transcription of file 538 has been formatted
+[2025-01-12 05:55:34,855][evaluate.py][line:326][INFO] ORIGINAL:  Fair enough.
+[2025-01-12 05:55:34,855][evaluate.py][line:327][INFO] FORMATTED:  FAIR ENOUGH
+[2025-01-12 05:55:34,922][evaluate.py][line:325][INFO] Transcription of file 539 has been formatted
+[2025-01-12 05:55:34,922][evaluate.py][line:326][INFO] ORIGINAL:  Sorry, so let's see what else what's available what um hmm
+[2025-01-12 05:55:34,922][evaluate.py][line:327][INFO] FORMATTED:  SORRY  SO LET'S SEE WHAT ELSE WHAT'S AVAILABLE WHAT UM HMM
+[2025-01-12 05:55:35,014][evaluate.py][line:325][INFO] Transcription of file 540 has been formatted
+[2025-01-12 05:55:35,014][evaluate.py][line:326][INFO] ORIGINAL:  Well not off the top of my head it'll just take a minute but do you have any special skills?
+[2025-01-12 05:55:35,014][evaluate.py][line:327][INFO] FORMATTED:  WELL NOT OFF THE TOP OF MY HEAD IT'LL JUST TAKE A MINUTE BUT DO YOU HAVE ANY SPECIAL SKILLS 
+[2025-01-12 05:55:35,070][evaluate.py][line:325][INFO] Transcription of file 541 has been formatted
+[2025-01-12 05:55:35,070][evaluate.py][line:326][INFO] ORIGINAL:  Well, maybe we could find you something with jungling.
+[2025-01-12 05:55:35,070][evaluate.py][line:327][INFO] FORMATTED:  WELL  MAYBE WE COULD FIND YOU SOMETHING WITH JUNGLING
+[2025-01-12 05:55:35,111][evaluate.py][line:325][INFO] Transcription of file 542 has been formatted
+[2025-01-12 05:55:35,111][evaluate.py][line:326][INFO] ORIGINAL:  We checked out like Craigslist and stuff.
+[2025-01-12 05:55:35,111][evaluate.py][line:327][INFO] FORMATTED:  WE CHECKED OUT LIKE CRAIGSLIST AND STUFF
+[2025-01-12 05:55:35,163][evaluate.py][line:325][INFO] Transcription of file 543 has been formatted
+[2025-01-12 05:55:35,163][evaluate.py][line:326][INFO] ORIGINAL:  What if he did kids parties? Oh come on.
+[2025-01-12 05:55:35,163][evaluate.py][line:327][INFO] FORMATTED:  WHAT IF HE DID KIDS PARTIES  OH COME ON
+[2025-01-12 05:55:35,190][evaluate.py][line:325][INFO] Transcription of file 544 has been formatted
+[2025-01-12 05:55:35,190][evaluate.py][line:326][INFO] ORIGINAL:  Okay, alright.
+[2025-01-12 05:55:35,190][evaluate.py][line:327][INFO] FORMATTED:  OKAY  ALRIGHT
+[2025-01-12 05:55:35,249][evaluate.py][line:325][INFO] Transcription of file 545 has been formatted
+[2025-01-12 05:55:35,249][evaluate.py][line:326][INFO] ORIGINAL:  Okay, well fine. I want to give you about that.
+[2025-01-12 05:55:35,249][evaluate.py][line:327][INFO] FORMATTED:  OKAY  WELL FINE I WANT TO GIVE YOU ABOUT THAT
+[2025-01-12 05:55:35,297][evaluate.py][line:325][INFO] Transcription of file 546 has been formatted
+[2025-01-12 05:55:35,297][evaluate.py][line:326][INFO] ORIGINAL:  That's rough, I'm really sorry Ryan.
+[2025-01-12 05:55:35,297][evaluate.py][line:327][INFO] FORMATTED:  THAT'S ROUGH  I'M REALLY SORRY RYAN
+[2025-01-12 05:55:35,428][evaluate.py][line:325][INFO] Transcription of file 547 has been formatted
+[2025-01-12 05:55:35,429][evaluate.py][line:326][INFO] ORIGINAL:  Well, um, is that kind of like the side of you that you let people see you and you go into these job interviews? No, I just shut up.
+[2025-01-12 05:55:35,429][evaluate.py][line:327][INFO] FORMATTED:  WELL  UM  IS THAT KIND OF LIKE THE SIDE OF YOU THAT YOU LET PEOPLE SEE YOU AND YOU GO INTO THESE JOB INTERVIEWS  NO  I JUST SHUT UP
+[2025-01-12 05:55:35,557][evaluate.py][line:325][INFO] Transcription of file 548 has been formatted
+[2025-01-12 05:55:35,557][evaluate.py][line:326][INFO] ORIGINAL:  Okay, well that's good. Yeah, I mean you're you're when you're happy you're a pretty personable guy and I don't I don't
+[2025-01-12 05:55:35,557][evaluate.py][line:327][INFO] FORMATTED:  OKAY  WELL THAT'S GOOD YEAH  I MEAN YOU'RE YOU'RE WHEN YOU'RE HAPPY YOU'RE A PRETTY PERSONABLE GUY AND I DON'T I DON'T
+[2025-01-12 05:55:35,605][evaluate.py][line:325][INFO] Transcription of file 549 has been formatted
+[2025-01-12 05:55:35,605][evaluate.py][line:326][INFO] ORIGINAL:  I can't see where the issue would be.
+[2025-01-12 05:55:35,605][evaluate.py][line:327][INFO] FORMATTED:  I CAN'T SEE WHERE THE ISSUE WOULD BE
+[2025-01-12 05:55:35,701][evaluate.py][line:325][INFO] Transcription of file 550 has been formatted
+[2025-01-12 05:55:35,701][evaluate.py][line:326][INFO] ORIGINAL:  Hi, I think my baggage was lost and I need to I guess file a claim or I don't know what.
+[2025-01-12 05:55:35,701][evaluate.py][line:327][INFO] FORMATTED:  HI  I THINK MY BAGGAGE WAS LOST AND I NEED TO I GUESS FILE A CLAIM OR I DON'T KNOW WHAT
+[2025-01-12 05:55:35,729][evaluate.py][line:325][INFO] Transcription of file 551 has been formatted
+[2025-01-12 05:55:35,730][evaluate.py][line:326][INFO] ORIGINAL:  17 coming home.
+[2025-01-12 05:55:35,730][evaluate.py][line:327][INFO] FORMATTED:  17 COMING HOME
+[2025-01-12 05:55:35,775][evaluate.py][line:325][INFO] Transcription of file 552 has been formatted
+[2025-01-12 05:55:35,775][evaluate.py][line:326][INFO] ORIGINAL:  It was a Virgin Atlantic coming from London.
+[2025-01-12 05:55:35,775][evaluate.py][line:327][INFO] FORMATTED:  IT WAS A VIRGIN ATLANTIC COMING FROM LONDON
+[2025-01-12 05:55:35,794][evaluate.py][line:325][INFO] Transcription of file 553 has been formatted
+[2025-01-12 05:55:35,794][evaluate.py][line:326][INFO] ORIGINAL:  Right.
+[2025-01-12 05:55:35,794][evaluate.py][line:327][INFO] FORMATTED:  RIGHT
+[2025-01-12 05:55:35,813][evaluate.py][line:325][INFO] Transcription of file 554 has been formatted
+[2025-01-12 05:55:35,813][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:35,813][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:35,846][evaluate.py][line:325][INFO] Transcription of file 555 has been formatted
+[2025-01-12 05:55:35,847][evaluate.py][line:326][INFO] ORIGINAL:  Oh, that's good.
+[2025-01-12 05:55:35,847][evaluate.py][line:327][INFO] FORMATTED:  OH  THAT'S GOOD
+[2025-01-12 05:55:35,921][evaluate.py][line:325][INFO] Transcription of file 556 has been formatted
+[2025-01-12 05:55:35,921][evaluate.py][line:326][INFO] ORIGINAL:  Well, I can't leave without it. I mean, could you find out?
+[2025-01-12 05:55:35,921][evaluate.py][line:327][INFO] FORMATTED:  WELL  I CAN'T LEAVE WITHOUT IT I MEAN  COULD YOU FIND OUT 
+[2025-01-12 05:55:36,019][evaluate.py][line:325][INFO] Transcription of file 557 has been formatted
+[2025-01-12 05:55:36,019][evaluate.py][line:326][INFO] ORIGINAL:  It's a travel backpack, it's green and gray, it's got my name on it and my information.
+[2025-01-12 05:55:36,019][evaluate.py][line:327][INFO] FORMATTED:  IT'S A TRAVEL BACKPACK  IT'S GREEN AND GRAY  IT'S GOT MY NAME ON IT AND MY INFORMATION
+[2025-01-12 05:55:36,129][evaluate.py][line:325][INFO] Transcription of file 558 has been formatted
+[2025-01-12 05:55:36,129][evaluate.py][line:326][INFO] ORIGINAL:  Not lose the baggage in the first place. I mean you're offering a service here. I paid so much money for that ticket.
+[2025-01-12 05:55:36,129][evaluate.py][line:327][INFO] FORMATTED:  NOT LOSE THE BAGGAGE IN THE FIRST PLACE I MEAN YOU'RE OFFERING A SERVICE HERE I PAID SO MUCH MONEY FOR THAT TICKET
+[2025-01-12 05:55:36,223][evaluate.py][line:325][INFO] Transcription of file 559 has been formatted
+[2025-01-12 05:55:36,223][evaluate.py][line:326][INFO] ORIGINAL:  No, but I mean like why can't why can't you find it where did it go who lost it?
+[2025-01-12 05:55:36,223][evaluate.py][line:327][INFO] FORMATTED:  NO  BUT I MEAN LIKE WHY CAN'T WHY CAN'T YOU FIND IT WHERE DID IT GO WHO LOST IT 
+[2025-01-12 05:55:36,380][evaluate.py][line:325][INFO] Transcription of file 560 has been formatted
+[2025-01-12 05:55:36,380][evaluate.py][line:326][INFO] ORIGINAL:  Well, I just, I paid so much money for this ticket. I feel like you guys should be able to get to offer me more than $50 voucher.
+[2025-01-12 05:55:36,380][evaluate.py][line:327][INFO] FORMATTED:  WELL  I JUST  I PAID SO MUCH MONEY FOR THIS TICKET I FEEL LIKE YOU GUYS SHOULD BE ABLE TO GET TO OFFER ME MORE THAN  50 VOUCHER
+[2025-01-12 05:55:36,563][evaluate.py][line:325][INFO] Transcription of file 561 has been formatted
+[2025-01-12 05:55:36,563][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, meaning I didn't die in a fiery plane crash. How convenient. But I paid $2,000 to ride your airline and I would really appreciate getting my bags there to my destination in one place.
+[2025-01-12 05:55:36,563][evaluate.py][line:327][INFO] FORMATTED:  YEAH  MEANING I DIDN'T DIE IN A FIERY PLANE CRASH HOW CONVENIENT BUT I PAID  2 000 TO RIDE YOUR AIRLINE AND I WOULD REALLY APPRECIATE GETTING MY BAGS THERE TO MY DESTINATION IN ONE PLACE
+[2025-01-12 05:55:36,659][evaluate.py][line:325][INFO] Transcription of file 562 has been formatted
+[2025-01-12 05:55:36,659][evaluate.py][line:326][INFO] ORIGINAL:  Right, but part of the agreement is that I'm paying so that I can take myself and my belongings with me.
+[2025-01-12 05:55:36,659][evaluate.py][line:327][INFO] FORMATTED:  RIGHT  BUT PART OF THE AGREEMENT IS THAT I'M PAYING SO THAT I CAN TAKE MYSELF AND MY BELONGINGS WITH ME
+[2025-01-12 05:55:36,723][evaluate.py][line:325][INFO] Transcription of file 563 has been formatted
+[2025-01-12 05:55:36,723][evaluate.py][line:326][INFO] ORIGINAL:  and that you're gonna transport them safely from one place to another.
+[2025-01-12 05:55:36,723][evaluate.py][line:327][INFO] FORMATTED:  AND THAT YOU'RE GONNA TRANSPORT THEM SAFELY FROM ONE PLACE TO ANOTHER
+[2025-01-12 05:55:36,819][evaluate.py][line:325][INFO] Transcription of file 564 has been formatted
+[2025-01-12 05:55:36,819][evaluate.py][line:326][INFO] ORIGINAL:  That's all you can offer me. I mean, like the stuff in there is worth way more than $50.
+[2025-01-12 05:55:36,819][evaluate.py][line:327][INFO] FORMATTED:  THAT'S ALL YOU CAN OFFER ME I MEAN  LIKE THE STUFF IN THERE IS WORTH WAY MORE THAN  50
+[2025-01-12 05:55:36,865][evaluate.py][line:325][INFO] Transcription of file 565 has been formatted
+[2025-01-12 05:55:36,865][evaluate.py][line:326][INFO] ORIGINAL:  I don't believe that for a second.
+[2025-01-12 05:55:36,865][evaluate.py][line:327][INFO] FORMATTED:  I DON'T BELIEVE THAT FOR A SECOND
+[2025-01-12 05:55:36,928][evaluate.py][line:325][INFO] Transcription of file 566 has been formatted
+[2025-01-12 05:55:36,928][evaluate.py][line:326][INFO] ORIGINAL:  What do you mean as you can? Who makes up these rules?
+[2025-01-12 05:55:36,928][evaluate.py][line:327][INFO] FORMATTED:  WHAT DO YOU MEAN AS YOU CAN  WHO MAKES UP THESE RULES 
+[2025-01-12 05:55:37,008][evaluate.py][line:325][INFO] Transcription of file 567 has been formatted
+[2025-01-12 05:55:37,008][evaluate.py][line:326][INFO] ORIGINAL:  I mean you're an autonomous human being you could you know you can go into the
+[2025-01-12 05:55:37,008][evaluate.py][line:327][INFO] FORMATTED:  I MEAN YOU'RE AN AUTONOMOUS HUMAN BEING YOU COULD YOU KNOW YOU CAN GO INTO THE
+[2025-01-12 05:55:37,204][evaluate.py][line:325][INFO] Transcription of file 568 has been formatted
+[2025-01-12 05:55:37,204][evaluate.py][line:326][INFO] ORIGINAL:  No, I don't think I am. I have a whole bunch of stuff that means a lot to me. And I brought it from Africa. It's not like I can just go back and get it whenever I want.
+[2025-01-12 05:55:37,204][evaluate.py][line:327][INFO] FORMATTED:  NO  I DON'T THINK I AM I HAVE A WHOLE BUNCH OF STUFF THAT MEANS A LOT TO ME AND I BROUGHT IT FROM AFRICA IT'S NOT LIKE I CAN JUST GO BACK AND GET IT WHENEVER I WANT
+[2025-01-12 05:55:37,269][evaluate.py][line:325][INFO] Transcription of file 569 has been formatted
+[2025-01-12 05:55:37,269][evaluate.py][line:326][INFO] ORIGINAL:  Sounds like I can go to Kmart and buy another.
+[2025-01-12 05:55:37,269][evaluate.py][line:327][INFO] FORMATTED:  SOUNDS LIKE I CAN GO TO KMART AND BUY ANOTHER
+[2025-01-12 05:55:37,286][evaluate.py][line:325][INFO] Transcription of file 570 has been formatted
+[2025-01-12 05:55:37,286][evaluate.py][line:326][INFO] ORIGINAL:  um
+[2025-01-12 05:55:37,286][evaluate.py][line:327][INFO] FORMATTED:  UM
+[2025-01-12 05:55:37,352][evaluate.py][line:325][INFO] Transcription of file 571 has been formatted
+[2025-01-12 05:55:37,352][evaluate.py][line:326][INFO] ORIGINAL:  Sorry, just a lot to explain. I got a call.
+[2025-01-12 05:55:37,352][evaluate.py][line:327][INFO] FORMATTED:  SORRY  JUST A LOT TO EXPLAIN I GOT A CALL
+[2025-01-12 05:55:37,391][evaluate.py][line:325][INFO] Transcription of file 572 has been formatted
+[2025-01-12 05:55:37,391][evaluate.py][line:326][INFO] ORIGINAL:  I got a call today.
+[2025-01-12 05:55:37,391][evaluate.py][line:327][INFO] FORMATTED:  I GOT A CALL TODAY
+[2025-01-12 05:55:37,448][evaluate.py][line:325][INFO] Transcription of file 573 has been formatted
+[2025-01-12 05:55:37,448][evaluate.py][line:326][INFO] ORIGINAL:  I'm gonna need to go overseas for a while.
+[2025-01-12 05:55:37,448][evaluate.py][line:327][INFO] FORMATTED:  I'M GONNA NEED TO GO OVERSEAS FOR A WHILE
+[2025-01-12 05:55:37,479][evaluate.py][line:325][INFO] Transcription of file 574 has been formatted
+[2025-01-12 05:55:37,479][evaluate.py][line:326][INFO] ORIGINAL:  I don't know.
+[2025-01-12 05:55:37,479][evaluate.py][line:327][INFO] FORMATTED:  I DON'T KNOW
+[2025-01-12 05:55:37,519][evaluate.py][line:325][INFO] Transcription of file 575 has been formatted
+[2025-01-12 05:55:37,519][evaluate.py][line:326][INFO] ORIGINAL:  I know. I know.
+[2025-01-12 05:55:37,519][evaluate.py][line:327][INFO] FORMATTED:  I KNOW I KNOW
+[2025-01-12 05:55:37,666][evaluate.py][line:325][INFO] Transcription of file 576 has been formatted
+[2025-01-12 05:55:37,666][evaluate.py][line:326][INFO] ORIGINAL:  I know, we'll have to figure all that out. I mean, I think the army is going to provide child care and help us out with that.
+[2025-01-12 05:55:37,666][evaluate.py][line:327][INFO] FORMATTED:  I KNOW  WE'LL HAVE TO FIGURE ALL THAT OUT I MEAN  I THINK THE ARMY IS GOING TO PROVIDE CHILD CARE AND HELP US OUT WITH THAT
+[2025-01-12 05:55:37,690][evaluate.py][line:325][INFO] Transcription of file 577 has been formatted
+[2025-01-12 05:55:37,690][evaluate.py][line:326][INFO] ORIGINAL:  I rock.
+[2025-01-12 05:55:37,690][evaluate.py][line:327][INFO] FORMATTED:  I ROCK
+[2025-01-12 05:55:37,736][evaluate.py][line:325][INFO] Transcription of file 578 has been formatted
+[2025-01-12 05:55:37,736][evaluate.py][line:326][INFO] ORIGINAL:  I think infantry, I'm not sure.
+[2025-01-12 05:55:37,736][evaluate.py][line:327][INFO] FORMATTED:  I THINK INFANTRY  I'M NOT SURE
+[2025-01-12 05:55:37,809][evaluate.py][line:325][INFO] Transcription of file 579 has been formatted
+[2025-01-12 05:55:37,809][evaluate.py][line:326][INFO] ORIGINAL:  We don't think there's anything we can do. Tell them I'm sick.
+[2025-01-12 05:55:37,809][evaluate.py][line:327][INFO] FORMATTED:  WE DON'T THINK THERE'S ANYTHING WE CAN DO TELL THEM I'M SICK
+[2025-01-12 05:55:37,860][evaluate.py][line:325][INFO] Transcription of file 580 has been formatted
+[2025-01-12 05:55:37,860][evaluate.py][line:326][INFO] ORIGINAL:  I know! I know it's not fair.
+[2025-01-12 05:55:37,860][evaluate.py][line:327][INFO] FORMATTED:  I KNOW  I KNOW IT'S NOT FAIR
+[2025-01-12 05:55:37,901][evaluate.py][line:325][INFO] Transcription of file 581 has been formatted
+[2025-01-12 05:55:37,901][evaluate.py][line:326][INFO] ORIGINAL:  I hope apparently nobody else can go.
+[2025-01-12 05:55:37,901][evaluate.py][line:327][INFO] FORMATTED:  I HOPE APPARENTLY NOBODY ELSE CAN GO
+[2025-01-12 05:55:37,924][evaluate.py][line:325][INFO] Transcription of file 582 has been formatted
+[2025-01-12 05:55:37,924][evaluate.py][line:326][INFO] ORIGINAL:  I know.
+[2025-01-12 05:55:37,924][evaluate.py][line:327][INFO] FORMATTED:  I KNOW
+[2025-01-12 05:55:37,949][evaluate.py][line:325][INFO] Transcription of file 583 has been formatted
+[2025-01-12 05:55:37,949][evaluate.py][line:326][INFO] ORIGINAL:  in help.
+[2025-01-12 05:55:37,949][evaluate.py][line:327][INFO] FORMATTED:  IN HELP
+[2025-01-12 05:55:38,058][evaluate.py][line:325][INFO] Transcription of file 584 has been formatted
+[2025-01-12 05:55:38,058][evaluate.py][line:326][INFO] ORIGINAL:  We'll figure something out. We just have to... Just have to think about this. Could any of your family help us?
+[2025-01-12 05:55:38,058][evaluate.py][line:327][INFO] FORMATTED:  WE'LL FIGURE SOMETHING OUT WE JUST HAVE TO JUST HAVE TO THINK ABOUT THIS COULD ANY OF YOUR FAMILY HELP US 
+[2025-01-12 05:55:38,113][evaluate.py][line:325][INFO] Transcription of file 585 has been formatted
+[2025-01-12 05:55:38,113][evaluate.py][line:326][INFO] ORIGINAL:  You're right. I'm gonna miss their first words.
+[2025-01-12 05:55:38,113][evaluate.py][line:327][INFO] FORMATTED:  YOU'RE RIGHT I'M GONNA MISS THEIR FIRST WORDS
+[2025-01-12 05:55:38,169][evaluate.py][line:325][INFO] Transcription of file 586 has been formatted
+[2025-01-12 05:55:38,169][evaluate.py][line:326][INFO] ORIGINAL:  You'll have to send me pictures and letters every day.
+[2025-01-12 05:55:38,169][evaluate.py][line:327][INFO] FORMATTED:  YOU'LL HAVE TO SEND ME PICTURES AND LETTERS EVERY DAY
+[2025-01-12 05:55:38,209][evaluate.py][line:325][INFO] Transcription of file 587 has been formatted
+[2025-01-12 05:55:38,210][evaluate.py][line:326][INFO] ORIGINAL:  Yeah, as much as I can.
+[2025-01-12 05:55:38,210][evaluate.py][line:327][INFO] FORMATTED:  YEAH  AS MUCH AS I CAN
+[2025-01-12 05:55:38,237][evaluate.py][line:325][INFO] Transcription of file 588 has been formatted
+[2025-01-12 05:55:38,237][evaluate.py][line:326][INFO] ORIGINAL:  Three weeks.
+[2025-01-12 05:55:38,237][evaluate.py][line:327][INFO] FORMATTED:  THREE WEEKS
+[2025-01-12 05:55:38,256][evaluate.py][line:325][INFO] Transcription of file 589 has been formatted
+[2025-01-12 05:55:38,256][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:38,256][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:38,280][evaluate.py][line:325][INFO] Transcription of file 590 has been formatted
+[2025-01-12 05:55:38,280][evaluate.py][line:326][INFO] ORIGINAL:  Yeah.
+[2025-01-12 05:55:38,280][evaluate.py][line:327][INFO] FORMATTED:  YEAH
+[2025-01-12 05:55:38,342][evaluate.py][line:325][INFO] Transcription of file 591 has been formatted
+[2025-01-12 05:55:38,342][evaluate.py][line:326][INFO] ORIGINAL:  I don't feel you. I'm gonna miss you so much.
+[2025-01-12 05:55:38,342][evaluate.py][line:327][INFO] FORMATTED:  I DON'T FEEL YOU I'M GONNA MISS YOU SO MUCH
+[2025-01-12 05:55:38,342][evaluate.py][line:381][INFO] Done processing 590 files
+[2025-01-12 05:55:38,343][evaluate.py][line:392][INFO] Transcriptions saved to ./fold_8\transcriptions.csv
