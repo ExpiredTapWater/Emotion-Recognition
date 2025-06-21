@@ -1,0 +1,131 @@
+[2024-12-26 12:39:29,500][3124147787.py][line:1][INFO] ----- Models -----
+[2024-12-26 12:39:29,500][3124147787.py][line:2][INFO] Wav2Vec2 Model: C:/Users/ChenYi/Documents/Github/SIT-emotion-recognition/wav2vec2/fold_7/wav2vec2-test
+[2024-12-26 12:39:29,500][3124147787.py][line:3][INFO] Speech-to-Text Model: facebook/wav2vec2-base-960h
+[2024-12-26 12:39:29,500][3124147787.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-roberta-base-sentiment-latest
+[2024-12-26 12:39:29,500][3124147787.py][line:6][INFO] ----- Merge Algorithm Parameters -----
+[2024-12-26 12:39:29,500][3124147787.py][line:7][INFO] Enthropy Parameters (Values of 0 to 2)
+[2024-12-26 12:39:29,506][3124147787.py][line:8][INFO] Start: 0.6 | Stop: 1.2 | Step: 0.01
+[2024-12-26 12:39:29,507][3124147787.py][line:10][INFO] Sentiment Parameters (Values of 0 to 1)
+[2024-12-26 12:39:29,507][3124147787.py][line:11][INFO] Start: 0.3 | Stop: 0.8 | Step: 0.02
+[2024-12-26 12:39:29,508][3124147787.py][line:13][INFO] Argmax Parameters (Values of 0 to 1)
+[2024-12-26 12:39:29,508][3124147787.py][line:14][INFO] Start: 0.4 | Stop: 0.7 | Step: 0.002
+[2024-12-26 12:39:29,509][3124147787.py][line:16][INFO] Options:
+[2024-12-26 12:39:29,510][3124147787.py][line:17][INFO] Enthropy Options: [True, False]
+[2024-12-26 12:39:29,510][3124147787.py][line:18][INFO] Flip Options: [True, False]
+[2024-12-26 12:39:29,510][3124147787.py][line:19][INFO] Prediction Options: ['ignore-when-match', 'ignore']
+[2024-12-26 12:39:29,510][3124147787.py][line:20][INFO] Sentiment Options: ['simple', 'refer']
+[2024-12-26 12:39:30,086][454035736.py][line:6][INFO] wav2vec2 model loaded from C:/Users/ChenYi/Documents/Github/SIT-emotion-recognition/wav2vec2/fold_7/wav2vec2-test successfully
+[2024-12-26 12:39:32,556][4111837838.py][line:10][INFO] S2T model loaded from facebook/wav2vec2-base-960h successfully
+[2024-12-26 12:39:32,556][4111837838.py][line:11][INFO] Sentiment model loaded from cardiffnlp/twitter-roberta-base-sentiment-latest successfully
+[2024-12-26 12:39:32,598][1107316185.py][line:50][INFO] Mode: train Fold: 7
+[2024-12-26 12:39:32,612][1107316185.py][line:50][INFO] Mode: val Fold: 7
+[2024-12-26 12:39:32,623][1107316185.py][line:50][INFO] Mode: test Fold: 7
+[2024-12-26 12:39:32,625][1194672651.py][line:6][INFO] Dataset Loaded
+[2024-12-26 12:39:32,658][3178476768.py][line:3][INFO] Now running S2T and Sentiment analysis
+[2024-12-26 12:40:14,823][3178476768.py][line:54][INFO] Done 503 of 503
+[2024-12-26 12:42:24,461][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:42:24,461][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:44:40,925][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 3 of 16] --------
+[2024-12-26 12:44:40,925][3175787446.py][line:68][INFO] Metric Used: Entrophy
+[2024-12-26 12:44:40,925][3175787446.py][line:69][INFO] Prediction Strategy Used: ignore-when-match
+[2024-12-26 12:44:40,925][3175787446.py][line:70][INFO] Sentiment Strategy Used: refer
+[2024-12-26 12:44:40,925][3175787446.py][line:71][INFO] Best entrophy_threshold is 0.9
+[2024-12-26 12:44:40,925][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 12:44:40,925][3175787446.py][line:78][INFO] And sad_angry_flip set to: True
+[2024-12-26 12:44:40,925][3175787446.py][line:79][INFO] with an improvement of 0.0024
+[2024-12-26 12:44:41,003][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 12:44:41,003][3848674996.py][line:29][INFO] [Multi Model]    0.6672
+[2024-12-26 12:47:08,001][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:47:08,002][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:49:18,703][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 5 of 16] --------
+[2024-12-26 12:49:18,703][3175787446.py][line:68][INFO] Metric Used: Entrophy
+[2024-12-26 12:49:18,703][3175787446.py][line:69][INFO] Prediction Strategy Used: ignore
+[2024-12-26 12:49:18,703][3175787446.py][line:70][INFO] Sentiment Strategy Used: refer
+[2024-12-26 12:49:18,703][3175787446.py][line:71][INFO] Best entrophy_threshold is 0.9
+[2024-12-26 12:49:18,703][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 12:49:18,703][3175787446.py][line:78][INFO] And sad_angry_flip set to: True
+[2024-12-26 12:49:18,703][3175787446.py][line:79][INFO] with an improvement of 0.0024
+[2024-12-26 12:49:18,786][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 12:49:18,793][3848674996.py][line:29][INFO] [Multi Model]    0.6672
+[2024-12-26 12:51:23,793][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:51:23,793][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:53:27,965][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 7 of 16] --------
+[2024-12-26 12:53:27,965][3175787446.py][line:68][INFO] Metric Used: Entrophy
+[2024-12-26 12:53:27,965][3175787446.py][line:69][INFO] Prediction Strategy Used: ignore-when-match
+[2024-12-26 12:53:27,965][3175787446.py][line:70][INFO] Sentiment Strategy Used: refer
+[2024-12-26 12:53:27,980][3175787446.py][line:71][INFO] Best entrophy_threshold is 0.9
+[2024-12-26 12:53:27,980][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 12:53:27,980][3175787446.py][line:78][INFO] And sad_angry_flip set to: False
+[2024-12-26 12:53:27,980][3175787446.py][line:79][INFO] with an improvement of 0.0024
+[2024-12-26 12:53:28,043][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 12:53:28,059][3848674996.py][line:29][INFO] [Multi Model]    0.6672
+[2024-12-26 12:55:38,053][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:55:38,053][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:57:48,650][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 9 of 16] --------
+[2024-12-26 12:57:48,650][3175787446.py][line:68][INFO] Metric Used: Entrophy
+[2024-12-26 12:57:48,650][3175787446.py][line:69][INFO] Prediction Strategy Used: ignore
+[2024-12-26 12:57:48,650][3175787446.py][line:70][INFO] Sentiment Strategy Used: refer
+[2024-12-26 12:57:48,650][3175787446.py][line:71][INFO] Best entrophy_threshold is 0.9
+[2024-12-26 12:57:48,666][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 12:57:48,666][3175787446.py][line:78][INFO] And sad_angry_flip set to: False
+[2024-12-26 12:57:48,666][3175787446.py][line:79][INFO] with an improvement of 0.0024
+[2024-12-26 12:57:48,737][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 12:57:48,744][3848674996.py][line:29][INFO] [Multi Model]    0.6672
+[2024-12-26 13:01:01,004][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:01:01,004][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:04:14,031][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 11 of 16] --------
+[2024-12-26 13:04:14,031][3175787446.py][line:73][INFO] Metric Used: Argmax
+[2024-12-26 13:04:14,031][3175787446.py][line:74][INFO] Strategy Used: ignore-when-match
+[2024-12-26 13:04:14,031][3175787446.py][line:75][INFO] Sentiment Strategy Used: refer
+[2024-12-26 13:04:14,031][3175787446.py][line:76][INFO] Best best_argmax_threshold is 0.698
+[2024-12-26 13:04:14,031][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 13:04:14,031][3175787446.py][line:78][INFO] And sad_angry_flip set to: True
+[2024-12-26 13:04:14,031][3175787446.py][line:79][INFO] with an improvement of 0.0002
+[2024-12-26 13:04:14,078][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 13:04:14,078][3848674996.py][line:29][INFO] [Multi Model]    0.665
+[2024-12-26 13:07:36,019][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:07:36,019][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:10:57,975][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 13 of 16] --------
+[2024-12-26 13:10:57,975][3175787446.py][line:73][INFO] Metric Used: Argmax
+[2024-12-26 13:10:57,975][3175787446.py][line:74][INFO] Strategy Used: ignore
+[2024-12-26 13:10:57,975][3175787446.py][line:75][INFO] Sentiment Strategy Used: refer
+[2024-12-26 13:10:57,975][3175787446.py][line:76][INFO] Best best_argmax_threshold is 0.698
+[2024-12-26 13:10:57,975][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 13:10:57,975][3175787446.py][line:78][INFO] And sad_angry_flip set to: True
+[2024-12-26 13:10:57,975][3175787446.py][line:79][INFO] with an improvement of 0.0002
+[2024-12-26 13:10:58,022][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 13:10:58,022][3848674996.py][line:29][INFO] [Multi Model]    0.665
+[2024-12-26 13:14:09,860][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:14:09,860][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:17:21,188][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 15 of 16] --------
+[2024-12-26 13:17:21,203][3175787446.py][line:73][INFO] Metric Used: Argmax
+[2024-12-26 13:17:21,204][3175787446.py][line:74][INFO] Strategy Used: ignore-when-match
+[2024-12-26 13:17:21,204][3175787446.py][line:75][INFO] Sentiment Strategy Used: refer
+[2024-12-26 13:17:21,205][3175787446.py][line:76][INFO] Best best_argmax_threshold is 0.698
+[2024-12-26 13:17:21,205][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 13:17:21,206][3175787446.py][line:78][INFO] And sad_angry_flip set to: False
+[2024-12-26 13:17:21,206][3175787446.py][line:79][INFO] with an improvement of 0.0002
+[2024-12-26 13:17:21,252][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 13:17:21,260][3848674996.py][line:29][INFO] [Multi Model]    0.665
+[2024-12-26 13:20:43,531][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:20:43,531][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:24:06,348][3175787446.py][line:66][INFO] -------- Run Completed Report [Batch 17 of 16] --------
+[2024-12-26 13:24:06,348][3175787446.py][line:73][INFO] Metric Used: Argmax
+[2024-12-26 13:24:06,348][3175787446.py][line:74][INFO] Strategy Used: ignore
+[2024-12-26 13:24:06,348][3175787446.py][line:75][INFO] Sentiment Strategy Used: refer
+[2024-12-26 13:24:06,348][3175787446.py][line:76][INFO] Best best_argmax_threshold is 0.698
+[2024-12-26 13:24:06,355][3175787446.py][line:77][INFO] Best sentiment_threshold is 0.3
+[2024-12-26 13:24:06,355][3175787446.py][line:78][INFO] And sad_angry_flip set to: False
+[2024-12-26 13:24:06,355][3175787446.py][line:79][INFO] with an improvement of 0.0002
+[2024-12-26 13:24:06,397][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 13:24:06,411][3848674996.py][line:29][INFO] [Multi Model]    0.665
+[2024-12-26 13:24:06,411][308925149.py][line:54][INFO] -------------------------------------- Overall Run Report --------------------------------------
+[2024-12-26 13:24:06,411][308925149.py][line:55][INFO] Best overall improvement of: +0.002354
+[2024-12-26 13:24:06,411][308925149.py][line:56][INFO] Prediction Strategy: 'ignore-when-match' 
+[2024-12-26 13:24:06,411][308925149.py][line:57][INFO] Sentiment Strategy: 'refer' 
+[2024-12-26 13:24:06,411][308925149.py][line:58][INFO] Metric: 'Entrophy' with threshold of 0.9
+[2024-12-26 13:24:06,411][308925149.py][line:59][INFO] Sentiment threshold of 0.3
+[2024-12-26 13:24:06,411][308925149.py][line:60][INFO] Flip: True
+[2024-12-26 13:24:06,417][308925149.py][line:61][INFO] ------------------------------------- Overall Best Results -------------------------------------
+[2024-12-26 13:24:06,487][3848674996.py][line:28][INFO] [Original Model] 0.6648
+[2024-12-26 13:24:06,501][3848674996.py][line:29][INFO] [Multi Model]    0.6672

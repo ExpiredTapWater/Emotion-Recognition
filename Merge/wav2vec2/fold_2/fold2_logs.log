@@ -1,0 +1,97 @@
+[2024-12-22 21:43:05,100][train.py][line:309][INFO] Training with the following parameters:
+[2024-12-22 21:43:05,101][train.py][line:310][INFO] Epochs: 100
+[2024-12-22 21:43:05,101][train.py][line:311][INFO] Early Stopping Patience: 20
+[2024-12-22 21:43:05,101][train.py][line:312][INFO] Batch Size: 8
+[2024-12-22 21:43:05,101][train.py][line:313][INFO] Random Seed: 22
+[2024-12-22 21:43:05,101][train.py][line:314][INFO] Learning Rate: 1e-05
+[2024-12-22 21:43:05,101][train.py][line:315][INFO] Fold: 2
+[2024-12-22 21:43:05,348][train.py][line:361][INFO] ----- Start Training -----
+[2024-12-22 21:44:20,258][train.py][line:115][INFO] No log history available on first callback.
+[2024-12-22 21:45:37,557][train.py][line:118][INFO] Epoch 1.0 finished.
+[2024-12-22 21:45:37,557][train.py][line:122][INFO] Evaluation Loss: 0.9154503345489502
+[2024-12-22 21:45:37,557][train.py][line:124][INFO] Evaluation Accuracy: 0.5996309963099631
+[2024-12-22 21:46:54,922][train.py][line:118][INFO] Epoch 2.0 finished.
+[2024-12-22 21:46:54,922][train.py][line:122][INFO] Evaluation Loss: 0.9173583984375
+[2024-12-22 21:46:54,922][train.py][line:124][INFO] Evaluation Accuracy: 0.6033210332103321
+[2024-12-22 21:48:12,328][train.py][line:118][INFO] Epoch 3.0 finished.
+[2024-12-22 21:48:12,328][train.py][line:122][INFO] Evaluation Loss: 0.8212099075317383
+[2024-12-22 21:48:12,328][train.py][line:124][INFO] Evaluation Accuracy: 0.6476014760147601
+[2024-12-22 21:49:29,596][train.py][line:118][INFO] Epoch 4.0 finished.
+[2024-12-22 21:49:29,596][train.py][line:122][INFO] Evaluation Loss: 0.8422054052352905
+[2024-12-22 21:49:29,596][train.py][line:124][INFO] Evaluation Accuracy: 0.6771217712177122
+[2024-12-22 21:50:47,023][train.py][line:118][INFO] Epoch 5.0 finished.
+[2024-12-22 21:50:47,023][train.py][line:122][INFO] Evaluation Loss: 1.1765544414520264
+[2024-12-22 21:50:47,023][train.py][line:124][INFO] Evaluation Accuracy: 0.6254612546125461
+[2024-12-22 21:52:04,511][train.py][line:118][INFO] Epoch 6.0 finished.
+[2024-12-22 21:52:04,511][train.py][line:122][INFO] Evaluation Loss: 1.3903087377548218
+[2024-12-22 21:52:04,511][train.py][line:124][INFO] Evaluation Accuracy: 0.6531365313653137
+[2024-12-22 21:53:21,815][train.py][line:118][INFO] Epoch 7.0 finished.
+[2024-12-22 21:53:21,815][train.py][line:122][INFO] Evaluation Loss: 1.5405752658843994
+[2024-12-22 21:53:21,815][train.py][line:124][INFO] Evaluation Accuracy: 0.6586715867158671
+[2024-12-22 21:54:39,130][train.py][line:118][INFO] Epoch 8.0 finished.
+[2024-12-22 21:54:39,130][train.py][line:122][INFO] Evaluation Loss: 1.5179312229156494
+[2024-12-22 21:54:39,130][train.py][line:124][INFO] Evaluation Accuracy: 0.7214022140221402
+[2024-12-22 21:55:56,423][train.py][line:118][INFO] Epoch 9.0 finished.
+[2024-12-22 21:55:56,423][train.py][line:122][INFO] Evaluation Loss: 1.4816551208496094
+[2024-12-22 21:55:56,423][train.py][line:124][INFO] Evaluation Accuracy: 0.7398523985239852
+[2024-12-22 21:57:13,735][train.py][line:118][INFO] Epoch 10.0 finished.
+[2024-12-22 21:57:13,735][train.py][line:122][INFO] Evaluation Loss: 1.7514910697937012
+[2024-12-22 21:57:13,735][train.py][line:124][INFO] Evaluation Accuracy: 0.7103321033210332
+[2024-12-22 21:58:31,347][train.py][line:118][INFO] Epoch 11.0 finished.
+[2024-12-22 21:58:31,348][train.py][line:122][INFO] Evaluation Loss: 1.677194356918335
+[2024-12-22 21:58:31,348][train.py][line:124][INFO] Evaluation Accuracy: 0.7416974169741697
+[2024-12-22 21:59:50,300][train.py][line:118][INFO] Epoch 12.0 finished.
+[2024-12-22 21:59:50,300][train.py][line:122][INFO] Evaluation Loss: 2.4260714054107666
+[2024-12-22 21:59:50,300][train.py][line:124][INFO] Evaluation Accuracy: 0.6476014760147601
+[2024-12-22 22:01:08,465][train.py][line:118][INFO] Epoch 13.0 finished.
+[2024-12-22 22:01:08,465][train.py][line:122][INFO] Evaluation Loss: 1.9169554710388184
+[2024-12-22 22:01:08,466][train.py][line:124][INFO] Evaluation Accuracy: 0.7324723247232472
+[2024-12-22 22:02:26,681][train.py][line:118][INFO] Epoch 14.0 finished.
+[2024-12-22 22:02:26,682][train.py][line:122][INFO] Evaluation Loss: 1.7730529308319092
+[2024-12-22 22:02:26,682][train.py][line:124][INFO] Evaluation Accuracy: 0.7472324723247232
+[2024-12-22 22:03:44,875][train.py][line:118][INFO] Epoch 15.0 finished.
+[2024-12-22 22:03:44,875][train.py][line:122][INFO] Evaluation Loss: 2.191460371017456
+[2024-12-22 22:03:44,875][train.py][line:124][INFO] Evaluation Accuracy: 0.6992619926199262
+[2024-12-22 22:05:03,065][train.py][line:118][INFO] Epoch 16.0 finished.
+[2024-12-22 22:05:03,065][train.py][line:122][INFO] Evaluation Loss: 1.8933368921279907
+[2024-12-22 22:05:03,065][train.py][line:124][INFO] Evaluation Accuracy: 0.7398523985239852
+[2024-12-22 22:06:24,219][train.py][line:118][INFO] Epoch 17.0 finished.
+[2024-12-22 22:06:24,219][train.py][line:122][INFO] Evaluation Loss: 2.2856359481811523
+[2024-12-22 22:06:24,219][train.py][line:124][INFO] Evaluation Accuracy: 0.6974169741697417
+[2024-12-22 22:07:47,890][train.py][line:118][INFO] Epoch 18.0 finished.
+[2024-12-22 22:07:47,890][train.py][line:122][INFO] Evaluation Loss: 2.4869682788848877
+[2024-12-22 22:07:47,890][train.py][line:124][INFO] Evaluation Accuracy: 0.6937269372693727
+[2024-12-22 22:09:07,534][train.py][line:118][INFO] Epoch 19.0 finished.
+[2024-12-22 22:09:07,534][train.py][line:122][INFO] Evaluation Loss: 2.4902706146240234
+[2024-12-22 22:09:07,534][train.py][line:124][INFO] Evaluation Accuracy: 0.7029520295202952
+[2024-12-22 22:10:26,727][train.py][line:118][INFO] Epoch 20.0 finished.
+[2024-12-22 22:10:26,727][train.py][line:122][INFO] Evaluation Loss: 2.161400318145752
+[2024-12-22 22:10:26,727][train.py][line:124][INFO] Evaluation Accuracy: 0.7398523985239852
+[2024-12-22 22:11:44,963][train.py][line:118][INFO] Epoch 21.0 finished.
+[2024-12-22 22:11:44,963][train.py][line:122][INFO] Evaluation Loss: 2.0994460582733154
+[2024-12-22 22:11:44,963][train.py][line:124][INFO] Evaluation Accuracy: 0.7250922509225092
+[2024-12-22 22:13:03,239][train.py][line:118][INFO] Epoch 22.0 finished.
+[2024-12-22 22:13:03,239][train.py][line:122][INFO] Evaluation Loss: 2.691668748855591
+[2024-12-22 22:13:03,239][train.py][line:124][INFO] Evaluation Accuracy: 0.6955719557195572
+[2024-12-22 22:13:06,367][train.py][line:130][INFO] Epoch 23.0 finished. (Last Epoch)
+[2024-12-22 22:13:06,367][train.py][line:131][INFO] Evaluation Loss: 2.2616138458251953
+[2024-12-22 22:13:06,367][train.py][line:132][INFO] Evaluation Accuracy: 0.7324723247232472
+[2024-12-22 22:13:06,367][train.py][line:133][INFO] ----- Training Completed -----
+[2024-12-22 22:13:06,367][train.py][line:233][INFO] Testing on test dataset, please wait...
+[2024-12-22 22:13:06,367][train.py][line:239][INFO] Total files: 481
+[2024-12-22 22:13:14,532][train.py][line:291][INFO] ----- Test Results -----
+[2024-12-22 22:13:14,532][train.py][line:292][INFO] Test UA: 0.6788745510225938
+[2024-12-22 22:13:14,532][train.py][line:303][INFO] Classification Report:
+[2024-12-22 22:13:14,532][train.py][line:304][INFO] 
+              precision    recall  f1-score   support
+
+           A       0.86      0.72      0.78        67
+           H       0.62      0.83      0.71       166
+           N       0.62      0.61      0.61       135
+           S       0.91      0.57      0.70       113
+
+    accuracy                           0.69       481
+   macro avg       0.75      0.68      0.70       481
+weighted avg       0.72      0.69      0.69       481
+
+[2024-12-22 22:13:14,720][train.py][line:370][INFO] Saved to ./fold_2/wav2vec2-test

@@ -1,0 +1,1581 @@
+[2025-03-07 06:04:55,954][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 06:04:55,956][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 06:04:55,958][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 06:04:55,960][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 06:04:55,961][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 06:04:55,963][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 06:04:55,965][3029545133.py][line:7][INFO] Fold: 2
+[2025-03-07 06:04:55,968][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 06:04:55,971][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 06:04:55,973][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 06:04:55,975][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 06:04:55,977][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 06:04:55,979][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 06:04:55,981][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 06:04:59,347][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 06:04:59,663][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_2/wav2vec2-test
+[2025-03-07 06:04:59,718][2929512373.py][line:50][INFO] Mode: train Fold: 2
+[2025-03-07 06:04:59,733][2929512373.py][line:50][INFO] Mode: val Fold: 2
+[2025-03-07 06:04:59,746][2929512373.py][line:50][INFO] Mode: test Fold: 2
+[2025-03-07 06:04:59,749][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 06:05:01,408][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:05:05,216][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:05:06,186][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:05:22,918][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:05:23,009][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:05:23,068][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:05:31,031][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:05:31,969][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:05:33,632][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:05:40,047][3832901375.py][line:7][INFO] fixed File 1230 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:05:41,954][106285006.py][line:95][INFO] Now on file 1283: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:05:45,074][3832901375.py][line:7][INFO] fixed File 1378 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:05:49,813][106285006.py][line:95][INFO] Now on file 1513: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:05:54,756][106285006.py][line:95][INFO] Now on file 1653: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:06:14,869][3832901375.py][line:7][INFO] fixed File 2233 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:06:17,598][3832901375.py][line:7][INFO] fixed File 2317 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:06:55,731][3832901375.py][line:7][INFO] fixed File 3453 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:06:56,143][3832901375.py][line:7][INFO] fixed File 3465 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:06:56,863][3832901375.py][line:7][INFO] fixed File 3488 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:07:05,375][106285006.py][line:95][INFO] Now on file 3746: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:07:12,244][3832901375.py][line:7][INFO] fixed File 3946 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:07:12,486][3832901375.py][line:7][INFO] fixed File 3954 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:07:17,283][3832901375.py][line:7][INFO] fixed File 4104 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:07:25,176][3832901375.py][line:7][INFO] fixed File 4334 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:07:25,364][3832901375.py][line:7][INFO] fixed File 4340 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:07:31,292][106285006.py][line:131][INFO] Done processing 4509 files
+[2025-03-07 06:07:31,295][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 06:07:31,297][106285006.py][line:148][INFO] Split Average Entropy:    0.672981399027986
+[2025-03-07 06:07:31,298][106285006.py][line:149][INFO] Split Average Varentropy: 0.8155536733715636
+[2025-03-07 06:07:31,301][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:07:31,303][106285006.py][line:151][INFO] Average Entropy:          0.4241240360222135
+[2025-03-07 06:07:31,304][106285006.py][line:152][INFO] Average Varentropy:       0.8372255162527508
+[2025-03-07 06:07:31,306][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:07:31,308][106285006.py][line:154][INFO] Average Entropy:          0.6724460437880808
+[2025-03-07 06:07:31,310][106285006.py][line:155][INFO] Average Varentropy:       0.838947748211943
+[2025-03-07 06:07:31,313][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:07:31,315][106285006.py][line:157][INFO] Average Entropy:          0.7716848120023667
+[2025-03-07 06:07:31,316][106285006.py][line:158][INFO] Average Varentropy:       0.8026211583500376
+[2025-03-07 06:07:31,318][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:07:31,320][106285006.py][line:160][INFO] Average Entropy:          0.7824743737777075
+[2025-03-07 06:07:31,322][106285006.py][line:161][INFO] Average Varentropy:       0.7833302340528987
+[2025-03-07 06:07:31,378][106285006.py][line:172][INFO] Predictions saved to ./fold_2\train-predictions-raw.csv
+[2025-03-07 06:07:33,823][3832901375.py][line:7][INFO] fixed File 72 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:07:50,076][106285006.py][line:131][INFO] Done processing 543 files
+[2025-03-07 06:07:50,078][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 06:07:50,081][106285006.py][line:148][INFO] Split Average Entropy:    0.7608977809163477
+[2025-03-07 06:07:50,082][106285006.py][line:149][INFO] Split Average Varentropy: 0.7383252733362997
+[2025-03-07 06:07:50,084][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:07:50,085][106285006.py][line:151][INFO] Average Entropy:          0.5800902738290674
+[2025-03-07 06:07:50,087][106285006.py][line:152][INFO] Average Varentropy:       0.7726364651147057
+[2025-03-07 06:07:50,089][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:07:50,092][106285006.py][line:154][INFO] Average Entropy:          0.7521220669859932
+[2025-03-07 06:07:50,093][106285006.py][line:155][INFO] Average Varentropy:       0.7554826837920007
+[2025-03-07 06:07:50,095][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:07:50,097][106285006.py][line:157][INFO] Average Entropy:          0.844103673495442
+[2025-03-07 06:07:50,099][106285006.py][line:158][INFO] Average Varentropy:       0.6891889482377523
+[2025-03-07 06:07:50,101][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:07:50,103][106285006.py][line:160][INFO] Average Entropy:          0.8028651865912072
+[2025-03-07 06:07:50,105][106285006.py][line:161][INFO] Average Varentropy:       0.7585366618486098
+[2025-03-07 06:07:50,114][106285006.py][line:172][INFO] Predictions saved to ./fold_2\val-predictions-raw.csv
+[2025-03-07 06:07:51,385][3832901375.py][line:7][INFO] fixed File 42 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:08:06,329][106285006.py][line:131][INFO] Done processing 482 files
+[2025-03-07 06:08:06,333][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 06:08:06,334][106285006.py][line:148][INFO] Split Average Entropy:    0.7081505769627505
+[2025-03-07 06:08:06,336][106285006.py][line:149][INFO] Split Average Varentropy: 0.7948294948329548
+[2025-03-07 06:08:06,338][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:08:06,341][106285006.py][line:151][INFO] Average Entropy:          0.4585188015231064
+[2025-03-07 06:08:06,343][106285006.py][line:152][INFO] Average Varentropy:       0.8363173992506095
+[2025-03-07 06:08:06,345][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:08:06,347][106285006.py][line:154][INFO] Average Entropy:          0.6530155467020499
+[2025-03-07 06:08:06,349][106285006.py][line:155][INFO] Average Varentropy:       0.86239076130562
+[2025-03-07 06:08:06,350][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:08:06,353][106285006.py][line:157][INFO] Average Entropy:          0.8419383437113654
+[2025-03-07 06:08:06,354][106285006.py][line:158][INFO] Average Varentropy:       0.7008481398785025
+[2025-03-07 06:08:06,356][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:08:06,358][106285006.py][line:160][INFO] Average Entropy:          0.8285160507474627
+[2025-03-07 06:08:06,361][106285006.py][line:161][INFO] Average Varentropy:       0.7259380148989814
+[2025-03-07 06:08:06,369][106285006.py][line:172][INFO] Predictions saved to ./fold_2\test-predictions-raw.csv
+[2025-03-07 06:08:06,519][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 06:08:06,562][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 06:08:06,563][359378241.py][line:28][INFO] Correct predictions: 4362
+[2025-03-07 06:08:06,565][359378241.py][line:29][INFO] Incorrect predictions: 1169
+[2025-03-07 06:08:06,569][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:08:06,573][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.389117    0.856939
+H      0.637445    0.879220
+N      0.751380    0.827158
+S      0.774122    0.797134
+[2025-03-07 06:08:06,577][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:08:06,579][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.855157    0.700189
+H      0.817972    0.686547
+N      0.814052    0.673754
+S      0.902273    0.621645
+[2025-03-07 06:08:06,618][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:08:06,621][359378241.py][line:135][INFO] Class A: 62
+[2025-03-07 06:08:06,623][359378241.py][line:135][INFO] Class H: 173
+[2025-03-07 06:08:06,625][359378241.py][line:135][INFO] Class N: 135
+[2025-03-07 06:08:06,628][359378241.py][line:135][INFO] Class S: 88
+[2025-03-07 06:08:09,270][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 06:08:09,302][359378241.py][line:27][INFO] Total predictions: 4508
+[2025-03-07 06:08:09,304][359378241.py][line:28][INFO] Correct predictions: 3679
+[2025-03-07 06:08:09,306][359378241.py][line:29][INFO] Incorrect predictions: 829
+[2025-03-07 06:08:09,311][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:08:09,313][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.382212    0.857931
+H      0.642567    0.872584
+N      0.737121    0.848435
+S      0.767902    0.804616
+[2025-03-07 06:08:09,317][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:08:09,319][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.865199    0.702975
+H      0.813034    0.697713
+N      0.821697    0.660519
+S      0.912515    0.604358
+[2025-03-07 06:08:09,356][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:08:09,359][359378241.py][line:135][INFO] Class A: 48
+[2025-03-07 06:08:09,360][359378241.py][line:135][INFO] Class H: 147
+[2025-03-07 06:08:09,363][359378241.py][line:135][INFO] Class N: 75
+[2025-03-07 06:08:09,364][359378241.py][line:135][INFO] Class S: 57
+[2025-03-07 06:08:11,895][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 06:08:11,913][359378241.py][line:27][INFO] Total predictions: 481
+[2025-03-07 06:08:11,916][359378241.py][line:28][INFO] Correct predictions: 331
+[2025-03-07 06:08:11,917][359378241.py][line:29][INFO] Incorrect predictions: 150
+[2025-03-07 06:08:11,921][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:08:11,923][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.428925    0.848526
+H      0.566581    0.957291
+N      0.815464    0.738298
+S      0.814773    0.748042
+[2025-03-07 06:08:11,926][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:08:11,929][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.809672    0.706906
+H      0.834321    0.629944
+N      0.772649    0.712387
+S      0.874847    0.664563
+[2025-03-07 06:08:11,965][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:08:11,967][359378241.py][line:135][INFO] Class A: 8
+[2025-03-07 06:08:11,970][359378241.py][line:135][INFO] Class H: 11
+[2025-03-07 06:08:11,971][359378241.py][line:135][INFO] Class N: 24
+[2025-03-07 06:08:11,974][359378241.py][line:135][INFO] Class S: 21
+[2025-03-07 06:08:14,263][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 06:08:14,279][359378241.py][line:27][INFO] Total predictions: 542
+[2025-03-07 06:08:14,283][359378241.py][line:28][INFO] Correct predictions: 352
+[2025-03-07 06:08:14,284][359378241.py][line:29][INFO] Incorrect predictions: 190
+[2025-03-07 06:08:14,288][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:08:14,290][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.460257    0.848975
+H      0.679340    0.841587
+N      0.841113    0.688677
+S      0.804275    0.761066
+[2025-03-07 06:08:14,294][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:08:14,296][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.842844    0.668515
+H      0.842864    0.642112
+N      0.819174    0.681406
+S      0.883662    0.660234
+[2025-03-07 06:08:14,331][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:08:14,333][359378241.py][line:135][INFO] Class A: 6
+[2025-03-07 06:08:14,335][359378241.py][line:135][INFO] Class H: 15
+[2025-03-07 06:08:14,337][359378241.py][line:135][INFO] Class N: 36
+[2025-03-07 06:08:14,340][359378241.py][line:135][INFO] Class S: 10
+[2025-03-07 06:09:36,425][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 06:09:36,426][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 06:09:36,428][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 06:09:36,432][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 06:09:36,435][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 06:09:36,439][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 06:09:36,443][3029545133.py][line:7][INFO] Fold: 3
+[2025-03-07 06:09:36,447][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 06:09:36,451][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 06:09:36,454][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 06:09:36,458][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 06:09:36,462][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 06:09:36,466][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 06:09:36,469][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 06:09:39,770][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 06:09:40,077][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_3/wav2vec2-test
+[2025-03-07 06:09:40,120][2929512373.py][line:50][INFO] Mode: train Fold: 3
+[2025-03-07 06:09:40,136][2929512373.py][line:50][INFO] Mode: val Fold: 3
+[2025-03-07 06:09:40,150][2929512373.py][line:50][INFO] Mode: test Fold: 3
+[2025-03-07 06:09:40,154][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 06:09:41,849][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:09:45,938][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:09:46,917][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:10:04,802][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:10:04,931][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:10:04,995][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:10:13,452][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:10:14,449][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:10:16,149][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:10:22,523][3832901375.py][line:7][INFO] fixed File 1230 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:10:24,389][106285006.py][line:95][INFO] Now on file 1283: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:10:27,596][3832901375.py][line:7][INFO] fixed File 1378 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:10:32,364][106285006.py][line:95][INFO] Now on file 1513: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:10:37,369][106285006.py][line:95][INFO] Now on file 1653: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:10:57,494][3832901375.py][line:7][INFO] fixed File 2233 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:11:00,323][3832901375.py][line:7][INFO] fixed File 2317 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:11:38,683][3832901375.py][line:7][INFO] fixed File 3453 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:11:39,065][3832901375.py][line:7][INFO] fixed File 3465 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:11:39,774][3832901375.py][line:7][INFO] fixed File 3488 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:11:48,327][106285006.py][line:95][INFO] Now on file 3746: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:11:55,170][3832901375.py][line:7][INFO] fixed File 3946 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:11:55,419][3832901375.py][line:7][INFO] fixed File 3954 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:12:00,273][3832901375.py][line:7][INFO] fixed File 4104 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:12:08,329][3832901375.py][line:7][INFO] fixed File 4334 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:12:08,528][3832901375.py][line:7][INFO] fixed File 4340 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:12:14,302][106285006.py][line:131][INFO] Done processing 4509 files
+[2025-03-07 06:12:14,306][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 06:12:14,309][106285006.py][line:148][INFO] Split Average Entropy:    0.6534509699272707
+[2025-03-07 06:12:14,312][106285006.py][line:149][INFO] Split Average Varentropy: 0.828093108346937
+[2025-03-07 06:12:14,315][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:12:14,318][106285006.py][line:151][INFO] Average Entropy:          0.41356329160815813
+[2025-03-07 06:12:14,320][106285006.py][line:152][INFO] Average Varentropy:       0.8279537893432459
+[2025-03-07 06:12:14,322][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:12:14,324][106285006.py][line:154][INFO] Average Entropy:          0.6436074866582328
+[2025-03-07 06:12:14,326][106285006.py][line:155][INFO] Average Varentropy:       0.8611233202726206
+[2025-03-07 06:12:14,329][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:12:14,332][106285006.py][line:157][INFO] Average Entropy:          0.7546012095042638
+[2025-03-07 06:12:14,334][106285006.py][line:158][INFO] Average Varentropy:       0.823625341020081
+[2025-03-07 06:12:14,337][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:12:14,339][106285006.py][line:160][INFO] Average Entropy:          0.7403752768664381
+[2025-03-07 06:12:14,342][106285006.py][line:161][INFO] Average Varentropy:       0.803662020387738
+[2025-03-07 06:12:14,400][106285006.py][line:172][INFO] Predictions saved to ./fold_3\train-predictions-raw.csv
+[2025-03-07 06:12:15,701][3832901375.py][line:7][INFO] fixed File 42 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:12:30,864][106285006.py][line:131][INFO] Done processing 482 files
+[2025-03-07 06:12:30,869][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 06:12:30,872][106285006.py][line:148][INFO] Split Average Entropy:    0.6952131513250592
+[2025-03-07 06:12:30,875][106285006.py][line:149][INFO] Split Average Varentropy: 0.8089178220955597
+[2025-03-07 06:12:30,878][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:12:30,881][106285006.py][line:151][INFO] Average Entropy:          0.47359020383127276
+[2025-03-07 06:12:30,883][106285006.py][line:152][INFO] Average Varentropy:       0.8037519262683007
+[2025-03-07 06:12:30,885][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:12:30,888][106285006.py][line:154][INFO] Average Entropy:          0.6391099400218876
+[2025-03-07 06:12:30,891][106285006.py][line:155][INFO] Average Varentropy:       0.8708986458422123
+[2025-03-07 06:12:30,893][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:12:30,896][106285006.py][line:157][INFO] Average Entropy:          0.793022775224277
+[2025-03-07 06:12:30,899][106285006.py][line:158][INFO] Average Varentropy:       0.7706539000251463
+[2025-03-07 06:12:30,901][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:12:30,904][106285006.py][line:160][INFO] Average Entropy:          0.7870386668613979
+[2025-03-07 06:12:30,907][106285006.py][line:161][INFO] Average Varentropy:       0.7565017327085718
+[2025-03-07 06:12:30,925][106285006.py][line:172][INFO] Predictions saved to ./fold_3\val-predictions-raw.csv
+[2025-03-07 06:12:33,387][3832901375.py][line:7][INFO] fixed File 72 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:12:49,772][106285006.py][line:131][INFO] Done processing 543 files
+[2025-03-07 06:12:49,776][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 06:12:49,779][106285006.py][line:148][INFO] Split Average Entropy:    0.7365835372262335
+[2025-03-07 06:12:49,782][106285006.py][line:149][INFO] Split Average Varentropy: 0.7671374990106509
+[2025-03-07 06:12:49,784][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:12:49,787][106285006.py][line:151][INFO] Average Entropy:          0.5651049150360955
+[2025-03-07 06:12:49,789][106285006.py][line:152][INFO] Average Varentropy:       0.7532885907424821
+[2025-03-07 06:12:49,792][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:12:49,794][106285006.py][line:154][INFO] Average Entropy:          0.7064002727937398
+[2025-03-07 06:12:49,797][106285006.py][line:155][INFO] Average Varentropy:       0.8051132692855859
+[2025-03-07 06:12:49,799][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:12:49,802][106285006.py][line:157][INFO] Average Entropy:          0.81841554852764
+[2025-03-07 06:12:49,804][106285006.py][line:158][INFO] Average Varentropy:       0.7421390628130242
+[2025-03-07 06:12:49,807][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:12:49,809][106285006.py][line:160][INFO] Average Entropy:          0.7738374024629593
+[2025-03-07 06:12:49,812][106285006.py][line:161][INFO] Average Varentropy:       0.7722913970549902
+[2025-03-07 06:12:49,822][106285006.py][line:172][INFO] Predictions saved to ./fold_3\test-predictions-raw.csv
+[2025-03-07 06:12:49,972][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 06:12:50,015][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 06:12:50,017][359378241.py][line:28][INFO] Correct predictions: 4333
+[2025-03-07 06:12:50,019][359378241.py][line:29][INFO] Incorrect predictions: 1198
+[2025-03-07 06:12:50,024][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:12:50,028][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.373672    0.846134
+H      0.626047    0.880993
+N      0.728461    0.861163
+S      0.729208    0.820334
+[2025-03-07 06:12:50,032][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:12:50,035][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.847076    0.738418
+H      0.803036    0.707353
+N      0.795000    0.687088
+S      0.859384    0.660617
+[2025-03-07 06:12:50,075][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:12:50,078][359378241.py][line:135][INFO] Class A: 68
+[2025-03-07 06:12:50,080][359378241.py][line:135][INFO] Class H: 266
+[2025-03-07 06:12:50,083][359378241.py][line:135][INFO] Class N: 110
+[2025-03-07 06:12:50,085][359378241.py][line:135][INFO] Class S: 90
+[2025-03-07 06:12:52,735][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 06:12:52,767][359378241.py][line:27][INFO] Total predictions: 4508
+[2025-03-07 06:12:52,769][359378241.py][line:28][INFO] Correct predictions: 3613
+[2025-03-07 06:12:52,772][359378241.py][line:29][INFO] Incorrect predictions: 895
+[2025-03-07 06:12:52,776][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:12:52,780][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.365378    0.850025
+H      0.628021    0.877907
+N      0.716048    0.877435
+S      0.723072    0.825292
+[2025-03-07 06:12:52,783][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:12:52,786][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.857679    0.729692
+H      0.793294    0.719048
+N      0.803528    0.672996
+S      0.871001    0.636500
+[2025-03-07 06:12:52,823][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:12:52,826][359378241.py][line:135][INFO] Class A: 56
+[2025-03-07 06:12:52,829][359378241.py][line:135][INFO] Class H: 228
+[2025-03-07 06:12:52,831][359378241.py][line:135][INFO] Class N: 60
+[2025-03-07 06:12:52,834][359378241.py][line:135][INFO] Class S: 59
+[2025-03-07 06:12:55,343][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 06:12:55,359][359378241.py][line:27][INFO] Total predictions: 542
+[2025-03-07 06:12:55,363][359378241.py][line:28][INFO] Correct predictions: 365
+[2025-03-07 06:12:55,366][359378241.py][line:29][INFO] Incorrect predictions: 177
+[2025-03-07 06:12:55,370][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:12:55,373][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.434333    0.828685
+H      0.674522    0.839089
+N      0.795321    0.778113
+S      0.757443    0.800232
+[2025-03-07 06:12:55,376][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:12:55,379][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.802329    0.736268
+H      0.872013    0.621122
+N      0.769730    0.731598
+S      0.860650    0.678211
+[2025-03-07 06:12:55,414][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:12:55,418][359378241.py][line:135][INFO] Class A: 4
+[2025-03-07 06:12:55,420][359378241.py][line:135][INFO] Class H: 18
+[2025-03-07 06:12:55,423][359378241.py][line:135][INFO] Class N: 42
+[2025-03-07 06:12:55,425][359378241.py][line:135][INFO] Class S: 9
+[2025-03-07 06:12:57,691][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 06:12:57,707][359378241.py][line:27][INFO] Total predictions: 481
+[2025-03-07 06:12:57,711][359378241.py][line:28][INFO] Correct predictions: 355
+[2025-03-07 06:12:57,713][359378241.py][line:29][INFO] Incorrect predictions: 126
+[2025-03-07 06:12:57,717][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:12:57,721][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.439539    0.802561
+H      0.574904    0.934317
+N      0.775309    0.793546
+S      0.769587    0.785359
+[2025-03-07 06:12:57,724][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:12:57,727][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.800869    0.801503
+H      0.812051    0.701839
+N      0.822799    0.632895
+S      0.815310    0.740882
+[2025-03-07 06:12:57,765][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:12:57,768][359378241.py][line:135][INFO] Class A: 8
+[2025-03-07 06:12:57,771][359378241.py][line:135][INFO] Class H: 20
+[2025-03-07 06:12:57,773][359378241.py][line:135][INFO] Class N: 8
+[2025-03-07 06:12:57,776][359378241.py][line:135][INFO] Class S: 22
+[2025-03-07 06:16:08,601][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 06:16:08,604][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 06:16:08,609][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 06:16:08,613][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 06:16:08,617][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 06:16:08,622][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 06:16:08,627][3029545133.py][line:7][INFO] Fold: 4
+[2025-03-07 06:16:08,632][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 06:16:08,637][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 06:16:08,642][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 06:16:08,646][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 06:16:08,649][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 06:16:08,652][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 06:16:08,655][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 06:16:12,094][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 06:16:12,415][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_4/wav2vec2-test
+[2025-03-07 06:16:12,494][2929512373.py][line:50][INFO] Mode: train Fold: 4
+[2025-03-07 06:16:12,513][2929512373.py][line:50][INFO] Mode: val Fold: 4
+[2025-03-07 06:16:12,531][2929512373.py][line:50][INFO] Mode: test Fold: 4
+[2025-03-07 06:16:12,536][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 06:16:14,583][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:16:19,339][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:16:20,582][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:16:41,619][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:16:41,782][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:16:41,859][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:16:52,165][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:16:53,402][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:16:55,449][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:17:00,526][3832901375.py][line:7][INFO] fixed File 1175 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:17:01,981][3832901375.py][line:7][INFO] fixed File 1211 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:17:40,043][3832901375.py][line:7][INFO] fixed File 2189 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:18:24,971][3832901375.py][line:7][INFO] fixed File 3325 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:18:25,470][3832901375.py][line:7][INFO] fixed File 3337 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:18:26,325][3832901375.py][line:7][INFO] fixed File 3360 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:18:36,370][106285006.py][line:95][INFO] Now on file 3618: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:18:44,338][3832901375.py][line:7][INFO] fixed File 3818 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:18:44,627][3832901375.py][line:7][INFO] fixed File 3826 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:18:50,305][3832901375.py][line:7][INFO] fixed File 3976 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:18:59,777][3832901375.py][line:7][INFO] fixed File 4206 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:19:00,005][3832901375.py][line:7][INFO] fixed File 4212 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:19:06,731][106285006.py][line:131][INFO] Done processing 4381 files
+[2025-03-07 06:19:06,735][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 06:19:06,739][106285006.py][line:148][INFO] Split Average Entropy:    0.8457569227507126
+[2025-03-07 06:19:06,742][106285006.py][line:149][INFO] Split Average Varentropy: 0.7013800447307034
+[2025-03-07 06:19:06,745][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:19:06,749][106285006.py][line:151][INFO] Average Entropy:          0.6277739541673568
+[2025-03-07 06:19:06,751][106285006.py][line:152][INFO] Average Varentropy:       0.8636795396644558
+[2025-03-07 06:19:06,755][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:19:06,758][106285006.py][line:154][INFO] Average Entropy:          0.8539357076748483
+[2025-03-07 06:19:06,761][106285006.py][line:155][INFO] Average Varentropy:       0.7238238548234613
+[2025-03-07 06:19:06,765][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:19:06,768][106285006.py][line:157][INFO] Average Entropy:          0.9484974065166689
+[2025-03-07 06:19:06,771][106285006.py][line:158][INFO] Average Varentropy:       0.6220376841390365
+[2025-03-07 06:19:06,774][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:19:06,778][106285006.py][line:160][INFO] Average Entropy:          0.9291598150390545
+[2025-03-07 06:19:06,781][106285006.py][line:161][INFO] Average Varentropy:       0.5987024714324612
+[2025-03-07 06:19:06,837][106285006.py][line:172][INFO] Predictions saved to ./fold_4\train-predictions-raw.csv
+[2025-03-07 06:19:10,438][3832901375.py][line:7][INFO] fixed File 87 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:19:16,249][106285006.py][line:95][INFO] Now on file 231: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:19:19,550][106285006.py][line:95][INFO] Now on file 309: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:19:32,361][3832901375.py][line:7][INFO] fixed File 626 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:19:32,523][106285006.py][line:131][INFO] Done processing 630 files
+[2025-03-07 06:19:32,526][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 06:19:32,530][106285006.py][line:148][INFO] Split Average Entropy:    0.8660567480543649
+[2025-03-07 06:19:32,533][106285006.py][line:149][INFO] Split Average Varentropy: 0.6687170997179085
+[2025-03-07 06:19:32,536][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:19:32,539][106285006.py][line:151][INFO] Average Entropy:          0.6433815926125964
+[2025-03-07 06:19:32,543][106285006.py][line:152][INFO] Average Varentropy:       0.8486046273753328
+[2025-03-07 06:19:32,546][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:19:32,549][106285006.py][line:154][INFO] Average Entropy:          0.9006997203004772
+[2025-03-07 06:19:32,552][106285006.py][line:155][INFO] Average Varentropy:       0.6489540455413276
+[2025-03-07 06:19:32,555][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:19:32,559][106285006.py][line:157][INFO] Average Entropy:          0.9571574158835829
+[2025-03-07 06:19:32,563][106285006.py][line:158][INFO] Average Varentropy:       0.6091672243517742
+[2025-03-07 06:19:32,565][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:19:32,568][106285006.py][line:160][INFO] Average Entropy:          0.9316457357941842
+[2025-03-07 06:19:32,572][106285006.py][line:161][INFO] Average Varentropy:       0.5675842761993408
+[2025-03-07 06:19:32,583][106285006.py][line:172][INFO] Predictions saved to ./fold_4\val-predictions-raw.csv
+[2025-03-07 06:19:35,886][106285006.py][line:95][INFO] Now on file 85: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:19:37,741][3832901375.py][line:7][INFO] fixed File 132 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:19:53,433][106285006.py][line:131][INFO] Done processing 523 files
+[2025-03-07 06:19:53,437][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 06:19:53,441][106285006.py][line:148][INFO] Split Average Entropy:    0.8874297348132992
+[2025-03-07 06:19:53,444][106285006.py][line:149][INFO] Split Average Varentropy: 0.6702906243981244
+[2025-03-07 06:19:53,447][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:19:53,451][106285006.py][line:151][INFO] Average Entropy:          0.7359721444547176
+[2025-03-07 06:19:53,454][106285006.py][line:152][INFO] Average Varentropy:       0.7929907894382874
+[2025-03-07 06:19:53,457][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:19:53,461][106285006.py][line:154][INFO] Average Entropy:          0.9021142576971362
+[2025-03-07 06:19:53,464][106285006.py][line:155][INFO] Average Varentropy:       0.6704285494202087
+[2025-03-07 06:19:53,467][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:19:53,470][106285006.py][line:157][INFO] Average Entropy:          1.01460035477788
+[2025-03-07 06:19:53,473][106285006.py][line:158][INFO] Average Varentropy:       0.5362316312437708
+[2025-03-07 06:19:53,477][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:19:53,479][106285006.py][line:160][INFO] Average Entropy:          0.8959997138476263
+[2025-03-07 06:19:53,483][106285006.py][line:161][INFO] Average Varentropy:       0.6770877340578869
+[2025-03-07 06:19:53,493][106285006.py][line:172][INFO] Predictions saved to ./fold_4\test-predictions-raw.csv
+[2025-03-07 06:19:53,641][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 06:19:53,685][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 06:19:53,688][359378241.py][line:28][INFO] Correct predictions: 3930
+[2025-03-07 06:19:53,691][359378241.py][line:29][INFO] Incorrect predictions: 1601
+[2025-03-07 06:19:53,697][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:19:53,701][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.565546    0.922864
+H      0.821344    0.772218
+N      0.931722    0.657407
+S      0.904234    0.638745
+[2025-03-07 06:19:53,706][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:19:53,709][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.047957    0.482147
+H      0.923812    0.603370
+N      0.949154    0.557604
+S      0.994992    0.530331
+[2025-03-07 06:19:53,751][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:19:53,755][359378241.py][line:135][INFO] Class A: 14
+[2025-03-07 06:19:53,758][359378241.py][line:135][INFO] Class H: 152
+[2025-03-07 06:19:53,761][359378241.py][line:135][INFO] Class N: 76
+[2025-03-07 06:19:53,764][359378241.py][line:135][INFO] Class S: 35
+[2025-03-07 06:19:56,429][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 06:19:56,464][359378241.py][line:27][INFO] Total predictions: 4380
+[2025-03-07 06:19:56,468][359378241.py][line:28][INFO] Correct predictions: 3243
+[2025-03-07 06:19:56,472][359378241.py][line:29][INFO] Incorrect predictions: 1137
+[2025-03-07 06:19:56,478][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:19:56,482][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.555543    0.930400
+H      0.818597    0.775686
+N      0.927905    0.661349
+S      0.913496    0.623272
+[2025-03-07 06:19:56,487][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:19:56,491][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.046071    0.483807
+H      0.926630    0.594486
+N      0.951827    0.550172
+S      0.997195    0.529352
+[2025-03-07 06:19:56,789][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:19:56,794][359378241.py][line:135][INFO] Class A: 9
+[2025-03-07 06:19:56,797][359378241.py][line:135][INFO] Class H: 99
+[2025-03-07 06:19:56,801][359378241.py][line:135][INFO] Class N: 50
+[2025-03-07 06:19:56,804][359378241.py][line:135][INFO] Class S: 29
+[2025-03-07 06:19:59,349][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 06:19:59,367][359378241.py][line:27][INFO] Total predictions: 522
+[2025-03-07 06:19:59,371][359378241.py][line:28][INFO] Correct predictions: 329
+[2025-03-07 06:19:59,374][359378241.py][line:29][INFO] Incorrect predictions: 193
+[2025-03-07 06:19:59,379][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:19:59,384][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.655214    0.874445
+H      0.834805    0.771726
+N      1.000607    0.569806
+S      0.869647    0.709493
+[2025-03-07 06:19:59,388][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:19:59,393][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.142943    0.340664
+H      0.928683    0.626564
+N      0.936329    0.601544
+S      1.052200    0.460100
+[2025-03-07 06:19:59,428][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:19:59,433][359378241.py][line:135][INFO] Class A: 2
+[2025-03-07 06:19:59,436][359378241.py][line:135][INFO] Class H: 24
+[2025-03-07 06:19:59,439][359378241.py][line:135][INFO] Class N: 18
+[2025-03-07 06:19:59,442][359378241.py][line:135][INFO] Class S: 3
+[2025-03-07 06:20:01,694][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 06:20:01,713][359378241.py][line:27][INFO] Total predictions: 629
+[2025-03-07 06:20:01,716][359378241.py][line:28][INFO] Correct predictions: 358
+[2025-03-07 06:20:01,720][359378241.py][line:29][INFO] Incorrect predictions: 271
+[2025-03-07 06:20:01,725][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:20:01,730][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.574707    0.902743
+H      0.852907    0.720603
+N      0.928685    0.668651
+S      0.910113    0.595703
+[2025-03-07 06:20:01,734][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:20:01,738][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.011984    0.538183
+H      0.906319    0.625041
+N      0.948782    0.549366
+S      0.967595    0.557834
+[2025-03-07 06:20:01,773][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:20:01,777][359378241.py][line:135][INFO] Class A: 3
+[2025-03-07 06:20:01,779][359378241.py][line:135][INFO] Class H: 29
+[2025-03-07 06:20:01,784][359378241.py][line:135][INFO] Class N: 8
+[2025-03-07 06:20:01,787][359378241.py][line:135][INFO] Class S: 3
+[2025-03-07 06:20:22,912][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 06:20:22,918][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 06:20:22,924][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 06:20:22,930][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 06:20:22,936][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 06:20:22,941][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 06:20:22,947][3029545133.py][line:7][INFO] Fold: 5
+[2025-03-07 06:20:22,954][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 06:20:22,959][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 06:20:22,966][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 06:20:22,971][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 06:20:22,976][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 06:20:22,983][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 06:20:22,988][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 06:20:26,383][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 06:20:26,772][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_5/wav2vec2-test
+[2025-03-07 06:20:26,815][2929512373.py][line:50][INFO] Mode: train Fold: 5
+[2025-03-07 06:20:26,834][2929512373.py][line:50][INFO] Mode: val Fold: 5
+[2025-03-07 06:20:26,851][2929512373.py][line:50][INFO] Mode: test Fold: 5
+[2025-03-07 06:20:26,857][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 06:20:28,723][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:20:32,660][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:20:33,683][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:20:51,312][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:20:51,445][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:20:51,508][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:20:59,865][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:21:00,881][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:21:02,609][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:21:06,904][3832901375.py][line:7][INFO] fixed File 1175 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:21:08,220][3832901375.py][line:7][INFO] fixed File 1211 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:21:42,313][3832901375.py][line:7][INFO] fixed File 2189 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:19,822][3832901375.py][line:7][INFO] fixed File 3325 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:20,229][3832901375.py][line:7][INFO] fixed File 3337 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:20,924][3832901375.py][line:7][INFO] fixed File 3360 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:29,223][106285006.py][line:95][INFO] Now on file 3618: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:22:35,880][3832901375.py][line:7][INFO] fixed File 3818 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:36,114][3832901375.py][line:7][INFO] fixed File 3826 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:40,760][3832901375.py][line:7][INFO] fixed File 3976 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:48,497][3832901375.py][line:7][INFO] fixed File 4206 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:48,691][3832901375.py][line:7][INFO] fixed File 4212 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:22:54,229][106285006.py][line:131][INFO] Done processing 4381 files
+[2025-03-07 06:22:54,233][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 06:22:54,237][106285006.py][line:148][INFO] Split Average Entropy:    0.6214430430640369
+[2025-03-07 06:22:54,241][106285006.py][line:149][INFO] Split Average Varentropy: 0.8469698873216703
+[2025-03-07 06:22:54,245][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:22:54,249][106285006.py][line:151][INFO] Average Entropy:          0.40306747287444245
+[2025-03-07 06:22:54,253][106285006.py][line:152][INFO] Average Varentropy:       0.8520353676375348
+[2025-03-07 06:22:54,257][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:22:54,260][106285006.py][line:154][INFO] Average Entropy:          0.640536456521861
+[2025-03-07 06:22:54,265][106285006.py][line:155][INFO] Average Varentropy:       0.8549075407472697
+[2025-03-07 06:22:54,269][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:22:54,273][106285006.py][line:157][INFO] Average Entropy:          0.7105181167697839
+[2025-03-07 06:22:54,277][106285006.py][line:158][INFO] Average Varentropy:       0.8258683878002999
+[2025-03-07 06:22:54,280][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:22:54,284][106285006.py][line:160][INFO] Average Entropy:          0.6701707862066419
+[2025-03-07 06:22:54,288][106285006.py][line:161][INFO] Average Varentropy:       0.8650546991925561
+[2025-03-07 06:22:54,345][106285006.py][line:172][INFO] Predictions saved to ./fold_5\train-predictions-raw.csv
+[2025-03-07 06:22:57,075][106285006.py][line:95][INFO] Now on file 85: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:22:58,616][3832901375.py][line:7][INFO] fixed File 132 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:23:11,910][106285006.py][line:131][INFO] Done processing 523 files
+[2025-03-07 06:23:11,915][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 06:23:11,918][106285006.py][line:148][INFO] Split Average Entropy:    0.6832284747526564
+[2025-03-07 06:23:11,922][106285006.py][line:149][INFO] Split Average Varentropy: 0.813351034518631
+[2025-03-07 06:23:11,926][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:23:11,930][106285006.py][line:151][INFO] Average Entropy:          0.5235489246249199
+[2025-03-07 06:23:11,932][106285006.py][line:152][INFO] Average Varentropy:       0.8000588263571262
+[2025-03-07 06:23:11,937][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:23:11,941][106285006.py][line:154][INFO] Average Entropy:          0.7585588961504819
+[2025-03-07 06:23:11,945][106285006.py][line:155][INFO] Average Varentropy:       0.7300169273708643
+[2025-03-07 06:23:11,949][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:23:11,953][106285006.py][line:157][INFO] Average Entropy:          0.8362778797745705
+[2025-03-07 06:23:11,957][106285006.py][line:158][INFO] Average Varentropy:       0.6891294239232173
+[2025-03-07 06:23:11,961][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:23:11,964][106285006.py][line:160][INFO] Average Entropy:          0.6541734939058795
+[2025-03-07 06:23:11,968][106285006.py][line:161][INFO] Average Varentropy:       0.90795803824887
+[2025-03-07 06:23:11,987][106285006.py][line:172][INFO] Predictions saved to ./fold_5\val-predictions-raw.csv
+[2025-03-07 06:23:15,039][3832901375.py][line:7][INFO] fixed File 87 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:23:19,878][106285006.py][line:95][INFO] Now on file 231: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:23:22,575][106285006.py][line:95][INFO] Now on file 309: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:23:33,346][3832901375.py][line:7][INFO] fixed File 626 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:23:33,487][106285006.py][line:131][INFO] Done processing 630 files
+[2025-03-07 06:23:33,491][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 06:23:33,495][106285006.py][line:148][INFO] Split Average Entropy:    0.684970419338663
+[2025-03-07 06:23:33,499][106285006.py][line:149][INFO] Split Average Varentropy: 0.7746286132093074
+[2025-03-07 06:23:33,502][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:23:33,506][106285006.py][line:151][INFO] Average Entropy:          0.45896159629854894
+[2025-03-07 06:23:33,510][106285006.py][line:152][INFO] Average Varentropy:       0.8291964754979644
+[2025-03-07 06:23:33,514][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:23:33,518][106285006.py][line:154][INFO] Average Entropy:          0.750534066332961
+[2025-03-07 06:23:33,521][106285006.py][line:155][INFO] Average Varentropy:       0.73692815251789
+[2025-03-07 06:23:33,525][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:23:33,529][106285006.py][line:157][INFO] Average Entropy:          0.7611376073508136
+[2025-03-07 06:23:33,534][106285006.py][line:158][INFO] Average Varentropy:       0.7538383048588195
+[2025-03-07 06:23:33,537][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:23:33,541][106285006.py][line:160][INFO] Average Entropy:          0.7397530300944459
+[2025-03-07 06:23:33,545][106285006.py][line:161][INFO] Average Varentropy:       0.7800997658297907
+[2025-03-07 06:23:33,557][106285006.py][line:172][INFO] Predictions saved to ./fold_5\test-predictions-raw.csv
+[2025-03-07 06:23:33,704][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 06:23:33,748][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 06:23:33,752][359378241.py][line:28][INFO] Correct predictions: 4358
+[2025-03-07 06:23:33,756][359378241.py][line:29][INFO] Incorrect predictions: 1173
+[2025-03-07 06:23:33,762][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:23:33,767][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.382108    0.862163
+H      0.613250    0.884419
+N      0.697132    0.848170
+S      0.639747    0.904472
+[2025-03-07 06:23:33,772][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:23:33,776][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.855397    0.657934
+H      0.751266    0.735743
+N      0.794351    0.672176
+S      0.842859    0.668972
+[2025-03-07 06:23:33,817][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:23:33,821][359378241.py][line:135][INFO] Class A: 56
+[2025-03-07 06:23:33,824][359378241.py][line:135][INFO] Class H: 256
+[2025-03-07 06:23:33,828][359378241.py][line:135][INFO] Class N: 151
+[2025-03-07 06:23:33,832][359378241.py][line:135][INFO] Class S: 59
+[2025-03-07 06:23:36,426][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 06:23:36,460][359378241.py][line:27][INFO] Total predictions: 4380
+[2025-03-07 06:23:36,465][359378241.py][line:28][INFO] Correct predictions: 3636
+[2025-03-07 06:23:36,469][359378241.py][line:29][INFO] Incorrect predictions: 744
+[2025-03-07 06:23:36,475][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:23:36,480][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.374334    0.865914
+H      0.608141    0.889722
+N      0.686412    0.860877
+S      0.641274    0.902444
+[2025-03-07 06:23:36,485][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:23:36,489][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.848905    0.672360
+H      0.762427    0.718551
+N      0.793075    0.667968
+S      0.816806    0.705783
+[2025-03-07 06:23:36,529][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:23:36,535][359378241.py][line:135][INFO] Class A: 29
+[2025-03-07 06:23:36,539][359378241.py][line:135][INFO] Class H: 157
+[2025-03-07 06:23:36,543][359378241.py][line:135][INFO] Class N: 96
+[2025-03-07 06:23:36,547][359378241.py][line:135][INFO] Class S: 42
+[2025-03-07 06:23:39,026][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 06:23:39,047][359378241.py][line:27][INFO] Total predictions: 629
+[2025-03-07 06:23:39,051][359378241.py][line:28][INFO] Correct predictions: 392
+[2025-03-07 06:23:39,055][359378241.py][line:29][INFO] Incorrect predictions: 237
+[2025-03-07 06:23:39,061][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:23:39,066][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.411925    0.845966
+H      0.686070    0.804879
+N      0.728848    0.805261
+S      0.696988    0.825180
+[2025-03-07 06:23:39,071][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:23:39,076][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.775868    0.740010
+H      0.721677    0.738756
+N      0.795866    0.682204
+S      0.887754    0.588568
+[2025-03-07 06:23:39,115][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:23:39,119][359378241.py][line:135][INFO] Class A: 24
+[2025-03-07 06:23:39,123][359378241.py][line:135][INFO] Class H: 50
+[2025-03-07 06:23:39,127][359378241.py][line:135][INFO] Class N: 23
+[2025-03-07 06:23:39,131][359378241.py][line:135][INFO] Class S: 8
+[2025-03-07 06:23:41,371][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 06:23:41,392][359378241.py][line:27][INFO] Total predictions: 522
+[2025-03-07 06:23:41,396][359378241.py][line:28][INFO] Correct predictions: 330
+[2025-03-07 06:23:41,400][359378241.py][line:29][INFO] Incorrect predictions: 192
+[2025-03-07 06:23:41,406][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:23:41,410][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.427079    0.843351
+H      0.623545    0.878782
+N      0.825161    0.707388
+S      0.598022    0.961876
+[2025-03-07 06:23:41,415][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:23:41,419][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.002704    0.485821
+H      0.738701    0.806390
+N      0.797776    0.678961
+S      0.864914    0.670202
+[2025-03-07 06:23:41,455][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:23:41,458][359378241.py][line:135][INFO] Class A: 3
+[2025-03-07 06:23:41,462][359378241.py][line:135][INFO] Class H: 49
+[2025-03-07 06:23:41,466][359378241.py][line:135][INFO] Class N: 32
+[2025-03-07 06:23:41,471][359378241.py][line:135][INFO] Class S: 9
+[2025-03-07 06:38:49,623][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 06:38:49,629][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 06:38:49,636][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 06:38:49,643][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 06:38:49,649][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 06:38:49,655][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 06:38:49,661][3029545133.py][line:7][INFO] Fold: 6
+[2025-03-07 06:38:49,669][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 06:38:49,675][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 06:38:49,682][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 06:38:49,689][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 06:38:49,695][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 06:38:49,702][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 06:38:49,708][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 06:38:53,997][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 06:38:54,427][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_6/wav2vec2-test
+[2025-03-07 06:38:54,483][2929512373.py][line:50][INFO] Mode: train Fold: 6
+[2025-03-07 06:38:54,502][2929512373.py][line:50][INFO] Mode: val Fold: 6
+[2025-03-07 06:38:54,519][2929512373.py][line:50][INFO] Mode: test Fold: 6
+[2025-03-07 06:38:54,525][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 06:38:56,638][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:39:01,493][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:39:02,803][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:39:23,927][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:39:24,081][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:39:24,157][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:39:34,099][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:39:35,313][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:39:37,336][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:39:42,459][3832901375.py][line:7][INFO] fixed File 1175 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:39:44,039][3832901375.py][line:7][INFO] fixed File 1211 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:40:26,802][3832901375.py][line:7][INFO] fixed File 2253 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:40:28,994][106285006.py][line:95][INFO] Now on file 2306: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:40:32,784][3832901375.py][line:7][INFO] fixed File 2401 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:40:38,296][106285006.py][line:95][INFO] Now on file 2536: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:40:44,055][106285006.py][line:95][INFO] Now on file 2676: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:41:07,449][3832901375.py][line:7][INFO] fixed File 3256 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:15,023][3832901375.py][line:7][INFO] fixed File 3445 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:15,529][3832901375.py][line:7][INFO] fixed File 3457 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:16,391][3832901375.py][line:7][INFO] fixed File 3480 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:26,353][106285006.py][line:95][INFO] Now on file 3738: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:41:34,220][3832901375.py][line:7][INFO] fixed File 3938 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:34,511][3832901375.py][line:7][INFO] fixed File 3946 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:40,130][3832901375.py][line:7][INFO] fixed File 4096 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:49,351][3832901375.py][line:7][INFO] fixed File 4326 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:49,577][3832901375.py][line:7][INFO] fixed File 4332 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:41:56,257][106285006.py][line:131][INFO] Done processing 4501 files
+[2025-03-07 06:41:56,263][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 06:41:56,268][106285006.py][line:148][INFO] Split Average Entropy:    0.8583459798759885
+[2025-03-07 06:41:56,273][106285006.py][line:149][INFO] Split Average Varentropy: 0.7250613937551776
+[2025-03-07 06:41:56,277][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:41:56,282][106285006.py][line:151][INFO] Average Entropy:          0.6418917240767643
+[2025-03-07 06:41:56,286][106285006.py][line:152][INFO] Average Varentropy:       0.8755691150181938
+[2025-03-07 06:41:56,291][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:41:56,295][106285006.py][line:154][INFO] Average Entropy:          0.8648203736229947
+[2025-03-07 06:41:56,300][106285006.py][line:155][INFO] Average Varentropy:       0.757750791475961
+[2025-03-07 06:41:56,304][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:41:56,308][106285006.py][line:157][INFO] Average Entropy:          0.9558209158312178
+[2025-03-07 06:41:56,313][106285006.py][line:158][INFO] Average Varentropy:       0.6332559756625904
+[2025-03-07 06:41:56,317][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:41:56,322][106285006.py][line:160][INFO] Average Entropy:          0.8456049395413411
+[2025-03-07 06:41:56,326][106285006.py][line:161][INFO] Average Varentropy:       0.7372991425236296
+[2025-03-07 06:41:56,385][106285006.py][line:172][INFO] Predictions saved to ./fold_6\train-predictions-raw.csv
+[2025-03-07 06:42:16,643][106285006.py][line:131][INFO] Done processing 504 files
+[2025-03-07 06:42:16,649][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 06:42:16,654][106285006.py][line:148][INFO] Split Average Entropy:    0.8776942608844689
+[2025-03-07 06:42:16,658][106285006.py][line:149][INFO] Split Average Varentropy: 0.6701084599935748
+[2025-03-07 06:42:16,663][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:42:16,667][106285006.py][line:151][INFO] Average Entropy:          0.6591146674087579
+[2025-03-07 06:42:16,672][106285006.py][line:152][INFO] Average Varentropy:       0.8595719332103249
+[2025-03-07 06:42:16,676][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:42:16,680][106285006.py][line:154][INFO] Average Entropy:          0.9649497687816619
+[2025-03-07 06:42:16,684][106285006.py][line:155][INFO] Average Varentropy:       0.5718387516215444
+[2025-03-07 06:42:16,689][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:42:16,693][106285006.py][line:157][INFO] Average Entropy:          0.974580623886802
+[2025-03-07 06:42:16,698][106285006.py][line:158][INFO] Average Varentropy:       0.6032912200717835
+[2025-03-07 06:42:16,702][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:42:16,707][106285006.py][line:160][INFO] Average Entropy:          0.919732567469279
+[2025-03-07 06:42:16,711][106285006.py][line:161][INFO] Average Varentropy:       0.6099878871440887
+[2025-03-07 06:42:16,731][106285006.py][line:172][INFO] Predictions saved to ./fold_6\val-predictions-raw.csv
+[2025-03-07 06:42:18,641][3832901375.py][line:7][INFO] fixed File 50 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:42:37,040][106285006.py][line:131][INFO] Done processing 529 files
+[2025-03-07 06:42:37,046][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 06:42:37,050][106285006.py][line:148][INFO] Split Average Entropy:    0.7461739365914555
+[2025-03-07 06:42:37,055][106285006.py][line:149][INFO] Split Average Varentropy: 0.7914078649500329
+[2025-03-07 06:42:37,060][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:42:37,063][106285006.py][line:151][INFO] Average Entropy:          0.5897375370400983
+[2025-03-07 06:42:37,068][106285006.py][line:152][INFO] Average Varentropy:       0.922874378443167
+[2025-03-07 06:42:37,072][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:42:37,076][106285006.py][line:154][INFO] Average Entropy:          0.8924629311812552
+[2025-03-07 06:42:37,081][106285006.py][line:155][INFO] Average Varentropy:       0.6958811367420774
+[2025-03-07 06:42:37,085][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:42:37,089][106285006.py][line:157][INFO] Average Entropy:          1.028251948894239
+[2025-03-07 06:42:37,094][106285006.py][line:158][INFO] Average Varentropy:       0.5296936152758551
+[2025-03-07 06:42:37,098][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:42:37,102][106285006.py][line:160][INFO] Average Entropy:          0.8649749259154002
+[2025-03-07 06:42:37,107][106285006.py][line:161][INFO] Average Varentropy:       0.6995707689612
+[2025-03-07 06:42:37,118][106285006.py][line:172][INFO] Predictions saved to ./fold_6\test-predictions-raw.csv
+[2025-03-07 06:42:37,259][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 06:42:37,305][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 06:42:37,311][359378241.py][line:28][INFO] Correct predictions: 4020
+[2025-03-07 06:42:37,315][359378241.py][line:29][INFO] Incorrect predictions: 1511
+[2025-03-07 06:42:37,323][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:42:37,329][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.599880    0.917923
+H      0.851369    0.775085
+N      0.936884    0.666928
+S      0.825686    0.769538
+[2025-03-07 06:42:37,335][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:42:37,340][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.030134    0.527112
+H      0.905665    0.635937
+N      0.900499    0.636919
+S      1.008234    0.541007
+[2025-03-07 06:42:37,386][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:42:37,391][359378241.py][line:135][INFO] Class A: 32
+[2025-03-07 06:42:37,396][359378241.py][line:135][INFO] Class H: 214
+[2025-03-07 06:42:37,401][359378241.py][line:135][INFO] Class N: 126
+[2025-03-07 06:42:37,405][359378241.py][line:135][INFO] Class S: 31
+[2025-03-07 06:42:40,073][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 06:42:40,111][359378241.py][line:27][INFO] Total predictions: 4500
+[2025-03-07 06:42:40,117][359378241.py][line:28][INFO] Correct predictions: 3383
+[2025-03-07 06:42:40,120][359378241.py][line:29][INFO] Incorrect predictions: 1117
+[2025-03-07 06:42:40,128][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:42:40,133][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.609481    0.909524
+H      0.843693    0.789324
+N      0.933374    0.672822
+S      0.819443    0.780545
+[2025-03-07 06:42:40,139][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:42:40,145][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.028117    0.528977
+H      0.948438    0.599106
+N      0.902362    0.635655
+S      1.006909    0.543952
+[2025-03-07 06:42:40,184][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:42:40,190][359378241.py][line:135][INFO] Class A: 27
+[2025-03-07 06:42:40,194][359378241.py][line:135][INFO] Class H: 117
+[2025-03-07 06:42:40,198][359378241.py][line:135][INFO] Class N: 93
+[2025-03-07 06:42:40,203][359378241.py][line:135][INFO] Class S: 26
+[2025-03-07 06:42:42,707][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 06:42:42,730][359378241.py][line:27][INFO] Total predictions: 528
+[2025-03-07 06:42:42,735][359378241.py][line:28][INFO] Correct predictions: 328
+[2025-03-07 06:42:42,739][359378241.py][line:29][INFO] Incorrect predictions: 200
+[2025-03-07 06:42:42,746][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:42:42,751][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.555549    0.959089
+H      0.876164    0.721611
+N      0.986325    0.589126
+S      0.850550    0.723321
+[2025-03-07 06:42:42,757][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:42:42,762][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.040283    0.521164
+H      0.703580    0.804254
+N      0.856025    0.687000
+S      1.042963    0.506178
+[2025-03-07 06:42:42,798][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:42:42,803][359378241.py][line:135][INFO] Class A: 4
+[2025-03-07 06:42:42,807][359378241.py][line:135][INFO] Class H: 81
+[2025-03-07 06:42:42,812][359378241.py][line:135][INFO] Class N: 15
+[2025-03-07 06:42:42,816][359378241.py][line:135][INFO] Class S: 2
+[2025-03-07 06:42:45,067][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 06:42:45,087][359378241.py][line:27][INFO] Total predictions: 503
+[2025-03-07 06:42:45,092][359378241.py][line:28][INFO] Correct predictions: 309
+[2025-03-07 06:42:45,097][359378241.py][line:29][INFO] Incorrect predictions: 194
+[2025-03-07 06:42:45,103][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:42:45,108][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.621337    0.894989
+H      0.974940    0.558068
+N      0.952898    0.637984
+S      0.902684    0.635542
+[2025-03-07 06:42:45,114][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:42:45,119][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.035983    0.517301
+H      0.937814    0.617014
+N      0.912667    0.619590
+S      0.985950    0.555733
+[2025-03-07 06:42:45,156][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:42:45,162][359378241.py][line:135][INFO] Class A: 1
+[2025-03-07 06:42:45,166][359378241.py][line:135][INFO] Class H: 16
+[2025-03-07 06:42:45,171][359378241.py][line:135][INFO] Class N: 18
+[2025-03-07 06:42:45,175][359378241.py][line:135][INFO] Class S: 3
+[2025-03-07 06:55:49,400][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 06:55:49,406][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 06:55:49,411][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 06:55:49,417][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 06:55:49,422][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 06:55:49,427][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 06:55:49,432][3029545133.py][line:7][INFO] Fold: 7
+[2025-03-07 06:55:49,437][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 06:55:49,442][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 06:55:49,447][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 06:55:49,452][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 06:55:49,458][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 06:55:49,462][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 06:55:49,468][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 06:55:54,286][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 06:55:54,710][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_7/wav2vec2-test
+[2025-03-07 06:55:54,758][2929512373.py][line:50][INFO] Mode: train Fold: 7
+[2025-03-07 06:55:54,778][2929512373.py][line:50][INFO] Mode: val Fold: 7
+[2025-03-07 06:55:54,795][2929512373.py][line:50][INFO] Mode: test Fold: 7
+[2025-03-07 06:55:54,803][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 06:55:56,805][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:56:01,022][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:56:02,077][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:56:20,010][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:56:20,141][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:56:20,208][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:56:28,563][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:56:29,570][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:56:31,314][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:56:35,598][3832901375.py][line:7][INFO] fixed File 1175 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:56:36,925][3832901375.py][line:7][INFO] fixed File 1211 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:57:12,969][3832901375.py][line:7][INFO] fixed File 2253 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:57:14,838][106285006.py][line:95][INFO] Now on file 2306: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:57:17,993][3832901375.py][line:7][INFO] fixed File 2401 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:57:22,710][106285006.py][line:95][INFO] Now on file 2536: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:57:27,587][106285006.py][line:95][INFO] Now on file 2676: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:57:47,324][3832901375.py][line:7][INFO] fixed File 3256 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:57:53,650][3832901375.py][line:7][INFO] fixed File 3445 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:57:54,065][3832901375.py][line:7][INFO] fixed File 3457 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:57:54,784][3832901375.py][line:7][INFO] fixed File 3480 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:58:03,127][106285006.py][line:95][INFO] Now on file 3738: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 06:58:09,840][3832901375.py][line:7][INFO] fixed File 3938 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:58:10,088][3832901375.py][line:7][INFO] fixed File 3946 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:58:14,797][3832901375.py][line:7][INFO] fixed File 4096 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:58:22,595][3832901375.py][line:7][INFO] fixed File 4326 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:58:22,784][3832901375.py][line:7][INFO] fixed File 4332 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:58:28,376][106285006.py][line:131][INFO] Done processing 4501 files
+[2025-03-07 06:58:28,382][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 06:58:28,388][106285006.py][line:148][INFO] Split Average Entropy:    0.607709505683846
+[2025-03-07 06:58:28,393][106285006.py][line:149][INFO] Split Average Varentropy: 0.859926754657593
+[2025-03-07 06:58:28,398][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:58:28,403][106285006.py][line:151][INFO] Average Entropy:          0.4157267586496852
+[2025-03-07 06:58:28,408][106285006.py][line:152][INFO] Average Varentropy:       0.8404429277917683
+[2025-03-07 06:58:28,414][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:58:28,419][106285006.py][line:154][INFO] Average Entropy:          0.5907096033510955
+[2025-03-07 06:58:28,424][106285006.py][line:155][INFO] Average Varentropy:       0.9021985005781702
+[2025-03-07 06:58:28,430][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:58:28,434][106285006.py][line:157][INFO] Average Entropy:          0.7234028427261263
+[2025-03-07 06:58:28,439][106285006.py][line:158][INFO] Average Varentropy:       0.8208449709170366
+[2025-03-07 06:58:28,444][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:58:28,449][106285006.py][line:160][INFO] Average Entropy:          0.6117342113729264
+[2025-03-07 06:58:28,455][106285006.py][line:161][INFO] Average Varentropy:       0.8753188163317794
+[2025-03-07 06:58:28,514][106285006.py][line:172][INFO] Predictions saved to ./fold_7\train-predictions-raw.csv
+[2025-03-07 06:58:30,124][3832901375.py][line:7][INFO] fixed File 50 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 06:58:45,560][106285006.py][line:131][INFO] Done processing 529 files
+[2025-03-07 06:58:45,566][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 06:58:45,572][106285006.py][line:148][INFO] Split Average Entropy:    0.5201297535589247
+[2025-03-07 06:58:45,577][106285006.py][line:149][INFO] Split Average Varentropy: 0.8353677301272524
+[2025-03-07 06:58:45,582][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:58:45,588][106285006.py][line:151][INFO] Average Entropy:          0.3888216699163119
+[2025-03-07 06:58:45,593][106285006.py][line:152][INFO] Average Varentropy:       0.8485413512587547
+[2025-03-07 06:58:45,598][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:58:45,603][106285006.py][line:154][INFO] Average Entropy:          0.6158906482862976
+[2025-03-07 06:58:45,607][106285006.py][line:155][INFO] Average Varentropy:       0.8793279066119554
+[2025-03-07 06:58:45,620][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:58:45,625][106285006.py][line:157][INFO] Average Entropy:          0.85501654073596
+[2025-03-07 06:58:45,630][106285006.py][line:158][INFO] Average Varentropy:       0.684017876163125
+[2025-03-07 06:58:45,635][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:58:45,641][106285006.py][line:160][INFO] Average Entropy:          0.6547679582546497
+[2025-03-07 06:58:45,646][106285006.py][line:161][INFO] Average Varentropy:       0.8538940336940617
+[2025-03-07 06:58:45,658][106285006.py][line:172][INFO] Predictions saved to ./fold_7\val-predictions-raw.csv
+[2025-03-07 06:59:02,421][106285006.py][line:131][INFO] Done processing 504 files
+[2025-03-07 06:59:02,426][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 06:59:02,431][106285006.py][line:148][INFO] Split Average Entropy:    0.6677274880541959
+[2025-03-07 06:59:02,437][106285006.py][line:149][INFO] Split Average Varentropy: 0.7726083795093814
+[2025-03-07 06:59:02,442][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 06:59:02,447][106285006.py][line:151][INFO] Average Entropy:          0.47065532898271323
+[2025-03-07 06:59:02,452][106285006.py][line:152][INFO] Average Varentropy:       0.804121485066335
+[2025-03-07 06:59:02,457][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 06:59:02,462][106285006.py][line:154][INFO] Average Entropy:          0.7585243509740246
+[2025-03-07 06:59:02,467][106285006.py][line:155][INFO] Average Varentropy:       0.7239604926649101
+[2025-03-07 06:59:02,473][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 06:59:02,478][106285006.py][line:157][INFO] Average Entropy:          0.7692262902855873
+[2025-03-07 06:59:02,483][106285006.py][line:158][INFO] Average Varentropy:       0.7690771743165035
+[2025-03-07 06:59:02,488][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 06:59:02,494][106285006.py][line:160][INFO] Average Entropy:          0.7209822480000702
+[2025-03-07 06:59:02,499][106285006.py][line:161][INFO] Average Varentropy:       0.7779589399111038
+[2025-03-07 06:59:02,511][106285006.py][line:172][INFO] Predictions saved to ./fold_7\test-predictions-raw.csv
+[2025-03-07 06:59:02,660][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 06:59:02,706][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 06:59:02,712][359378241.py][line:28][INFO] Correct predictions: 4360
+[2025-03-07 06:59:02,717][359378241.py][line:29][INFO] Incorrect predictions: 1171
+[2025-03-07 06:59:02,725][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:59:02,731][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.378111    0.852021
+H      0.570492    0.921437
+N      0.705963    0.845951
+S      0.579535    0.911164
+[2025-03-07 06:59:02,737][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:59:02,744][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.867523    0.657162
+H      0.698378    0.750565
+N      0.717609    0.741153
+S      0.837181    0.691395
+[2025-03-07 06:59:02,790][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:59:02,796][359378241.py][line:135][INFO] Class A: 55
+[2025-03-07 06:59:02,800][359378241.py][line:135][INFO] Class H: 283
+[2025-03-07 06:59:02,806][359378241.py][line:135][INFO] Class N: 232
+[2025-03-07 06:59:02,811][359378241.py][line:135][INFO] Class S: 51
+[2025-03-07 06:59:05,375][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 06:59:05,411][359378241.py][line:27][INFO] Total predictions: 4500
+[2025-03-07 06:59:05,416][359378241.py][line:28][INFO] Correct predictions: 3676
+[2025-03-07 06:59:05,421][359378241.py][line:29][INFO] Incorrect predictions: 824
+[2025-03-07 06:59:05,428][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:59:05,434][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.384645    0.852492
+H      0.558946    0.932360
+N      0.699233    0.853792
+S      0.570932    0.918354
+[2025-03-07 06:59:05,440][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:59:05,446][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.856522    0.666068
+H      0.748143    0.742245
+N      0.725538    0.739256
+S      0.847236    0.680182
+[2025-03-07 06:59:05,488][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:59:05,493][359378241.py][line:135][INFO] Class A: 43
+[2025-03-07 06:59:05,498][359378241.py][line:135][INFO] Class H: 172
+[2025-03-07 06:59:05,504][359378241.py][line:135][INFO] Class N: 164
+[2025-03-07 06:59:05,509][359378241.py][line:135][INFO] Class S: 33
+[2025-03-07 06:59:08,046][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 06:59:08,068][359378241.py][line:27][INFO] Total predictions: 503
+[2025-03-07 06:59:08,075][359378241.py][line:28][INFO] Correct predictions: 322
+[2025-03-07 06:59:08,079][359378241.py][line:29][INFO] Incorrect predictions: 181
+[2025-03-07 06:59:08,086][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:59:08,091][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.396818    0.840566
+H      0.776416    0.709355
+N      0.738680    0.805541
+S      0.653168    0.849052
+[2025-03-07 06:59:08,098][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:59:08,104][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.907278    0.609701
+H      0.766477    0.701080
+N      0.717735    0.738139
+S      0.904461    0.608042
+[2025-03-07 06:59:08,142][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:59:08,148][359378241.py][line:135][INFO] Class A: 5
+[2025-03-07 06:59:08,153][359378241.py][line:135][INFO] Class H: 34
+[2025-03-07 06:59:08,158][359378241.py][line:135][INFO] Class N: 44
+[2025-03-07 06:59:08,163][359378241.py][line:135][INFO] Class S: 5
+[2025-03-07 06:59:10,353][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 06:59:10,375][359378241.py][line:27][INFO] Total predictions: 528
+[2025-03-07 06:59:10,382][359378241.py][line:28][INFO] Correct predictions: 362
+[2025-03-07 06:59:10,387][359378241.py][line:29][INFO] Incorrect predictions: 166
+[2025-03-07 06:59:10,394][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 06:59:10,400][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.344128    0.856849
+H      0.587574    0.914683
+N      0.819105    0.719919
+S      0.637172    0.863869
+[2025-03-07 06:59:10,406][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 06:59:10,412][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.901559    0.643866
+H      0.478146    0.815055
+N      0.650260    0.763959
+S      0.737491    0.809133
+[2025-03-07 06:59:10,450][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 06:59:10,455][359378241.py][line:135][INFO] Class A: 7
+[2025-03-07 06:59:10,461][359378241.py][line:135][INFO] Class H: 77
+[2025-03-07 06:59:10,465][359378241.py][line:135][INFO] Class N: 24
+[2025-03-07 06:59:10,471][359378241.py][line:135][INFO] Class S: 13
+[2025-03-07 07:05:50,959][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 07:05:50,966][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 07:05:50,972][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 07:05:50,977][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 07:05:50,984][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 07:05:50,990][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 07:05:50,995][3029545133.py][line:7][INFO] Fold: 8
+[2025-03-07 07:05:51,002][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 07:05:51,008][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 07:05:51,014][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 07:05:51,020][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 07:05:51,026][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 07:05:51,032][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 07:05:51,038][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 07:05:54,735][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 07:05:55,127][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_8/wav2vec2-test
+[2025-03-07 07:05:55,163][2929512373.py][line:50][INFO] Mode: train Fold: 8
+[2025-03-07 07:05:55,181][2929512373.py][line:50][INFO] Mode: val Fold: 8
+[2025-03-07 07:05:55,198][2929512373.py][line:50][INFO] Mode: test Fold: 8
+[2025-03-07 07:05:55,207][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 07:05:56,965][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:06:01,004][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:06:02,026][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:06:20,021][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:06:20,156][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:06:20,225][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:06:28,613][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:06:29,609][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:06:31,339][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:06:35,639][3832901375.py][line:7][INFO] fixed File 1175 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:06:36,997][3832901375.py][line:7][INFO] fixed File 1211 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:07:13,861][3832901375.py][line:7][INFO] fixed File 2253 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:07:15,795][106285006.py][line:95][INFO] Now on file 2306: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:07:19,057][3832901375.py][line:7][INFO] fixed File 2401 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:07:23,896][106285006.py][line:95][INFO] Now on file 2536: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:07:28,981][106285006.py][line:95][INFO] Now on file 2676: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:07:49,411][3832901375.py][line:7][INFO] fixed File 3256 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:07:52,324][3832901375.py][line:7][INFO] fixed File 3340 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:08:24,704][106285006.py][line:131][INFO] Done processing 4291 files
+[2025-03-07 07:08:24,711][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 07:08:24,718][106285006.py][line:148][INFO] Split Average Entropy:    0.9066980557980793
+[2025-03-07 07:08:24,723][106285006.py][line:149][INFO] Split Average Varentropy: 0.6298584270466875
+[2025-03-07 07:08:24,729][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 07:08:24,735][106285006.py][line:151][INFO] Average Entropy:          0.6357899227597873
+[2025-03-07 07:08:24,741][106285006.py][line:152][INFO] Average Varentropy:       0.8537542624745712
+[2025-03-07 07:08:24,746][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 07:08:24,752][106285006.py][line:154][INFO] Average Entropy:          0.9160505519143365
+[2025-03-07 07:08:24,758][106285006.py][line:155][INFO] Average Varentropy:       0.6465910252879777
+[2025-03-07 07:08:24,763][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 07:08:24,769][106285006.py][line:157][INFO] Average Entropy:          1.0059357178923876
+[2025-03-07 07:08:24,775][106285006.py][line:158][INFO] Average Varentropy:       0.5395262218971292
+[2025-03-07 07:08:24,781][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 07:08:24,787][106285006.py][line:160][INFO] Average Entropy:          0.9464671987206189
+[2025-03-07 07:08:24,792][106285006.py][line:161][INFO] Average Varentropy:       0.5842668799322043
+[2025-03-07 07:08:24,851][106285006.py][line:172][INFO] Predictions saved to ./fold_8\train-predictions-raw.csv
+[2025-03-07 07:08:28,270][3832901375.py][line:7][INFO] fixed File 95 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:08:33,778][106285006.py][line:95][INFO] Now on file 256: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:08:47,371][106285006.py][line:131][INFO] Done processing 652 files
+[2025-03-07 07:08:47,378][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 07:08:47,384][106285006.py][line:148][INFO] Split Average Entropy:    0.9556458928892689
+[2025-03-07 07:08:47,391][106285006.py][line:149][INFO] Split Average Varentropy: 0.5718856403538342
+[2025-03-07 07:08:47,397][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 07:08:47,402][106285006.py][line:151][INFO] Average Entropy:          0.7104686983722321
+[2025-03-07 07:08:47,408][106285006.py][line:152][INFO] Average Varentropy:       0.776428184927778
+[2025-03-07 07:08:47,414][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 07:08:47,420][106285006.py][line:154][INFO] Average Entropy:          0.9968743708478399
+[2025-03-07 07:08:47,425][106285006.py][line:155][INFO] Average Varentropy:       0.509418544370726
+[2025-03-07 07:08:47,431][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 07:08:47,437][106285006.py][line:157][INFO] Average Entropy:          0.9982206176122029
+[2025-03-07 07:08:47,442][106285006.py][line:158][INFO] Average Varentropy:       0.5504650542338689
+[2025-03-07 07:08:47,448][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 07:08:47,454][106285006.py][line:160][INFO] Average Entropy:          0.97047134116292
+[2025-03-07 07:08:47,459][106285006.py][line:161][INFO] Average Varentropy:       0.5203392989933491
+[2025-03-07 07:08:47,485][106285006.py][line:172][INFO] Predictions saved to ./fold_8\val-predictions-raw.csv
+[2025-03-07 07:08:50,849][3832901375.py][line:7][INFO] fixed File 102 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:08:51,589][3832901375.py][line:7][INFO] fixed File 125 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:08:58,074][3832901375.py][line:7][INFO] fixed File 327 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:08:58,320][3832901375.py][line:7][INFO] fixed File 335 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:09:00,140][3832901375.py][line:7][INFO] fixed File 394 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:09:03,915][3832901375.py][line:7][INFO] fixed File 507 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:09:04,107][3832901375.py][line:7][INFO] fixed File 513 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:09:06,649][106285006.py][line:131][INFO] Done processing 591 files
+[2025-03-07 07:09:06,655][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 07:09:06,661][106285006.py][line:148][INFO] Split Average Entropy:    0.954555971642672
+[2025-03-07 07:09:06,667][106285006.py][line:149][INFO] Split Average Varentropy: 0.5736530662088071
+[2025-03-07 07:09:06,673][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 07:09:06,679][106285006.py][line:151][INFO] Average Entropy:          0.689091091354688
+[2025-03-07 07:09:06,684][106285006.py][line:152][INFO] Average Varentropy:       0.7967470331738392
+[2025-03-07 07:09:06,690][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 07:09:06,696][106285006.py][line:154][INFO] Average Entropy:          0.9180892158299685
+[2025-03-07 07:09:06,701][106285006.py][line:155][INFO] Average Varentropy:       0.6335947529412806
+[2025-03-07 07:09:06,707][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 07:09:06,712][106285006.py][line:157][INFO] Average Entropy:          1.0186907153451041
+[2025-03-07 07:09:06,719][106285006.py][line:158][INFO] Average Varentropy:       0.5071950009587999
+[2025-03-07 07:09:06,724][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 07:09:06,730][106285006.py][line:160][INFO] Average Entropy:          0.9671909161235975
+[2025-03-07 07:09:06,735][106285006.py][line:161][INFO] Average Varentropy:       0.5514367456021516
+[2025-03-07 07:09:06,749][106285006.py][line:172][INFO] Predictions saved to ./fold_8\test-predictions-raw.csv
+[2025-03-07 07:09:06,895][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 07:09:06,942][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 07:09:06,948][359378241.py][line:28][INFO] Correct predictions: 3858
+[2025-03-07 07:09:06,954][359378241.py][line:29][INFO] Incorrect predictions: 1673
+[2025-03-07 07:09:06,962][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:09:06,969][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.626328    0.862548
+H      0.893693    0.684133
+N      0.985606    0.574711
+S      0.941736    0.593062
+[2025-03-07 07:09:06,976][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:09:06,983][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.062788    0.441743
+H      0.990891    0.531150
+N      0.983565    0.506163
+S      1.044016    0.469601
+[2025-03-07 07:09:07,025][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:09:07,031][359378241.py][line:135][INFO] Class A: 11
+[2025-03-07 07:09:07,038][359378241.py][line:135][INFO] Class H: 35
+[2025-03-07 07:09:07,044][359378241.py][line:135][INFO] Class N: 24
+[2025-03-07 07:09:07,050][359378241.py][line:135][INFO] Class S: 8
+[2025-03-07 07:09:09,689][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 07:09:09,724][359378241.py][line:27][INFO] Total predictions: 4290
+[2025-03-07 07:09:09,731][359378241.py][line:28][INFO] Correct predictions: 3110
+[2025-03-07 07:09:09,736][359378241.py][line:29][INFO] Incorrect predictions: 1180
+[2025-03-07 07:09:09,744][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:09:09,750][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.622324    0.866434
+H      0.882117    0.705089
+N      0.983158    0.579022
+S      0.937519    0.600386
+[2025-03-07 07:09:09,758][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:09:09,764][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.065774    0.440701
+H      0.989661    0.536129
+N      0.983595    0.506977
+S      1.052425    0.453193
+[2025-03-07 07:09:09,805][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:09:09,811][359378241.py][line:135][INFO] Class A: 9
+[2025-03-07 07:09:09,818][359378241.py][line:135][INFO] Class H: 28
+[2025-03-07 07:09:09,824][359378241.py][line:135][INFO] Class N: 18
+[2025-03-07 07:09:09,830][359378241.py][line:135][INFO] Class S: 2
+[2025-03-07 07:09:12,352][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 07:09:12,377][359378241.py][line:27][INFO] Total predictions: 590
+[2025-03-07 07:09:12,384][359378241.py][line:28][INFO] Correct predictions: 391
+[2025-03-07 07:09:12,389][359378241.py][line:29][INFO] Incorrect predictions: 199
+[2025-03-07 07:09:12,397][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:09:12,404][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.679745    0.807444
+H      0.872732    0.712726
+N      1.006889    0.535489
+S      0.962734    0.558984
+[2025-03-07 07:09:12,410][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:09:12,418][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.041562    0.451872
+H      1.006280    0.504682
+N      0.968963    0.528622
+S      1.033822    0.468711
+[2025-03-07 07:09:12,460][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:09:12,467][359378241.py][line:135][INFO] Class A: 2
+[2025-03-07 07:09:12,473][359378241.py][line:135][INFO] Class N: 6
+[2025-03-07 07:09:12,479][359378241.py][line:135][INFO] Class S: 5
+[2025-03-07 07:09:14,735][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 07:09:14,760][359378241.py][line:27][INFO] Total predictions: 651
+[2025-03-07 07:09:14,767][359378241.py][line:28][INFO] Correct predictions: 357
+[2025-03-07 07:09:14,773][359378241.py][line:29][INFO] Incorrect predictions: 294
+[2025-03-07 07:09:14,781][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:09:14,788][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.633506    0.857829
+H      0.975360    0.542921
+N      0.979658    0.587142
+S      0.976784    0.515226
+[2025-03-07 07:09:14,795][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:09:14,802][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.067310    0.436648
+H      0.987719    0.528143
+N      1.041475    0.402613
+S      1.022450    0.521351
+[2025-03-07 07:09:14,841][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:09:14,848][359378241.py][line:135][INFO] Class H: 7
+[2025-03-07 07:09:14,854][359378241.py][line:135][INFO] Class S: 1
+[2025-03-07 07:17:05,423][3029545133.py][line:1][INFO] ----- Models -----
+[2025-03-07 07:17:05,434][3029545133.py][line:2][INFO] Primary Model: facebook/wav2vec2-base
+[2025-03-07 07:17:05,444][3029545133.py][line:3][INFO] Transcription Model: openai/whisper-large-v3
+[2025-03-07 07:17:05,454][3029545133.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-xlm-roberta-base-sentiment
+[2025-03-07 07:17:05,463][3029545133.py][line:5][INFO] ----- Parameters -----
+[2025-03-07 07:17:05,471][3029545133.py][line:6][INFO] Seed: 22
+[2025-03-07 07:17:05,479][3029545133.py][line:7][INFO] Fold: 9
+[2025-03-07 07:17:05,491][3029545133.py][line:9][INFO] ----- NLP Options -----
+[2025-03-07 07:17:05,500][3029545133.py][line:11][INFO] Apply Preprocessing: YES
+[2025-03-07 07:17:05,508][3029545133.py][line:12][INFO] Remove Contractions: True
+[2025-03-07 07:17:05,517][3029545133.py][line:13][INFO] Apply Lemmantization: True
+[2025-03-07 07:17:05,527][3029545133.py][line:14][INFO] Remove Numbers: True
+[2025-03-07 07:17:05,535][3029545133.py][line:15][INFO] Remove Stopwords: False
+[2025-03-07 07:17:05,541][3029545133.py][line:18][INFO] --------------------
+[2025-03-07 07:17:09,193][3134409386.py][line:7][INFO] Sentiment model loaded from cardiffnlp/twitter-xlm-roberta-base-sentiment successfully
+[2025-03-07 07:17:09,526][3833462198.py][line:4][INFO] Previously trained model loaded from: ../../../wav2vec2/fold_9/wav2vec2-test
+[2025-03-07 07:17:09,574][2929512373.py][line:50][INFO] Mode: train Fold: 9
+[2025-03-07 07:17:09,594][2929512373.py][line:50][INFO] Mode: val Fold: 9
+[2025-03-07 07:17:09,613][2929512373.py][line:50][INFO] Mode: test Fold: 9
+[2025-03-07 07:17:09,622][1194672651.py][line:6][INFO] Dataset Loaded
+[2025-03-07 07:17:11,420][106285006.py][line:95][INFO] Now on file 48: Ses01F_script01_3_M027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:17:15,533][106285006.py][line:95][INFO] Now on file 159: Ses01F_script02_2_M046. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:17:16,565][3832901375.py][line:7][INFO] fixed File 190 'Ses01M_impro04_M025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:17:34,568][106285006.py][line:95][INFO] Now on file 715: Ses01M_impro06_F021. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:17:34,708][3832901375.py][line:7][INFO] fixed File 719 'Ses01M_impro06_F025', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:17:34,776][106285006.py][line:95][INFO] Now on file 721: Ses01M_impro06_F027. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:17:43,357][3832901375.py][line:7][INFO] fixed File 967 'Ses01M_script01_1_F006', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:17:44,346][106285006.py][line:95][INFO] Now on file 996: Ses01M_script01_1_M006. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:17:46,080][3832901375.py][line:7][INFO] fixed File 1043 'Ses01F_impro06_M007', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:17:50,336][3832901375.py][line:7][INFO] fixed File 1175 'Ses02M_impro06_F005', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:17:51,651][3832901375.py][line:7][INFO] fixed File 1211 'Ses02M_impro06_M022', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:18:28,271][3832901375.py][line:7][INFO] fixed File 2253 'Ses03M_impro04_M031', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:18:30,154][106285006.py][line:95][INFO] Now on file 2306: Ses03F_impro02_F010. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:18:33,417][3832901375.py][line:7][INFO] fixed File 2401 'Ses03F_script03_1_F000', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:18:38,218][106285006.py][line:95][INFO] Now on file 2536: Ses03M_impro02_M001. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:18:43,211][106285006.py][line:95][INFO] Now on file 2676: Ses03M_impro06_M000. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:19:03,164][3832901375.py][line:7][INFO] fixed File 3256 'Ses03F_script01_2_M014', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:05,991][3832901375.py][line:7][INFO] fixed File 3340 'Ses04M_impro04_F017', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:38,067][106285006.py][line:131][INFO] Done processing 4291 files
+[2025-03-07 07:19:38,074][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: train------
+[2025-03-07 07:19:38,081][106285006.py][line:148][INFO] Split Average Entropy:    0.8798241500184808
+[2025-03-07 07:19:38,087][106285006.py][line:149][INFO] Split Average Varentropy: 0.6719317984443792
+[2025-03-07 07:19:38,094][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 07:19:38,101][106285006.py][line:151][INFO] Average Entropy:          0.6348907624817206
+[2025-03-07 07:19:38,107][106285006.py][line:152][INFO] Average Varentropy:       0.8814825379698981
+[2025-03-07 07:19:38,114][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 07:19:38,120][106285006.py][line:154][INFO] Average Entropy:          0.8921253991970581
+[2025-03-07 07:19:38,126][106285006.py][line:155][INFO] Average Varentropy:       0.695035542637193
+[2025-03-07 07:19:38,134][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 07:19:38,140][106285006.py][line:157][INFO] Average Entropy:          1.0211666068704912
+[2025-03-07 07:19:38,148][106285006.py][line:158][INFO] Average Varentropy:       0.5230195243340061
+[2025-03-07 07:19:38,154][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 07:19:38,159][106285006.py][line:160][INFO] Average Entropy:          0.8828548729492308
+[2025-03-07 07:19:38,165][106285006.py][line:161][INFO] Average Varentropy:       0.6757331281973006
+[2025-03-07 07:19:38,223][106285006.py][line:172][INFO] Predictions saved to ./fold_9\train-predictions-raw.csv
+[2025-03-07 07:19:41,641][3832901375.py][line:7][INFO] fixed File 102 'Ses05F_impro06_F004', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:42,366][3832901375.py][line:7][INFO] fixed File 125 'Ses05F_impro06_F027', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:48,970][3832901375.py][line:7][INFO] fixed File 327 'Ses05F_impro03_F032', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:49,211][3832901375.py][line:7][INFO] fixed File 335 'Ses05F_impro03_F041', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:51,068][3832901375.py][line:7][INFO] fixed File 394 'Ses05M_impro02_F024', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:54,838][3832901375.py][line:7][INFO] fixed File 507 'Ses05M_impro03_F020', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:55,033][3832901375.py][line:7][INFO] fixed File 513 'Ses05M_impro03_F030', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:19:57,604][106285006.py][line:131][INFO] Done processing 591 files
+[2025-03-07 07:19:57,611][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: val------
+[2025-03-07 07:19:57,617][106285006.py][line:148][INFO] Split Average Entropy:    0.9303542734202692
+[2025-03-07 07:19:57,624][106285006.py][line:149][INFO] Split Average Varentropy: 0.6144097810832121
+[2025-03-07 07:19:57,631][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 07:19:57,637][106285006.py][line:151][INFO] Average Entropy:          0.7244485057890415
+[2025-03-07 07:19:57,644][106285006.py][line:152][INFO] Average Varentropy:       0.7863418634515256
+[2025-03-07 07:19:57,650][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 07:19:57,656][106285006.py][line:154][INFO] Average Entropy:          0.9070866170856687
+[2025-03-07 07:19:57,662][106285006.py][line:155][INFO] Average Varentropy:       0.6631511511902014
+[2025-03-07 07:19:57,668][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 07:19:57,675][106285006.py][line:157][INFO] Average Entropy:          1.0309999386469524
+[2025-03-07 07:19:57,681][106285006.py][line:158][INFO] Average Varentropy:       0.4945834375603098
+[2025-03-07 07:19:57,687][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 07:19:57,694][106285006.py][line:160][INFO] Average Entropy:          0.8997423980469094
+[2025-03-07 07:19:57,700][106285006.py][line:161][INFO] Average Varentropy:       0.6576121215309415
+[2025-03-07 07:19:57,714][106285006.py][line:172][INFO] Predictions saved to ./fold_9\val-predictions-raw.csv
+[2025-03-07 07:20:01,115][3832901375.py][line:7][INFO] fixed File 95 'Ses05M_impro07_M047', a blank transcription with 'nan' that was not properly formatted.
+[2025-03-07 07:20:06,705][106285006.py][line:95][INFO] Now on file 256: Ses05M_impro06_M019. Take note that this transcription is actually blank and not an error (i.e: ' ').
+[2025-03-07 07:20:20,449][106285006.py][line:131][INFO] Done processing 652 files
+[2025-03-07 07:20:20,458][106285006.py][line:147][INFO] ------ Entropy & Varentropy Results for split: test------
+[2025-03-07 07:20:20,468][106285006.py][line:148][INFO] Split Average Entropy:    0.9337240135248539
+[2025-03-07 07:20:20,478][106285006.py][line:149][INFO] Split Average Varentropy: 0.6024594217218379
+[2025-03-07 07:20:20,488][106285006.py][line:150][INFO] [Class 0]
+[2025-03-07 07:20:20,497][106285006.py][line:151][INFO] Average Entropy:          0.7197879198547843
+[2025-03-07 07:20:20,506][106285006.py][line:152][INFO] Average Varentropy:       0.7998305835298725
+[2025-03-07 07:20:20,514][106285006.py][line:153][INFO] [Class 1]
+[2025-03-07 07:20:20,523][106285006.py][line:154][INFO] Average Entropy:          0.9550163099605046
+[2025-03-07 07:20:20,530][106285006.py][line:155][INFO] Average Varentropy:       0.5813484712598029
+[2025-03-07 07:20:20,537][106285006.py][line:156][INFO] [Class 2]
+[2025-03-07 07:20:20,543][106285006.py][line:157][INFO] Average Entropy:          1.0203200916513946
+[2025-03-07 07:20:20,550][106285006.py][line:158][INFO] Average Varentropy:       0.5246245041246911
+[2025-03-07 07:20:20,556][106285006.py][line:159][INFO] [Class 3]
+[2025-03-07 07:20:20,563][106285006.py][line:160][INFO] Average Entropy:          0.9431951719781627
+[2025-03-07 07:20:20,569][106285006.py][line:161][INFO] Average Varentropy:       0.5776330193747645
+[2025-03-07 07:20:20,585][106285006.py][line:172][INFO] Predictions saved to ./fold_9\test-predictions-raw.csv
+[2025-03-07 07:20:20,756][2852340423.py][line:3][INFO] Split: all
+[2025-03-07 07:20:20,807][359378241.py][line:27][INFO] Total predictions: 5531
+[2025-03-07 07:20:20,815][359378241.py][line:28][INFO] Correct predictions: 3977
+[2025-03-07 07:20:20,825][359378241.py][line:29][INFO] Incorrect predictions: 1554
+[2025-03-07 07:20:20,837][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:20:20,848][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.610931    0.905299
+H      0.872194    0.728863
+N      1.003968    0.551589
+S      0.870097    0.697762
+[2025-03-07 07:20:20,858][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:20:20,867][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.024239    0.500800
+H      0.958555    0.567719
+N      0.961132    0.551194
+S      1.054562    0.461925
+[2025-03-07 07:20:20,915][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:20:20,924][359378241.py][line:135][INFO] Class A: 19
+[2025-03-07 07:20:20,934][359378241.py][line:135][INFO] Class H: 104
+[2025-03-07 07:20:20,944][359378241.py][line:135][INFO] Class N: 68
+[2025-03-07 07:20:20,953][359378241.py][line:135][INFO] Class S: 18
+[2025-03-07 07:20:23,502][2852340423.py][line:3][INFO] Split: train
+[2025-03-07 07:20:23,539][359378241.py][line:27][INFO] Total predictions: 4290
+[2025-03-07 07:20:23,548][359378241.py][line:28][INFO] Correct predictions: 3223
+[2025-03-07 07:20:23,557][359378241.py][line:29][INFO] Incorrect predictions: 1067
+[2025-03-07 07:20:23,569][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:20:23,579][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.604758    0.911234
+H      0.862754    0.747443
+N      1.002296    0.554316
+S      0.865509    0.703829
+[2025-03-07 07:20:23,589][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:20:23,602][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.026732    0.498569
+H      0.963100    0.565646
+N      0.955401    0.558499
+S      1.067403    0.440204
+[2025-03-07 07:20:23,650][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:20:23,657][359378241.py][line:135][INFO] Class A: 13
+[2025-03-07 07:20:23,661][359378241.py][line:135][INFO] Class H: 68
+[2025-03-07 07:20:23,667][359378241.py][line:135][INFO] Class N: 54
+[2025-03-07 07:20:23,673][359378241.py][line:135][INFO] Class S: 8
+[2025-03-07 07:20:26,199][2852340423.py][line:3][INFO] Split: test
+[2025-03-07 07:20:26,222][359378241.py][line:27][INFO] Total predictions: 651
+[2025-03-07 07:20:26,230][359378241.py][line:28][INFO] Correct predictions: 358
+[2025-03-07 07:20:26,236][359378241.py][line:29][INFO] Incorrect predictions: 293
+[2025-03-07 07:20:26,246][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:20:26,256][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.618847    0.902430
+H      0.932250    0.616393
+N      0.997722    0.567926
+S      0.933683    0.600611
+[2025-03-07 07:20:26,264][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:20:26,272][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      1.048883    0.471372
+H      0.938951    0.580377
+N      1.016525    0.460257
+S      1.035938    0.499665
+[2025-03-07 07:20:26,311][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:20:26,317][359378241.py][line:135][INFO] Class A: 1
+[2025-03-07 07:20:26,323][359378241.py][line:135][INFO] Class H: 29
+[2025-03-07 07:20:26,329][359378241.py][line:135][INFO] Class N: 1
+[2025-03-07 07:20:26,334][359378241.py][line:135][INFO] Class S: 4
+[2025-03-07 07:20:28,610][2852340423.py][line:3][INFO] Split: val
+[2025-03-07 07:20:28,635][359378241.py][line:27][INFO] Total predictions: 590
+[2025-03-07 07:20:28,644][359378241.py][line:28][INFO] Correct predictions: 396
+[2025-03-07 07:20:28,654][359378241.py][line:29][INFO] Incorrect predictions: 194
+[2025-03-07 07:20:28,665][359378241.py][line:38][INFO] Average entropy and varentropy for correct predictions by class:
+[2025-03-07 07:20:28,674][359378241.py][line:39][INFO] 
+        entropy  varentropy
+label                      
+A      0.689040    0.823740
+H      0.866943    0.731356
+N      1.021365    0.517477
+S      0.890418    0.672767
+[2025-03-07 07:20:28,683][359378241.py][line:43][INFO] Average entropy and varentropy for incorrect predictions by class:
+[2025-03-07 07:20:28,692][359378241.py][line:44][INFO] 
+        entropy  varentropy
+label                      
+A      0.990743    0.536225
+H      0.976932    0.550260
+N      0.964778    0.554035
+S      1.029103    0.486831
+[2025-03-07 07:20:28,732][359378241.py][line:133][INFO] Incorrect predictions above varentropy threshold (0.8) by class:
+[2025-03-07 07:20:28,741][359378241.py][line:135][INFO] Class A: 5
+[2025-03-07 07:20:28,750][359378241.py][line:135][INFO] Class H: 7
+[2025-03-07 07:20:28,760][359378241.py][line:135][INFO] Class N: 13
+[2025-03-07 07:20:28,769][359378241.py][line:135][INFO] Class S: 6

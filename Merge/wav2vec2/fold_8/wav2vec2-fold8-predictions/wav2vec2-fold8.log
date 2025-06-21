@@ -1,0 +1,67 @@
+[2024-12-26 12:42:14,172][3124147787.py][line:1][INFO] ----- Models -----
+[2024-12-26 12:42:14,172][3124147787.py][line:2][INFO] Wav2Vec2 Model: C:/Users/ChenYi/Documents/Github/SIT-emotion-recognition/wav2vec2/fold_8/wav2vec2-test
+[2024-12-26 12:42:14,172][3124147787.py][line:3][INFO] Speech-to-Text Model: facebook/wav2vec2-base-960h
+[2024-12-26 12:42:14,172][3124147787.py][line:4][INFO] Sentiment Model: cardiffnlp/twitter-roberta-base-sentiment-latest
+[2024-12-26 12:42:14,172][3124147787.py][line:6][INFO] ----- Merge Algorithm Parameters -----
+[2024-12-26 12:42:14,172][3124147787.py][line:7][INFO] Enthropy Parameters (Values of 0 to 2)
+[2024-12-26 12:42:14,172][3124147787.py][line:8][INFO] Start: 0.6 | Stop: 1.2 | Step: 0.01
+[2024-12-26 12:42:14,172][3124147787.py][line:10][INFO] Sentiment Parameters (Values of 0 to 1)
+[2024-12-26 12:42:14,172][3124147787.py][line:11][INFO] Start: 0.3 | Stop: 0.8 | Step: 0.02
+[2024-12-26 12:42:14,172][3124147787.py][line:13][INFO] Argmax Parameters (Values of 0 to 1)
+[2024-12-26 12:42:14,172][3124147787.py][line:14][INFO] Start: 0.4 | Stop: 0.7 | Step: 0.002
+[2024-12-26 12:42:14,172][3124147787.py][line:16][INFO] Options:
+[2024-12-26 12:42:14,172][3124147787.py][line:17][INFO] Enthropy Options: [True, False]
+[2024-12-26 12:42:14,172][3124147787.py][line:18][INFO] Flip Options: [True, False]
+[2024-12-26 12:42:14,172][3124147787.py][line:19][INFO] Prediction Options: ['ignore-when-match', 'ignore']
+[2024-12-26 12:42:14,172][3124147787.py][line:20][INFO] Sentiment Options: ['simple', 'refer']
+[2024-12-26 12:42:14,752][454035736.py][line:6][INFO] wav2vec2 model loaded from C:/Users/ChenYi/Documents/Github/SIT-emotion-recognition/wav2vec2/fold_8/wav2vec2-test successfully
+[2024-12-26 12:42:17,292][4111837838.py][line:10][INFO] S2T model loaded from facebook/wav2vec2-base-960h successfully
+[2024-12-26 12:42:17,292][4111837838.py][line:11][INFO] Sentiment model loaded from cardiffnlp/twitter-roberta-base-sentiment-latest successfully
+[2024-12-26 12:42:17,324][1107316185.py][line:50][INFO] Mode: train Fold: 8
+[2024-12-26 12:42:17,339][1107316185.py][line:50][INFO] Mode: val Fold: 8
+[2024-12-26 12:42:17,339][1107316185.py][line:50][INFO] Mode: test Fold: 8
+[2024-12-26 12:42:17,339][1194672651.py][line:6][INFO] Dataset Loaded
+[2024-12-26 12:42:17,378][3178476768.py][line:3][INFO] Now running S2T and Sentiment analysis
+[2024-12-26 12:43:03,665][3178476768.py][line:54][INFO] Done 590 of 590
+[2024-12-26 12:45:28,579][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:45:28,579][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:48:11,469][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:48:11,470][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:50:56,107][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:50:56,107][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:53:40,276][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:53:40,276][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:56:05,035][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:56:05,035][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 12:58:30,973][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 12:58:30,973][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:01:17,436][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 13:01:17,436][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:04:04,280][3175787446.py][line:86][INFO] Went through 1586 iterations
+[2024-12-26 13:04:04,295][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:07:47,069][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:07:47,069][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:11:30,520][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:11:30,521][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:15:37,163][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:15:37,163][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:19:45,853][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:19:45,853][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:23:29,280][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:23:29,280][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:27:16,016][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:27:16,016][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:31:29,409][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:31:29,409][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:35:44,281][3175787446.py][line:86][INFO] Went through 3926 iterations
+[2024-12-26 13:35:44,282][3175787446.py][line:87][INFO] Multi Model did not improve overall results
+[2024-12-26 13:35:44,282][308925149.py][line:54][INFO] -------------------------------------- Overall Run Report --------------------------------------
+[2024-12-26 13:35:44,282][308925149.py][line:55][INFO] Best overall improvement of: +0.0
+[2024-12-26 13:35:44,282][308925149.py][line:56][INFO] Prediction Strategy: '' 
+[2024-12-26 13:35:44,282][308925149.py][line:57][INFO] Sentiment Strategy: '' 
+[2024-12-26 13:35:44,282][308925149.py][line:58][INFO] Metric: 'Argmax' with threshold of 0.0
+[2024-12-26 13:35:44,282][308925149.py][line:59][INFO] Sentiment threshold of 0.0
+[2024-12-26 13:35:44,282][308925149.py][line:60][INFO] Flip: False
+[2024-12-26 13:35:44,282][308925149.py][line:61][INFO] ------------------------------------- Overall Best Results -------------------------------------
+[2024-12-26 13:35:44,337][3848674996.py][line:28][INFO] [Original Model] 0.6443
+[2024-12-26 13:35:44,346][3848674996.py][line:29][INFO] [Multi Model]    0.6443

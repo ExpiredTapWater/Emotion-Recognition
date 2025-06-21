@@ -1,0 +1,404 @@
+[2025-04-24 00:44:40,407][1735818808.py][line:1][INFO] ---- Fold Details ----
+[2025-04-24 00:44:40,409][1735818808.py][line:2][INFO] Train: 4508
+[2025-04-24 00:44:40,410][1735818808.py][line:3][INFO] Val:   542
+[2025-04-24 00:44:40,411][1735818808.py][line:4][INFO] Test:  481
+[2025-04-24 00:44:40,412][1735818808.py][line:5][INFO] Train + Val: 5050
+[2025-04-24 00:44:40,491][3189934440.py][line:49][INFO] [Split: Test] Test UA (Macro Recall): 0.6789 <- Cross reference this with previous folds to confirm that the boxplot is plotted correctly!
+[2025-04-24 00:44:40,560][3189934440.py][line:49][INFO] [Split: Train+Val] Test UA (Macro Recall): 0.8050 <- Cross reference this with previous folds to confirm that the boxplot is plotted correctly!
+[2025-04-24 00:44:40,628][category.py][line:224][INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-04-24 00:44:40,640][category.py][line:224][INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-04-24 00:44:41,544][category.py][line:224][INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-04-24 00:44:41,556][category.py][line:224][INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-04-24 00:44:42,746][2615787263.py][line:19][INFO] Per Class Original Accurcy:
+[2025-04-24 00:44:42,749][2615787263.py][line:20][INFO] Class 0:  0.8632
+[2025-04-24 00:44:42,751][2615787263.py][line:21][INFO] Class 1:  0.8024
+[2025-04-24 00:44:42,752][2615787263.py][line:22][INFO] Class 2:  0.7523
+[2025-04-24 00:44:42,753][2615787263.py][line:23][INFO] Class 3:  0.7998
+[2025-04-24 00:44:42,754][2615787263.py][line:24][INFO] Test UA:  0.8050
+[2025-04-24 00:44:42,789][4191576873.py][line:29][INFO] Varentropy Search Parameters:
+[2025-04-24 00:44:42,791][4191576873.py][line:35][INFO] Class 0: 0.5620 to 0.4158 in 200 Steps
+[2025-04-24 00:44:42,792][4191576873.py][line:35][INFO] Class 1: 0.5184 to 0.4298 in 200 Steps
+[2025-04-24 00:44:42,793][4191576873.py][line:35][INFO] Class 2: 0.5396 to 0.3929 in 200 Steps
+[2025-04-24 00:44:42,794][4191576873.py][line:35][INFO] Class 3: 0.5967 to 0.4109 in 200 Steps
+[2025-04-24 00:44:42,815][1995778371.py][line:26][INFO] Entropy Search Parameters:
+[2025-04-24 00:44:42,818][1995778371.py][line:32][INFO] Class 0: 0.8942 to 1.0581 in 200 Steps
+[2025-04-24 00:44:42,819][1995778371.py][line:32][INFO] Class 1: 0.9222 to 1.0142 in 200 Steps
+[2025-04-24 00:44:42,820][1995778371.py][line:32][INFO] Class 2: 0.9400 to 1.0622 in 200 Steps
+[2025-04-24 00:44:42,822][1995778371.py][line:32][INFO] Class 3: 0.9475 to 1.0327 in 200 Steps
+[2025-04-24 00:44:42,836][1759820191.py][line:3][INFO] Sentiment Parameters: 0.0 To 0.7 in steps of 0.05
+[2025-04-24 00:44:42,838][1759820191.py][line:4][INFO] Total Unique Combinations: 24000
+[2025-04-24 00:44:42,863][3527035381.py][line:25][INFO] ----- Train + Val Split Details -----
+[2025-04-24 00:44:42,865][3527035381.py][line:26][INFO] Total Rows: 5050
+[2025-04-24 00:44:42,866][3527035381.py][line:27][INFO] Class 0: 1067
+[2025-04-24 00:44:42,866][3527035381.py][line:28][INFO] Class 1: 1351
+[2025-04-24 00:44:42,867][3527035381.py][line:29][INFO] Class 2: 1663
+[2025-04-24 00:44:42,869][3527035381.py][line:30][INFO] Class 3: 969
+[2025-04-24 00:44:42,871][3527035381.py][line:32][INFO] ----- Test Split Details -----
+[2025-04-24 00:44:42,872][3527035381.py][line:33][INFO] Total Rows: 481
+[2025-04-24 00:44:42,872][3527035381.py][line:34][INFO] Class 0: 56
+[2025-04-24 00:44:42,873][3527035381.py][line:35][INFO] Class 1: 222
+[2025-04-24 00:44:42,874][3527035381.py][line:36][INFO] Class 2: 133
+[2025-04-24 00:44:42,874][3527035381.py][line:37][INFO] Class 3: 70
+[2025-04-24 00:44:42,928][2756093950.py][line:11][INFO] ------ Class 0 ------
+[2025-04-24 00:44:42,981][811150684.py][line:33][INFO] Entropy Hits:    47
+[2025-04-24 00:44:42,983][811150684.py][line:34][INFO] Varentropy Hits: 57
+[2025-04-24 00:44:42,983][811150684.py][line:35][INFO] Both Hits:       37
+[2025-04-24 00:44:42,984][2756093950.py][line:18][INFO] Success Rate:    22 of 37 (59.46%)
+[2025-04-24 00:44:42,985][2756093950.py][line:11][INFO] ------ Class 1 ------
+[2025-04-24 00:44:43,053][811150684.py][line:33][INFO] Entropy Hits:    122
+[2025-04-24 00:44:43,055][811150684.py][line:34][INFO] Varentropy Hits: 163
+[2025-04-24 00:44:43,056][811150684.py][line:35][INFO] Both Hits:       96
+[2025-04-24 00:44:43,057][2756093950.py][line:18][INFO] Success Rate:    43 of 96 (44.79%)
+[2025-04-24 00:44:43,058][2756093950.py][line:11][INFO] ------ Class 2 ------
+[2025-04-24 00:44:43,141][811150684.py][line:33][INFO] Entropy Hits:    147
+[2025-04-24 00:44:43,143][811150684.py][line:34][INFO] Varentropy Hits: 213
+[2025-04-24 00:44:43,144][811150684.py][line:35][INFO] Both Hits:       122
+[2025-04-24 00:44:43,145][2756093950.py][line:18][INFO] Success Rate:    81 of 122 (66.39%)
+[2025-04-24 00:44:43,145][2756093950.py][line:11][INFO] ------ Class 3 ------
+[2025-04-24 00:44:43,192][811150684.py][line:33][INFO] Entropy Hits:    135
+[2025-04-24 00:44:43,194][811150684.py][line:34][INFO] Varentropy Hits: 145
+[2025-04-24 00:44:43,194][811150684.py][line:35][INFO] Both Hits:       115
+[2025-04-24 00:44:43,195][2756093950.py][line:18][INFO] Success Rate:    42 of 115 (36.52%)
+[2025-04-24 00:45:09,228][2261649657.py][line:29][INFO] ------ Class 0 Search Results ------
+[2025-04-24 00:45:09,231][2261649657.py][line:30][INFO] Total Rows:      1067
+[2025-04-24 00:45:09,232][2261649657.py][line:31][INFO] Best Entropy:    0.9197
+[2025-04-24 00:45:09,232][2261649657.py][line:32][INFO] Best Varentropy: 0.4298
+[2025-04-24 00:45:09,233][2261649657.py][line:33][INFO] Best accuracy score:   68.4211
+[2025-04-24 00:45:09,284][811150684.py][line:33][INFO] Entropy Hits:    63
+[2025-04-24 00:45:09,285][811150684.py][line:34][INFO] Varentropy Hits: 45
+[2025-04-24 00:45:09,286][811150684.py][line:35][INFO] Both Hits:       38
+[2025-04-24 00:45:09,286][2261649657.py][line:35][INFO] Success Rate:    26 of 38 (68.42%)
+[2025-04-24 00:45:09,287][2261649657.py][line:36][INFO] Baseline Rate:   22 of 37 (59.46%)
+[2025-04-24 00:45:39,101][2261649657.py][line:29][INFO] ------ Class 1 Search Results ------
+[2025-04-24 00:45:39,103][2261649657.py][line:30][INFO] Total Rows:      1351
+[2025-04-24 00:45:39,104][2261649657.py][line:31][INFO] Best Entropy:    1.0128
+[2025-04-24 00:45:39,104][2261649657.py][line:32][INFO] Best Varentropy: 0.4311
+[2025-04-24 00:45:39,105][2261649657.py][line:33][INFO] Best accuracy score:   50.7463
+[2025-04-24 00:45:39,173][811150684.py][line:33][INFO] Entropy Hits:    88
+[2025-04-24 00:45:39,174][811150684.py][line:34][INFO] Varentropy Hits: 96
+[2025-04-24 00:45:39,175][811150684.py][line:35][INFO] Both Hits:       67
+[2025-04-24 00:45:39,176][2261649657.py][line:35][INFO] Success Rate:    34 of 67 (50.75%)
+[2025-04-24 00:45:39,176][2261649657.py][line:36][INFO] Baseline Rate:   43 of 96 (44.79%)
+[2025-04-24 00:46:12,030][2261649657.py][line:29][INFO] ------ Class 2 Search Results ------
+[2025-04-24 00:46:12,032][2261649657.py][line:30][INFO] Total Rows:      1663
+[2025-04-24 00:46:12,032][2261649657.py][line:31][INFO] Best Entropy:    1.0284
+[2025-04-24 00:46:12,033][2261649657.py][line:32][INFO] Best Varentropy: 0.3981
+[2025-04-24 00:46:12,035][2261649657.py][line:33][INFO] Best accuracy score:   75.0000
+[2025-04-24 00:46:12,111][811150684.py][line:33][INFO] Entropy Hits:    126
+[2025-04-24 00:46:12,113][811150684.py][line:34][INFO] Varentropy Hits: 93
+[2025-04-24 00:46:12,113][811150684.py][line:35][INFO] Both Hits:       84
+[2025-04-24 00:46:12,114][2261649657.py][line:35][INFO] Success Rate:    63 of 84 (75.00%)
+[2025-04-24 00:46:12,115][2261649657.py][line:36][INFO] Baseline Rate:   81 of 122 (66.39%)
+[2025-04-24 00:46:37,496][2261649657.py][line:29][INFO] ------ Class 3 Search Results ------
+[2025-04-24 00:46:37,498][2261649657.py][line:30][INFO] Total Rows:      969
+[2025-04-24 00:46:37,498][2261649657.py][line:31][INFO] Best Entropy:    0.9745
+[2025-04-24 00:46:37,499][2261649657.py][line:32][INFO] Best Varentropy: 0.4455
+[2025-04-24 00:46:37,500][2261649657.py][line:33][INFO] Best accuracy score:   42.1569
+[2025-04-24 00:46:37,546][811150684.py][line:33][INFO] Entropy Hits:    159
+[2025-04-24 00:46:37,548][811150684.py][line:34][INFO] Varentropy Hits: 110
+[2025-04-24 00:46:37,549][811150684.py][line:35][INFO] Both Hits:       102
+[2025-04-24 00:46:37,549][2261649657.py][line:35][INFO] Success Rate:    43 of 102 (42.16%)
+[2025-04-24 00:46:37,550][2261649657.py][line:36][INFO] Baseline Rate:   42 of 115 (36.52%)
+[2025-04-24 00:46:37,692][4058803090.py][line:4][INFO] ----------------- Class 0 -----------------
+[2025-04-24 00:46:37,715][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 86.60% using [Sentiment] 0.00 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:37,737][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.05 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:37,759][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.10 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:37,782][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.15 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:37,803][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.20 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:37,824][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.25 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:37,847][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.30 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:37,869][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.35 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,310][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,334][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,358][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,383][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,406][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,428][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,449][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,470][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,491][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,512][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,533][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,554][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,575][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,596][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,618][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:38,640][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,661][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,683][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,704][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,725][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,747][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,767][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,788][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,809][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,831][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,855][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,878][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,901][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,925][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,950][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 86.60% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:38,951][4058803090.py][line:4][INFO] ----------------- Class 1 -----------------
+[2025-04-24 00:46:38,988][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 78.83% using [Sentiment] 0.00 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,026][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.05 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,067][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.10 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,108][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.15 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,145][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.20 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,181][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.25 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,216][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.30 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,254][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.35 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,291][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.40 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,331][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.45 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,370][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.50 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,410][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.55 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,447][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.60 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,484][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 78.83% using [Sentiment] 0.65 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,522][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 78.98% using [Sentiment] 0.70 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:39,562][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 79.05% using [Sentiment] 0.00 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,600][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.05 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,636][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.10 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,673][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.15 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,708][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.20 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,746][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.25 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,783][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.30 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,819][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.35 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,854][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.40 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,890][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.45 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,926][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.50 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:39,964][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.55 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,004][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.60 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,044][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.05% using [Sentiment] 0.65 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,119][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 79.27% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,156][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,191][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,227][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,263][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,298][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,334][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,369][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,405][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,442][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,480][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,519][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,559][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,598][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,635][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:40,673][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,710][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,747][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,783][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,817][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,852][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,887][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,922][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,959][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:40,996][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:41,035][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:41,073][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:41,110][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:41,145][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:41,182][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.27% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:41,184][4058803090.py][line:4][INFO] ----------------- Class 2 -----------------
+[2025-04-24 00:46:41,227][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.35% using [Sentiment] 0.00 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,273][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.35% using [Sentiment] 0.05 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,320][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.35% using [Sentiment] 0.10 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,367][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.35% using [Sentiment] 0.15 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,415][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.35% using [Sentiment] 0.20 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,460][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.35% using [Sentiment] 0.25 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,506][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.35% using [Sentiment] 0.30 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,553][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.41% using [Sentiment] 0.35 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,600][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.41% using [Sentiment] 0.40 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,648][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.41% using [Sentiment] 0.45 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,693][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.47% using [Sentiment] 0.50 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,737][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.53% using [Sentiment] 0.55 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,783][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.53% using [Sentiment] 0.60 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,829][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.53% using [Sentiment] 0.65 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,874][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.53% using [Sentiment] 0.70 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:41,921][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.65% using [Sentiment] 0.00 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:41,966][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.65% using [Sentiment] 0.05 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:42,011][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.65% using [Sentiment] 0.10 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:42,056][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.65% using [Sentiment] 0.15 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:42,101][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.65% using [Sentiment] 0.20 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:42,149][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.65% using [Sentiment] 0.25 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:42,194][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.65% using [Sentiment] 0.30 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:42,582][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.95% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,627][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,673][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,718][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,763][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,810][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,855][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,901][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,948][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:42,993][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:43,043][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:43,092][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:43,142][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:43,192][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:43,239][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:43,285][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,331][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,378][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,425][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,470][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,518][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,566][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,618][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,666][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,715][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,763][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,809][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,854][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,899][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,945][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.95% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:43,947][4058803090.py][line:4][INFO] ----------------- Class 3 -----------------
+[2025-04-24 00:46:43,998][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.64% using [Sentiment] 0.00 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,051][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.64% using [Sentiment] 0.05 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,102][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.64% using [Sentiment] 0.10 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,153][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.64% using [Sentiment] 0.15 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,201][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.64% using [Sentiment] 0.20 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,250][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.64% using [Sentiment] 0.25 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,300][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 75.64% using [Sentiment] 0.30 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,350][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 75.95% using [Sentiment] 0.35 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,398][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 76.06% using [Sentiment] 0.40 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,447][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 76.26% using [Sentiment] 0.45 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,497][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 76.37% using [Sentiment] 0.50 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,548][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 76.57% using [Sentiment] 0.55 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,597][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 76.88% using [Sentiment] 0.60 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,646][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 77.50% using [Sentiment] 0.65 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,696][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 78.22% using [Sentiment] 0.70 | simple [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:44,745][4058803090.py][line:30][INFO] New Best Results!: [Accuracy] 79.26% using [Sentiment] 0.00 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:44,794][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.05 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:44,843][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.10 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:44,891][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.15 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:44,941][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.20 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:44,991][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.25 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:45,042][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.30 | simple [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:45,496][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,547][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,596][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,649][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,705][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,761][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,817][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,875][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,931][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:45,984][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:46,035][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:46,091][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:46,146][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:46,201][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:46,260][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] True
+[2025-04-24 00:46:46,315][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.00 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,370][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.05 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,423][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.10 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,473][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.15 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,522][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.20 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,573][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.25 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,621][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.30 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,674][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.35 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,730][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.40 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,785][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.45 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,839][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.50 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,891][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.55 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,940][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.60 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:46,989][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.65 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:47,038][4058803090.py][line:43][INFO] Identical Results: [Accuracy] 79.26% using [Sentiment] 0.70 | refer [Merge] ignore-when-match [Flip] False
+[2025-04-24 00:46:47,156][1181433725.py][line:28][INFO] Before: 0.8049632398621591
+[2025-04-24 00:46:47,202][1181433725.py][line:30][INFO] After:  0.8034214679618067
+[2025-04-24 00:46:47,489][3158972603.py][line:7][INFO] ----------- Parameters -----------
+[2025-04-24 00:46:47,490][3158972603.py][line:8][INFO] Class 0: [Entropy] 0.9197 [Varentropy] 0.4298 [Sentiment] 0.00
+[2025-04-24 00:46:47,491][3158972603.py][line:9][INFO] Class 1: [Entropy] 1.0128 [Varentropy] 0.4311 [Sentiment] 0.00
+[2025-04-24 00:46:47,491][3158972603.py][line:10][INFO] Class 2: [Entropy] 1.0284 [Varentropy] 0.3981 [Sentiment] 0.00
+[2025-04-24 00:46:47,492][3158972603.py][line:11][INFO] Class 3: [Entropy] 0.9745 [Varentropy] 0.4455 [Sentiment] 0.00
+[2025-04-24 00:46:47,493][3158972603.py][line:12][INFO] ---------- Merge Results ---------
+[2025-04-24 00:46:47,493][3158972603.py][line:13][INFO] TestUA:                0.8034
+[2025-04-24 00:46:47,494][3158972603.py][line:14][INFO] Passed Threshold:      4759
+[2025-04-24 00:46:47,496][3158972603.py][line:15][INFO] Failed Threshold:      291
+[2025-04-24 00:46:47,497][3158972603.py][line:16][INFO] ----- Detailed Merge Changes -----
+[2025-04-24 00:46:47,499][3158972603.py][line:17][INFO] Wrong   → Correct:     64
+[2025-04-24 00:46:47,500][3158972603.py][line:18][INFO] Correct → Wrong:       69
+[2025-04-24 00:46:47,501][3158972603.py][line:19][INFO] Wrong   → Wrong:       56
+[2025-04-24 00:46:47,502][3158972603.py][line:20][INFO] No change (Correct):   56
+[2025-04-24 00:46:47,504][3158972603.py][line:21][INFO] No change (Wrong):     46
+[2025-04-24 00:46:47,504][3158972603.py][line:22][INFO] Merge Success Rate:    120/291 (41.24%)
+[2025-04-24 00:46:47,505][3158972603.py][line:23][INFO] ------- Change Breakdown ---------
+[2025-04-24 00:46:47,507][3158972603.py][line:25][INFO] A→H: Better = 3, Worse = 3, No Change = 3
+[2025-04-24 00:46:47,508][3158972603.py][line:25][INFO] A→N: Better = 8, Worse = 5, No Change = 9
+[2025-04-24 00:46:47,509][3158972603.py][line:25][INFO] A→S: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:47,510][3158972603.py][line:25][INFO] H→A: Better = 3, Worse = 6, No Change = 6
+[2025-04-24 00:46:47,510][3158972603.py][line:25][INFO] H→N: Better = 6, Worse = 20, No Change = 9
+[2025-04-24 00:46:47,512][3158972603.py][line:25][INFO] H→S: Better = 6, Worse = 2, No Change = 2
+[2025-04-24 00:46:47,514][3158972603.py][line:25][INFO] N→A: Better = 5, Worse = 5, No Change = 1
+[2025-04-24 00:46:47,514][3158972603.py][line:25][INFO] N→H: Better = 4, Worse = 2, No Change = 3
+[2025-04-24 00:46:47,516][3158972603.py][line:25][INFO] N→S: Better = 12, Worse = 2, No Change = 8
+[2025-04-24 00:46:47,517][3158972603.py][line:25][INFO] S→A: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:47,518][3158972603.py][line:25][INFO] S→H: Better = 7, Worse = 5, No Change = 7
+[2025-04-24 00:46:47,520][3158972603.py][line:25][INFO] S→N: Better = 10, Worse = 19, No Change = 8
+[2025-04-24 00:46:47,520][3158972603.py][line:26][INFO] Exclusion List: ['H→A', 'H→N', 'S→N']
+[2025-04-24 00:46:47,535][4099015393.py][line:1][INFO]  ----------- Train + Val Split -----------
+[2025-04-24 00:46:47,612][4099015393.py][line:28][INFO] Before: 0.8049632398621591
+[2025-04-24 00:46:47,653][4099015393.py][line:30][INFO] After:  0.8094682508692032
+[2025-04-24 00:46:47,935][3158972603.py][line:7][INFO] ----------- Parameters -----------
+[2025-04-24 00:46:47,937][3158972603.py][line:8][INFO] Class 0: [Entropy] 0.9197 [Varentropy] 0.4298 [Sentiment] 0.00
+[2025-04-24 00:46:47,937][3158972603.py][line:9][INFO] Class 1: [Entropy] 1.0128 [Varentropy] 0.4311 [Sentiment] 0.00
+[2025-04-24 00:46:47,938][3158972603.py][line:10][INFO] Class 2: [Entropy] 1.0284 [Varentropy] 0.3981 [Sentiment] 0.00
+[2025-04-24 00:46:47,939][3158972603.py][line:11][INFO] Class 3: [Entropy] 0.9745 [Varentropy] 0.4455 [Sentiment] 0.00
+[2025-04-24 00:46:47,939][3158972603.py][line:12][INFO] ---------- Merge Results ---------
+[2025-04-24 00:46:47,942][3158972603.py][line:13][INFO] TestUA:                0.8095
+[2025-04-24 00:46:47,943][3158972603.py][line:14][INFO] Passed Threshold:      4759
+[2025-04-24 00:46:47,945][3158972603.py][line:15][INFO] Failed Threshold:      291
+[2025-04-24 00:46:47,945][3158972603.py][line:16][INFO] ----- Detailed Merge Changes -----
+[2025-04-24 00:46:47,947][3158972603.py][line:17][INFO] Wrong   → Correct:     45
+[2025-04-24 00:46:47,949][3158972603.py][line:18][INFO] Correct → Wrong:       24
+[2025-04-24 00:46:47,951][3158972603.py][line:19][INFO] Wrong   → Wrong:       33
+[2025-04-24 00:46:47,951][3158972603.py][line:20][INFO] No change (Correct):   101
+[2025-04-24 00:46:47,953][3158972603.py][line:21][INFO] No change (Wrong):     88
+[2025-04-24 00:46:47,954][3158972603.py][line:22][INFO] Merge Success Rate:    146/291 (50.17%)
+[2025-04-24 00:46:47,955][3158972603.py][line:23][INFO] ------- Change Breakdown ---------
+[2025-04-24 00:46:47,956][3158972603.py][line:25][INFO] A→H: Better = 3, Worse = 3, No Change = 3
+[2025-04-24 00:46:47,957][3158972603.py][line:25][INFO] A→N: Better = 8, Worse = 5, No Change = 9
+[2025-04-24 00:46:47,959][3158972603.py][line:25][INFO] A→S: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:47,959][3158972603.py][line:25][INFO] H→A: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:47,961][3158972603.py][line:25][INFO] H→N: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:47,962][3158972603.py][line:25][INFO] H→S: Better = 6, Worse = 2, No Change = 2
+[2025-04-24 00:46:47,962][3158972603.py][line:25][INFO] N→A: Better = 5, Worse = 5, No Change = 1
+[2025-04-24 00:46:47,963][3158972603.py][line:25][INFO] N→H: Better = 4, Worse = 2, No Change = 3
+[2025-04-24 00:46:47,964][3158972603.py][line:25][INFO] N→S: Better = 12, Worse = 2, No Change = 8
+[2025-04-24 00:46:47,966][3158972603.py][line:25][INFO] S→A: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:47,967][3158972603.py][line:25][INFO] S→H: Better = 7, Worse = 5, No Change = 7
+[2025-04-24 00:46:47,970][3158972603.py][line:25][INFO] S→N: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:47,970][3158972603.py][line:26][INFO] Exclusion List: []
+[2025-04-24 00:46:47,985][3535069225.py][line:1][INFO]  ----------- Test Split -----------
+[2025-04-24 00:46:48,006][3535069225.py][line:27][INFO] Before: 0.6788745510225938
+[2025-04-24 00:46:48,015][3535069225.py][line:29][INFO] After:  0.6940430885107226
+[2025-04-24 00:46:48,050][3158972603.py][line:7][INFO] ----------- Parameters -----------
+[2025-04-24 00:46:48,052][3158972603.py][line:8][INFO] Class 0: [Entropy] 0.9197 [Varentropy] 0.4298 [Sentiment] 0.00
+[2025-04-24 00:46:48,052][3158972603.py][line:9][INFO] Class 1: [Entropy] 1.0128 [Varentropy] 0.4311 [Sentiment] 0.00
+[2025-04-24 00:46:48,053][3158972603.py][line:10][INFO] Class 2: [Entropy] 1.0284 [Varentropy] 0.3981 [Sentiment] 0.00
+[2025-04-24 00:46:48,054][3158972603.py][line:11][INFO] Class 3: [Entropy] 0.9745 [Varentropy] 0.4455 [Sentiment] 0.00
+[2025-04-24 00:46:48,055][3158972603.py][line:12][INFO] ---------- Merge Results ---------
+[2025-04-24 00:46:48,057][3158972603.py][line:13][INFO] TestUA:                0.6940
+[2025-04-24 00:46:48,057][3158972603.py][line:14][INFO] Passed Threshold:      450
+[2025-04-24 00:46:48,058][3158972603.py][line:15][INFO] Failed Threshold:      31
+[2025-04-24 00:46:48,060][3158972603.py][line:16][INFO] ----- Detailed Merge Changes -----
+[2025-04-24 00:46:48,061][3158972603.py][line:17][INFO] Wrong   → Correct:     10
+[2025-04-24 00:46:48,062][3158972603.py][line:18][INFO] Correct → Wrong:       4
+[2025-04-24 00:46:48,064][3158972603.py][line:19][INFO] Wrong   → Wrong:       1
+[2025-04-24 00:46:48,064][3158972603.py][line:20][INFO] No change (Correct):   8
+[2025-04-24 00:46:48,066][3158972603.py][line:21][INFO] No change (Wrong):     8
+[2025-04-24 00:46:48,067][3158972603.py][line:22][INFO] Merge Success Rate:    18/31 (58.06%)
+[2025-04-24 00:46:48,068][3158972603.py][line:23][INFO] ------- Change Breakdown ---------
+[2025-04-24 00:46:48,070][3158972603.py][line:25][INFO] A→H: Better = 1, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,071][3158972603.py][line:25][INFO] A→N: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,072][3158972603.py][line:25][INFO] A→S: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,072][3158972603.py][line:25][INFO] H→A: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,074][3158972603.py][line:25][INFO] H→N: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,075][3158972603.py][line:25][INFO] H→S: Better = 3, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,077][3158972603.py][line:25][INFO] N→A: Better = 1, Worse = 1, No Change = 0
+[2025-04-24 00:46:48,077][3158972603.py][line:25][INFO] N→H: Better = 0, Worse = 0, No Change = 1
+[2025-04-24 00:46:48,078][3158972603.py][line:25][INFO] N→S: Better = 5, Worse = 2, No Change = 0
+[2025-04-24 00:46:48,080][3158972603.py][line:25][INFO] S→A: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,080][3158972603.py][line:25][INFO] S→H: Better = 0, Worse = 1, No Change = 0
+[2025-04-24 00:46:48,082][3158972603.py][line:25][INFO] S→N: Better = 0, Worse = 0, No Change = 0
+[2025-04-24 00:46:48,083][3158972603.py][line:26][INFO] Exclusion List: ['S→H']
