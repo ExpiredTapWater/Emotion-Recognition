@@ -1,5 +1,8 @@
-# Emotion Recognition
-This folder contains all files related to running the merge program, including model outputs, scripts, and predictions.
+# Speech Emotion Recognition via Entropy-Aware Score Selection
+This is an implementation of the paper with the same title. This folder contains all files related to running the merge program, including model outputs, scripts, and predictions.
+
+
+The authors are: ChenYi Chua, JunKai Wong, Chengxin Chen, and Xiaoxiao Miao.
 
 ## Contents
     Emotion-Recognition/
